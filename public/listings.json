@@ -1,0 +1,48 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/topics/Seasonal variation in animal behaviour.html",
+      "/topics/Resources.html",
+      "/topics/Trade offs.html",
+      "/topics/Individual differences.html",
+      "/topics/Patch.html",
+      "/topics/Adaptation.html",
+      "/topics/Home range.html",
+      "/topics/Acclimation.html",
+      "/topics/Behavioural plasticity.html",
+      "/topics/Seasonal variation.html",
+      "/topics/Multilayer social networks.html",
+      "/topics/Primary productivity.html",
+      "/topics/Social network analysis.html",
+      "/topics/Resource dispersion hypothesis.html",
+      "/topics/Conspecific attraction hypothesis.html",
+      "/topics/Behavioural reaction norms.html"
+    ]
+  },
+  {
+    "listing": "/books.html",
+    "items": []
+  },
+  {
+    "listing": "/topics.html",
+    "items": [
+      "/topics/Seasonal variation in animal behaviour.html",
+      "/topics/Resources.html",
+      "/topics/Trade offs.html",
+      "/topics/Patch.html",
+      "/topics/Individual differences.html",
+      "/topics/Home range.html",
+      "/topics/Adaptation.html",
+      "/topics/Acclimation.html",
+      "/topics/Behavioural plasticity.html",
+      "/topics/Seasonal variation.html",
+      "/topics/Primary productivity.html",
+      "/topics/Multilayer social networks.html",
+      "/topics/Social network analysis.html",
+      "/topics/Resource dispersion hypothesis.html",
+      "/topics/Conspecific attraction hypothesis.html",
+      "/topics/Behavioural reaction norms.html"
+    ]
+  }
+]

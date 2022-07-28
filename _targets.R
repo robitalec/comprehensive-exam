@@ -11,8 +11,9 @@ lapply(dir('R', '*.R', full.names = TRUE), source)
 
 # Targets: render ---------------------------------------------------------
 targets_render <- c(
-	tar_quarto(notes, 'docs/notes.qmd'),
-	tar_quarto(slides, 'slides/slides.qmd')
+	tar_quarto(notes, 'manuscript/notes.qmd'),
+	tar_quarto(slides, 'slides/slides.qmd'),
+	tar_quarto(lit_base, 'lit')
 )
 
 
