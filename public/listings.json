@@ -2,12 +2,12 @@
   {
     "listing": "/index.html",
     "items": [
+      "/topics/Behavioural plasticity.html",
+      "/topics/Adaptation.html",
       "/queries/Define.html",
       "/queries/Queries.html",
       "/topics/Acclimation.html",
-      "/topics/Adaptation.html",
       "/topics/Behaviour.html",
-      "/topics/Behavioural plasticity.html",
       "/topics/Behavioural reaction norms.html",
       "/topics/Conspecific attraction hypothesis.html",
       "/topics/Home range.html",
@@ -34,10 +34,10 @@
     "listing": "/topics.html",
     "items": [
       "/topics/Behavioural plasticity.html",
+      "/topics/Adaptation.html",
       "/topics/Landscape.html",
       "/topics/Primary productivity.html",
       "/topics/Home range.html",
-      "/topics/Adaptation.html",
       "/topics/Sociality.html",
       "/topics/Seasonal variation.html",
       "/topics/Conspecific attraction hypothesis.html",
