@@ -6,9 +6,13 @@ digraph why_space_use {
 
 	why [label = 'Animals are in XYZ...']
 
-  why -> Forage, Predation, Weather, Climate, Water, Conspecifics, Insects
+  why -> Forage, Predation, Weather, Climate, Water, Conspecifics, Insects, Movement, Sleep
+
+	Movement -> Memory, Migration, Routes
+	Insects -> Wind
 
 	Forage -> Quality, Quantity, Search, Memory
+	Quality, Quantity -> Competition
 
 	Weather -> Precipitation, Temperature, Snow
 
@@ -17,7 +21,10 @@ digraph why_space_use {
 
 	Predation -> Cover, Avoidance, Vigilance, Dilution
 
-	Conspecifics -> Vigilance, Dilution, Search, Learning, Mating, 'Parental Care'
+	Conspecifics -> Antipredator, Aggregation, Competition
+	Antipredator -> Vigilance, Dilution
+	Aggregation -> Search, Learning, Mating, 'Parental Care', Migration, Routes
+	Competition -> Search, Mating
 
 
 	#Search, Quantity, Quality  -> 'Habitat selection'
