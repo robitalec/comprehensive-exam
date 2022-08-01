@@ -30,4 +30,5 @@ digraph why_space_use {
 	#Search, Quantity, Quality  -> 'Habitat selection'
 	#Conspecifics -> 'Social network analysis'
 
+	# Temporal scale: daily selection vs yearly+, range expansion, climate change
 }
