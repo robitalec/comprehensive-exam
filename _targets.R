@@ -18,16 +18,6 @@ targets_render <- c(
 
 
 
-
-# Targets: read -----------------------------------------------------------
-targets_read <- c(
-	tar_target(parse_sna,
-						 parse_bib_to_md_pages('bib/searches/animal-social-networks-2022-2017-sort-by-cite-sel-from-n100.bib'))
-)
-
-
-
-
 # Targets: all ------------------------------------------------------------
 # Automatically grab all the 'targets_*' lists above
 lapply(grep('targets', ls(), value = TRUE), get)
