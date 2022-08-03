@@ -1,6 +1,6 @@
 parse_bib_to_md_pages <- function(folder = file.path('bib', 'searches')) {
-	bibs <- xfun::sans_ext(dir(folder, 'bib', full.names = TRUE))
-	lapply(bibs, dir.create)
+	bibs <- dir(folder, 'bib', full.names = TRUE)
+	lapply(bibs, function(x) dir.create(xfun::sans_ext(bibs)))
 
 
 	file <- 'test.bib'
