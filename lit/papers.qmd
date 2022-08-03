@@ -1,7 +1,7 @@
 ---
 title: "Papers"
 listing: 
-  - contents: "papers/"
+  - contents: papers
     type: table
     fields: [title, file-modified]
     date-format: iso
