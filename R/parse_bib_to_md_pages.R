@@ -19,4 +19,5 @@ parse_bib_to_md_pages <- function(bib) {
 												'.md')
 		system(paste('pandoc', file, '-s --citeproc -o ', p))
 	})
+	unlink(folder, recursive = TRUE)
 }
