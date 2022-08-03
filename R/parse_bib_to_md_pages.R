@@ -8,7 +8,7 @@ parse_bib_to_md_pages <- function(bib) {
 		p <- file.path(folder,
 									 paste0(gsub('-', '_', tstrsplit(AUTHOR[[1]][[1]], ',')[[1]]),
 									 			 '_', YEAR, '.bib'))
-		writeLines(bib2df::df2bib(.SD), p)
+		bib2df::df2bib(.SD, p)
 		}, by = UNIQUE.ID]
 
 	lapply(dir(folder, full.names = TRUE), function(file) {
