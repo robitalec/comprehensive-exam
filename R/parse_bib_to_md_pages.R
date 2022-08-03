@@ -4,6 +4,9 @@ parse_bib_to_md_pages <- function(bib) {
 
 	DT <- as.data.table(bib2df::bib2df(bib))
 
+	DT[, RESEARCHERID.NUMBERS := NULL]
+	DT[, ORCID.NUMBERS := NULL]
+
 	DT[, {
 		p <- file.path(folder,
 									 paste0(gsub('-', '_', tstrsplit(AUTHOR[[1]][[1]], ',')[[1]]),
