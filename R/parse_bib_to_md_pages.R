@@ -8,7 +8,9 @@ parse_bib_to_md_pages <- function(bib) {
 	DT[, ORCID.NUMBERS := NULL]
 	setnames(DT, colnames(DT), tolower(colnames(DT)))
 	DT[, journal := stringr::str_to_title(journal)]
+	DT[, title := stringr::str_to_sentence(title)]
 	DT[, author := lapply(author, function(x) gsub('and', '', x))]
+	DT[, year := as.integer(year)]
 	DT[, auth_yr := paste0(gsub('-', '_', tstrsplit(author[[1]][[1]], ',')[[1]]),
 												 '_', year),
 		 by = unique.id]
