@@ -15,6 +15,8 @@ parse_bib_to_md_pages <- function(bib) {
 		}, by = UNIQUE.ID]
 
 	lapply(dir(folder, full.names = TRUE), function(file) {
-		system(paste('pandoc', file, '-s -f biblatex -t markdown'))
+		p <- xfun::with_ext(file.path('lit', 'papers', xfun::sans_ext(basename(file))),
+												'.md')
+		system(paste('pandoc', file, '-s --citeproc -o ', p))
 	})
 }
