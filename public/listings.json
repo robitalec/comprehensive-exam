@@ -2,16 +2,18 @@
   {
     "listing": "/index.html",
     "items": [
+      "/topics/Hypotheses on resource quality and animal distribution.html",
+      "/queries/Define.html",
+      "/topics/Strategy.html",
+      "/books/Morris_2011.html",
       "/topics/Behavioural plasticity.html",
       "/topics/Adaptation.html",
-      "/queries/Define.html",
       "/queries/Queries.html",
       "/topics/Acclimation.html",
       "/topics/Behaviour.html",
       "/topics/Behavioural reaction norms.html",
       "/topics/Conspecific attraction hypothesis.html",
       "/topics/Home range.html",
-      "/topics/Hypotheses on resource quality and animal distribution.html",
       "/topics/Individual differences.html",
       "/topics/Landscape.html",
       "/topics/Multilayer social networks.html",
@@ -28,11 +30,15 @@
   },
   {
     "listing": "/books.html",
-    "items": []
+    "items": [
+      "/books/Morris_2011.html"
+    ]
   },
   {
     "listing": "/topics.html",
     "items": [
+      "/topics/Hypotheses on resource quality and animal distribution.html",
+      "/topics/Strategy.html",
       "/topics/Behavioural plasticity.html",
       "/topics/Adaptation.html",
       "/topics/Landscape.html",
@@ -51,7 +57,6 @@
       "/topics/Social network analysis.html",
       "/topics/Acclimation.html",
       "/topics/Trade offs.html",
-      "/topics/Hypotheses on resource quality and animal distribution.html",
       "/topics/Behavioural reaction norms.html"
     ]
   }
