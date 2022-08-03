@@ -6,23 +6,26 @@ parse_bib_to_md_pages <- function(bib) {
 
 	DT[, RESEARCHERID.NUMBERS := NULL]
 	DT[, ORCID.NUMBERS := NULL]
-
-	DT[, {
-		p <- file.path(folder,
-									 paste0(gsub('-', '_', tstrsplit(AUTHOR[[1]][[1]], ',')[[1]]),
-									 			 '_', YEAR, '.bib'))
-		bib2df::df2bib(.SD, p)
-		},
-		by = UNIQUE.ID,
-		.SDcols = c('CATEGORY', 'BIBTEXKEY', 'AUTHOR', 'TITLE', 'JOURNAL', 'YEAR', 'MONTH', 'DOI')
-		]
+	setnames(DT, colnames(DT), tolower(colnames(DT)))
+	DT[, journal := stringr::str_to_title(journal)]
+	DT[, author := lapply(author, function(x) gsub('and', '', x))]
+	DT[, auth_yr := paste0(gsub('-', '_', tstrsplit(author[[1]][[1]], ',')[[1]]),
+												 '_', year),
+		 by = unique.id]
+	DT[, author := lapply(author, paste, collapse = ', ')]
 
 	md_folder <- file.path('lit', 'papers', basename(folder))
 	dir.create(md_folder)
-	lapply(dir(folder, full.names = TRUE), function(file) {
-		p <- xfun::with_ext(file.path(md_folder, xfun::sans_ext(basename(file))),
-												'.md')
-		system(paste('pandoc', file, '-s --citeproc -o ', p))
-	})
+	DT[, {
+		p <- file.path(md_folder, xfun::with_ext(auth_yr, '.md'))
+		y <- ymlthis::as_yml(.SD)
+		ymlthis::use_rmarkdown(y, p, body = paste('\n#', auth_yr), open_doc = FALSE,
+
+													 # TURN OFF
+													 overwrite = TRUE)
+	},
+	by = unique.id,
+	.SDcols = c('author', 'title', 'year', 'doi')
+	]
 	unlink(folder, recursive = TRUE)
 }
