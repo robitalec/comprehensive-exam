@@ -17,6 +17,7 @@ website:
       - index.qmd
       - topics.qmd
       - books.qmd
+      - papers.qmd
 
 
 
