@@ -5,7 +5,7 @@ digraph why_space_use {
 	node [shape = box, fontname = Helvetica]
 
 
-	topic [label = "In the context of \n frequency-dependent producer-scrounger dynamics, \n how would one's role affect access to \n available resources considering \n risks and conditions during habitat selection?"]
+	topic [label = "In the context of \n frequency-dependent producer-scrounger dynamics, \n how would one&rsquo;s role affect access to \n available resources considering \n risks and conditions during habitat selection?"]
 
 	freq_psd [label = "frequency-dependent producer-scrounger dynamics"]
 	freq [label = "frequency-dependence"]
