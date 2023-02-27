@@ -1,1 +1,0 @@
-# Resource dispersion hypothesis
