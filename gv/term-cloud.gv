@@ -4,16 +4,30 @@ digraph why_space_use {
 
 	node [shape = box, fontname = Helvetica]
 
-
+	// Topic
 	topic [label = "In the context of \n frequency-dependent producer-scrounger dynamics, \n how would one&rsquo;s role affect access to \n available resources considering \n risks and conditions during habitat selection?"]
 
+
+
+	// Level 1 terms
 	freq_psd [label = "frequency-dependent producer-scrounger dynamics"]
-	freq [label = "frequency-dependence"]
+	hab_sel [label = "habitat selection"]
+
+	// Level 2 terms
+	freq [label = "frequency dependence"]
+	risks
+	conditions
+
+	// Level 3 terms
 	grp_size [label = "group size"]
 
-	topic -> freq_psd
+
+
+	// Relationships
+	topic -> {freq_psd, hab_sel}
 
 	freq_psd -> freq
+	hab_sel -> {risks, conditions}
 
 	freq -> grp_size
 
