@@ -27,29 +27,57 @@ digraph why_space_use {
 
 
 	// Level 1 terms
-	freq_psd [label = 'frequency-dependent producer-scrounger dynamics']
-	hab_sel [label = 'habitat selection']
-	ifd [label = 'ideal free distribution']
+	subgraph cluster_level1 {
+		color = white
+		freq_psd [label = 'frequency-dependent producer-scrounger dynamics',
+						fillcolor = lightblue, style = filled]
+		klep [label = 'kleptoparasitism', fillcolor = lightblue, style = filled]
+		interference [fillcolor = lightblue, style = filled]
+		ifd [label = 'ideal free distribution: single species',
+		     fillcolor = lightblue, style = filled]
+		ifd_mult [label = 'ideal free distribution: multiple species',
+							fillcolor = lightblue, style = filled]
+
+	}
 
 	// Level 2 terms
-	freq [label = "frequency dependence"]
-	risks
-	conditions
+	subgraph cluster_frequency_dep {
+		color = black
+		label = 'frequency dependence'
+		fontsize = 16
 
-	// Level 3 terms
-	grp_size [label = "group size"]
+		pop_dens [label = 'population density']
+		grp_size [label = 'group size']
+	}
 
+	subgraph cluster_psd {
+		color = black
+		label = 'producer-scrounger'
+		fontsize = 16
+
+		info [label = 'information', fillcolor = lightgrey, style = filled]
+		patch_qual [label = 'patch quality']
+		move_cost [label = 'movement cost', fillcolor = lightgrey, style = filled]
+		memory [fillcolor = lightgrey, style = filled]
+		forage_rate [label = 'forage rate', fillcolor = lightgrey, style = filled]
+	}
 
 
 	// Relationships
-	forage_groups -> benefits -> {vig, dilu, confu, forage_pos, mate, heat, energy}
 	forage_groups -> costs -> {attack, klep, interference, local_food, agg}
+	forage_groups -> benefits -> {energy, vig, dilu, confu, forage_pos, mate, heat}
 
-	{forage_pos, energy, klep, interference, local_food, agg} -> freq_psd
+	{forage_pos, energy, local_food, agg} -> freq_psd
 
-	freq_psd -> freq
+	freq_psd -> grp_size [lhead = cluster_frequency_dep]
+	freq_psd -> info [lhead = cluster_psd]
+
+
+/*
+	hab_sel [label = 'habitat selection']
+	risks
+	conditions
+
 	hab_sel -> {risks, conditions}
-
-	freq -> grp_size
-
+*/
 }
