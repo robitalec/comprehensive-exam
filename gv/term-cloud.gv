@@ -13,19 +13,17 @@ digraph why_space_use {
 	// Level 0 terms
 	forage_groups [label = 'foraging in groups']
 
+	energy [label = 'conserving energy']
+	forage_pos [label = 'foraging benefits']
 	vig [label = 'anti predator vigilance']
 	dilu [label = 'dilution effect']
 	confu [label = 'predator confusion']
-	forage_pos [label = 'foraging benefits']
 	mate [label = 'finding a mate']
 	heat [label = 'conserving heat']
-	energy [label = 'conserving energy']
 
-	attack [label = 'increased attack rate']
-	klep [label = 'kleptoparasitism']
-	interference
 	local_food [label = 'reduced local food supply']
 	agg [label = 'increased rate of aggression']
+	attack [label = 'increased attack rate']
 
 
 	// Level 1 terms
