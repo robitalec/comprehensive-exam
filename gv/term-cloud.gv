@@ -5,11 +5,11 @@ digraph why_space_use {
 
 	node [shape = box, fontname = Helvetica]
 
-  labelloc = "t"
-  //label = "In the context of frequency-dependent producer-scrounger dynamics, how would one&rsquo;s role affect access to available resources considering risks and conditions during habitat selection?"
+  labelloc = 't'
+  //label = 'In the context of frequency-dependent producer-scrounger dynamics, how would one&rsquo;s role affect access to available resources considering risks and conditions during habitat selection?'
 
 	// Level 0 terms
-	forage_groups [label = "foraging in groups"]
+	forage_groups [label = 'foraging in groups']
 
 	vig [label = 'anti predator vigilance']
 	dilu [label = 'dilution effect']
@@ -27,8 +27,9 @@ digraph why_space_use {
 
 
 	// Level 1 terms
-	freq_psd [label = "frequency-dependent producer-scrounger dynamics"]
-	hab_sel [label = "habitat selection"]
+	freq_psd [label = 'frequency-dependent producer-scrounger dynamics']
+	hab_sel [label = 'habitat selection']
+	ifd [label = 'ideal free distribution']
 
 	// Level 2 terms
 	freq [label = "frequency dependence"]
