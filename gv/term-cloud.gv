@@ -40,7 +40,10 @@ digraph why_space_use {
 
 
 	// Relationships
-	topic -> {freq_psd, hab_sel}
+	forage_groups -> benefits -> {vig, dilu, confu, forage_pos, mate, heat, energy}
+	forage_groups -> costs -> {attack, klep, interference, local_food, agg}
+
+	{forage_pos, energy, klep, interference, local_food, agg} -> freq_psd
 
 	freq_psd -> freq
 	hab_sel -> {risks, conditions}
