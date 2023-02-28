@@ -76,12 +76,16 @@ digraph why_space_use {
 	ifd -> {n_patch, pop_dens, patch_qual}
 
 
-
-/*
+	// Habitat selection
 	hab_sel [label = 'habitat selection']
 	risks
 	conditions
 
 	hab_sel -> {risks, conditions}
-*/
+
+
+	// Outcomes
+	ESS
+	pop_dyn [label = 'population dynamics']
+	fitness
 }
