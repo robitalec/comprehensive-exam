@@ -1,4 +1,5 @@
 digraph why_space_use {
+	rankdir = LR
 
   graph [fontsize = 20]
 
