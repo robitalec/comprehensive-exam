@@ -1,5 +1,6 @@
 digraph why_space_use {
 	rankdir = LR
+	compound = true
 
   graph [fontsize = 20]
 
