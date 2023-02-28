@@ -8,6 +8,23 @@ digraph why_space_use {
 	topic [label = "In the context of \n frequency-dependent producer-scrounger dynamics, \n how would one&rsquo;s role affect access to \n available resources considering \n risks and conditions during habitat selection?"]
 
 
+	// Level 0 terms
+	forage_groups [label = "foraging in groups"]
+
+	vig [label = 'anti predator vigilance']
+	dilu [label = 'dilution effect']
+	confu [label = 'predator confusion']
+	forage_pos [label = 'foraging benefits']
+	mate [label = 'finding a mate']
+	heat [label = 'conserving heat']
+	energy [label = 'conserving energy']
+
+	attack [label = 'increased attack rate']
+	klep [label = 'kleptoparasitism']
+	interference
+	local_food [label = 'reduced local food supply']
+	agg [label = 'increased rate of aggression']
+
 
 	// Level 1 terms
 	freq_psd [label = "frequency-dependent producer-scrounger dynamics"]
