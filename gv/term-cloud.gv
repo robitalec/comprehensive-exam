@@ -1,12 +1,11 @@
 digraph why_space_use {
 
-  graph [fontsize = 12]
+  graph [fontsize = 20]
 
 	node [shape = box, fontname = Helvetica]
 
-	// Topic
-	topic [label = "In the context of \n frequency-dependent producer-scrounger dynamics, \n how would one&rsquo;s role affect access to \n available resources considering \n risks and conditions during habitat selection?"]
-
+  labelloc = "t"
+  //label = "In the context of frequency-dependent producer-scrounger dynamics, how would one&rsquo;s role affect access to available resources considering risks and conditions during habitat selection?"
 
 	// Level 0 terms
 	forage_groups [label = "foraging in groups"]
