@@ -33,33 +33,34 @@ digraph why_space_use {
 						fillcolor = lightblue, style = filled]
 		klep [label = 'kleptoparasitism', fillcolor = lightblue, style = filled]
 		interference [fillcolor = lightblue, style = filled]
-		ifd [label = 'ideal free distribution: single species',
+		ifd [label = 'ideal free distribution',
 		     fillcolor = lightblue, style = filled]
-		ifd_mult [label = 'ideal free distribution: multiple species',
-							fillcolor = lightblue, style = filled]
 
 	}
 
 	// Level 2 terms
-	subgraph cluster_frequency_dep {
-		color = black
-		label = 'frequency dependence'
-		fontsize = 16
+	subgraph cluster_vars {
+		color = white
 
 		pop_dens [label = 'population density']
-		grp_size [label = 'group size']
-	}
 
-	subgraph cluster_psd {
-		color = black
-		label = 'producer-scrounger'
-		fontsize = 16
-
-		info [label = 'information', fillcolor = lightgrey, style = filled]
+		n_patch [label = 'number of patches']
 		patch_qual [label = 'patch quality']
-		move_cost [label = 'movement cost', fillcolor = lightgrey, style = filled]
-		memory [fillcolor = lightgrey, style = filled]
+
+		info [label = 'information about finder&rsquo;s share']
+		finders_share [label = 'finder&rsquo;s share']
+		fight_cost [label = 'energetic cost of fighting']
+		prob_win [label = 'probability of finder winning contest']
+
+		grp_size [label = 'group size']
+
 		forage_rate [label = 'forage rate', fillcolor = lightgrey, style = filled]
+		move_cost [label = 'movement cost']
+		memory [fillcolor = lightgrey, style = filled]
+
+		ind_dif [label = 'individual differences', fillcolor = lightgrey, style = filled]
+
+
 	}
 
 
@@ -69,8 +70,10 @@ digraph why_space_use {
 
 	{forage_pos, energy, local_food, agg} -> freq_psd
 
-	freq_psd -> grp_size [lhead = cluster_frequency_dep]
-	freq_psd -> info [lhead = cluster_psd]
+	freq_psd -> {patch_qual, fight_cost, finders_share, prob_win, info}
+
+	ifd -> {n_patch, pop_dens, patch_qual}
+
 
 
 /*
