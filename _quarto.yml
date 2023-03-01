@@ -7,6 +7,23 @@ project:
     - "gv/why-space-use.gv"
     - "gv/term-cloud.gv"
 
+
 website:
   title: "Comprehensive exam"
+  navbar:
+     right:
+      - icon: gitlab
+        href: https://gitlab.com/robit.a/comprehensive-exam
+  sidebar:
+      contents:
+        - index.qmd
+        - lit/topics.qmd
+        - lit/books.qmd
+        - lit/papers.qmd
 
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    toc: true
