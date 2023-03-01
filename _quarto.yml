@@ -6,3 +6,7 @@ project:
     - "_targets.R"
     - "gv/why-space-use.gv"
     - "gv/term-cloud.gv"
+
+website:
+  title: "Comprehensive exam"
+
