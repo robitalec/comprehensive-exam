@@ -1,0 +1,12 @@
+---
+title: "Home"
+author: "Alec L. Robitaille"
+date: "`r Sys.Date()`"
+---
+
+
+
+{{< include README.md >}}
+
+
+

@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: public
+  execute-dir: project
+  resources:
+    - "_targets.R"
+    - "gv/why-space-use.gv"
+    - "gv/term-cloud.gv"
+
+
+website:
+  title: "Comprehensive exam"
+  navbar:
+     right:
+      - icon: gitlab
+        href: https://gitlab.com/robit.a/comps
+  sidebar:
+      style: "docked"
+      contents: auto
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    toc: true
+    date-format: long
+

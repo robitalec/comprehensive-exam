@@ -1,4 +1,0 @@
-Comps
-================
-Alec Robitaille
-
