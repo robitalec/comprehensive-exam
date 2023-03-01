@@ -5,3 +5,9 @@ author: "Alec Robitaille"
 format: revealjs
 date-format: long
 ---
+
+
+<!-- 
+https://quarto.org/docs/presentations/revealjs/ 
+https://quarto.org/docs/presentations/revealjs/advanced.html
+-->
