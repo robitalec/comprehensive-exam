@@ -3,5 +3,5 @@ title: "Comprehensive exam"
 date: "2023-04-17"
 author: "Alec Robitaille"
 format: revealjs
-editor: visual
+date-format: long
 ---
