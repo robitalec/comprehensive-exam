@@ -13,7 +13,7 @@ website:
   navbar:
      right:
       - icon: gitlab
-        href: https://gitlab.com/robit.a/comprehensive-exam
+        href: https://gitlab.com/robit.a/comps
   sidebar:
       style: "docked"
       contents: auto
