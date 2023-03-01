@@ -1,0 +1,34 @@
+digraph why_space_use {
+
+  graph [fontsize = 12]
+
+	node [shape = box, fontname = Helvetica]
+
+	why [label = 'Animals are in XYZ...']
+
+  why -> Forage, Predation, Weather, Climate, Water, Conspecifics, Insects, Movement, Sleep
+
+	Movement -> Memory, Migration, Routes
+	Insects -> Wind
+
+	Forage -> Quality, Quantity, Search, Memory
+	Quality, Quantity -> Competition
+
+	Weather -> Precipitation, Temperature, Snow
+
+	Climate -> 'Long term\ntemperature', 'Long term\nprecipitation', 'Extreme\nevents'
+	'Extreme\nevents' -> Fire, Drought
+
+	Predation -> Cover, Avoidance, Vigilance, Dilution
+
+	Conspecifics -> Antipredator, Aggregation, Competition
+	Antipredator -> Vigilance, Dilution
+	Aggregation -> Search, Learning, Mating, 'Parental Care', Migration, Routes
+	Competition -> Search, Mating
+
+
+	#Search, Quantity, Quality  -> 'Habitat selection'
+	#Conspecifics -> 'Social network analysis'
+
+	# Temporal scale: daily selection vs yearly+, range expansion, climate change
+}
