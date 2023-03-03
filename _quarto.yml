@@ -13,7 +13,7 @@ website:
   navbar:
      right:
       - icon: gitlab
-        href: https://gitlab.com/robit.a/comps
+        href: https://gitlab.com/robitalec/comps
   sidebar:
       style: "docked"
       contents: auto
