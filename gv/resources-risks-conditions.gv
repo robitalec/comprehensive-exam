@@ -19,7 +19,7 @@ digraph resources_risks_conditions {
     resources -> animals -> {prey water nesting_spaces resting_spaces}
 
     risks -> plants -> {herbivory trampling anthro_harvest fire disease}
-    risks -> animals {predation perception_of_risk parasite disease anthro_harvest}
+    risks -> animals -> {predation perception_of_risk parasite disease anthro_harvest}
 
     conditions -> {ambient_temperature salinity humidity wind pressure snow_depth} -> {extreme typical}
 
