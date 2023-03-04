@@ -1,18 +1,24 @@
 digraph resources_risks_conditions {
-
+	rankdir = LR
   graph [fontsize = 12]
 
 	node [shape = box, fontname = Helvetica]
 
 		{rank=same
-    resources
-    risks
-    conditions
+	    resources
+	    risks
+	    conditions
 		}
 
 		{rank=same
-    animals
-    plants
+		  animals
+		  plants
+		}
+
+		{rank=same
+			positive
+			negative
+			ambivalent
 		}
 
     resources -> plants -> {sunlight carbon_dioxide water minerals}
@@ -23,8 +29,8 @@ digraph resources_risks_conditions {
 
     conditions -> {ambient_temperature salinity humidity wind pressure snow_depth} -> {extreme typical}
 
-    {prey high_dose} -> toxic
-    {sunlight high_dose} -> photosynthesis_damage
+    prey -> high_dose -> toxic
+    sunlight -> high_dose -> photosynthesis_damage
 
     prey -> high_density -> {conspecifics heterospecifics}
     conspecifics -> intraspecific_competiton
@@ -38,6 +44,9 @@ digraph resources_risks_conditions {
 
     {toxic photosynthesis_damage} -> negative
     {herbivory trampling anthro_harvest fire disease parasite perception_of_risk predation resource_limitation} -> negative
+
+		{medium_density low_density, resting_spaces nesting_spaces prey} -> positive
+		{carbon_dioxide minerals water sunlight} -> positive
 
     {positive  negative  ambivalent} -> fitness
 
