@@ -4,9 +4,16 @@ digraph resources_risks_conditions {
 
 	node [shape = box, fontname = Helvetica]
 
+		{rank=same
     resources
     risks
     conditions
+		}
+
+		{rank=same
+    animals
+    plants
+		}
 
     resources -> plants -> {sunlight carbon_dioxide water minerals}
     resources -> animals -> {prey water nesting_spaces resting_spaces}
