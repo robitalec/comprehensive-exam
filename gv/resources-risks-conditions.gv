@@ -4,27 +4,31 @@ digraph resources_risks_conditions {
 
 	node [shape = box, fontname = Helvetica]
 
-	resources
-  risks
-  conditions
+    resources
+    risks
+    conditions
 
+    resources -> plants -> {sunlight carbon_dioxide water minerals}
+    resources -> animals -> {prey water nesting_spaces resting_spaces}
 
-  resources -- plants -- {sunlight carbon_dioxide water minerals}
-  resources -- animals -- {prey water nesting_spaces resting_spaces}
+    risks -> plants -> {herbivory trampling anthro_harvest fire disease}
+    risks -> animals {predation perception_of_risk parasite disease anthro_harvest}
 
-  {prey high_dose} -- toxic
-  {light high_dose} -- photosynthesis_damage
+    conditions -> {ambient_temperature salinity humidity wind pressure snow_depth} -> {extreme typical}
 
-  {prey conspecifics heterospecifics} -- high_density -- {intraspecific_competiton resource_limitation interspecific_competiton}
+    {prey high_dose} -> toxic
+    {light high_dose} -> photosynthesis_damage
 
-  resource -- {low_density medium_density high_density}
+    {prey conspecifics heterospecifics} -> high_density -> {intraspecific_competiton resource_limitation interspecific_competiton}
 
+    resource -> {low_density medium_density high_density}
 
-  {toxic photosynthesis_damage interspecific_competiton intraspecific_competiton} -- negative
+    extreme -> negative
+    typical -> ambivalent
 
+    {toxic photosynthesis_damage interspecific_competiton intraspecific_competiton} -> negative
+    {herbivory trampling anthro_harvest fire disease parasite perception_of_risk predation} -> negative
 
-
-  {positive  negative  ambivalent} -- fitness
-
+    {positive  negative  ambivalent} -> fitness
 
 }
