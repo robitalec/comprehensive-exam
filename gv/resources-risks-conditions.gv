@@ -66,7 +66,7 @@ digraph resources_risks_conditions {
     sunlight -> high_dose -> photosynthesis_damage
 
     prey -> high_density -> {interspecific_competition intraspecific_competition}
-  	{intraspecific_competition intraspecific_competition} -> resource_limitation
+  	{interspecific_competition intraspecific_competition} -> resource_limitation
 
     resources -> {low_density medium_density high_density}
 
