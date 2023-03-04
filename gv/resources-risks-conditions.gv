@@ -21,6 +21,37 @@ digraph resources_risks_conditions {
 			ambivalent
 		}
 
+		{rank=same
+			sunlight
+			carbon_dioxide
+			water
+			minerals
+			prey
+			water
+			nesting_spaces
+			resting_spaces
+		}
+
+		{rank=same
+			high_density
+			low_density
+			medium_density
+			high_dose
+		}
+
+		{rank=same
+			herbivory
+			trampling
+			anthro_harvest
+			fire
+			disease
+			drought
+			predation
+			perception_of_risk
+			parasite
+			disease
+		}
+
     resources -> plants -> {sunlight carbon_dioxide water minerals}
     resources -> animals -> {prey water nesting_spaces resting_spaces}
 
@@ -32,10 +63,8 @@ digraph resources_risks_conditions {
     prey -> high_dose -> toxic
     sunlight -> high_dose -> photosynthesis_damage
 
-    prey -> high_density -> {conspecifics heterospecifics}
-    conspecifics -> intraspecific_competiton
-    heterospecifics -> interspecific_competiton
-  	{intraspecific_competiton interspecific_competiton} -> resource_limitation
+    prey -> high_density -> {interspecific_competition intraspecific_competition}
+  	{intraspecific_competition intraspecific_competition} -> resource_limitation
 
     resources -> {low_density medium_density high_density}
 
