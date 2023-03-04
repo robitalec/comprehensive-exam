@@ -16,9 +16,9 @@ digraph resources_risks_conditions {
 		}
 
 		{rank=same
-			positive
-			negative
-			ambivalent
+			positive_effect_on_fitness
+			negative_effect_on_fitness
+			neutral_effect_on_fitness
 		}
 
 		{rank=same
@@ -70,15 +70,13 @@ digraph resources_risks_conditions {
 
     resources -> {low_density medium_density high_density}
 
-    extreme -> negative
-    typical -> ambivalent
+    extreme -> negative_effect_on_fitness
+    typical -> neutral_effect_on_fitness
 
-    {toxic photosynthesis_damage} -> negative
-    {herbivory trampling anthro_harvest fire disease parasite perception_of_risk predation resource_limitation} -> negative
+    {toxic photosynthesis_damage} -> negative_effect_on_fitness
+    {herbivory trampling anthro_harvest fire disease parasite perception_of_risk predation resource_limitation} -> negative_effect_on_fitness
 
-		{medium_density low_density, resting_spaces nesting_spaces prey} -> positive
-		{carbon_dioxide minerals water sunlight} -> positive
-
-    {positive  negative  ambivalent} -> fitness
+		{medium_density low_density, resting_spaces nesting_spaces prey} -> positive_effect_on_fitness
+		{carbon_dioxide minerals water sunlight} -> positive_effect_on_fitness
 
 }
