@@ -37,6 +37,8 @@ digraph resources_risks_conditions {
 			low_density
 			medium_density
 			high_dose
+			typical
+			extreme
 		}
 
 		{rank=same
