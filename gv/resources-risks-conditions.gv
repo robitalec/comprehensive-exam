@@ -24,17 +24,20 @@ digraph resources_risks_conditions {
     conditions -> {ambient_temperature salinity humidity wind pressure snow_depth} -> {extreme typical}
 
     {prey high_dose} -> toxic
-    {light high_dose} -> photosynthesis_damage
+    {sunlight high_dose} -> photosynthesis_damage
 
-    {prey conspecifics heterospecifics} -> high_density -> {intraspecific_competiton resource_limitation interspecific_competiton}
+    prey -> high_density -> {conspecifics heterospecifics}
+    conspecifics -> intraspecific_competiton
+    heterospecifics -> interspecific_competiton
+  	{intraspecific_competiton interspecific_competiton} -> resource_limitation
 
-    resource -> {low_density medium_density high_density}
+    resources -> {low_density medium_density high_density}
 
     extreme -> negative
     typical -> ambivalent
 
-    {toxic photosynthesis_damage interspecific_competiton intraspecific_competiton} -> negative
-    {herbivory trampling anthro_harvest fire disease parasite perception_of_risk predation} -> negative
+    {toxic photosynthesis_damage} -> negative
+    {herbivory trampling anthro_harvest fire disease parasite perception_of_risk predation resource_limitation} -> negative
 
     {positive  negative  ambivalent} -> fitness
 
