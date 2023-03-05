@@ -4,6 +4,8 @@ digraph resources_risks_conditions {
 
 	node [shape = box, fontname = Helvetica]
 
+		habitats -> {resources, risks, conditions}
+
 		{rank=same
 	    resources
 	    risks
