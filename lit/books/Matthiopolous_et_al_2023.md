@@ -90,9 +90,37 @@ Problems with specific specific definitions of habitat:
 
 ### 1.4 What is a species-habitat association?
 
-A species-habitat association connects habitats to observations of a species
+A species-habitat association connects habitats to observations of a species (at the individual, group or population levels). 
+
+#### Associations between [habitat](../topics/habitat.md) and [fitness](../topics/fitness.md)
+
+Habitat-associated fitness is the contribution of each unit of [habitat](../topics/habitat.md), X,  to the populations long term log-rate of change. Partial fitness (Matthiopolous_et_al_2015) can be interpreted as the fitness of population living in an environment of entirely habitat X.  
+
+Mechanisms of habitat-associated fitness:
+
+- sub-organismal
+- level of physiological capabilities
+- anatomy
+- life history strategies
+
+#### Associations between [[habitat]] and changes in species density
+Organisms experiencing low [fitness](../topics/fitness.md) must relocate or face demographic consequences. Relation involves movement of individuals, groups or populations. Their movement trajectories are an indication animals response to environments. 
+
+- movements that are localized, sinuous indicate high resource availability
+
+The density of species that cannot relocate will be affected by habitat-mediated survival and reproduction. 
+
+#### Associations between [habitat](../topics/habitat.md) and species density
+
+Dynamics modify the relationship between [habitat](../topics/habitat.md) and species density. 
+
+Spatial variation in density:
+
+- does not reflect short term (minute/hour/day) mechanisms
+- does reflect accumulated effects of processes operating at longer time scales (year/generations)
 
 
+#### Fundamental and realized niche
 
-
+Associations with fitness represent the fundamental niche of a species. The realized niche is represented by the eventual species distribution. The difference between these two are the dynamics represented by the associations between habitat and mechanisms of change in species distribution. Species distribution is not necessarily proportion to fitness. 
 
