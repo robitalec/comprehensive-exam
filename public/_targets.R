@@ -13,7 +13,9 @@ lapply(dir('R', '*.R', full.names = TRUE), source)
 # Targets: graphviz -------------------------------------------------------
 targets_graphviz <- c(
 	tar_target(why_in_space, DiagrammeR::grViz('gv/why-space-use.gv')),
-	tar_target(term_cloud, DiagrammeR::grViz('gv/term-cloud.gv'))
+	tar_target(term_cloud, DiagrammeR::grViz('gv/term-cloud.gv')),
+	tar_target(fundamental_realized, DiagrammeR::grViz('gv/fundamental-realized-niche.gv')),
+	tar_target(resources_risks_conditions, DiagrammeR::grViz('gv/resources-risks-conditions.gv'))
 )
 
 

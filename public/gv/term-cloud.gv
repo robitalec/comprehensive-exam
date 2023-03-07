@@ -1,4 +1,4 @@
-digraph why_space_use {
+digraph term_cloud {
 	rankdir = LR
 	compound = true
 
@@ -8,7 +8,6 @@ digraph why_space_use {
 	edge [arrowhead = none]
 
   labelloc = 't'
-  //label = 'In the context of frequency-dependent producer-scrounger dynamics, how would one&rsquo;s role affect access to available resources considering risks and conditions during habitat selection?'
 
 	// Level 0 terms
 	forage_groups [label = 'foraging in groups']

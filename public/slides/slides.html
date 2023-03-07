@@ -319,6 +319,10 @@
       margin-right: 0; 
     }
   </style>
+  <script src="../site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+  <script src="../site_libs/viz-1.8.2/viz.js"></script>
+  <link href="../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
+  <script src="../site_libs/grViz-binding-1.0.9/grViz.js"></script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -343,6 +347,45 @@ Alec Robitaille
 https://quarto.org/docs/presentations/revealjs/ 
 https://quarto.org/docs/presentations/revealjs/advanced.html
 -->
+<div class="cell">
+
+</div>
+</section>
+<section id="resources-risks-and-conditions" class="slide level2">
+<h2>Resources, risks and conditions</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-7a7baf5db85a57deb6af" style="width:960px;height:480px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-7a7baf5db85a57deb6af">{"x":{"diagram":"digraph resources_risks_conditions {\n\trankdir = LR\n  graph [fontsize = 12]\n\n\tnode [shape = box, fontname = Helvetica]\n\n\t\thabitats -> {resources, risks, conditions}\n\n\t\t{rank=same\n\t    resources\n\t    risks\n\t    conditions\n\t\t}\n\n\t\t{rank=same\n\t\t  animals\n\t\t  plants\n\t\t}\n\n\t\t{rank=same\n\t\t\tpositive_effect_on_fitness\n\t\t\tnegative_effect_on_fitness\n\t\t\tneutral_effect_on_fitness\n\t\t}\n\n\t\t{rank=same\n\t\t\tsunlight\n\t\t\tcarbon_dioxide\n\t\t\twater\n\t\t\tminerals\n\t\t\tprey\n\t\t\twater\n\t\t\tnesting_spaces\n\t\t\tresting_spaces\n\t\t}\n\n\t\t{rank=same\n\t\t\thigh_density\n\t\t\tlow_density\n\t\t\tmedium_density\n\t\t\thigh_dose\n\t\t\ttypical\n\t\t\textreme\n\t\t}\n\n\t\t{rank=same\n\t\t\therbivory\n\t\t\ttrampling\n\t\t\tanthro_harvest\n\t\t\tfire\n\t\t\tdisease\n\t\t\tdrought\n\t\t\tpredation\n\t\t\tperception_of_risk\n\t\t\tparasite\n\t\t\tdisease\n\t\t}\n\n    resources -> plants -> {sunlight carbon_dioxide water minerals}\n    resources -> animals -> {prey water nesting_spaces resting_spaces}\n\n    risks -> plants -> {herbivory trampling anthro_harvest fire disease drought}\n    risks -> animals -> {predation perception_of_risk parasite disease anthro_harvest fire drought}\n\n    conditions -> {ambient_temperature salinity humidity wind pressure snow_depth} -> {extreme typical}\n\n    prey -> high_dose -> toxic\n    sunlight -> high_dose -> photosynthesis_damage\n\n    prey -> high_density -> {interspecific_competition intraspecific_competition}\n  \t{interspecific_competition intraspecific_competition} -> resource_limitation\n\n    resources -> {low_density medium_density high_density}\n\n    extreme -> negative_effect_on_fitness\n    typical -> neutral_effect_on_fitness\n\n    {toxic photosynthesis_damage} -> negative_effect_on_fitness\n    {herbivory trampling anthro_harvest fire disease parasite perception_of_risk predation resource_limitation} -> negative_effect_on_fitness\n\n\t\t{medium_density low_density, resting_spaces nesting_spaces prey} -> positive_effect_on_fitness\n\t\t{carbon_dioxide minerals water sunlight} -> positive_effect_on_fitness\n\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="term-cloud" class="slide level2">
+<h2>Term cloud</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-33aaac095589bd08d371" style="width:960px;height:480px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-33aaac095589bd08d371">{"x":{"diagram":"digraph why_space_use {\n\n  graph [fontsize = 12]\n\n\tnode [shape = box, fontname = Helvetica]\n\n\n\ttopic [label = \"In the context of \\n frequency-dependent producer-scrounger dynamics, \\n how would one\"s role affect access to \\n available resources considering \\n risks and conditions during habitat selection?\"]\n\n\tfreq_psd [label = \"frequency-dependent producer-scrounger dynamics\"]\n\tfreq [label = \"frequency-dependence\"]\n\tgrp_size [label = \"group size\"]\n\n\ttopic -> freq_psd\n\n\tfreq_psd -> freq\n\n\tfreq -> grp_size\n\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="fundamental-realized-niche" class="slide level2">
+<h2>Fundamental, realized niche</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-17eb129c1379959171f1" style="width:960px;height:480px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-17eb129c1379959171f1">{"x":{"diagram":"digraph fundamental_realized {\n\trankdir = LR\n  graph [fontsize = 12]\n\n\tnode [shape = box, fontname = Helvetica]\n\tedge [arrowhead = none]\n\n\t\t{rank=same\n\t\t\tfitness\n\t\t\thabitat\n\t\t}\n\n\t\t{rank=same\n\t\t\tdynamics\n\t\t\tmechanisms_of_change_in_species_density\n\t\t}\n\n\t\t{fitness habitat} -> fundamental_niche\n\n\t\tfundamental_niche -> dynamics\n\t\thabitat -> mechanisms_of_change_in_species_density\n\t\tmechanisms_of_change_in_species_density -> dynamics\n\n\t\tdynamics -> realized_niche\n\n\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-b01eb13fd23acda96634" style="width:960px;height:480px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-b01eb13fd23acda96634">{"x":{"diagram":"digraph why_space_use {\n\n  graph [fontsize = 12]\n\n\tnode [shape = box, fontname = Helvetica]\n\n\twhy [label = \"Animals are in XYZ...\"]\n\n  why -> Forage, Predation, Weather, Climate, Water, Conspecifics, Insects, Movement, Sleep\n\n\tMovement -> Memory, Migration, Routes\n\tInsects -> Wind\n\n\tForage -> Quality, Quantity, Search, Memory\n\tQuality, Quantity -> Competition\n\n\tWeather -> Precipitation, Temperature, Snow\n\n\tClimate -> \"Long term\\ntemperature\", \"Long term\\nprecipitation\", \"Extreme\\nevents\"\n\t\"Extreme\\nevents\" -> Fire, Drought\n\n\tPredation -> Cover, Avoidance, Vigilance, Dilution\n\n\tConspecifics -> Antipredator, Aggregation, Competition\n\tAntipredator -> Vigilance, Dilution\n\tAggregation -> Search, Learning, Mating, \"Parental Care\", Migration, Routes\n\tCompetition -> Search, Mating\n\n\n\t#Search, Quantity, Quality  -> \"Habitat selection\"\n\t#Conspecifics -> \"Social network analysis\"\n\n\t# Temporal scale: daily selection vs yearly+, range expansion, climate change\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
 
 <div class="footer footer-default">
 
@@ -559,6 +602,44 @@ https://quarto.org/docs/presentations/revealjs/advanced.html
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
