@@ -1,0 +1,64 @@
+digraph habitat_and_producer {
+
+  graph [fontsize = 12]
+  rankdir = LR
+
+	node [shape = box, fontname = Helvetica]
+
+    {rank = same
+    density
+    habitat
+    }
+
+    habitat -- dynamics
+    density -- dynamics
+
+    {rank = same
+    habitat_selection
+    demographic_sorting
+    }
+
+    dynamics [label = "dynamic mechanisms"]
+    // influencing relatonship between fitness and density
+
+
+    {rank = same
+    patch_departure_rules
+    where_to_go
+    }
+
+
+    {rank = same
+    marginal_value_theorem
+    intake_rate
+    learning
+    environmental_predictability
+    patch_quality
+    energetic_cost_of_contest
+    finders_share
+    memory
+    sensory_perception
+    information_about_finders_share
+    }
+
+    dynamics -- {habitat_selection demographic_sorting} -- fitness
+
+    {resources risks conditions} -- habitat
+    habitat_selection -- {patch_departure_rules where_to_go}
+
+    patch_departure_rules -- {marginal_value_theorem intake_rate learning conspecific_information environmental_predictability}
+    where_to_go -- {sensory_perception memory conspecific_information}
+
+
+
+    {patch_quality energetic_cost_of_contest finders_share probability_of_finder_winning_contest information_about_finders_share learning } -- producer_scrounger_dynamics
+
+
+    density -- conspecifics
+
+    {resources risks conditions} -- conspecifics
+
+    conspecifics -- {finders_share}
+
+}
+}
