@@ -28,7 +28,7 @@ tar_read(resources_risks_conditions)
 ```
 
 
-## Termc cloud
+## Term cloud
 
 
 ```{r}
