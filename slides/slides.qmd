@@ -11,3 +11,44 @@ date-format: long
 https://quarto.org/docs/presentations/revealjs/ 
 https://quarto.org/docs/presentations/revealjs/advanced.html
 -->
+
+
+```{r}
+#| echo: false
+library(targets)
+library(DiagrammeR)
+```
+
+##  Resources, risks and conditions
+
+
+```{r}
+#| echo: false
+tar_read(resources_risks_conditions)
+```
+
+
+## Termc cloud
+
+
+```{r}
+#| echo: false
+tar_read(term_cloud)
+```
+
+## Fundamental, realized niche
+
+
+```{r}
+#| echo: false
+tar_read(fundamental_realized)
+```
+
+
+
+##
+
+```{r}
+#| echo: false
+tar_read(why_in_space)
+```
