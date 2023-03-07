@@ -12,16 +12,15 @@ lapply(dir('R', '*.R', full.names = TRUE), source)
 
 # Targets: graphviz -------------------------------------------------------
 targets_graphviz <- c(
-	tar_target(why_in_space, DiagrammeR::grViz('gv/why-space-use.gv'))
+	tar_target(why_in_space, DiagrammeR::grViz('gv/why-space-use.gv')),
+	tar_target(term_cloud, DiagrammeR::grViz('gv/term-cloud.gv'))
 )
 
 
 
 # Targets: render ---------------------------------------------------------
 targets_render <- c(
-	tar_quarto(notes, 'manuscript/notes.qmd'),
-	tar_quarto(slides, 'slides/slides.qmd'),
-	tar_quarto(lit_base, 'lit')
+	tar_quarto(site)
 )
 
 
