@@ -19,9 +19,7 @@ targets_graphviz <- c(
 
 # Targets: render ---------------------------------------------------------
 targets_render <- c(
-	tar_quarto(notes, 'manuscript/notes.qmd'),
-	tar_quarto(slides, 'slides/slides.qmd'),
-	tar_quarto(lit_base, 'lit')
+	tar_quarto(render)
 )
 
 
