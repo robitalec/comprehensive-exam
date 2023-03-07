@@ -12,3 +12,5 @@ library(renv)
 library(conflicted)
 
 library(usethis)
+
+library(DiagrammeR)
