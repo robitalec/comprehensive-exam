@@ -4,9 +4,9 @@ digraph why_space_use {
 
 	node [shape = box, fontname = Helvetica]
 
-	why [label = 'Animals are in XYZ...']
-
-  why -> Forage, Predation, Weather, Climate, Water, Conspecifics, Insects, Movement, Sleep
+	{rank=same
+		Forage, Predation, Weather, Climate, Water, Conspecifics, Insects, Movement, Sleep
+	}
 
 	Movement -> Memory, Migration, Routes
 	Insects -> Wind
