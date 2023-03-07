@@ -1,0 +1,91 @@
+digraph why_space_use {
+	rankdir = LR
+	compound = true
+
+  graph [fontsize = 20]
+
+	node [shape = box, fontname = Helvetica]
+	edge [arrowhead = none]
+
+  labelloc = 't'
+  //label = 'In the context of frequency-dependent producer-scrounger dynamics, how would one&rsquo;s role affect access to available resources considering risks and conditions during habitat selection?'
+
+	// Level 0 terms
+	forage_groups [label = 'foraging in groups']
+
+	local_food [label = 'reduced local food supply']
+	agg [label = 'increased rate of aggression']
+	attack [label = 'increased attack rate']
+
+	energy [label = 'conserving energy']
+	forage_pos [label = 'foraging benefits']
+	vig [label = 'anti predator vigilance']
+	dilu [label = 'dilution effect']
+	confu [label = 'predator confusion']
+	mate [label = 'finding a mate']
+	heat [label = 'conserving heat']
+
+
+
+	// Level 1 terms
+	subgraph cluster_level1 {
+		color = white
+
+		freq_psd [label = 'frequency-dependent producer-scrounger dynamics',
+						fillcolor = lightblue, style = filled]
+		ifd [label = 'ideal free distribution',
+		     fillcolor = lightblue, style = filled]
+
+		klep [label = 'kleptoparasitism', fillcolor = lightblue, style = filled]
+		interference [fillcolor = lightblue, style = filled]
+
+	}
+
+	// Level 2 terms
+	subgraph cluster_vars {
+		color = white
+
+		grp_size [label = 'group size', fillcolor = grey75, style = filled]
+		forage_rate [label = 'forage rate', fillcolor = grey75, style = filled]
+		memory [fillcolor = grey75, style = filled]
+		ind_dif [label = 'individual differences', fillcolor = grey75, style = filled]
+
+		move_cost [label = 'movement cost', fillcolor = grey75, style = filled]
+
+		pop_dens [label = 'population density']
+
+		n_patch [label = 'number of patches']
+		patch_qual [label = 'patch quality']
+
+		info [label = 'information about finder&rsquo;s share']
+		finders_share [label = 'finder&rsquo;s share']
+		fight_cost [label = 'energetic cost of fighting']
+		prob_win [label = 'probability of finder winning contest']
+
+	}
+
+
+	// Relationships
+	forage_groups -> benefits -> {energy, vig, dilu, confu, forage_pos, mate, heat}
+	forage_groups -> costs -> {attack, klep, interference, local_food, agg}
+
+	{forage_pos, energy, local_food, agg} -> freq_psd
+
+	freq_psd -> {patch_qual, fight_cost, finders_share, prob_win, info}
+
+	ifd -> {n_patch, pop_dens, patch_qual}
+
+
+	// Habitat selection
+	hab_sel [label = 'habitat selection']
+	risks
+	conditions
+
+	hab_sel -> {risks, conditions}
+
+
+	// Outcomes
+	ESS
+	pop_dyn [label = 'population dynamics']
+	fitness
+}
