@@ -29,6 +29,7 @@ Resources
 
 
 ## Learning
+unpredictable resources
 
 ## Memory
 
@@ -38,6 +39,8 @@ Resources
 ### Fundamental niche
 ### Realized niche
 
+## Information
+Imperfect information
 
 ## Scale
 
