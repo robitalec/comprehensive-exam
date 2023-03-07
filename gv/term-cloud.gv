@@ -1,4 +1,4 @@
-digraph why_space_use {
+digraph term_cloud {
 	rankdir = LR
 	compound = true
 
