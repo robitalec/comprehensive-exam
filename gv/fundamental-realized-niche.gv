@@ -1,0 +1,27 @@
+digraph fundamental_realized {
+	rankdir = LR
+  graph [fontsize = 12]
+
+	node [shape = box, fontname = Helvetica]
+	edge [arrowhead = none]
+
+		{rank=same
+			fitness
+			habitat
+		}
+
+		{rank=same
+			dynamics
+			mechanisms_of_change_in_species_density
+		}
+
+		{fitness habitat} -> fundamental_niche
+
+		fundamental_niche -> dynamics
+		habitat -> mechanisms_of_change_in_species_density
+		mechanisms_of_change_in_species_density -> dynamics
+
+		dynamics -> realized_niche
+
+
+}
