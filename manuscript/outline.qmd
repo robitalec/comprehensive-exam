@@ -113,3 +113,57 @@ Interference
 Information transfer models
 
 -   How do information transfer models differ from producer-scrounger models?
+
+## Habitat selection theory
+
+Species-habitat associations
+
+-   *How are habitats defined?*
+
+    -   resources
+
+    -   risks
+
+    -   conditions
+
+-   *What is the relationship between habitat and fitness?*
+
+    -   Dynamic mechanisms
+
+        -   Habitat selection
+
+            -   individual level
+
+            -   behavioural selection
+
+                -   patch departure rules
+
+                -   where to go
+
+        -   Demographic sorting
+
+            -   population level
+
+## Influence of producer-scrounger dynamics on habitat selection given risks and conditions
+
+The dynamic mechanism for habitat selection at the individual level is behavioural selection. It is comprised of patch departure rules or giving up rates and the decision where to go next. Habitats are defined in terms of resources, risks and conditions. Environmental variables corresponding to these three can have complex interactions.
+
+Producer-scrounger dynamics consider the payoffs and penalties of strategies given the density of conspecifics and their corresponding strategies. A strategy whose fitness cannot be improved given the current environment and set of conspecifics' strategies or a strategy that resists the invasion of a rare alternative is an evolutionary stable strategy.
+
+Risks are integrated differently in producer-scrounger dynamics and habitat selection. Predation risk, for example, is directly incorporated into the penalty for each strategy in a producer-scrounger game. For habitat selection, predation risk would make up one of the relevant environmental variables under the risk category that define a habitat, with an expected negative relationship with fitness.
+
+*How are conditions considered for producer-scrounger dynamics other than extreme conditions that represent potential penalties?*
+
+For habitat selection, conditions form a subset of the environmental variables that make up a habitat.
+
+*How do producers and scroungers differ in their access to available resources?*
+
+-   this relates to ESSs for different densities and proportion of producers/scroungers
+
+-   access for producers is high when density is low, because the number of available patches is high and they are more efficient than scroungers at searching for them
+
+-   access for scroungers is low when density is low, because the overall number of producers is low and therefore low scrounging potential
+
+-   access for producers is lower when density is high because unoccupied patches are lower
+
+-   access for scroungers is higher when density is high because more producers have found more patches and scrounging potential is higher
