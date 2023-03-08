@@ -12,15 +12,13 @@ https://quarto.org/docs/presentations/revealjs/
 https://quarto.org/docs/presentations/revealjs/advanced.html
 -->
 
+##  Resources, risks and conditions
 
 ```{r}
 #| echo: false
 library(targets)
 library(DiagrammeR)
 ```
-
-##  Resources, risks and conditions
-
 
 ```{r}
 #| echo: false
