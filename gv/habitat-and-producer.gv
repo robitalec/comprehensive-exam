@@ -6,8 +6,8 @@ digraph habitat_and_producer {
 	node [shape = box, fontname = Helvetica]
 
     {rank = same
-    density
-    habitat
+	    density
+	    habitat
     }
 
     habitat -> dynamics
@@ -23,8 +23,8 @@ digraph habitat_and_producer {
 
 
     {rank = same
-    patch_departure_rules
-    where_to_go
+	    patch_departure_rules
+	    where_to_go
     }
 
 
