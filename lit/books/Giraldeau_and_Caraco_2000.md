@@ -31,7 +31,7 @@ Approaches to social foraging theory:
 
 Nash equilibrium is a set of strategies (one for each player) such that no player can improve its payoff by changing strategy vs the other Nash equilibrium strategies. Nash equilibriums are stable if unilateral deviation reduces payoff. 
 
-An [evolutionary-stable-strategy](../topics/evolutionary-stable-strategy.md) maximizes a player's expected payoff. Stability may imply dynamics resisteant to invasion by a rare strategy, or the consequences for an individual deviating from the [evolutionary-stable-strategy](../topics/evolutionary-stable-strategy.md). All [evolutionary-stable-strategy](../topics/evolutionary-stable-strategy.md) are Nash equilibries. 
+An [evolutionary-stable-strategy](../topics/evolutionary-stable-strategy.md) maximizes a player's expected payoff. Stability may imply dynamics resistant to invasion by a rare strategy, or the consequences for an individual deviating from the [evolutionary-stable-strategy](../topics/evolutionary-stable-strategy.md). All [evolutionary-stable-strategy](../topics/evolutionary-stable-strategy.md) are Nash equilibries. 
 
 - Strategies may be
 	- directly equivalent to alleles 
