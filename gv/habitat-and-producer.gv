@@ -29,36 +29,60 @@ digraph habitat_and_producer {
 
 
     {rank = same
-    marginal_value_theorem
-    intake_rate
-    learning
-    environmental_predictability
-    patch_quality
-    energetic_cost_of_contest
-    finders_share
-    memory
-    sensory_perception
-    information_about_finders_share
+	    marginal_value_theorem
+	    intake_rate
+	    environmental_predictability
+	    memory
+	    sensory_perception
     }
 
-    dynamics -> {habitat_selection demographic_sorting} -> fitness
+    {rank = same
+    	conspecific_information
+	    learning
 
-    {resources risks conditions} -> habitat
+    }
+    {rank = same
+	    information_about_finders_share
+	    finders_share
+	    energetic_cost_of_contest
+	    patch_payoffs
+	    patch_penalties
+    }
+
+    {rank = same
+    	conditions [style = filled, color = grey85]
+    	risks [style = filled, color = grey85]
+    	access_to_available_resources [style = filled, color = grey85]
+    }
+
+
+    dynamics -> {habitat_selection demographic_sorting}
+
+    //{resources risks conditions} -> habitat
     habitat_selection -> {patch_departure_rules where_to_go}
+
 
     patch_departure_rules -> {marginal_value_theorem intake_rate learning conspecific_information environmental_predictability}
     where_to_go -> {sensory_perception memory conspecific_information}
 
+		{rank = same
+			producer_scrounger_dynamics [style = filled, color = grey]
+			kleptoparasitism
+			interference
+		}
+
+    { energetic_cost_of_contest finders_share patch_payoffs patch_penalties probability_of_finder_winning_contest information_about_finders_share} -> producer_scrounger_dynamics
+    {producer_scrounger_dynamics kleptoparasitism interference} -> social_foraging_theory
 
 
-    {patch_quality energetic_cost_of_contest finders_share probability_of_finder_winning_contest information_about_finders_share learning } -> producer_scrounger_dynamics
+		// Combined
 
+		conspecific_information -> access_to_available_resources
+		{conspecific_information sensory_perception memory} -> risks
+		{environmental_predictability} -> {conditions risks}
 
-    density -> conspecifics
-
-    {resources risks conditions} -> conspecifics
-
-    conspecifics -> {finders_share}
-
-}
+		access_to_available_resources -> {finders_share probability_of_finder_winning_contest energetic_cost_of_contest}
+		risks -> {energetic_cost_of_contest patch_payoffs patch_penalties}
+		conditions -> {patch_payoffs patch_penalties}
+	}
 }
