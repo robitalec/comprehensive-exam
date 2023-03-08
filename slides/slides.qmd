@@ -27,8 +27,14 @@ library(DiagrammeR)
 tar_read(resources_risks_conditions)
 ```
 
+## 
 
-## Term cloud
+```{r}
+#| echo: false
+tar_read(habitat_and_producer)
+```
+
+## 
 
 
 ```{r}
