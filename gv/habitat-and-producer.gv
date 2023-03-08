@@ -15,7 +15,7 @@ digraph habitat_and_producer {
 
     {rank = same
 	    habitat_selection [style = filled, color = grey]
-	    demographic_sorting
+	    demographic_sorting [fontcolor = grey40, color = grey40]
     }
 
     dynamics [label = "dynamic mechanisms"]
@@ -58,7 +58,6 @@ digraph habitat_and_producer {
 
     dynamics -> {habitat_selection demographic_sorting}
 
-    //{resources risks conditions} -> habitat
     habitat_selection -> {patch_departure_rules where_to_go}
 
 
@@ -67,8 +66,8 @@ digraph habitat_and_producer {
 
 		{rank = same
 			producer_scrounger_dynamics [style = filled, color = grey]
-			kleptoparasitism
-			interference
+			kleptoparasitism [fontcolor = grey40, color = grey40]
+			interference [fontcolor = grey40, color = grey40]
 		}
 
     { energetic_cost_of_contest finders_share patch_payoffs patch_penalties probability_of_finder_winning_contest information_about_finders_share} -> producer_scrounger_dynamics
