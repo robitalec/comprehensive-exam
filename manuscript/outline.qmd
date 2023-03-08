@@ -1,0 +1,216 @@
+# Outline
+
+## Foraging with others
+
+*What are the costs, benefits of sociality with respect to foraging?*
+
+-   positives
+
+    -   foraging benefit
+
+    -   conserving energy, heat
+
+-   negatives
+
+    -   reduced local food supply
+
+    -   interference
+
+    -   kleptoparasitism
+
+Related,
+
+-   positives
+
+    -   predator dilution, vigilance
+
+-   negatives
+
+    -   increased attack rate
+
+    -   disease/parasite load
+
+## Social foraging theory
+
+Economic interdependence of payoffs and penalties for multiple foragers
+
+-   *How does social foraging theory differ from individual foraging theory?*
+
+-   *What is the chronological history of literature preceding social foraging theory that brings us to producer-scrounger dynamics?*
+
+Criterion of sociality
+
+Approaches
+
+-   observational, comparative
+
+-   optimization
+
+    -   Evolutionary game theory
+
+        -   Evolutionary stable strategies
+
+        -   Nash equilibrium
+
+Assumptions
+
+-   strategies
+
+    -   *how do strategies relate to alleles, phenotypes, and plasticity?*
+
+-   populations
+
+    -   finite or infinite
+
+-   play
+
+    -   repeated or single round
+
+    -   information: uninformed or informed play
+
+-   games
+
+    -   symmetric
+
+    -   discrete
+
+Classes of behaviours among social foragers
+
+### Producer-scrounger dynamics
+
+-   *How are producer-scrounger dynamics defined and what are their assumptions?*
+
+-   
+
+#### Assumptions
+
+-   producers search for food
+
+-   handling time is minimal
+
+-   one or more scroungers find food after producer
+
+-   scroungers can steal, or share and divide food with producer
+
+##### Information
+
+How does assumption of information influence ESS of producer scrounger games
+
+##### Extras
+
+Memory
+
+#### Interactions between strategies
+
+-   How do producers/scroungers/opportunists interact?
+
+#### Related models
+
+Kleptoparasitism
+
+Interference
+
+Information transfer models
+
+-   How do information transfer models differ from producer-scrounger models?
+
+## Habitat selection theory
+
+Species-habitat associations
+
+-   *How are habitats defined?*
+
+    -   resources
+
+    -   risks
+
+    -   conditions
+
+-   *What is the relationship between habitat and fitness?*
+
+    -   Dynamic mechanisms
+
+        -   Habitat selection
+
+            -   individual level
+
+            -   behavioural selection
+
+                -   patch departure rules
+
+                -   where to go
+
+        -   Demographic sorting
+
+            -   population level
+
+## Influence of producer-scrounger dynamics on habitat selection given risks and conditions
+
+The dynamic mechanism for habitat selection at the individual level is behavioural selection. It is comprised of patch departure rules or giving up rates and the decision where to go next. Habitats are defined in terms of resources, risks and conditions. Environmental variables corresponding to these three can have complex interactions.
+
+Producer-scrounger dynamics consider the payoffs and penalties of strategies given the density of conspecifics and their corresponding strategies. A strategy whose fitness cannot be improved given the current environment and set of conspecifics' strategies or a strategy that resists the invasion of a rare alternative is an evolutionary stable strategy.
+
+Risks are integrated differently in producer-scrounger dynamics and habitat selection. Predation risk, for example, is directly incorporated into the penalty for each strategy in a producer-scrounger game. For habitat selection, predation risk would make up one of the relevant environmental variables under the risk category that define a habitat, with an expected negative relationship with fitness.
+
+*How are conditions considered for producer-scrounger dynamics other than extreme conditions that represent potential penalties?*
+
+For habitat selection, conditions form a subset of the environmental variables that make up a habitat.
+
+*How do producers and scroungers differ in their access to available resources?*
+
+-   this relates to ESSs for different densities and proportion of producers/scroungers
+
+-   access for producers is high when density is low, because the number of available patches is high and they are more efficient than scroungers at searching for them
+
+-   access for scroungers is low when density is low, because the overall number of producers is low and therefore low scrounging potential
+
+-   access for producers is lower when density is high because unoccupied patches are lower
+
+-   access for scroungers is higher when density is high because more producers have found more patches and scrounging potential is higher
+
+## Ideal vs available
+
+The goal is to determine how risks and conditions of habitats influence access to available resources for individuals in frequency dependent producer-scrounger dynamics
+
+-   *Can this be rephrased/clarified?*
+
+### Ideal
+
+The ideal data for relating risks and conditions during habitat selection to producer-scrounger dynamics is a controlled experiment:
+
+-   long term observations of multiple tanks
+
+-   tanks differ in their density
+
+-   areas in tanks have habitats that have a measurable influence on fitness or a relevant proxy
+
+-   habitats are not depletable
+
+-   within habitats, food is available on patches that require some degree of searching. food is not freely available
+
+-   vary risks across habitats
+
+-   vary conditions across habitats
+
+1.  record individuals in tanks
+2.  tag individuals through time as producers or scroungers
+3.  identify habitat selected by individuals along with associated risks and conditions
+4.  repeat observations of individuals
+5.  compare results across tanks with different densities
+6.  compare results across habitats with different risks, conditions
+
+### Available
+
+Game theoretical model of producer-scrounger dynamic where resources, risks and conditions of the habitat are integrated into the payoffs and penalties
+
+-   *Alternative?*
+
+### Difference
+
+-   *How do the ideal and available differ?*
+
+-   *Why do they differ?*
+
+-   *How can the available approach answer the question?*
+
+## 
