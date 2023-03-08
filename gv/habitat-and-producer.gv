@@ -2,7 +2,7 @@ digraph habitat_and_producer {
 
   graph [fontsize = 12]
   rankdir = LR
-
+	edge [arrowhead = none]
 	node [shape = box, fontname = Helvetica]
 
     {rank = same
