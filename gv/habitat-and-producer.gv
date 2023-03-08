@@ -14,8 +14,8 @@ digraph habitat_and_producer {
     density -> dynamics
 
     {rank = same
-    habitat_selection
-    demographic_sorting
+	    habitat_selection [style = filled, color = grey]
+	    demographic_sorting
     }
 
     dynamics [label = "dynamic mechanisms"]
