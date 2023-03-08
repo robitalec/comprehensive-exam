@@ -29,3 +29,87 @@ Related,
     -   increased attack rate
 
     -   disease/parasite load
+
+## Social foraging theory
+
+Economic interdependence of payoffs and penalties for multiple foragers
+
+-   *How does social foraging theory differ from individual foraging theory?*
+
+-   *What is the chronological history of literature preceding social foraging theory that brings us to producer-scrounger dynamics?*
+
+Criterion of sociality
+
+Approaches
+
+-   observational, comparative
+
+-   optimization
+
+    -   Evolutionary game theory
+
+        -   Evolutionary stable strategies
+
+        -   Nash equilibrium
+
+Assumptions
+
+-   strategies
+
+    -   *how do strategies relate to alleles, phenotypes, and plasticity?*
+
+-   populations
+
+    -   finite or infinite
+
+-   play
+
+    -   repeated or single round
+
+    -   information: uninformed or informed play
+
+-   games
+
+    -   symmetric
+
+    -   discrete
+
+Classes of behaviours among social foragers
+
+### Producer-scrounger dynamics
+
+-   *How are producer-scrounger dynamics defined and what are their assumptions?*
+
+-   
+
+#### Assumptions
+
+-   producers search for food
+
+-   handling time is minimal
+
+-   one or more scroungers find food after producer
+
+-   scroungers can steal, or share and divide food with producer
+
+##### Information
+
+How does assumption of information influence ESS of producer scrounger games
+
+##### Extras
+
+Memory
+
+#### Interactions between strategies
+
+-   How do producers/scroungers/opportunists interact?
+
+#### Related models
+
+Kleptoparasitism
+
+Interference
+
+Information transfer models
+
+-   How do information transfer models differ from producer-scrounger models?
