@@ -1,0 +1,87 @@
+digraph habitat_and_producer {
+
+  graph [fontsize = 12]
+  rankdir = TB
+	edge [arrowhead = none]
+	node [shape = box, fontname = Helvetica]
+
+    {rank = same
+	    density
+	    habitat
+    }
+
+    habitat -> dynamics
+    density -> dynamics
+
+    {rank = same
+	    habitat_selection [style = filled, color = grey]
+	    demographic_sorting [fontcolor = grey40, color = grey40]
+    }
+
+    dynamics [label = "dynamic mechanisms"]
+    // influencing relatonship between fitness and density
+
+
+    {rank = same
+	    patch_departure_rules
+	    where_to_go
+    }
+
+
+    {rank = same
+	    marginal_value_theorem
+	    intake_rate
+	    environmental_predictability
+	    memory
+	    sensory_perception
+    }
+
+    {rank = same
+    	conspecific_information
+	    learning
+
+    }
+    {rank = same
+	    information_about_finders_share
+	    finders_share
+	    energetic_cost_of_contest
+	    patch_payoffs
+	    patch_penalties
+    }
+
+    {rank = same
+    	conditions [style = filled, color = grey85]
+    	risks [style = filled, color = grey85]
+    	access_to_available_resources [style = filled, color = grey85]
+    }
+
+
+    dynamics -> {habitat_selection demographic_sorting}
+
+    habitat_selection -> {patch_departure_rules where_to_go}
+
+
+    patch_departure_rules -> {marginal_value_theorem intake_rate learning conspecific_information environmental_predictability}
+    where_to_go -> {sensory_perception memory conspecific_information}
+
+		{rank = same
+			producer_scrounger_dynamics [style = filled, color = grey]
+			kleptoparasitism [fontcolor = grey40, color = grey40]
+			interference [fontcolor = grey40, color = grey40]
+		}
+
+    { energetic_cost_of_contest finders_share patch_payoffs patch_penalties probability_of_finder_winning_contest information_about_finders_share} -> producer_scrounger_dynamics
+    {producer_scrounger_dynamics kleptoparasitism interference} -> social_foraging_theory
+
+
+		// Combined
+
+		conspecific_information -> access_to_available_resources
+		{conspecific_information sensory_perception memory} -> risks
+		{environmental_predictability} -> {conditions risks}
+
+		access_to_available_resources -> {finders_share probability_of_finder_winning_contest energetic_cost_of_contest}
+		risks -> {energetic_cost_of_contest patch_payoffs patch_penalties}
+		conditions -> {patch_payoffs patch_penalties}
+	}
+}
