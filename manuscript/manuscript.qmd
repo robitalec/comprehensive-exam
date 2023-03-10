@@ -1,0 +1,7 @@
+actions: 
+
+- frequency dependent producer-scrounger dynamics model incorporating risks and 
+conditions
+- social habitat selection model of simulated data extending from individuals
+were together in X habitat to producer scrounger / leader into patch and
+follower 
