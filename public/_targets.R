@@ -20,6 +20,18 @@ targets_formulas <- c(
 
 
 
+# Targets: drive ----------------------------------------------------------
+gs4_auth(email = 'robit.alec@gmail.com')
+targets_drive  <- c(
+	tar_target(
+		table_ps_models_compared,
+		drive_get('producer-scrounger-models-compared') |>
+			read_sheet()
+	)
+)
+
+
+
 # Targets: graphviz -------------------------------------------------------
 targets_graphviz <- c(
 	tar_target(why_in_space, DiagrammeR::grViz('gv/why-space-use.gv')),
