@@ -20,6 +20,18 @@ targets_formulas <- c(
 
 
 
+# Targets: drive ----------------------------------------------------------
+options(gargle_oauth_email = TRUE)
+targets_drive  <- c(
+	tar_target(
+		download_ps_models_compared,
+		drive_get('producer-scrounger-models-compared') |>
+			read_sheet()
+	)
+)
+
+
+
 # Targets: graphviz -------------------------------------------------------
 targets_graphviz <- c(
 	tar_target(why_in_space, DiagrammeR::grViz('gv/why-space-use.gv')),
