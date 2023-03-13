@@ -1,6 +1,9 @@
 Table 1: Producer-scrounger models
 
 
-| Model | Citation | Strategies          | Payoffs | Penalties | Symmetry    | Scale        | Assumptions              |
-| ----- | -------- | ------------------- | ------- | --------- | ----------- | ------------ | ------------------------ |
-|       |          | Producer, scrounger |         |           | Symmetrical | Within group | Complete incompatibility |
+```{r}
+#| echo: false
+#| messages: false
+library(printr, verbose = FALSE)
+targets::tar_read(table_ps_models_compared)
+```
