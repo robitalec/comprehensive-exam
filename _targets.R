@@ -21,10 +21,10 @@ targets_formulas <- c(
 
 
 # Targets: drive ----------------------------------------------------------
-options(gargle_oauth_email = TRUE)
+gs4_auth(email = 'robit.alec@gmail.com')
 targets_drive  <- c(
 	tar_target(
-		download_ps_models_compared,
+		table_ps_models_compared,
 		drive_get('producer-scrounger-models-compared') |>
 			read_sheet()
 	)
