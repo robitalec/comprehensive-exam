@@ -10,6 +10,16 @@ lapply(dir('R', '*.R', full.names = TRUE), source)
 
 
 
+# Targets: formulas -------------------------------------------------------
+targets_formulas <- c(
+	tar_target(
+		example_formula,
+		write_equation_to_png('formulas/example.qmd')
+	)
+)
+
+
+
 # Targets: graphviz -------------------------------------------------------
 targets_graphviz <- c(
 	tar_target(why_in_space, DiagrammeR::grViz('gv/why-space-use.gv')),
