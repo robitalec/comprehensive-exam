@@ -1,0 +1,6 @@
+Table 1: Producer-scrounger models
+
+
+| Model | Citation | Strategies          | Payoffs | Penalties | Symmetry    | Scale        | Assumptions              |
+| ----- | -------- | ------------------- | ------- | --------- | ----------- | ------------ | ------------------------ |
+|       |          | Producer, scrounger |         |           | Symmetrical | Within group | Complete incompatibility |
