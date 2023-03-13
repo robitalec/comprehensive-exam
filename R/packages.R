@@ -17,3 +17,6 @@ library(DiagrammeR)
 
 library(xfun)
 library(magick)
+
+library(googledrive)
+library(googlesheets4)
