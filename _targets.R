@@ -13,13 +13,8 @@ lapply(dir('R', '*.R', full.names = TRUE), source)
 # Targets: formulas -------------------------------------------------------
 targets_formulas <- c(
 	tar_target(
-		formula_files,
-		dir('formulas', full.names = TRUE)
-	),
-	tar_target(
-		formula_pngs,
-		write_equation_to_png(formula_files),
-		pattern = map(formula_files)
+		example_formula,
+		write_equation_to_png('formulas/example.qmd')
 	)
 )
 
