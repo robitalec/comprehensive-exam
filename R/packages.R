@@ -14,3 +14,6 @@ library(conflicted)
 library(usethis)
 
 library(DiagrammeR)
+
+library(xfun)
+library(magick)
