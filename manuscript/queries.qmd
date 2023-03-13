@@ -6,7 +6,7 @@
 - How is "causality" considered for species-habitat associations?
 - How is social foraging theory different than individual foraging theory?
 	- Examples
-- What are aggregration and dispersion economies?
+- What are aggregation and dispersion economies?
 - How do producer scrounger dynamics differ from information sharing?
 - What animals exist at high density? At equilibrium?
 - How do resources, risks and conditions interact? (table)
@@ -15,4 +15,4 @@
 - How do SHA and SFT differ in their assumptions around fitness?
 - Are scales of SHA and SFT related? Habitat selection related to species distribution, which is not the scale of SFT
 - Examples of solitary foragers vs group foragers
-
+- Consider opportunists as well
