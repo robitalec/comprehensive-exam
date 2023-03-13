@@ -4,8 +4,27 @@ title: Objects
 
 Table 1: Producer-scrounger models
 
-
 ```{r}
 #| echo: false
 targets::tar_read(table_ps_models_compared)
 ```
+
+Table 2: Comparing access to available resources for producers and scroungers
+
++------------+---------+---------------------+-------------------+------------------------+
+|            | Density | Resources           | Risks             | Conditions             |
++============+=========+=====================+===================+========================+
+| Scenario 1 | High    | Available resources | Risks not present | Conditions neutral     |
+|            |         |                     |                   |                        |
+|            | Low     |                     |                   |                        |
++------------+---------+---------------------+-------------------+------------------------+
+|            |         |                     |                   |                        |
++------------+---------+---------------------+-------------------+------------------------+
+|            |         |                     |                   |                        |
++------------+---------+---------------------+-------------------+------------------------+
+| Scenario 2 |         | Available resources | Risks not present | Conditions unfavorable |
++------------+---------+---------------------+-------------------+------------------------+
+| Scenario 3 |         | Available resources | Risks present     | Conditions neutral     |
++------------+---------+---------------------+-------------------+------------------------+
+| Scenario 4 |         | Available resources | Risks present     | Conditions unfavorable |
++------------+---------+---------------------+-------------------+------------------------+
