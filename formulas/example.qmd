@@ -1,0 +1,31 @@
+---
+format: 
+  pdf:
+    documentclass: report  	
+    include-in-header:
+      text: |
+        \usepackage{amsmath}
+        \usepackage{annotate-equations}
+        \usepackage{geometry}
+        \geometry{
+          paperheight=4.5cm,
+          paperwidth=9cm,
+          marginparwidth=0.5cm,
+          left=1.2cm,
+          top=1.5cm
+         }
+---
+
+
+
+
+\begin{equation*}
+    \eqnmark{post}{p(\theta | D)} = \frac{\eqnmark{lik}{p(D|\theta)} \eqnmark{prior}{p(\theta)}} {\eqnmark{marglik}{p(D)}}
+\end{equation*}
+
+
+\annotate[yshift=2.5em]{above,right}{lik}{likelihood}
+\annotate[yshift=1em]{above,right}{prior}{prior}
+\annotate[yshift=1em]{above,left}{post}{posterior}
+\annotate[yshift=-1em]{below,right}{marglik}{marginal likelihood}
+
