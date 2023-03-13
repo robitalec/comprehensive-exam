@@ -10,3 +10,8 @@ date: "`r Sys.Date()`"
 
 
 
+```{r}
+#| include: false
+source('R/packages.R')
+tar_read(example_formula)
+```
