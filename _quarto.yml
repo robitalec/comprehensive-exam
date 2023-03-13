@@ -22,7 +22,6 @@ format:
   html:
     theme:
       light: flatly
-      dark: darkly
     toc: true
     date-format: long
 
