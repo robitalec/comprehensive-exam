@@ -4,11 +4,14 @@ write_equation_to_png <- function(qmd_file) {
 
 	quarto_render(qmd_file)
 
+	density <- 600
+	quality <- 100
+
 	image_write(
-		image_convert(image_read(pdf_file), 'png'),
+		image_convert(image_read(pdf_file, density = density), 'png'),
 		png_file,
-		quality = 90,
-		density = 300
+		quality = quality,
+		density = density
 	)
 
 	unlink(pdf_file)
