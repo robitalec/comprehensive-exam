@@ -1,19 +1,4 @@
----
-title: Objects
----
-
-## Table 1
-
-Table 1: Producer-scrounger models
-
-```{r}
-#| echo: false
-targets::tar_read(table_ps_models_compared)
-```
-
-## Table 2
-
-Table 2: Comparing access to available resources for producers and scroungers
+Table 3: Comparing access to available resources for producers and scroungers
 
 | Density/group size | Resources           | Risks             | Conditions             | Game theoretical results | Simulated results | Empirical results |
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|

@@ -14,7 +14,7 @@ lapply(dir('R', '*.R', full.names = TRUE), source)
 targets_formulas <- c(
 	tar_target(
 		example_formula,
-		write_equation_to_png('formulas/example.qmd')
+		write_equation_to_png('formulas/_example.qmd')
 	)
 )
 

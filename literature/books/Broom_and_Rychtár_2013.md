@@ -46,7 +46,7 @@ Individuals area **free**:
 
 See Charnov_1976, DeAngelis_et_al_2011 for models with movement costs
 
-See ESS for the ideal free distributino game in Cressman_et_al_2004 and Cressman_and_Krivan_2006
+See ESS for the ideal free distribution game in Cressman_et_al_2004 and Cressman_and_Krivan_2006
 
 ### 17.2 Multiple species
 
