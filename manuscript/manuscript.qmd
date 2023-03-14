@@ -10,9 +10,12 @@ individual fitness
 At the species level, there are eg. differences in specialization/generalization
 of resources, migratory behaviours, etc
 
-Within species, individuals use behavioural strategies to meet energetic needs
+Within species, individuals use modify foraging strategies to meet energetic needs
 including prey/forage selection, effort/quitting time, balancing environmental
 variables, eg. temperature or insect harassment, with patch quality
+
+Foraging individuals also differ in morphological traits, eg. body size, and behaviours,
+eg. dominance or aggression, that can influence foraging success 
 
 Mobile prey represent a dynamic resource in space that requires predators to
 first search out, then capture before consuming
@@ -37,23 +40,39 @@ requires interdependence of the payoffs and penalties of their strategies
 Social foraging theory is grounded in evolutionary game theory and it seeks to 
 determine optimal strategies given density and behaviour of conspecifics
 
-Payoffs and penalties are integrated as currencies of fitness and not 
-as competing causes of sociality
+Animal sociality is often described as a balance between advantages and disadvantages. 
+Social foraging theory is not centred on competing causes of sociality. Rather
+the payoffs and penalties are directly integrated as currencies of fitness. 
 
 Payoffs can include
 
 Penalties can include
 
+The payoffs and penalties of different strategies are density dependent
 
+Three kinds of social foraging behaviours are commonly defined.  
+Interference represents negative impacts on conspecifics that do not
+have a direct benefit to the individual and therefore do not represent 
+a strategy that can be modelled as an evolutionary game
 
+Kleptoparasitism is directly stealing indivisible food items from conspecifics
 
+Producer-scrounger models consider two types of strategies. Producers search
+for and find food patches. Scroungers do not search for patches and attempt
+to steal or divide food patches with producers
 
+Some producer-scrounger models also consider opportunists that produce and 
+scrounge but at a reduced efficiency compared to the pure strategies of 
+producers or scroungers
 
+Producer-scrounger models are frequency dependent 
 
+When a scrounger arrives on a food patch, models can assume either 
+total information or partial information about remaining food at the patch
 
+Food patches can be divide equally, according to arrival time on the patch 
+or asymmetrical given dominance or aggression of individuals
 
-
-
-<!-- --> 
-
+Contests between producers and scroungers are determined by the probability 
+of the scrounger winning the contest and by the energetic cost of the contest
 
