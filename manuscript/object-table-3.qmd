@@ -1,21 +1,3 @@
----
-title: Objects
----
-
-## Table 1
-
-Table 1: Producer-scrounger models
-
-```{r}
-#| echo: false
-targets::tar_read(table_ps_models_compared)
-```
-
-## Table 2
-
-Table 2: Empirical tests of producer-scrounger dynamics
-
-
 ## Table 3
 
 Table 3: Comparing access to available resources for producers and scroungers
