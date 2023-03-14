@@ -172,6 +172,10 @@ are complicated further by their two-way and three-way interactions
 
 General approach to species-habitat associations
 
+Definition of available resources
+
+<!-- access / inaccessible -->
+
 ### Confounds
 
 There are a number of confounds that cloud the relationship between
@@ -190,6 +194,24 @@ Site fidelity
 Landscapes of fear
 
 ## Goals
+### Table 3
+
+How do producers and scroungers differ in access to available resources under
+
+- different densities (high/low)
+- risks (present/absent)
+- conditions (neutral/unfavourable)
+
+<!-- {{< include object-table-3.qmd >}} --> 
+
+For
+
+- game theoretical results
+- Simulated results
+- Empirical results
+
+Discussion of Table 3
+
 ### Gap filling
 
 Species-habitat association models can help extend producer-scrounger 
@@ -211,30 +233,24 @@ Predictions of dynamic habitat change (eg. due to anthropogenic disturbance)
 could be related to increases or decreases in rates of producer and scrounger
 strategies
 
-### Table 
-Table 3
+### Habitat selection literature
 
-How do producers and scroungers differ in access to available resources under
+What is the relationship between habitat selection and 
 
-- different densities (high/low)
-- risks (present/absent)
-- conditions (neutral/unfavourable)
+- risks?
+- presence of conspecifics?
+- density?
+- fitness?
 
-<!-- {{< include object-table-3.qmd >}} --> 
-
-For
-
-- game theoretical results
-- Simulated results
-- Empirical results
 
 
 ## Next steps
 
-Potential combination of risks and conditions directly into a producer-scrounger
-game
+Combination of risks and conditions directly into a producer-scrounger
+game. Intake maximizing game.
 
 Agent based simulation in landscapes with variable risks and conditions, 
-evaluating producer-scrounger dynamics using evaluating strategies and outcomes
-for first to patch individuals and joiners
+evaluating producer-scrounger dynamics. Eg. difference in
+access to available resources for producers and scrounger over N generations
 
+<!-- - Examples of agent based habitat selection model -->
