@@ -18,7 +18,7 @@ Social criterion: 2+ individuals concurrently influence each other's gains and l
 
 Historically, social groups are defined as individuals that derive evolutionary advantages from the presence of others while aggregations do not. Genuine attraction between individuals vs merely statistical coincidence. 
 
-This obscurs the similarities between animals with complex social structures and those without. Eg. lions (complex) and pigeons (simpler/loose) both have food available to an individual dependent on the number of foragers in the group. Regardless of however "social" they can both be modeled with a similar social foraging model. 
+This obscures the similarities between animals with complex social structures and those without. Eg. lions (complex) and pigeons (simpler/loose) both have food available to an individual dependent on the number of foragers in the group. Regardless of however "social" they can both be modelled with a similar social foraging model. 
 
 Social foraging theory is not the study of the origin of foraging groups. Social foraging does not treat antipredatory and energetic benefits as competing causes. Both are integrated into the currency of fitness. 
 
@@ -31,7 +31,7 @@ Approaches to social foraging theory:
 
 Nash equilibrium is a set of strategies (one for each player) such that no player can improve its payoff by changing strategy vs the other Nash equilibrium strategies. Nash equilibriums are stable if unilateral deviation reduces payoff. 
 
-An [evolutionary-stable-strategy](../topics/evolutionary-stable-strategy.md) maximizes a player's expected payoff. Stability may imply dynamics resistant to invasion by a rare strategy, or the consequences for an individual deviating from the [evolutionary-stable-strategy](../topics/evolutionary-stable-strategy.md). All [evolutionary-stable-strategy](../topics/evolutionary-stable-strategy.md) are Nash equilibries. 
+An [evolutionary-stable-strategy](../topics/evolutionary-stable-strategy.md) maximizes a player's expected payoff. Stability may imply dynamics resistant to invasion by a rare strategy, or the consequences for an individual deviating from the [evolutionary-stable-strategy](../topics/evolutionary-stable-strategy.md). All [evolutionary-stable-strategy](../topics/evolutionary-stable-strategy.md) are Nash equilibriums. 
 
 - Strategies may be
 	- directly equivalent to alleles 
@@ -72,13 +72,13 @@ Searching
 Dividing
 
 - food is actively shared, divided equally
-- allocated assymetrically according to eg. dominance status
+- allocated asymmetrically according to eg. dominance status
 
 Three types of social foragers
 
 1. Producers: search environment for food
 2. Scroungers: do not search directly. They attend to other forager's clump discoveries and aggressively or stealthily sequester some food
-3. Opportunitist: both search directly and obtain food at clumps located by producers or opportunists. They are assumed less efficient than producers and scroungers. 
+3. Opportunist: both search directly and obtain food at clumps located by producers or opportunists. They are assumed less efficient than producers and scroungers. 
 
 Interactions between types of social foragers
 
