@@ -17,12 +17,43 @@ variables, eg. temperature or insect harassment, with patch quality
 Mobile prey represent a dynamic resource in space that requires predators to
 first search out, then capture before consuming
 
-Immobile prey, such as sedentary animals or lifestages of animals or plants, 
-represent static resources in space 
+Immobile prey, such as plants, or sedentary animals (or specific lifestages of animals), 
+represent relatively static resources in space requiring search then 
+potential handling 
 
 Both mobile and immobile prey can also have temporal cycles through 
 seasons of plant productivity or potential timing of antipredator behaviours / 
-increased risks eg. reproductive timing
+increased risks for prey eg. reproductive timing
 
+Individual foraging theory emphasizes the selection of prey, net rate of intake
+and attack probabilities for individuals
+
+Social foraging theory extends individual foraging theory by considering
+the complexity of multiple individuals in a common resource
+
+The criteria for regarding animals as social in this context simply
+requires interdependence of the payoffs and penalties of their strategies
+
+Social foraging theory is grounded in evolutionary game theory and it seeks to 
+determine optimal strategies given density and behaviour of conspecifics
+
+Payoffs and penalties are integrated as currencies of fitness and not 
+as competing causes of sociality
+
+Payoffs can include
+
+Penalties can include
+
+
+
+
+
+
+
+
+
+
+
+<!-- --> 
 
 
