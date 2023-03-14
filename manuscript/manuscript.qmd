@@ -2,6 +2,8 @@
 bibliography: '../references/comprehensive-exam.bib'
 ---
 
+## Introduction
+
 Access to available resources is a prerequisite for animal survival
 
 Advantages in accessing resources can translate to an increase in 
@@ -31,6 +33,9 @@ increased risks for prey eg. reproductive timing
 Individual foraging theory emphasizes the selection of prey, net rate of intake
 and attack probabilities for individuals
 
+
+## Social foraging theory
+
 Social foraging theory extends individual foraging theory by considering
 the complexity of multiple individuals in a common resource
 
@@ -50,20 +55,30 @@ Penalties can include
 
 The payoffs and penalties of different strategies are density dependent
 
+### Social foraging behaviours 
+
 Three kinds of social foraging behaviours are commonly defined.  
+
+#### Interference
+
 Interference represents negative impacts on conspecifics that do not
 have a direct benefit to the individual and therefore do not represent 
 a strategy that can be modelled as an evolutionary game
 
+#### Kleptoparasitism
 Kleptoparasitism is directly stealing indivisible food items from conspecifics
 
-Producer-scrounger models consider two types of strategies. Producers search
+
+#### Producer-scrounger dynamics
+Producer-scrounger dynamics consider two types of strategies. Producers search
 for and find food patches. Scroungers do not search for patches and attempt
 to steal or divide food patches with producers
 
 Some producer-scrounger models also consider opportunists that produce and 
 scrounge but at a reduced efficiency compared to the pure strategies of 
 producing or scrounging
+
+##### Assumptions
 
 When a scrounger arrives on a food patch, models can assume either 
 total information or partial information about remaining food at the patch
@@ -74,9 +89,14 @@ or asymmetrical given dominance or aggression of individuals
 Contests between producers and scroungers are determined by the probability 
 of the scrounger winning the contest and by the energetic cost of the contest
 
+##### Extensions
+
 Extensions to producer-scrounger games include memory, learning and variable
 patch quality or distribution 
 <!-- distribution https://pubmed.ncbi.nlm.nih.gov/19501599/ -->
+
+
+##### Frequency dependence
 
 Unlike information sharing models, producer-scrounger models are 
 frequency dependent. The assumptions of information sharing models are 
@@ -92,6 +112,7 @@ is true for producers where high density is disfavored given lower available
 empty patches in the environment. 
 -->
 
+##### Approaches
 <!-- optimization methods --> 
 Models of producer-scrounger games show relationships between density, 
 payoffs, and penalties (considering the specific goals and assumptions of 
@@ -105,9 +126,115 @@ Empirical tests of producer-scrounger dynamics are (Table 2)
 body size https://link.springer.com/article/10.1007/s12080-018-0375-2
 -->
 
-Differences between empirical tests and model assumptions obscure these comparisons
-and experiments testing producer-scrounger dynamics are challenging to 
+Differences between empirical tests and model assumptions obscure these comparisons.
+Experiments testing producer-scrounger dynamics are challenging to 
 control and execute
 
-Gaps from the evolutionary game theory approach include prediction of the distribution
-of strategies in geographic space 
+Producer-scrounger dynamics give us a mechanistic approach to investigating
+how animals can select foraging strategies depending conspecifics to maximize 
+their fitness outcomes
+
+### Gaps from social foraging theory
+
+Producer-scrounger models are limited by their abstracted concept of 
+patches in place of the complexity of habitats
+
+Producer-scrounger models do not explicitly consider availability of resources
+
+<!-- THIS IS THE CONNECTION THAT NEEDS A SPARK 
+
+What does habitat selection tell us about access to available resources?
+What is the definition of availability?
+
+--> 
+
+
+## Species-habitat associations
+
+Species-habitat associations are used to understand the relationship between
+species distribution and habitats (three general goals: estimation, inference, 
+and prediction)
+
+Habitats are as the combination of three kinds of environmental variables:
+resources, risks and conditions
+
+Resources are examples
+
+Risks are examples
+
+Conditions are examples
+<!-- how does an animal select for conditions? -->
+
+The diversity of individuals relationships with resources, risks and conditions 
+are complicated further by their two-way and three-way interactions  
+
+### Approach
+
+General approach to species-habitat associations
+
+### Confounds
+
+There are a number of confounds that cloud the relationship between
+species density and fitness
+
+Imperfect information 
+
+Dynamic environments
+
+Colonization credit 
+
+Extinction debt
+
+Site fidelity
+
+Landscapes of fear
+
+## Goals
+### Gap filling
+
+Species-habitat association models can help extend producer-scrounger 
+dynamics to further inform how producers and scroungers differ in 
+access to available resources under different risks, conditions and density
+
+The three potential goals of species-habitat association models are to 
+1) estimate density, 2) infer why species occur in given habitats and 3) 
+predict occurrence in new temporal or spatial environments
+
+<!-- these need to be reframed as access to available resources for each role --> 
+Using habitat informed payoffs and penalties would allow mapping of rates of 
+each strategy (producing, scrounging) onto geographic space 
+
+Habitat informed payoffs and penalties would also provide potential inference
+linking strategies to habitat variables 
+
+Predictions of dynamic habitat change (eg. due to anthropogenic disturbance)
+could be related to increases or decreases in rates of producer and scrounger
+strategies
+
+### Table 
+Table 3
+
+How do producers and scroungers differ in access to available resources under
+
+- different densities (high/low)
+- risks (present/absent)
+- conditions (neutral/unfavourable)
+
+<!-- {{< include object-table-3.qmd >}} --> 
+
+For
+
+- game theoretical results
+- Simulated results
+- Empirical results
+
+
+## Next steps
+
+Potential combination of risks and conditions directly into a producer-scrounger
+game
+
+Agent based simulation in landscapes with variable risks and conditions, 
+evaluating producer-scrounger dynamics using evaluating strategies and outcomes
+for first to patch individuals and joiners
+
