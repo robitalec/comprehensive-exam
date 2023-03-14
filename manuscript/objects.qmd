@@ -13,7 +13,12 @@ targets::tar_read(table_ps_models_compared)
 
 ## Table 2
 
-Table 2: Comparing access to available resources for producers and scroungers
+Table 2: Empirical tests of producer-scrounger dynamics
+
+
+## Table 3
+
+Table 3: Comparing access to available resources for producers and scroungers
 
 | Density/group size | Resources           | Risks             | Conditions             | Game theoretical results | Simulated results | Empirical results |
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|
