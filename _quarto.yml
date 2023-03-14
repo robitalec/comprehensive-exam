@@ -24,5 +24,5 @@ format:
       light: flatly
     toc: true
     date-format: long
-    df-print: kable
+    df-print: paged
 
