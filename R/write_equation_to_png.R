@@ -1,5 +1,5 @@
 write_equation_to_png <- function(qmd_file) {
-	pdf_file <- file.path('public', with_ext(qmd_file, 'pdf'))
+	pdf_file <- with_ext(qmd_file, 'pdf')
 	png_file <- with_ext(qmd_file, 'png')
 
 	quarto_render(qmd_file)
