@@ -26,7 +26,8 @@ targets_drive  <- c(
 	tar_target(
 		table_ps_models_compared,
 		drive_get('producer-scrounger-models-compared') |>
-			read_sheet()
+			read_sheet(),
+		cue = tar_cue('always')
 	)
 )
 

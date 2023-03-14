@@ -1,6 +1,7 @@
 Table 1: Producer-scrounger models
 
 ```{r, echo = FALSE}
-targets::tar_read(table_ps_models_compared)
+targets::tar_read(table_ps_models_compared) |>
+	DT::datatable()
 ```
 
