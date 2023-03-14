@@ -1,9 +1,28 @@
 ---
 bibliography: '../references/comprehensive-exam.bib'
-output: pdf
-
 ---
 
+Access to available resources is a prerequisite for animal survival
+
+Advantages in accessing resources can translate to an increase in 
+individual fitness
+
+At the species level, there are eg. differences in specialization/generalization
+of resources, migratory behaviours, etc
+
+Within species, individuals use behavioural strategies to meet energetic needs
+including prey/forage selection, effort/quitting time, balancing environmental
+variables, eg. temperature or insect harassment, with patch quality
+
+Mobile prey represent a dynamic resource in space that requires predators to
+first search out, then capture before consuming
+
+Immobile prey, such as sedentary animals or lifestages of animals or plants, 
+represent static resources in space 
+
+Both mobile and immobile prey can also have temporal cycles through 
+seasons of plant productivity or potential timing of antipredator behaviours / 
+increased risks eg. reproductive timing
 
 
 
