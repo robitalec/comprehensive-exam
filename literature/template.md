@@ -1,0 +1,6 @@
+## {{citekey}}
+
+{{bibliography}}
+
+---
+
