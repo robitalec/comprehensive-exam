@@ -1,3 +1,5 @@
+# Object: Table 1
+
 Table 1: Producer-scrounger models
 
 ```{r, echo = FALSE}
