@@ -35,6 +35,18 @@ targets_drive  <- c(
 		drive_get('producer-scrounger-literature-compared') |>
 			read_sheet(sheet = 'table 1'),
 		cue = tar_cue('always')
+	),
+	tar_target(
+		table_2_ps_models_compared,
+		drive_get('producer-scrounger-literature-compared') |>
+			read_sheet(sheet = 'table 2'),
+		cue = tar_cue('always')
+	),
+	tar_target(
+		table_3_ps_models_compared,
+		drive_get('producer-scrounger-literature-compared') |>
+			read_sheet(sheet = 'table 3'),
+		cue = tar_cue('always')
 	)
 )
 
