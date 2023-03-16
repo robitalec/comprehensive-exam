@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "manuscript/object-table-4.html",
+    "href": "manuscript/object-table-4.html",
+    "title": "Comprehensive exam",
+    "section": "",
+    "text": "Object: Table 4\nTable 4: Comparing access to available resources for producers and scroungers\n\n\n\n\n\n\n\n\n\n\n\n\nDensity/group size\nResources\nRisks\nConditions\nGame theoretical results\nSimulated results\nEmpirical results\n\n\n\n\nHigh\nAvailable resources\nRisks not present\nConditions neutral\n\n\n\n\n\nLow\nAvailable resources\nRisks not present\nConditions neutral\n\n\n\n\n\nHigh\nAvailable resources\nRisks not present\nConditions unfavorable\n\n\n\n\n\nLow\nAvailable resources\nRisks not present\nConditions unfavorable\n\n\n\n\n\nHigh\nAvailable resources\nRisks present\nConditions neutral\n\n\n\n\n\nLow\nAvailable resources\nRisks present\nConditions neutral\n\n\n\n\n\nHigh\nAvailable resources\nRisks present\nConditions unfavorable\n\n\n\n\n\nLow\nAvailable resources\nRisks present\nConditions unfavorable"
+  },
+  {
     "objectID": "manuscript/object-table-1.html",
     "href": "manuscript/object-table-1.html",
     "title": "Comprehensive exam",
@@ -11,7 +18,7 @@
     "href": "manuscript/object-table-3.html",
     "title": "Comprehensive exam",
     "section": "",
-    "text": "Object: Table 3\nTable 3: Comparing access to available resources for producers and scroungers\n\n\n\n\n\n\n\n\n\n\n\n\nDensity/group size\nResources\nRisks\nConditions\nGame theoretical results\nSimulated results\nEmpirical results\n\n\n\n\nHigh\nAvailable resources\nRisks not present\nConditions neutral\n\n\n\n\n\nLow\nAvailable resources\nRisks not present\nConditions neutral\n\n\n\n\n\nHigh\nAvailable resources\nRisks not present\nConditions unfavorable\n\n\n\n\n\nLow\nAvailable resources\nRisks not present\nConditions unfavorable\n\n\n\n\n\nHigh\nAvailable resources\nRisks present\nConditions neutral\n\n\n\n\n\nLow\nAvailable resources\nRisks present\nConditions neutral\n\n\n\n\n\nHigh\nAvailable resources\nRisks present\nConditions unfavorable\n\n\n\n\n\nLow\nAvailable resources\nRisks present\nConditions unfavorable"
+    "text": "Object: Table 3\nTable 3: Empirical tests of producer-scrounger dynamics"
   },
   {
     "objectID": "manuscript/actions.html",
@@ -21,11 +28,109 @@
     "text": "actions:\nA. frequency dependent producer-scrounger dynamics model incorporating risks and conditions of habitat B. social habitat selection model of simulated data extending from individuals were together in X habitat to producer scrounger / leader into patch and follower\nrequires:\nSpecies habitat associations are used for: - spatial estimation of density - inference about why species occur in particular locations - prediction of species distribution in a new time and/or space\nScale"
   },
   {
-    "objectID": "manuscript/scratch.html",
-    "href": "manuscript/scratch.html",
+    "objectID": "manuscript/scratch.html#currencies",
+    "href": "manuscript/scratch.html#currencies",
     "title": "Comprehensive exam",
-    "section": "",
-    "text": "Frequency independent (Stephens Krebs)\n\nMax\nMin\n\nFrequency depedent (Maynard Smith 1982)\n\nStability\n\n\n\n\n\nAllee effects\n\n\nParasite load\n\n\n\n\n\n\n“Scrounging payoffs are negatively frequency dependent”\n\n\n\n\n\nresources\nrisks\nconditions ### Resources Resources\ndepletable\nnot\n\n\n\n\nunpredictable resources\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nImperfect information\n\n\n\n\n\n\nIndividual\n\nStephens Krebs\n\nDyad, group\n\nSFT\nProducer scrounger\n\nSpecies, populations\n\nSHA\nHabitat selection\nSDM\n\nMultispecies\n\nSHA\n\n\n\n\n\n\nmobility\nspatial scales of perception\n\n\n\n\n\nRules for game theory eg 2.1.3.3\n\n\n\n\n\n\n\n\n\nESS Fitness Population dynamics\n\n\n\n\n\nSocial foraging theory Explicit consideration of payoffs and penalties\n\n\n\nSpecies distribution models, species habitat associations\n\n\n\n\nhttps://www-webofscience-com.qe2a-proxy.mun.ca/wos/woscc/summary/081aaf7e-e39b-4500-aac2-e44bcf21d3f6-78707ffd/relevance/1\n\n“habitat selection”\n\nhttps://www-webofscience-com.qe2a-proxy.mun.ca/wos/woscc/summary/b091d426-d8ea-4e4e-824c-3fda822b700d-7912459f/relevance/1\n“producer-scrounger” OR “producer scrounger” OR producer scrounger AND 1970-2023\n233 results\n\n41 Giraldeau\n12 Beauchamp G\n10 Barta Z\n8 Morrand-ferron J, Ranta E, Webster MM, Laland KN, Feldman MW\n…\n\nPeak in 2012-2016, 2002, 2006"
+    "section": "Currencies",
+    "text": "Currencies\n\nFrequency independent (Stephens Krebs)\n\nMax\nMin\n\nFrequency depedent (Maynard Smith 1982)\n\nStability"
+  },
+  {
+    "objectID": "manuscript/scratch.html#fitness",
+    "href": "manuscript/scratch.html#fitness",
+    "title": "Comprehensive exam",
+    "section": "Fitness",
+    "text": "Fitness\nAllee effects\n\nNegative\nParasite load"
+  },
+  {
+    "objectID": "manuscript/scratch.html#social-foraging-theory",
+    "href": "manuscript/scratch.html#social-foraging-theory",
+    "title": "Comprehensive exam",
+    "section": "Social foraging theory",
+    "text": "Social foraging theory\n\nProducer-scrounger dynamics\n“Scrounging payoffs are negatively frequency dependent”"
+  },
+  {
+    "objectID": "manuscript/scratch.html#habitat",
+    "href": "manuscript/scratch.html#habitat",
+    "title": "Comprehensive exam",
+    "section": "Habitat",
+    "text": "Habitat\n\nresources\nrisks\nconditions ### Resources Resources\ndepletable\nnot"
+  },
+  {
+    "objectID": "manuscript/scratch.html#learning",
+    "href": "manuscript/scratch.html#learning",
+    "title": "Comprehensive exam",
+    "section": "Learning",
+    "text": "Learning\nunpredictable resources"
+  },
+  {
+    "objectID": "manuscript/scratch.html#memory",
+    "href": "manuscript/scratch.html#memory",
+    "title": "Comprehensive exam",
+    "section": "Memory",
+    "text": "Memory"
+  },
+  {
+    "objectID": "manuscript/scratch.html#niche",
+    "href": "manuscript/scratch.html#niche",
+    "title": "Comprehensive exam",
+    "section": "Niche",
+    "text": "Niche\n\nFundamental niche\n\n\nRealized niche"
+  },
+  {
+    "objectID": "manuscript/scratch.html#information",
+    "href": "manuscript/scratch.html#information",
+    "title": "Comprehensive exam",
+    "section": "Information",
+    "text": "Information\nImperfect information"
+  },
+  {
+    "objectID": "manuscript/scratch.html#scale",
+    "href": "manuscript/scratch.html#scale",
+    "title": "Comprehensive exam",
+    "section": "Scale",
+    "text": "Scale\n\nLevels\n\nIndividual\n\nStephens Krebs\n\nDyad, group\n\nSFT\nProducer scrounger\n\nSpecies, populations\n\nSHA\nHabitat selection\nSDM\n\nMultispecies\n\nSHA\n\n\n\n\nIndividual\n\nmobility\nspatial scales of perception"
+  },
+  {
+    "objectID": "manuscript/scratch.html#game-theory",
+    "href": "manuscript/scratch.html#game-theory",
+    "title": "Comprehensive exam",
+    "section": "Game theory",
+    "text": "Game theory\nRules for game theory eg 2.1.3.3"
+  },
+  {
+    "objectID": "manuscript/scratch.html#plasticity",
+    "href": "manuscript/scratch.html#plasticity",
+    "title": "Comprehensive exam",
+    "section": "Plasticity",
+    "text": "Plasticity"
+  },
+  {
+    "objectID": "manuscript/scratch.html#individual-differences",
+    "href": "manuscript/scratch.html#individual-differences",
+    "title": "Comprehensive exam",
+    "section": "Individual differences",
+    "text": "Individual differences"
+  },
+  {
+    "objectID": "manuscript/scratch.html#outcomes",
+    "href": "manuscript/scratch.html#outcomes",
+    "title": "Comprehensive exam",
+    "section": "Outcomes",
+    "text": "Outcomes\nESS Fitness Population dynamics"
+  },
+  {
+    "objectID": "manuscript/scratch.html#approach",
+    "href": "manuscript/scratch.html#approach",
+    "title": "Comprehensive exam",
+    "section": "Approach",
+    "text": "Approach\n\nMechanistic\nSocial foraging theory Explicit consideration of payoffs and penalties\n\n\nEmpirical\nSpecies distribution models, species habitat associations"
+  },
+  {
+    "objectID": "manuscript/scratch.html#literature-searches",
+    "href": "manuscript/scratch.html#literature-searches",
+    "title": "Comprehensive exam",
+    "section": "Literature searches",
+    "text": "Literature searches\nhttps://www-webofscience-com.qe2a-proxy.mun.ca/wos/woscc/summary/081aaf7e-e39b-4500-aac2-e44bcf21d3f6-78707ffd/relevance/1\n\n“habitat selection”\n\nhttps://www-webofscience-com.qe2a-proxy.mun.ca/wos/woscc/summary/b091d426-d8ea-4e4e-824c-3fda822b700d-7912459f/relevance/1\n“producer-scrounger” OR “producer scrounger” OR producer scrounger AND 1970-2023\n233 results\n\n41 Giraldeau\n12 Beauchamp G\n10 Barta Z\n8 Morrand-ferron J, Ranta E, Webster MM, Laland KN, Feldman MW\n…\n\nPeak in 2012-2016, 2002, 2006"
   },
   {
     "objectID": "manuscript/manuscript.html",
