@@ -53,7 +53,7 @@ targets_literature <- c(
 			producer_scrounger_model = literature[ps_model == 'y', .N],
 			empirical_test = literature[!is.na(empirical), .N],
 			simulation = literature[simulation == 'y', .N],
-			other_model = literature[!is.na(other_models), .N]
+			other_model = literature[!is.na(other_model), .N]
 		)
 	)
 )
