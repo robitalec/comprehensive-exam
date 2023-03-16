@@ -24,9 +24,14 @@ targets_formulas <- c(
 gs4_auth(email = 'robit.alec@gmail.com')
 targets_drive  <- c(
 	tar_target(
+		literature,
+		drive_get('literature-comprehensive-exam') |>
+			read_sheet('producer-scrounger-1970-2023_wos')
+	),
+	tar_target(
 		table_ps_models_compared,
 		drive_get('producer-scrounger-models-compared') |>
-			read_sheet(),
+			read_sheet(sheet = 'table 1'),
 		cue = tar_cue('always')
 	)
 )
