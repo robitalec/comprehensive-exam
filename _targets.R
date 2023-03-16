@@ -31,7 +31,7 @@ targets_drive  <- c(
 		cue = tar_cue('always')
 	),
 	tar_target(
-		table_ps_models_compared,
+		table_1_ps_models_compared,
 		drive_get('producer-scrounger-literature-compared') |>
 			read_sheet(sheet = 'table 1'),
 		cue = tar_cue('always')
