@@ -26,7 +26,8 @@ targets_drive  <- c(
 	tar_target(
 		literature,
 		drive_get('literature-comprehensive-exam') |>
-			read_sheet('producer-scrounger-wos-scopus-bioab'),
+			read_sheet('producer-scrounger-wos-scopus-bioab') |>
+			data.table(),
 		cue = tar_cue('always')
 	),
 	tar_target(
@@ -36,6 +37,27 @@ targets_drive  <- c(
 		cue = tar_cue('always')
 	)
 )
+
+
+
+
+# Targets: literature -----------------------------------------------------
+targets_literature <- c(
+	tar_target(
+		n_by_species,
+		sort(strsplit(literature$empirical, ',') |> unlist() |> table(), TRUE)
+	),
+	tar_target(
+		n_by_type,
+		data.table(
+			producer_scrounger_model = literature[ps_model == 'y', .N],
+			empirical_test = literature[!is.na(empirical), .N],
+			simulation = literature[simulation == 'y', .N],
+			other_model = literature[!is.na(other_models), .N]
+		)
+	)
+)
+
 
 
 
