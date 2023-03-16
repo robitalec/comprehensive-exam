@@ -40,6 +40,36 @@ targets_drive  <- c(
 
 
 
+
+# Targets: literature -----------------------------------------------------
+targets_literature <- c(
+	tar_target(
+		n_by_species,
+		sort(strsplit(literature$empirical, ',') |> unlist() |> table(), TRUE) |>
+			data.table() |> setnames(new = c('Species', 'Count'))
+	),
+	tar_target(
+		n_by_type,
+		data.table(
+			Approach = c(
+				'Producer scrounger model',
+				'Empirical test or experiment',
+				'Simulation',
+				'Other model type'
+			),
+			Count = c(
+				literature[ps_model == 'y', .N],
+				literature[!is.na(empirical), .N],
+				literature[simulation == 'y', .N],
+				literature[!is.na(other_model), .N]
+			)
+		)
+	)
+)
+
+
+
+
 # Targets: graphviz -------------------------------------------------------
 targets_graphviz <- c(
 	tar_target(why_in_space, DiagrammeR::grViz('gv/why-space-use.gv')),

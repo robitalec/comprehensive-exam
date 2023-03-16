@@ -4,14 +4,14 @@
     "href": "manuscript/object-table-1.html",
     "title": "Comprehensive exam",
     "section": "",
-    "text": "Table 1: Producer-scrounger models"
+    "text": "Object: Table 1\nTable 1: Producer-scrounger models"
   },
   {
     "objectID": "manuscript/object-table-3.html",
     "href": "manuscript/object-table-3.html",
     "title": "Comprehensive exam",
     "section": "",
-    "text": "Table 3: Comparing access to available resources for producers and scroungers\n\n\n\n\n\n\n\n\n\n\n\n\nDensity/group size\nResources\nRisks\nConditions\nGame theoretical results\nSimulated results\nEmpirical results\n\n\n\n\nHigh\nAvailable resources\nRisks not present\nConditions neutral\n\n\n\n\n\nLow\nAvailable resources\nRisks not present\nConditions neutral\n\n\n\n\n\nHigh\nAvailable resources\nRisks not present\nConditions unfavorable\n\n\n\n\n\nLow\nAvailable resources\nRisks not present\nConditions unfavorable\n\n\n\n\n\nHigh\nAvailable resources\nRisks present\nConditions neutral\n\n\n\n\n\nLow\nAvailable resources\nRisks present\nConditions neutral\n\n\n\n\n\nHigh\nAvailable resources\nRisks present\nConditions unfavorable\n\n\n\n\n\nLow\nAvailable resources\nRisks present\nConditions unfavorable"
+    "text": "Object: Table 3\nTable 3: Comparing access to available resources for producers and scroungers\n\n\n\n\n\n\n\n\n\n\n\n\nDensity/group size\nResources\nRisks\nConditions\nGame theoretical results\nSimulated results\nEmpirical results\n\n\n\n\nHigh\nAvailable resources\nRisks not present\nConditions neutral\n\n\n\n\n\nLow\nAvailable resources\nRisks not present\nConditions neutral\n\n\n\n\n\nHigh\nAvailable resources\nRisks not present\nConditions unfavorable\n\n\n\n\n\nLow\nAvailable resources\nRisks not present\nConditions unfavorable\n\n\n\n\n\nHigh\nAvailable resources\nRisks present\nConditions neutral\n\n\n\n\n\nLow\nAvailable resources\nRisks present\nConditions neutral\n\n\n\n\n\nHigh\nAvailable resources\nRisks present\nConditions unfavorable\n\n\n\n\n\nLow\nAvailable resources\nRisks present\nConditions unfavorable"
   },
   {
     "objectID": "manuscript/actions.html",
@@ -46,7 +46,7 @@
     "href": "manuscript/object-table-2.html",
     "title": "Comprehensive exam",
     "section": "",
-    "text": "Table 2: Empirical tests of producer-scrounger dynamics"
+    "text": "Object: Table 2\nTable 2: Empirical tests of producer-scrounger dynamics"
   },
   {
     "objectID": "manuscript/queries.html",
@@ -54,6 +54,13 @@
     "title": "Comprehensive exam",
     "section": "",
     "text": "How does habitat selection relate to individuals?\nState of “niche” as a concept?\nClarify fitness assumptions?\nWhat is random movement?\nHow is “causality” considered for species-habitat associations?\nHow is social foraging theory different than individual foraging theory?\n\nExamples\n\nWhat are aggregation and dispersion economies?\nHow do producer scrounger dynamics differ from information sharing?\nWhat animals exist at high density? At equilibrium?\nHow do resources, risks and conditions interact? (table)\nHow is density/frequency considered for producer-scrounger games?\nProducer-scrounger dynamics with multiple species?\nHow do SHA and SFT differ in their assumptions around fitness?\nAre scales of SHA and SFT related? Habitat selection related to species distribution, which is not the scale of SFT\nExamples of solitary foragers vs group foragers\nConsider opportunists as well"
+  },
+  {
+    "objectID": "manuscript/supplemental-tables.html",
+    "href": "manuscript/supplemental-tables.html",
+    "title": "Comprehensive exam",
+    "section": "",
+    "text": "Supplemental Table 1: Species in empirical measures of producer-scrounger dynamics\n\n\n\n\n  \n\n\n\n\n\n\nSupplemental Table 2: Approaches used in producer-scrounger dynamics literature"
   },
   {
     "objectID": "slides/slides.html#section",
