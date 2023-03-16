@@ -1,6 +1,6 @@
-# Object: Table 3
+# Object: Table 4
 
-Table 3: Comparing access to available resources for producers and scroungers
+Table 4: Comparing access to available resources for producers and scroungers
 
 | Density/group size | Resources           | Risks             | Conditions             | Game theoretical results | Simulated results | Empirical results |
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|
