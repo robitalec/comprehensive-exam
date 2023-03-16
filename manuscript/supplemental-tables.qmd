@@ -1,0 +1,16 @@
+# Supplemental Tables 
+
+## Supplemental Table 1
+Supplemental Table 1: Species in empirical measures of producer-scrounger dynamics
+
+```{r, echo = FALSE}
+targets::tar_read(n_by_species)
+```
+
+
+## Supplemental Table 2
+Supplemental Table 2: Approaches used in producer-scrounger dynamics literature
+
+```{r, echo = FALSE}
+targets::tar_read(n_by_type)
+```
