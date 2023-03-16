@@ -45,15 +45,24 @@ targets_drive  <- c(
 targets_literature <- c(
 	tar_target(
 		n_by_species,
-		sort(strsplit(literature$empirical, ',') |> unlist() |> table(), TRUE)
+		sort(strsplit(literature$empirical, ',') |> unlist() |> table(), TRUE) |>
+			data.table() |> setnames(new = c('Species', 'Count'))
 	),
 	tar_target(
 		n_by_type,
 		data.table(
-			producer_scrounger_model = literature[ps_model == 'y', .N],
-			empirical_test = literature[!is.na(empirical), .N],
-			simulation = literature[simulation == 'y', .N],
-			other_model = literature[!is.na(other_model), .N]
+			Approach = c(
+				'Producer scrounger model',
+				'Empirical test or experiment',
+				'Simulation',
+				'Other model type'
+			),
+			Count = c(
+				literature[ps_model == 'y', .N],
+				literature[!is.na(empirical), .N],
+				literature[simulation == 'y', .N],
+				literature[!is.na(other_model), .N]
+			)
 		)
 	)
 )
