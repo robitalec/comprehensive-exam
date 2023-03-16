@@ -25,7 +25,8 @@ out_cols <- c('PY', 'AU', 'TI', 'SO', 'DOI')
 out <- DT[seq_by_doi == 1, .SD, .SDcols = out_cols]
 
 
-lit <- tar_read(literature)
+lit <- drive_get('literature-comprehensive-exam') |>
+	read_sheet('producer-scrounger-1970-2023_wos')
 setDT(lit)
 setnames(lit, 'DI', 'DOI')
 
