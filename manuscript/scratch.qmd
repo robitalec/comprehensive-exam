@@ -1,5 +1,29 @@
 # Scratch
 
+# Question parsed
+
+“In the context of frequency-dependent producer-scrounger dynamics, how would one’s role affect access to available resources considering risks and conditions during habitat selection?”
+
+- frequency-dependent
+- producer-scrounger dynamics
+- role
+	- as a producer
+	- as a scrounger
+	- interaction variables
+		- dominance
+		- metabolic state
+		- genetic relatedness
+		- spatial position in group
+		- learning
+- access to
+- available 
+- resources
+- risks
+- conditions
+- habitat selection
+
+
+
 ## Currencies
 - Frequency independent (Stephens Krebs)
 	- Max
