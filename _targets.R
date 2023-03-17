@@ -91,7 +91,8 @@ targets_graphviz <- c(
 	tar_target(term_cloud, DiagrammeR::grViz('gv/term-cloud.gv')),
 	tar_target(fundamental_realized, DiagrammeR::grViz('gv/fundamental-realized-niche.gv')),
 	tar_target(resources_risks_conditions, DiagrammeR::grViz('gv/resources-risks-conditions.gv')),
-	tar_target(habitat_and_producer, DiagrammeR::grViz('gv/habitat-and-producer.gv'))
+	tar_target(habitat_and_producer, DiagrammeR::grViz('gv/habitat-and-producer.gv')),
+	tar_target(decision_tree, DiagrammeR::grViz('gv/decision-tree.gv'))
 )
 
 
