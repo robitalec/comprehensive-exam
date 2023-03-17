@@ -23,5 +23,3 @@ Caraco, Thomas, and Luc-Alain Giraldea. 1991. “Social Foraging: Producing and 
 ### Focus
 
 ### Outcome
-
-%% Import Date: 2023-03-17T12:59:13.772-03:00 %%
