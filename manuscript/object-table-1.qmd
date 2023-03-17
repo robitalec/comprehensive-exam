@@ -3,6 +3,6 @@
 Table 1: Producer-scrounger models
 
 ```{r, echo = FALSE}
-targets::tar_read(table_1_ps_models_compared)
+targets::tar_read(table_1_ps_literature_compared)[, .SD, SDcols = -'Link']
 ```
 

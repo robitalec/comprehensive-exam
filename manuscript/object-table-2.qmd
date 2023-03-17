@@ -3,6 +3,6 @@
 Table 2: Empirical tests of producer-scrounger dynamics
 
 ```{r, echo = FALSE}
-targets::tar_read(table_2_ps_models_compared)
+targets::tar_read(table_2_ps_literature_compared)
 ```
 
