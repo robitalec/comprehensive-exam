@@ -2,8 +2,19 @@ digraph decision_tree {
 
   graph [fontsize = 12]
   rankdir = LR
-	edge [arrowhead = none]
 	node [shape = box, fontname = Helvetica]
+
+
+	group_size -> high -> increased_scrounging
+
+	scroungers_portion
+
+
+	conditions
+
+	conditions -> reduced_sensory_contact
+	reduced_sensory_contact ->
+		{reduced_scrounging reduced_group_size increased_producing} [label = "Vickery et al 1991"]
 
 
 }
