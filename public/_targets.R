@@ -25,27 +25,30 @@ gs4_auth(email = 'robit.alec@gmail.com')
 targets_drive  <- c(
 	tar_target(
 		literature,
-		drive_get('literature-comprehensive-exam') |>
-			read_sheet('producer-scrounger-wos-scopus-bioab') |>
-			data.table(),
+		data.table(
+			drive_get('literature-comprehensive-exam') |>
+				read_sheet('producer-scrounger-wos-scopus-bioab')),
 		cue = tar_cue('always')
 	),
 	tar_target(
-		table_1_ps_models_compared,
-		drive_get('producer-scrounger-literature-compared') |>
-			read_sheet(sheet = 'table 1'),
+		table_1_ps_literature_compared,
+		data.table(
+			drive_get('producer-scrounger-literature-compared') |>
+				read_sheet(sheet = 'table 1')),
 		cue = tar_cue('always')
 	),
 	tar_target(
-		table_2_ps_models_compared,
-		drive_get('producer-scrounger-literature-compared') |>
-			read_sheet(sheet = 'table 2'),
+		table_2_ps_literature_compared,
+		data.table(
+			drive_get('producer-scrounger-literature-compared') |>
+				read_sheet(sheet = 'table 2')),
 		cue = tar_cue('always')
 	),
 	tar_target(
-		table_3_ps_models_compared,
-		drive_get('producer-scrounger-literature-compared') |>
-			read_sheet(sheet = 'table 3'),
+		table_3_ps_literature_compared,
+		data.table(
+			drive_get('producer-scrounger-literature-compared') |>
+			read_sheet(sheet = 'table 3')),
 		cue = tar_cue('always')
 	)
 )
