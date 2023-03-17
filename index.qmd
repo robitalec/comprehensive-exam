@@ -1,6 +1,8 @@
 ---
-title: "Home"
-author: "Alec L. Robitaille"
+title: "PhD Comprehensive Exam"
+author: 
+  - name: Alec L. Robitaille
+    affiliations: Memorial University
 date: "`r Sys.Date()`"
 ---
 
