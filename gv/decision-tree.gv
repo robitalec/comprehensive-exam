@@ -11,11 +11,18 @@ digraph decision_tree {
 	}
 
 
-	proportion_producers -> patch_discovery_rate [label = "Increase"]
+  // [1] Vickery et al 1991 &#x00B9
+  // [2] Vickery 2020 &#x00B2
+
+	prop_prod [label = "Proportion \n of producers"]
+
+
+	prop_prod -> patch_discovery_rate [label = "Increase"]
 
 	density -> high -> proportion_scroungers
 
-	proportion_scroungers -> scroungers_portion [label = "Decrease \n (Vickery et al 1991)"]
+	proportion_scroungers -> scroungers_portion [label =  'Decrease &#x00B9;']
+	proportion_scroungers -> patch_discovery_rate [label = "Decrease &#x00B9; &#x00B2;"]
 
 
 	handling_time -> finders_share [label = "Decrease "]
@@ -23,9 +30,10 @@ digraph decision_tree {
 
 	conditions -> reduced_sensory_contact
 	reduced_sensory_contact ->
-		{proportion_scroungers group_size} [label = "Decrease \n (Vickery et al 1991)"]
+		{proportion_scroungers group_size} [label = "Decrease &#x00B9;"]
 	reduced_sensory_contact ->
-		{proportion_producers} [label = "Increase \n (Vickery et al 1991)"]
+		{prop_prod} [label = "Increase &#x00B9;"]
 
 
+	//patch_discovery_rate -> total_food_available_to_group
 }
