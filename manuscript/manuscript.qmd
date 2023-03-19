@@ -38,6 +38,21 @@ and attack probabilities for individuals
 
 ## Social foraging theory
 
+<!-- 
+
+Point to box
+
+Emphasis on relevant features of social foraging theory for the question
+Introduce 
+- roles
+- frequency dependence
+- 
+
+
+-->
+
+(See box)
+
 Social foraging theory extends individual foraging theory by considering
 the complexity of multiple individuals in a common resource
 
