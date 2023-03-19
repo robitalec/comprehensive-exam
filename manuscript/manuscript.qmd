@@ -4,7 +4,7 @@ bibliography: '../references/comprehensive-exam.bib'
 
 # Manuscript
 
-## Introduction
+## (Introduction) How do individual's behaviours affect access to resources? Why is access to resources important?
 
 Access to available resources is a prerequisite for animal survival
 
@@ -36,8 +36,7 @@ Individual foraging theory emphasizes the selection of prey, net rate of intake
 and attack probabilities for individuals
 
 
-## Social foraging theory
-
+## (Social foraging) Why is it important to consider presence and density of conspecifics? What approaches can be used to model interdependence of individiuals?
 <!-- 
 
 Point to box
@@ -75,16 +74,6 @@ The payoffs and penalties of different strategies are density dependent
 ### Social foraging behaviours 
 
 Three kinds of social foraging behaviours are commonly defined.  
-
-#### Interference
-
-Interference represents negative impacts on conspecifics that do not
-have a direct benefit to the individual and therefore do not represent 
-a strategy that can be modelled as an evolutionary game
-
-#### Kleptoparasitism
-Kleptoparasitism is directly stealing indivisible food items from conspecifics
-
 
 #### Producer-scrounger dynamics
 Producer-scrounger dynamics consider two types of strategies. Producers search
@@ -130,6 +119,8 @@ empty patches in the environment.
 -->
 
 ##### Approaches
+<!-- Review approaches and counts from literature Supplemental Table N--> 
+
 <!-- optimization methods --> 
 Models of producer-scrounger games show relationships between density, 
 payoffs, and penalties (considering the specific goals and assumptions of 
@@ -151,7 +142,7 @@ Producer-scrounger dynamics give us a mechanistic approach to investigating
 how animals can select foraging strategies depending conspecifics to maximize 
 their fitness outcomes
 
-### Gaps from social foraging theory
+### (Gaps from social foraging theory) What assumptions of social foraging models might lead to missed inference about the relationship between animals, their conspecifics and their habitats?
 
 Producer-scrounger models are limited by their abstracted concept of 
 patches in place of the complexity of habitats
@@ -166,7 +157,9 @@ What is the definition of availability?
 --> 
 
 
-## Species-habitat associations
+## (Species-habitat associations) How is the relationship between animals and their environments measured? What elements of this theory could be incorporated into social foraging?
+
+<!-- Point to Box Habitat Selection --> 
 
 Species-habitat associations are used to understand the relationship between
 species distribution and habitats (three general goals: estimation, inference, 
@@ -193,7 +186,7 @@ Definition of available resources
 
 <!-- access / inaccessible -->
 
-### Confounds
+### Confounds (Why is habitat selection theory more complicated than observing where animals are present/absent?)
 
 There are a number of confounds that cloud the relationship between
 species density and fitness
