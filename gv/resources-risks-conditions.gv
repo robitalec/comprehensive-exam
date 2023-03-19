@@ -1,20 +1,15 @@
 digraph resources_risks_conditions {
-	rankdir = LR
+	rankdir = TB
   graph [fontsize = 12]
 
 	node [shape = box, fontname = Helvetica]
 
-		habitats -> {resources, risks, conditions}
+		habitat -> {resources, risks, conditions}
 
 		{rank=same
 	    resources
 	    risks
 	    conditions
-		}
-
-		{rank=same
-		  animals
-		  plants
 		}
 
 		{rank=same
@@ -24,12 +19,7 @@ digraph resources_risks_conditions {
 		}
 
 		{rank=same
-			sunlight
-			carbon_dioxide
-			water
-			minerals
 			prey
-			water
 			nesting_spaces
 			resting_spaces
 		}
@@ -39,13 +29,9 @@ digraph resources_risks_conditions {
 			low_density
 			medium_density
 			high_dose
-			typical
-			extreme
 		}
 
 		{rank=same
-			herbivory
-			trampling
 			anthro_harvest
 			fire
 			disease
@@ -56,16 +42,13 @@ digraph resources_risks_conditions {
 			disease
 		}
 
-    resources -> plants -> {sunlight carbon_dioxide water minerals}
-    resources -> animals -> {prey water nesting_spaces resting_spaces}
+    resources -> {prey nesting_spaces resting_spaces}
 
-    risks -> plants -> {herbivory trampling anthro_harvest fire disease drought}
-    risks -> animals -> {predation perception_of_risk parasite disease anthro_harvest fire drought}
+    risks -> {predation perception_of_risk parasite disease anthro_harvest fire drought}
 
     conditions -> {ambient_temperature salinity humidity wind pressure snow_depth} -> {extreme typical}
 
-    prey -> high_dose -> toxic
-    sunlight -> high_dose -> photosynthesis_damage
+    prey -> high_dose -> toxic -> negative_effect_on_fitness
 
     prey -> high_density -> {interspecific_competition intraspecific_competition}
   	{interspecific_competition intraspecific_competition} -> resource_limitation
@@ -75,10 +58,8 @@ digraph resources_risks_conditions {
     extreme -> negative_effect_on_fitness
     typical -> neutral_effect_on_fitness
 
-    {toxic photosynthesis_damage} -> negative_effect_on_fitness
-    {herbivory trampling anthro_harvest fire disease parasite perception_of_risk predation resource_limitation} -> negative_effect_on_fitness
+    {anthro_harvest fire disease parasite perception_of_risk predation resource_limitation} -> negative_effect_on_fitness
 
 		{medium_density low_density, resting_spaces nesting_spaces prey} -> positive_effect_on_fitness
-		{carbon_dioxide minerals water sunlight} -> positive_effect_on_fitness
 
 }
