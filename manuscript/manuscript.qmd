@@ -204,7 +204,7 @@ How do producers and scroungers differ in access to available resources under
 - risks (present/absent)
 - conditions (neutral/unfavourable)
 
-<!-- {{< include object-table-3.qmd >}} --> 
+<!-- {{< include object-figure-1.qmd >}} --> 
 
 For
 
