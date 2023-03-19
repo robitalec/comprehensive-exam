@@ -1,0 +1,9 @@
+# Object: Figure 2
+
+Figure 2: Individual decision tree and outcomes from producer-scrounger 
+strategies and corresponding constraints and modifiers
+
+```{r, echo = FALSE}
+targets::tar_read(figure_2)
+```
+
