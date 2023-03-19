@@ -1,0 +1,67 @@
+digraph resources_risks_conditions {
+	rankdir = LR
+  graph [fontsize = 12]
+
+	node [shape = box, fontname = Helvetica]
+
+		plants -> habitats -> {resources, risks, conditions}
+
+		{rank=same
+	    resources
+	    risks
+	    conditions
+		}
+
+		{rank=same
+			positive_effect_on_fitness
+			negative_effect_on_fitness
+			neutral_effect_on_fitness
+		}
+
+		{rank=same
+			sunlight
+			carbon_dioxide
+			water
+			minerals
+			water
+		}
+
+		{rank=same
+			high_density
+			high_dose
+			typical
+			extreme
+		}
+
+		{rank=same
+			herbivory
+			trampling
+			anthro_harvest
+			fire
+			disease
+			drought
+			disease
+		}
+
+    resources -> {sunlight carbon_dioxide water minerals}
+
+    risks -> {herbivory trampling anthro_harvest fire disease drought}
+
+    conditions -> {ambient_temperature salinity humidity wind pressure} -> {extreme typical}
+
+    sunlight -> high_dose -> photosynthesis_damage
+
+    high_density -> {interspecific_competition intraspecific_competition}
+  	{interspecific_competition intraspecific_competition} -> resource_limitation
+
+    resources -> {high_density}
+
+    extreme -> negative_effect_on_fitness
+    typical -> neutral_effect_on_fitness
+
+    {photosynthesis_damage} -> negative_effect_on_fitness
+    {herbivory trampling anthro_harvest fire disease resource_limitation drought} -> negative_effect_on_fitness
+
+		{carbon_dioxide minerals water sunlight} -> positive_effect_on_fitness
+
+}
