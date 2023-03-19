@@ -2,6 +2,18 @@
 title: "Box: Social Foraging"
 ---
 
+<!--
+Social foraging box:
+Broad introduction that overviews how social foraging extends individual foraging
+and why this is necessary
+
+Types of social foraging behaviours: interference, kleptoparasitism, p-s
+
+Types of relationships: altruism etc
+
+Types of models: information sharing, p-s, simulations, ESS, etc
+
+-->
 
 
 Social foraging theory extends individual foraging theory by considering
