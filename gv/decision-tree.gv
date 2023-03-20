@@ -47,9 +47,9 @@ digraph decision_tree {
 
 	cond -> reduce_sens
 	reduce_sens ->
-		{prop_scroung group_size} [label = "Decrease &#x00B9;", color = '#f1a340']
+		{prop_scroung group_size} [label = "&#x00B9;", color = '#f1a340']
 	reduce_sens ->
-		{prop_prod} [label = "Increase &#x00B9;", color = '#998ec3']
+		{prop_prod} [label = "&#x00B9;", color = '#998ec3']
 
 
 	{patch_discov scroung_part} -> tot_food
