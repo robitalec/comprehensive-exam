@@ -105,13 +105,13 @@ targets_figures <- c(
 
 # Targets: graphviz -------------------------------------------------------
 targets_graphviz <- c(
-	tar_target(why_in_space, DiagrammeR::grViz('gv/why-space-use.gv')),
-	tar_target(term_cloud, DiagrammeR::grViz('gv/term-cloud.gv')),
-	tar_target(fundamental_realized, DiagrammeR::grViz('gv/fundamental-realized-niche.gv')),
-	tar_target(resources_risks_conditions, DiagrammeR::grViz('gv/resources-risks-conditions.gv')),
-	tar_target(resources_risks_conditions_plants, DiagrammeR::grViz('gv/resources-risks-conditions-plants.gv')),
-	tar_target(habitat_and_producer, DiagrammeR::grViz('gv/habitat-and-producer.gv')),
-	tar_target(decision_tree, DiagrammeR::grViz('gv/decision-tree.gv'))
+	tar_file_read(why_in_space, 'gv/why-space-use.gv', DiagrammeR::grViz(!!.x)),
+	tar_file_read(term_cloud, 'gv/term-cloud.gv', DiagrammeR::grViz(!!.x)),
+	tar_file_read(fundamental_realized, 'gv/fundamental-realized-niche.gv', DiagrammeR::grViz(!!.x)),
+	tar_file_read(resources_risks_conditions, 'gv/resources-risks-conditions.gv', DiagrammeR::grViz(!!.x)),
+	tar_file_read(resources_risks_conditions_plants, 'gv/resources-risks-conditions-plants.gv', DiagrammeR::grViz(!!.x)),
+	tar_file_read(habitat_and_producer, 'gv/habitat-and-producer.gv', DiagrammeR::grViz(!!.x)),
+	tar_file_read(decision_tree, 'gv/decision-tree.gv', DiagrammeR::grViz(!!.x))
 )
 
 
