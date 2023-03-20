@@ -20,5 +20,5 @@ targets::tar_read(decision_tree)
 
 ```{r}
 #| echo: false
-tar_read(resources_risks_conditions)
+targets::tar_read(resources_risks_conditions)
 ```
