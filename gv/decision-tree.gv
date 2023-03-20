@@ -1,0 +1,56 @@
+digraph decision_tree {
+
+  graph [fontsize = 12]
+  rankdir = TB
+	node [shape = box, fontname = Helvetica]
+
+	// Ranks ---------------------------------------------------
+	{rank = same
+		patch_discov [label = "Patch \n discovery rate"]
+		scroung_part [label = "Scrounger&rsquo;s \n portion"]
+		find_part [label = "Finder&rsquo;s \n share"]
+	}
+
+
+	{rank = same
+		cond [label = 'Conditions']
+		res [label = 'Resources']
+		risk [label = 'Risks']
+	}
+
+	// Nodes ---------------------------------------------------
+	prop_prod [label = "Proportion \n of producers"]
+	prop_scroung [label = "Proportion \n of scroungers"]
+	group_size [label = "Group size"]
+	handling_time [label = "Handling time"]
+	reduce_sens [label = "Reduced \n sensory contact"]
+	high_dens [label = "High density"]
+	tot_food [label = "Total food \n available \n to group"]
+
+	// Citations -----------------------------------------------
+	// [1] Vickery et al 1991 &#x00B9
+  // [2] Vickery 2020 &#x00B2
+
+
+  // Edges ---------------------------------------------------
+	prop_prod -> patch_discov [label = "Increase", color = '#998ec3']
+
+	risk -> high_dens
+	high_dens -> prop_scroung [label = "Increase", color = '#998ec3']
+
+	prop_scroung -> scroung_part [label =  'Decrease &#x00B9;', color = "#f1a340"]
+	prop_scroung -> patch_discov [label = "Decrease &#x00B9; &#x00B2;", color = '#f1a340']
+
+	res -> handling_time
+	handling_time -> find_part [label = "Decrease", color = '#f1a340']
+
+
+	cond -> reduce_sens
+	reduce_sens ->
+		{prop_scroung group_size} [label = "Decrease &#x00B9;", color = '#f1a340']
+	reduce_sens ->
+		{prop_prod} [label = "Increase &#x00B9;", color = '#998ec3']
+
+
+	{patch_discov scroung_part} -> tot_food
+}
