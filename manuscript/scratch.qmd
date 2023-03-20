@@ -247,6 +247,31 @@ Game theoretical model of producer-scrounger dynamic where resources, risks and 
 
 ---
 
+## Actions
+actions: 
+
+A. frequency dependent producer-scrounger dynamics model incorporating risks and 
+conditions of habitat
+B. social habitat selection model of simulated data extending from individuals
+were together in X habitat to producer scrounger / leader into patch and
+follower 
+
+
+requires: 
+
+ 
+
+Species habitat associations are used for: 
+- spatial estimation of density
+- inference about why species occur in particular locations
+- prediction of species distribution in a new time and/or space
+
+
+Scale 
+
+
+
+
 ## Currencies
 - Frequency independent (Stephens Krebs)
 	- Max
