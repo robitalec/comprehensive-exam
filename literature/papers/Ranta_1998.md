@@ -5,6 +5,7 @@ Ranta, Esa, Nina Peuhkuri, Heikki Hirvonen, and Christopher J Barnard. 1998. “
 ---
 [payoffs](../topics/payoffs.md) and [penalties](../topics/penalties.md) beyond food intake rate also include mortality risk from predation, tradeoff between minimizing predation hazard and foraging decisions 
 
+Optimal strategy (following Gilliam_1987) is one that minimizes the ratio of mortality rate to feeding rate
 
 ### Strategies
 Producers, scroungers
@@ -31,5 +32,6 @@ Differences between producers and scroungers in vigilance level and vulnerabilit
 ESS group combinations of producer and scrounger strategies
 
 ### Outcome
+Scroungers contribute to group vigilance, and therefore pay for their "free meal" 
 
 
