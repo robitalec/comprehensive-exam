@@ -1,6 +1,6 @@
 ## Barta_2001
 
-Barta, Z. 2001. “Breeding Colonies as Information Centers: A Reappraisal of Information-Based Hypotheses Using the Producer--Scrounger Game.” _Behavioral Ecology_ 12 (2): 121–27. [https://doi.org/10.1093/beheco/12.2.121](https://doi.org/10.1093/beheco/12.2.121).
+Barta, Z, and L.-A. Giraldeau. 2001. “Breeding Colonies as Information Centers: A Reappraisal of Information-Based Hypotheses Using the Producer--Scrounger Game.” _Behavioral Ecology_ 12 (2): 121–27. [https://doi.org/10.1093/beheco/12.2.121](https://doi.org/10.1093/beheco/12.2.121).
 
 ---
 
