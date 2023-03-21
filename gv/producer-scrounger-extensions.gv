@@ -1,7 +1,7 @@
 digraph producer_scrounger_extensions {
 
   graph [fontsize = 12]
-  rankdir = TB
+  rankdir = LR
 	edge [arrowhead = none]
 	node [shape = box, fontname = Helvetica]
 
@@ -19,13 +19,15 @@ digraph producer_scrounger_extensions {
 
   producer_scrounger_dynamics -> {energetic_cost_of_contest producers_share patch_payoffs patch_penalties probability_of_producer_winning_contest information_about_producers_share scroungers_share}
 
-  probability_of_producer_winning_contest -> dominance
+  probability_of_producer_winning_contest -> {dominance patch_heterogeneity patch_size}
 	producers_share -> {dominance spatial_position nearest_neighbour}
 	scroungers_share -> {dominance number_of_scroungers spatial_position movement_cost}
 
 	energetic_cost_of_contest -> {vocalization_behaviour display_behaviour}
 
 	patch_payoffs -> {patch_heterogeneity patch_depletability patch_divisibility patch_size}
+
+	{patch_size patch_heterogeneity} -> patch_defendability
 
 	information_about_producers_share -> learning
 	}
