@@ -112,6 +112,7 @@ targets_graphviz <- c(
 	tar_file_read(resources_risks_conditions_plants, 'gv/resources-risks-conditions-plants.gv', DiagrammeR::grViz(!!.x)),
 	tar_file_read(habitat_and_producer, 'gv/habitat-and-producer.gv', DiagrammeR::grViz(!!.x)),
 	tar_file_read(decision_tree, 'gv/decision-tree.gv', DiagrammeR::grViz(!!.x))
+	tar_file_read(producer_scrounger_extensions, 'gv/producer-scrounger-extensions.gv', DiagrammeR::grViz(!!.x))
 )
 
 
