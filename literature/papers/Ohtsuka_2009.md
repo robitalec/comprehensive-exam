@@ -25,7 +25,7 @@ Energy intake, [finders_share](../topics/finders_share.md)
 ### Access
 
 ### Focus
-Relaxes the assumption that only one patch is discovered in each time unit and allows multiple patches to be found depending on the the producers' encounter rate with patches
+Relaxe the assumption that only one patch is discovered in each time unit and allows multiple patches to be found depending on the the producers' encounter rate with patches
 
 ### Outcome
 The frequency of producers strongly depends on the patch encounter rate although it still depends on the producer's advantage and group size. The proportion of scroungers increases when resources are spatiotemporally clumped and decrease when resources are evenly distributed
