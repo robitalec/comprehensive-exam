@@ -19,7 +19,7 @@ Producer, scrounger, retaliator playing hawk, dove, retaliator. Given asymmetric
 ### Penalties
 
 ### Availability
-Uncertainty about patch richness
+Uncertainty about patch [richness](../topics/richness.md)
 
 ### Resources
 
@@ -33,7 +33,7 @@ Uncertainty about patch richness
 Modify Hawk-Dove game to allow finder the opportunity of retaliating if the joiners escalate and considering the consequences of information asymmetries concerning resource value among players
 
 ### Outcome
-Retaliator strategy predicts widespread sharing in habitats where food clumps are of intermediate richness. When information asymmetry between finder and joiner is created, conditions for sharing are even more easily met and apply to a wider range of resource qualities. This model offers one of the most parsimonious and potentially general evolutionary accounts of the origin of non-aggressive resource sharing. 
+Retaliator strategy predicts widespread sharing in habitats where food clumps are of intermediate [richness](../topics/richness.md). When information asymmetry between finder and joiner is created, conditions for sharing are even more easily met and apply to a wider range of resource qualities. This model offers one of the most parsimonious and potentially general evolutionary accounts of the origin of non-aggressive resource sharing. 
 
 Sharing should be more common when resource heterogeneity leads to increased joiner uncertainty. 
 

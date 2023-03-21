@@ -37,5 +37,5 @@ Energetic costs of fighting
 Reconcile differences between optimality approach used to predict economic defendability of resources and game theoretic approach
 
 ### Outcome
-Aggression should always decrease as the density and richness of food clumps increases. The dove is never an ESS. Some animals share food clumps without any overt aggression, and this may be due to iterated play among familiar players 
+Aggression should always decrease as the density and [richness](../topics/richness.md) of food clumps increases. The dove is never an ESS. Some animals share food clumps without any overt aggression, and this may be due to iterated play among familiar players 
 

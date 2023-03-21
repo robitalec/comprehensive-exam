@@ -4,4 +4,4 @@ Giraldeau, L-A., and G. Beauchamp. 1999. “Food Exploitation: Searching for the
 
 ---
 
-Prevalence of scrounging is influenced by rate of encounter with patches, patch richness, group size and asymmetry in competitive ability
+Prevalence of scrounging is influenced by rate of encounter with patches, patch [richness](../topics/richness.md), group size and asymmetry in competitive ability

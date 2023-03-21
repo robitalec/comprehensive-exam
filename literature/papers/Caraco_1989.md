@@ -9,4 +9,4 @@ Caraco, T., C. Barkan, J.L. Beacham, L. Brisbin, S. Lima, A. Mohan, J.A. Newman,
 - dominant individuals preferred social foraging 
 - subordinate individuals foraged more efficiently alone
 
-if spatial distribution of patches is clumped, dominant individuals will be able to exploit most patches efficiently by following subordinates and exploiting each patch found
+if spatial [distribution](../topics/distribution.md) of patches is clumped, dominant individuals will be able to exploit most patches efficiently by following subordinates and exploiting each patch found
