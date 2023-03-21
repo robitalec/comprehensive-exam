@@ -12,7 +12,7 @@
 
 ### Penalties
 
-## Availability
+### Availability
 
 ### Resources
 
