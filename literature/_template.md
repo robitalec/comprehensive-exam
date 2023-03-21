@@ -12,6 +12,8 @@
 
 ### Penalties
 
+## Availability
+
 ### Resources
 
 ### Risks
