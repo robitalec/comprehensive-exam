@@ -4,9 +4,17 @@ Caraco, Thomas, and Luc-Alain Giraldeau. 1991. “Social Foraging: Producing and
 
 ---
 
+Two models of producing and scrounging in foraging groups of fixed, finite size:
+
+- producer-priority where scrounging reduces producer's food intake but does not depend on the number of scroungers in the group
+- scramble-competition where producer's food intake decreases with the number of scroungers
+
+Stochastic variation incorporated using a variable amount of food found at each patch and a variable allocation of food items to each foraging within patch
+
 ### Strategies
 
 ### Frequency dependence
+Producer-priority model assumes producer's intake does not depend on the number of scroungers whereas scramble-competition model assumes producer's intake decreases with the number of scroungers
 
 ### Payoffs
 
@@ -19,7 +27,11 @@ Caraco, Thomas, and Luc-Alain Giraldeau. 1991. “Social Foraging: Producing and
 ### Conditions
 
 ### Access
+Random patch size and random allocation of food items to each forager at a patch. 
+
+
 
 ### Focus
 
 ### Outcome
+
