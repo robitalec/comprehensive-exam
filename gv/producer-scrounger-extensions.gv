@@ -1,0 +1,32 @@
+digraph producer_scrounger_extensions {
+
+  graph [fontsize = 12]
+  rankdir = TB
+	edge [arrowhead = none]
+	node [shape = box, fontname = Helvetica]
+
+  {rank = same
+    information_about_producers_share [style = filled, color = lightgrey]
+    producers_share [style = filled, color = lightgrey]
+    energetic_cost_of_contest [style = filled, color = lightgrey]
+    patch_payoffs [style = filled, color = lightgrey]
+    patch_penalties [style = filled, color = lightgrey]
+    scroungers_share [style = filled, color = lightgrey]
+    probability_of_producer_winning_contest [style = filled, color = lightgrey]
+  }
+
+	producer_scrounger_dynamics [style = filled, color = lightblue]
+
+  producer_scrounger_dynamics -> {energetic_cost_of_contest producers_share patch_payoffs patch_penalties probability_of_producer_winning_contest information_about_producers_share scroungers_share}
+
+  probability_of_producer_winning_contest -> dominance
+	producers_share -> {dominance spatial_position nearest_neighbour}
+	scroungers_share -> {dominance number_of_scroungers spatial_position movement_cost}
+
+	energetic_cost_of_contest -> {vocalization_behaviour display_behaviour}
+
+	patch_payoffs -> {patch_heterogeneity patch_depletability patch_divisibility patch_size}
+
+	information_about_producers_share -> learning
+	}
+}
