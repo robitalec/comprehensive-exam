@@ -23,7 +23,7 @@ Animal often forage in groups. See more in [Krause_and_Ruxton_2002](Krause_and_R
 	- reduced local food supply
 	- increased rate of aggression
 
-### 17.2 [ideal-free-distribution](../ideal-free-distribution.md) for a single species
+### 17.2 [ideal-free-distribution](../topics/ideal-free-distribution.md) for a single species
 
 See [Fretwell_and_Lucas_1969](../papers/Fretwell_and_Lucas_1969.md)
 
@@ -99,4 +99,4 @@ When the finder plays hawk, it is an indication to the joiner that there is food
 
 ### 17.9 Further reading
 
-- [ideal-free-distribution](../ideal-free-distribution.md) and ESS
+- [ideal-free-distribution](../topics/ideal-free-distribution.md) and ESS

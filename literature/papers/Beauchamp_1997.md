@@ -9,7 +9,7 @@ An individual not influence by conspecifics is expected to aggregate in the rich
 
 As conspecific interference increases, individuals are expected to occupy patches of lesser quality corresponding to an equilibrium balancing number of individuals and proportion of individuals in each patch (assuming ideal and free individuals) [Fretwell_and_Lucas_1969](Fretwell_and_Lucas_1969.md)
 
-The [ideal-free-distribution](../ideal-free-distribution.md) predicts an expected stable distribution without specifying how the distribution arises, the authors here say it must be the consequence of individual adaptive foraging behaviour 
+The [ideal-free-distribution](../topics/ideal-free-distribution.md) predicts an expected stable distribution without specifying how the distribution arises, the authors here say it must be the consequence of individual adaptive foraging behaviour 
 
 ### Strategies
 Producers, scroungers. Producers show no conspecific attraction while scroungers would show conspecific attraction
@@ -33,7 +33,7 @@ Two types of habitats: patches with large number of food items that are not depl
 Travel costs induce foragers to become more sedentary
 
 ### Focus
-Compare the [ideal-free-distribution](../ideal-free-distribution.md) model, a model with travel costs and a model with travel costs and conspecific attraction
+Compare the [ideal-free-distribution](../topics/ideal-free-distribution.md) model, a model with travel costs and a model with travel costs and conspecific attraction
 
 ### Outcome
 Interference reduced the average intake rate and increased variation in intake rate across foragers 

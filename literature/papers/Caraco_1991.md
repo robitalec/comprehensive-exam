@@ -7,11 +7,11 @@ Caraco, Thomas, and Luc-Alain Giraldeau. 1991. “Social Foraging: Producing and
 Two models of producing and scrounging in foraging groups of fixed, finite size:
 
 - producer-priority where scrounging reduces producer's food intake but does not depend on the number of scroungers in the group
-- scramble-competition where producer's food intake decreases with the number of scroungers
+- [scramble-competition](../topics/scramble-competition.md) where producer's food intake decreases with the number of scroungers
 
 Stochastic variation incorporated using a variable amount of food found at each patch and a variable allocation of food items to each foraging within patch
 
-Models presented did not explicitly consider social [dominance](../dominance.md). Variation among individuals in age, size and aggressiveness often leadds to [dominance](../dominance.md) mediated priority of access to resources 
+Models presented did not explicitly consider social [dominance](../topics/dominance.md). Variation among individuals in age, size and aggressiveness often leadds to [dominance](../topics/dominance.md) mediated priority of access to resources 
 
 Improvements on assumptions: 
 
@@ -19,12 +19,12 @@ Improvements on assumptions:
 - producer searching efficiency is constant, though likely searching efficiency will decrease with increasing density of producers
 - scroungers may be able to increase their share, decreasing the producer's share
 
-Central premise of producer-scrounger theory is that scrounging depresses producer fitness. If producers suffer a greater predation hazard without scroungers, this may not apply. 
+Central premise of producer-scrounger theory is that scrounging depresses producer fitness. If producers suffer a greater [predation](../topics/predation.md) hazard without scroungers, this may not apply. 
 
 ### Strategies
 
 ### Frequency dependence
-Producer-priority model assumes producer's intake does not depend on the number of scroungers whereas scramble-competition model assumes producer's intake decreases with the number of scroungers
+Producer-priority model assumes producer's intake does not depend on the number of scroungers whereas [scramble-competition](../topics/scramble-competition.md) model assumes producer's intake decreases with the number of scroungers
 
 ### Payoffs
 

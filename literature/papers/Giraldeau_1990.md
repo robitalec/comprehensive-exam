@@ -6,11 +6,11 @@ Giraldeau, Luc-Alain, Jerry A. Hogan, and Michael J. Clinchy. 1990. “The Payof
 
 Zebra finches, spice finches
 
-[dominance](../dominance.md) does not affect the relative advantage that producing individuals enjoy over scroungers
+[dominance](../topics/dominance.md) does not affect the relative advantage that producing individuals enjoy over scroungers
 
 
 ### Strategies
-[dominance](../dominance.md) does not influence the tendency to scrounge or produce
+[dominance](../topics/dominance.md) does not influence the tendency to scrounge or produce
 
 ### Frequency dependence
 
@@ -25,7 +25,7 @@ Zebra finches, spice finches
 ### Conditions
 
 ### Access
-[dominance](../dominance.md) does not influence the relative advantage of producers over scroungers in spice finches but dominant zebra finches ate more per trial than subordinate zebra finches
+[dominance](../topics/dominance.md) does not influence the relative advantage of producers over scroungers in spice finches but dominant zebra finches ate more per trial than subordinate zebra finches
 
 ### Focus
 

@@ -4,7 +4,7 @@ Caraco, T., C. Barkan, J.L. Beacham, L. Brisbin, S. Lima, A. Mohan, J.A. Newman,
 
 ---
 
-[dominance](../dominance.md) 
+[dominance](../topics/dominance.md) 
 
 - dominant individuals preferred social foraging 
 - subordinate individuals foraged more efficiently alone

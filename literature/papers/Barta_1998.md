@@ -4,9 +4,9 @@ Barta, Zoltan, and Luc-Alain Giraldeau. 1998. “The Effect of Dominance Hierarc
 
 ---
 
-Impact of [dominance](../dominance.md) depends on  food distribution and defendability eg. evenly distributed food, large patch size is difficult to defend whereas small, high value patches are easier to defend
+Impact of [dominance](../topics/dominance.md) depends on  food distribution and defendability eg. evenly distributed food, large patch size is difficult to defend whereas small, high value patches are easier to defend
 
-Competitive ability depends on [dominance](../dominance.md)
+Competitive ability depends on [dominance](../topics/dominance.md)
 
 ### Strategies
 Producers, scroungers
@@ -24,10 +24,10 @@ Producers, scroungers
 ### Conditions
 
 ### Access
-Priority access to resources depending on [dominance](../dominance.md) rank. After finder's share, remainder divided among scroungers. 
+Priority access to resources depending on [dominance](../topics/dominance.md) rank. After finder's share, remainder divided among scroungers. 
 
 ### Focus
-How differences in [dominance](../dominance.md) influence individual's decision to play producer or scrounger
+How differences in [dominance](../topics/dominance.md) influence individual's decision to play producer or scrounger
 
 ### Outcome
-As finder's share increases, proportion of scroungers decreases. At similar [dominance](../dominance.md) ranks, individuals should all equally play scrounger. At asymmetrical [dominance](../dominance.md) ranks, superior individuals should use mostly scrounging while inferior individuals should use mostly producing. Only when competitive differences are very large, eg. a dominant individual can monopolize the whole or most of a patch, should individuals specialize exclusively in one role (dominants - scrounge, subordinates - produce)
+As finder's share increases, proportion of scroungers decreases. At similar [dominance](../topics/dominance.md) ranks, individuals should all equally play scrounger. At asymmetrical [dominance](../topics/dominance.md) ranks, superior individuals should use mostly scrounging while inferior individuals should use mostly producing. Only when competitive differences are very large, eg. a dominant individual can monopolize the whole or most of a patch, should individuals specialize exclusively in one role (dominants - scrounge, subordinates - produce)

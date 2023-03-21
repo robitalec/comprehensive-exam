@@ -4,7 +4,7 @@ Dubois, F., L-A. Giraldeau, and Grant, James W.A. 2003. “Resource Defense in a
 
 ---
 
-Animals in groups often use scramble or contest tactics to obtain food at clumps found by others. 
+Animals in groups often use [scramble-competition](../topics/scramble-competition.md) or contest tactics to obtain food at clumps found by others. 
 
 Modeled as hawk dove game
 
