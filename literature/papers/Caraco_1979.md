@@ -13,7 +13,7 @@ Rates of aggression increase with group size
 
 Increased group size leads to decreased vigilance
 
-Dominance increases foraging efficiency, providing better access to forage 
+[Dominance](../dominance.md) increases foraging efficiency, providing better access to forage 
 
 [risks](../topics/risks.md): predation
 

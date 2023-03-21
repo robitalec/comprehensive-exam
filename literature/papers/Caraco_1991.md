@@ -11,7 +11,7 @@ Two models of producing and scrounging in foraging groups of fixed, finite size:
 
 Stochastic variation incorporated using a variable amount of food found at each patch and a variable allocation of food items to each foraging within patch
 
-Models presented did not explicitly consider social [dominance](../dominance.md). Variation among individuals in age, size and aggressiveness often leadds to dominance mediated priority of access to resources 
+Models presented did not explicitly consider social [dominance](../dominance.md). Variation among individuals in age, size and aggressiveness often leadds to [dominance](../dominance.md) mediated priority of access to resources 
 
 Improvements on assumptions: 
 

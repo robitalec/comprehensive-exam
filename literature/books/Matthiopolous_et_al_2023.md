@@ -227,7 +227,7 @@ Mechanisms: [interference](../topics/interference.md) and scramble competition (
 
 Under the first assumption, the baseline suitability is approximately the intrinsic value of the habitat (at low density) and the suitability is approximately the fitness/growth rate. 
 
-For each population there will be a unique ideal free distribution M. Where fitness declines linearly with local population size and where the population size M is at carrying capacity, we can set the equation equal to 0 and solve. 
+For each population there will be a unique [ideal-free-distribution](../ideal-free-distribution.md) M. Where fitness declines linearly with local population size and where the population size M is at carrying capacity, we can set the equation equal to 0 and solve. 
 
 $N_{S}^{*}  = F_{0} / b$
 

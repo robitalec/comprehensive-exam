@@ -72,7 +72,7 @@ Searching
 Dividing
 
 - food is actively shared, divided equally
-- allocated asymmetrically according to eg. dominance status
+- allocated asymmetrically according to eg. [dominance](../dominance.md) status
 
 Three types of social foragers
 
@@ -84,6 +84,6 @@ Interactions between types of social foragers
 
 - Producer vs producer: equilibrium group size under controlled group-entry
 - Producer vs scrounger: require some number of producers, depends on the cost of scrounging
-- Producer vs opportunist: this interaction is not maintained under symmetric competition (Pulliam_and_Caraco_1984). Greater dominance status for opportunists or more efficient searching by producers will favor one or the other type. 
+- Producer vs opportunist: this interaction is not maintained under symmetric competition (Pulliam_and_Caraco_1984). Greater [dominance](../dominance.md) status for opportunists or more efficient searching by producers will favor one or the other type. 
 - Opportunist vs opportunist: information-sharing systems, equivalent to group size under free entry
 - Scrounger vs opportunist: can persist due to knowledge limitation
