@@ -22,3 +22,11 @@ targets::tar_read(decision_tree)
 #| echo: false
 targets::tar_read(resources_risks_conditions)
 ```
+
+## Producer scrounger extensions
+
+```{r}
+#| echo: false
+targets::tar_read(producer_scrounger_extensions)
+```
+
