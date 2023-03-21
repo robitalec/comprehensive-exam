@@ -4,15 +4,24 @@ Beauchamp, Guy. 2000. “Learning Rules for Social Foragers: Implications for th
 
 ---
 
+Learning rules allow individuals to weight information about the past and present to choose alternative patterns of behaviour
+
+Learning rules are made up of a mechanism to update information and a mechanism for choosing foraging alternatives. This can be done by maximizing where highest value is chosen or matching where probability is proportional to the value of that alternative divided by the sum of all alternatives. 
+
+Learning about producer-scrounger strategies depended on the allocated time in response to the number of food items obtained for each strategy. 
+
 ### Strategies
+Producers, scroungers
 
 ### Frequency dependence
 
 ### Payoffs
 
 ### Penalties
+Movement cost. Scroungers would move to the nearest exploited patch at a speed of two locations per time step instead of one since they were not limited by concurrently searching for food
 
-## Availability
+### Availability
+Patches were depletable 
 
 ### Resources
 
@@ -23,7 +32,7 @@ Beauchamp, Guy. 2000. “Learning Rules for Social Foragers: Implications for th
 ### Access
 
 ### Focus
+Learning rules for social foraging in the ideal free distribution and producer-scrounger dynamics
 
 ### Outcome
-
-%% Import Date: 2023-03-21T14:56:09.217-03:00 %%
+Scrounging is less likely in populations with fewer foragers and in habitats with poorer patches. Maximizing led to early divergence in tactic use and extreme use of one or the other tactic. When individuals had early foraging success, they were likely to continue using the same strategy. This could be problematic in highly variable environments or in situations where environments change significantly where an alternative strategy would otherwise be favored. 
