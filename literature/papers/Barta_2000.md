@@ -35,7 +35,5 @@ All scroungers get equal access to each producer's patch minus the producer's sh
 State-dependent dynamic producer-scrounger game that predicts early in the day when energy reserves are low, individuals will prefer the scrounger strategy. Late in the day, individuals will favor the producer strategy. Under rich and clumped food, scrounging will improve daily survival of all group members. 
 
 ### Outcome
-Increasing predation hazard decreased survival. 
-
-The proportion of individuals scrounging is predicted to through the day, highest around dawn and dusk and lowest around midday because the scrounger obtains small amounts of food in a reliable way while the producer either acquires high or no food intake. 
+The proportion of individuals scrounging is predicted to change through the day, highest around dawn and dusk and lowest around midday because the scrounger obtains small amounts of food in a reliable way while the producer either acquires high or no food intake. Producing is optimal in midday if individuals are near or above their critical reserve level because if a producer is successful they are likely able to switch to resting sooner and avoid predation hazard. 
 
