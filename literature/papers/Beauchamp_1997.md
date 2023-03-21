@@ -32,9 +32,6 @@ Two types of habitats: patches with large number of food items that are not depl
 ### Access
 Travel costs induce foragers to become more sedentary
 
-
-
-
 ### Focus
 Compare the ideal free distribution model, a model with travel costs and a model with travel costs and conspecific attraction
 
