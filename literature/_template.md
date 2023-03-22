@@ -4,13 +4,11 @@
 
 ---
 
+### Species
+
 ### Strategies
 
 ### Frequency dependence
-
-### Payoffs
-
-### Penalties
 
 ### Availability
 
