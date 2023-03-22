@@ -6,7 +6,7 @@ Vickery, William L. 2020. “Producing and Scrounging Can Have Stabilizing Effec
 
 Extends the model of [Coolen_2007](Coolen_2007.md) by adding an additional level to the food chain
 
-Predator interacts with its prey under a Lotka-Vollterra predator-prey model. Without scrounging, the parsimonious model produces only neutral stability with limit cycles between predator and prey. [Coolen_2007](Coolen_2007.md) showed that the presence of scrounging in the predator population process a stable predator-prey equilibrium and that as the frequency of scrounging in the population increases, the equilibrium density of both prey and predators should also increase. 
+Predator interacts with its prey under a Lotka-Volterra predator-prey model. Without scrounging, the parsimonious model produces only neutral stability with limit cycles between predator and prey. [Coolen_2007](Coolen_2007.md) showed that the presence of scrounging in the predator population process a stable predator-prey equilibrium and that as the frequency of scrounging in the population increases, the equilibrium density of both prey and predators should also increase. 
 
 
 
