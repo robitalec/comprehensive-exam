@@ -27,11 +27,11 @@ Producers, scroungers
 Finder's share
 
 ### Focus
-Differences between producers and scroungers in vigilance level and vulnerability to predators
+Differences between producers and scroungers in [vigilance](../topics/vigilance.md) level and vulnerability to predators
 
 ESS group combinations of producer and scrounger strategies
 
 ### Outcome
-Scroungers contribute to group vigilance, and therefore pay for their "free meal" 
+Scroungers contribute to group [vigilance](../topics/vigilance.md), and therefore pay for their "free meal" 
 
 

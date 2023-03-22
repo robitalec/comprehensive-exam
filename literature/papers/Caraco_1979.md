@@ -11,7 +11,7 @@ Group size decreases at warmer temperatures
 
 Rates of aggression increase with group size
 
-Increased group size leads to decreased vigilance
+Increased group size leads to decreased [vigilance](../topics/vigilance.md)
 
 [Dominance](../topics/dominance.md) increases foraging efficiency, providing better access to forage 
 
