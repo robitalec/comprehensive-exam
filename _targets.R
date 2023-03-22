@@ -50,6 +50,22 @@ targets_drive  <- c(
 			drive_get('producer-scrounger-literature-compared') |>
 			read_sheet(sheet = 'table 3')),
 		cue = tar_cue('always')
+	),
+	tar_target(
+		write_literature,
+		fwrite(literature, 'tables/literature.csv')
+	),
+	tar_target(
+		write_table_1_ps_literature_compared,
+		fwrite(table_1_ps_literature_compared, 'tables/table_1_ps_literature_compared.csv')
+	),
+	tar_target(
+		write_table_2_ps_literature_compared,
+		fwrite(table_2_ps_literature_compared, 'tables/table_2_ps_literature_compared.csv')
+	),
+	tar_target(
+		write_table_3_ps_literature_compared,
+		fwrite(table_3_ps_literature_compared, 'tables/table_3_ps_literature_compared.csv')
 	)
 )
 
