@@ -4,4 +4,4 @@ Danchin, Étienne, Luc-Alain Giraldeau, Thomas J. Valone, and Richard H. Wagner.
 
 ---
 
-Inadvertent social information
+Inadvertent social [information](../topics/information.md)

@@ -4,7 +4,7 @@ Smolla, Marco, R. Tucker Gilman, Tobias Galla, and Susanne Shultz. “Competitio
 
 ---
 
-Animals gain information by directly interacting with their environment (individual learning) or by observing others (social learning)
+Animals gain [information](../topics/information.md) by directly interacting with their environment (individual learning) or by observing others (social learning)
 
 Social learning has benefits including learning behaviours that have been tested and retained by others, with an expectation that these have higher returns than untested behaviours. 
 

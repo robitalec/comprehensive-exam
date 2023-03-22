@@ -4,7 +4,7 @@ Barta, Z, and L.-A. Giraldeau. 2001. “Breeding Colonies as Information Centers
 
 ---
 
-Breeding colonies as information centers. Information centers can function as producer-scrounger games where producers and scroungers exist as searcher and wait-and-follower and payoffs are negatively dependent to scrounger. 
+Breeding colonies as [information](../topics/information.md) centers. [Information](../topics/information.md) centers can function as producer-scrounger games where producers and scroungers exist as searcher and wait-and-follower and payoffs are negatively dependent to scrounger. 
 
 
 ### Strategies

@@ -153,7 +153,7 @@ Animal may move:
 - directed movement based on
 	- sensory perception (Fagan_et_al_2013)
 	- spatial memory (Bracis_2017)
-	- information from conspecifics (Jesner_2018, Oliveira_Santos_2016, Merkle_2019)
+	- [information](../topics/information.md) from conspecifics (Jesner_2018, Oliveira_Santos_2016, Merkle_2019)
 
 Cognitive processes operate at several, widely different scales
 

@@ -4,9 +4,9 @@ Beauchamp, Guy. 2000. “Learning Rules for Social Foragers: Implications for th
 
 ---
 
-Learning rules allow individuals to weight information about the past and present to choose alternative patterns of behaviour
+Learning rules allow individuals to weight [information](../topics/information.md) about the past and present to choose alternative patterns of behaviour
 
-Learning rules are made up of a mechanism to update information and a mechanism for choosing foraging alternatives. This can be done by maximizing where highest value is chosen or matching where probability is proportional to the value of that alternative divided by the sum of all alternatives. 
+Learning rules are made up of a mechanism to update [information](../topics/information.md) and a mechanism for choosing foraging alternatives. This can be done by maximizing where highest value is chosen or matching where probability is proportional to the value of that alternative divided by the sum of all alternatives. 
 
 Learning about producer-scrounger strategies depended on the allocated time in response to the number of food items obtained for each strategy. 
 

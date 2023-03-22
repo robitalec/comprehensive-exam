@@ -91,7 +91,7 @@ Parameters
 See 10.1.2 and Exercise 10.1 for ESS
 
 
-#### 17.7.2 Finder-joiner with partial information
+#### 17.7.2 Finder-joiner with partial [information](../topics/information.md)
 
 Finder's strategy depends on $F$, $a$, $C$, $\alpha$ whereas the joiner's strategy depends only on $F$, $a$, $C$
 
