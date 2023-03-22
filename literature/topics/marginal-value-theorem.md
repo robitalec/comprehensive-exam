@@ -1,1 +1,1 @@
-# marginal-value-theorem
+# Marginal value theorem

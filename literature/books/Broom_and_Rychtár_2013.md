@@ -23,7 +23,7 @@ Animal often forage in groups. See more in [Krause_and_Ruxton_2002](Krause_and_R
 	- reduced local food supply
 	- increased rate of aggression
 
-### 17.2 Ideal free distribution for a single species
+### 17.2 [ideal-free-distribution](../topics/ideal-free-distribution.md) for a single species
 
 See [Fretwell_and_Lucas_1969](../papers/Fretwell_and_Lucas_1969.md)
 
@@ -91,7 +91,7 @@ Parameters
 See 10.1.2 and Exercise 10.1 for ESS
 
 
-#### 17.7.2 Finder-joiner with partial information
+#### 17.7.2 Finder-joiner with partial [information](../topics/information.md)
 
 Finder's strategy depends on $F$, $a$, $C$, $\alpha$ whereas the joiner's strategy depends only on $F$, $a$, $C$
 
@@ -99,4 +99,4 @@ When the finder plays hawk, it is an indication to the joiner that there is food
 
 ### 17.9 Further reading
 
-- Ideal free distribution and ESS
+- [ideal-free-distribution](../topics/ideal-free-distribution.md) and ESS

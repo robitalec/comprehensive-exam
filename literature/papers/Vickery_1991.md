@@ -46,7 +46,7 @@ Reduction of sensory contact between individuals, eg. wind or fog, likely reduce
 
 Assumed that producers have a finder's share before scroungers and opportunities arrive at the patch. The remainder is divided equally between the producer and all scroungers (including opportunists), where the total consumed by scroungers is the scrounger's share.
 
-Solitary foraging could be a solution for producers to avoid sharing with scroungers. This may not be possible when food is localized and presence of others cannot be escaped. Trade off of others balanced with predation risk. 
+Solitary foraging could be a solution for producers to avoid sharing with scroungers. This may not be possible when food is localized and presence of others cannot be escaped. Trade off of others balanced with [predation](../topics/predation.md) risk. 
 
 ### Focus
 

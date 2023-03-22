@@ -31,7 +31,7 @@ In overabundance of [resources](../topics/resources.md) or high density of indiv
 
 [risks](../topics/risks.md) are environmental variables lower the actual or perceived chances of individual survival or reproduction and have a negative effect on [fitness](../topics/fitness.md)
 
-[risks](../topics/risks.md) shape distributions by influencing demographic rates (predation, ultimately death). Perception of risk may be just as influential, see Landre_et_al_2010. 
+[risks](../topics/risks.md) shape distributions by influencing demographic rates ([predation](../topics/predation.md), ultimately death). Perception of risk may be just as influential, see Landre_et_al_2010. 
 
 Presence of risks may limit actual presence of species, eg. where hosts are missing where parasites exist. 
 
@@ -53,7 +53,7 @@ See Oddling_Smee_et_al_2013 for modification of [conditions](../topics/condition
 
 - [resources](../topics/resources.md) - [risks](../topics/risks.md)
 	- "Is it worth the risk?" (Brown_and_Kotler_2004)
-	- eg. predation risks causing organisms to avoid high resource density areas (McNammara_and_Houston_1987)
+	- eg. [predation](../topics/predation.md) risks causing organisms to avoid high resource density areas (McNammara_and_Houston_1987)
 	- Surviving individuals in areas of high risk will have lower resource competition which may lead to an increase in overall population fitness (Van_Leeuwen_et_al_2008)
 - [resources](../topics/resources.md) - [conditions](../topics/conditions.md)
 	- Environmental conditions influence on detection and intake of resources
@@ -153,7 +153,7 @@ Animal may move:
 - directed movement based on
 	- sensory perception (Fagan_et_al_2013)
 	- spatial memory (Bracis_2017)
-	- information from conspecifics (Jesner_2018, Oliveira_Santos_2016, Merkle_2019)
+	- [information](../topics/information.md) from conspecifics (Jesner_2018, Oliveira_Santos_2016, Merkle_2019)
 
 Cognitive processes operate at several, widely different scales
 
@@ -223,11 +223,11 @@ $S(x, N_{s, t}) = B_{x} - f(N_{s, t})$
 - $B_{x}$: baseline suitability
 - $f$: growth rate/fitness
 
-Mechanisms: [interference](../topics/interference.md) and scramble competition (Krivan_et_al_2008)
+Mechanisms: [interference](../topics/interference.md) and [scramble-competition](../topics/scramble-competition.md) (Krivan_et_al_2008)
 
 Under the first assumption, the baseline suitability is approximately the intrinsic value of the habitat (at low density) and the suitability is approximately the fitness/growth rate. 
 
-For each population there will be a unique ideal free distribution M. Where fitness declines linearly with local population size and where the population size M is at carrying capacity, we can set the equation equal to 0 and solve. 
+For each population there will be a unique [ideal-free-distribution](../topics/ideal-free-distribution.md) M. Where fitness declines linearly with local population size and where the population size M is at carrying capacity, we can set the equation equal to 0 and solve. 
 
 $N_{S}^{*}  = F_{0} / b$
 
@@ -251,7 +251,7 @@ Proportional relationships between distribution and density is violated by
 
 Observations only capture occupancy/vacancy rather than continuous measures of suitability
 
-Species density and fitness can also be positively related eg. where increasing group size results in decreased predation risks, increases information transfer and services and allee effects (see Allee_1951, Stephens_and_Sutherland_1999). 
+Species density and fitness can also be positively related eg. where increasing group size results in decreased [predation](../topics/predation.md) risks, increases information transfer and services and allee effects (see Allee_1951, Stephens_and_Sutherland_1999). 
 
 #### 1.7.2 When species occur at places with negative fitness
 
