@@ -6,7 +6,7 @@ Toyokawa, Wataru. 2017. “Scrounging by Foragers Can Resolve the Paradox of Enr
 
 Paradox of enrichment where enrichment of prey can generate large amplitude limit cycles causing high risk of extinction
 
-Extends the model of Coolen_2007 to one prey and two prey systems
+Extends the model of [Coolen_2007](Coolen_2007.md) to one prey and two prey systems
 
 
 ### Strategies
