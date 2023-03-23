@@ -10,7 +10,7 @@ Reconcile information-sharing and producer-scrounger models of group foraging
 
 Unlike [[information-sharing-models](../topics/information-sharing-models.md)], [producer-scrounger](../topics/producer-scrounger.md) models do not assume all group members behave in the same way. Some individuals specialize in producing and others in scrounging. At a given play of the game, a producer cannot scrounger and a scrounger cannot produce. This assumption is called complete incompatibility. 
 
-These two extremes are likely unrealistic with partial compatibility being more likely. Trading off predator vigilance and feeding rate, and specializing on particular forage types. 
+These two extremes are likely unrealistic with partial compatibility being more likely. Trading off predator [vigilance](../topics/vigilance.md) and feeding rate, and specializing on particular forage types. 
 
 ### Strategies
 

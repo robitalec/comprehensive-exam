@@ -9,7 +9,7 @@ Broom, M. and Rychtár, J., 2013. Game-theoretical models in biology. CRC Press.
 Animal often forage in groups. See more in [Krause_and_Ruxton_2002](Krause_and_Ruxton_2002.md)
 
 - Advantages
-	- antipredator vigilance
+	- antipredator [vigilance](../topics/vigilance.md)
 	- dilution effect
 	- predator confusion
 	- foraging benefits
