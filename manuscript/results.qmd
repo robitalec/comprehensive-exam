@@ -9,9 +9,6 @@
 	- Producers, scroungers
 	- Retaliators where finder can retaliate if joiner escalates (Dubois_2007)
 
-<!-- - Variance strategies -->
-<!-- 	- Risk-averse foragers favor minimizing variance and should prefer scrounging  -->
-<!-- 	- Risk-tolerant foragers should prefer producing -->
 
 
 - Finder's share
@@ -157,25 +154,91 @@
 
 ## Empirical
 
-- See more in branch
-
-
 - Interspecific social information
 	- Kane_2014
+	- (also under Predation risk) Scrounging more common when interspecific competition for food with high predation risk individual (wolf) versus boar (Bugnyar_2002)
 
+
+- Strategy specialization
+	- Stable dimorphic distribution of producers and scroungers (Aplin_2017)
+	- Individuals likely to use both strategies (Ha_2003)
+	
+	
+- Sex
+	- Females were more likely to scrounge (Aplin_2017)
+	- Males were more likely to produce (Aplin_2017)
+	- Air temperature, time of day, season (breeding vs nonbreeding), age or sex did not influence the probability of retaining prey (Ha_2003)
+
+- Age
+	- Adults were more likely to produce (Aplin_2017)
+	- Juveniles were more likely to scrounge (Aplin_2017)
+	- (also under Sex) Air temperature, time of day, season (breeding vs nonbreeding), age or sex did not influence the probability of retaining prey (Ha_2003)
+	
+- Dominance
+	- Male dominants more likely to produce (Aplin_2017)
+	- Scrounging dominants were more likely to displace conspecifics while stealing was more likely for subordinates (Bugnyar_2002)
+
+- Social affiliation
+	- Mating pairs may have contributed to male tolerance of female scroungers (Aplin_2017)
+	- Scroungers had high network centrality (Aplin_2017)
+	- Sharing observed when dyads of ravens were at different stages of pair bonding eg mutual preening (Bugnyar_2002)
+
+- Predation risk
+	- Scrounging was more common further from cover than close to it (Barta_2004)
+	- Scrounging more common when interspecific competition for food with high predation risk individual (wolf) versus boar (Bugnyar_2002)
+
+
+- Vigilance
+	- Scrounging not simply explained by antipredator vigilance, alternatively may be due to scrounging being a variance-averse strategy or favored strategy when energy reserves are low  (Barta_2004)
+	- No compatibility between scrounging and antipredator vigilance (Coolen_2003)
 
 - Resource availability
 	- At low and intermediate resource availability, scrounging is not favored after a 30s finder's share (Kok_2017)
 	- At high resource availability, scrounging is favored up to 120s (Kok_2017)
 
+- Handling time
+	- Prey size and longer handling time resulted in higher likelihood of conspecific stealing (Ha_2003)
+
+- Environmental factors
+	- (also under Sex) Air temperature, time of day, season (breeding vs nonbreeding), age or sex did not influence the probability of retaining prey (Ha_2003)
+	
 
 - Energy reserves / fed or fasted
 	- Rates of strategy use did not differ depending on fed and fasted states in sparrows (Lee_2016a)
 	- Fasted sparrows stayed longer on the ground (Lee_2016a)
 	- Fasted sparrows discovered more patches and consumed more food than fed sparrows (Lee_2016a)
+	- (also under Vigilance) Scrounging not simply explained by antipredator vigilance, alternatively may be due to scrounging being a variance-averse strategy or favored strategy when energy reserves are low (Barta_2004)
+
+- Spatial position
+	- Scroungers more commonly found towards center of group, producers towards edges of group (Flynn_2001)
+	- Groups with more scroungers tended to be more compact and densely grouped (Flynn_2001)
+	
+	
 
 
 - Relatedness
 	- Related finches had higher frequencies of scrounging than unrelated finches (Mathot_2010)
 
 
+- Learning
+	- As individuals have more experience in variable environments, they increase proportion of scrounging (Afshar_2015)
+	- Individuals that learned the task faster were less likely to scrounger (Aplin_2017)
+	
+- Group size
+	- Larger groups had a higher proportion of scroungers (Alfaro_2021) (Aplin_2017) (Barta_2004) (Coolen_2002)
+	
+	
+- Resource depletability
+	- Larger groups required less time to deplete resources (Alfaro_2021)
+	
+- Patch finding rates
+	- More scroungers resulted in a lower patch finding rate for the group (Coolen_2002)
+	
+	
+- Variance strategies
+	- Variance-averse foragers prefer scrounging as it is less sensitive to patch quality variance (Afshar_2015)
+	- (also under Vigilance) Scrounging not simply explained by antipredator vigilance, alternatively may be due to scrounging being a variance-averse strategy or favored strategy when energy reserves are low (Barta_2004)
+
+- Arrival time on patch
+	- Individuals that arrived earlier on the patch were less likely to scrounge (Aplin_2017)
+	- 
