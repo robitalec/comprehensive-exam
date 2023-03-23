@@ -4,8 +4,8 @@ Mathot, K. J., and L.-A. Giraldeau. 2007. “Increasing Vulnerability to Predati
 
 ---
 [spatial-position](../topics/spatial-position.md) 
-- scroungers hop with their heads up and tend to occupy central positions in a group (lower predation risk)
-- producers hop with their heads down and tend to occupy edge positions (higher predation risk)
+- scroungers hop with their heads up and tend to occupy central [spatial-position](../topics/spatial-position.md) in a group (lower predation risk)
+- producers hop with their heads down and tend to occupy edge [spatial-position](../topics/spatial-position.md) (higher predation risk)
 
 Predation risk has previously been considered as a potential factor influencing producer scrounger tactic use at the group level. Greater inherent vigilance from having head up compared to head down foraging behaviours. This asymmetry in vigilance has also been suggested as a mechanism for tolerating scroungers [Ranta_1998](Ranta_1998.md). 
 

@@ -14,7 +14,7 @@ vervet monkeys (Chlorocebus pygerythrus)
 ### Availability
 
 ### Resources
-Artificial food patches of varied richness
+Artificial food patches of varied [richness](../topics/richness.md)
 
 ### Risks
 
@@ -23,9 +23,9 @@ Artificial food patches of varied richness
 ### Access
 
 ### Focus
-Spatial position within a foraging group. Tradeoff between maximizing safety by staying in group's center with foraging success
+[spatial-position](../topics/spatial-position.md) within a foraging group. Tradeoff between maximizing safety by staying in group's center with foraging success
 
 ### Outcome
-High ranking individuals, whether they scrounged or produced, obtained more food than subordinates but their overall share was greatest when they produced, balancing their trade off of predation risk with food acquisition. No effect of age. Finder's share decreased with patch richness and increased with rank. 
+High ranking individuals, whether they scrounged or produced, obtained more food than subordinates but their overall share was greatest when they produced, balancing their trade off of [predation](../topics/predation.md) risk with food acquisition. No effect of age. Finder's share decreased with patch [richness](../topics/richness.md) and increased with rank. 
 
 
