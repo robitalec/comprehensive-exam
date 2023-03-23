@@ -42,4 +42,4 @@ Random patch size and random allocation of food items to each forager at a patch
 ### Focus
 
 ### Outcome
-
+Producer-priority models show scrounging reduces producer's food intake but does not depend on the number of scroungers in the group. Scramble competition models show producer's food intake decreases with the number of scroungers
