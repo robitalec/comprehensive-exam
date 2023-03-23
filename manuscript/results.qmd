@@ -1,0 +1,64 @@
+# Results
+
+
+
+- Finder's share
+	- Increase finder's share leads to a decrease in proportion of scroungers (Barta_1998)
+	
+	
+- Contests
+	- Differences between individuals in valuing resources leads to fights mainly occuring between strong individuals or weak individuals (Broom_2014)
+	- Convex cost functions correspond to risk of injury or lost energy and concave cost functions correspond to time costs eg exposure of predation risk (Broom_2015)
+
+- Aggression
+	- Rate of aggresion increases with group size (Caraco_1979)
+	- Aggression should decrease as the density and richness of food clumps increases (Dubois_2003)
+
+- Sharing
+	- Some animals share food clumps without any overt aggression possibly due to iterated play among familiar players (Dubois_2003)
+	
+- Vigilance 
+	- Increased group size leads to decreased average vigilance (Caraco_1979)
+
+- Dominance
+	- Similar dominance, individuals should similarly play scrounger (Barta_1998)
+	- Asymmetrical dominance, dominant individuals should play scrounger more often (Barta_1998)
+	- Dominance increases foraging efficiency and access to forage (Caraco_1979)
+	- Dominant individuals prefer social foraging while subordinate individuals prefer solitary foraging (Caraco_1989)
+	- If patches are distributed in clumps, dominant individuals will be able to exploit most patches by following subordinates (Caraco_1989)
+	
+- Patch distribution
+	- (also under Dominance) If patches are distributed in clumps, dominant individuals will be able to exploit most patches by following subordinates (Caraco_1989)
+	
+- Time of day
+	- Around dawn and dusk, individuals should play scrounger more often due to low energy reserves (Barta_2000)
+	- Around midday, individuals should play producer if they are near or above critical reserve level because if they are successful they can more quickly switch to resting and avoid predation hazard (Barta_2000)
+	
+- Interference
+	- Intereference between individuals reduces average intake rate and increases variation in intake rate across foragers (Beauchamp_1997)
+	
+- Group size
+	- At smaller population/group sizes, scrounging should be less likely (Beauchamp_2000a)
+	- At larger group sizes, energy intake and probability of obtaining a fish dedclined (Belisle_1998)
+	
+- Patch richness
+	- In habitats with poorer patches, scrounging should be less likely (Beauchamp_2000a)
+
+- Producer scrounger models
+	- Producer priority where scrounging reduces producer's food intake but does not depend on the number of scroungers in the group (Caraco_1991)
+	- Scramble competition where producer's food intake decreases with the number of scroungers (Caraco_1991)
+
+- Learning
+	- Early success may lead to individuals not adapting strategy to changing environments (Beauchamp_2000a)
+	
+- Information
+	- Extra information held by producers can be both beneficiall and harmful (Broom_2016). 
+	- Information not available to scrounger in situations where resources are not immediately visible eg. concelead nests, or where contest occurs quickly after patch is discovered and before producer has time to evaluate it (Broom_2016)
+	- Producers should fight for resources when costs of contests are high or scrounger has a small change of winning the contest eg. if patch is easily defended (Broom_2016)
+	- When scrounger's potential cost is small compared to the value of the patch or if the scrounger has a high change of winning, the scrounger should always fight (Broom_2016)
+
+- Group formation
+	- By being attracted to producers, scroungers induce group formation (Belisle_1998)
+
+- Population
+	- Scrounging can act as a population regulator by reducing population levell foraging efficiency and intake rate and allowing larger population sizes of predators (Coolen_2007)
