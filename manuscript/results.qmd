@@ -4,6 +4,7 @@
 
 ## Models
 
+<!-- check these are all models -->
 
 - Strategies
 	- Producers, scroungers
@@ -94,9 +95,8 @@
 
 - Patch distribution
 	- (also under Dominance) If patches are distributed in clumps, dominant individuals will be able to exploit most patches by following subordinates (Caraco_1989)
-	- If patches are distributed in rich, clumps, scrounging should increase and if patches are evently distributed, producing should increase (Dubois_2020) (Ohtsuka_2009)
+	- If patches are distributed in rich, clumps, scrounging should increase and if patches are evenly distributed, producing should increase (Dubois_2020) (Ohtsuka_2009) 
 	
-
 
 - Patch finding rate
 	- (also under Patch density)  At higher patch densities, the producer's patch finding rate should decrease (Dubois_2005)
@@ -149,10 +149,11 @@
 	- Presence of scroungers in a predator can limit a predator's ability to outcompete other species promoting stability and species diversity (Vickery_2020)
 	- Scrounging will not stability population dynamics, food chains and competitor interactions under all cases, if scrounging is too prevalent it can push the population to extinction  	- Other factors such as food abundance, variations in weather, predators and parasites may have stronger effects that can completely obscure the effects of scrounging on populations (Vickery_2020)
 	
-	
 
-
+<!-- ---------------------------------------------------------------------------------------------------------------------- -->
 ## Empirical
+
+<!-- check these are all empirical -->
 
 - Interspecific social information
 	- Kane_2014
@@ -165,42 +166,66 @@
 	
 	
 - Sex
-	- Females were more likely to scrounge (Aplin_2017)
+	- Females were more likely to scrounge (Aplin_2017) 
 	- Males were more likely to produce (Aplin_2017)
 	- Air temperature, time of day, season (breeding vs nonbreeding), age or sex did not influence the probability of retaining prey (Ha_2003)
+	- Females scrounged from males when pregnant (King_2009)
+	- Dominant females scrounged from subordinate neighbors with whom they had a strong social affiliation (King_2009)
 
 - Age
 	- Adults were more likely to produce (Aplin_2017)
 	- Juveniles were more likely to scrounge (Aplin_2017)
 	- (also under Sex) Air temperature, time of day, season (breeding vs nonbreeding), age or sex did not influence the probability of retaining prey (Ha_2003)
+	- No effect of age (Teichroeb_2015)
 	
 - Dominance
 	- Male dominants more likely to produce (Aplin_2017)
+	- Dominants took the role of scrounger and subordinates the role of producer (Werdenich_2002)
 	- Scrounging dominants were more likely to displace conspecifics while stealing was more likely for subordinates (Bugnyar_2002)
+	- (also under Sex) Dominant females scrounged from subordinate neighbors with whom they had a strong social affiliation (King_2009)
+	- (also under Environmental factors) Wind exposure as a proxy to manipulate overnight energy expenditure lead dominants to scrounge more often and subordinates only marginally increase scrounging (Lendvai_2004)
+	- Dominant individuals obtained more food than subordinates (Teichroeb_2015)
+	- Dominant individuals obtained a larger share when producing than scrounging, balancing predation risk with food acquisition (Teichroeb_2015)
+	- Finder's share increased with dominance (Teichroeb_2015)
 
 - Social affiliation
 	- Mating pairs may have contributed to male tolerance of female scroungers (Aplin_2017)
 	- Scroungers had high network centrality (Aplin_2017)
 	- Sharing observed when dyads of ravens were at different stages of pair bonding eg mutual preening (Bugnyar_2002)
+	- (also under Sex) Dominant females scrounged from subordinate neighbors with whom they had a strong social affiliation (King_2009)
 
 - Predation risk
 	- Scrounging was more common further from cover than close to it (Barta_2004)
 	- Scrounging more common when interspecific competition for food with high predation risk individual (wolf) versus boar (Bugnyar_2002)
+	- Wing load manipulation (by clipping primary flight feathers) as a proxy for perception of vulnerability to predation increased time vigilant (Mathot_2007)
+	- Wing load manipulation as proxy for vulnerability to predation increased scrounging but cannot distinguish compatibility of scrounging and antipredator vigilance, or scrounging due to spatial position within a group (Mathot_2007)
 
 
 - Vigilance
 	- Scrounging not simply explained by antipredator vigilance, alternatively may be due to scrounging being a variance-averse strategy or favored strategy when energy reserves are low  (Barta_2004)
 	- No compatibility between scrounging and antipredator vigilance (Coolen_2003)
+	- (also under Predation risk) Wing load manipulation (by clipping primary flight feathers) as a proxy for perception of vulnerability to predation increased time vigilant (Mathot_2007)
+	- (also under Predation risk) Wing load manipulation as proxy for vulnerability to predation increased scrounging but cannot distinguish compatibility of scrounging and antipredator vigilance, or scrounging due to spatial position within a group (Mathot_2007)
+
 
 - Resource availability
 	- At low and intermediate resource availability, scrounging is not favored after a 30s finder's share (Kok_2017)
 	- At high resource availability, scrounging is favored up to 120s (Kok_2017)
 
+- Finder's share
+	- (also under Resource availability) At low and intermediate resource availability, scrounging is not favored after a 30s finder's share (Kok_2017)
+	- (also under Resource availability) At high resource availability, scrounging is favored up to 120s (Kok_2017)
+	- Finder's share decreases with patch size (Hansen_2016)
+	- Finder's share decreased with forager density (Hirsch_2019)
+	- (also under Dominance) Finder's share increased with dominance (Teichroeb_2015)
+	- Finder's share decreased with increasing patch richness (Teichroeb_2015)
+	
 - Handling time
 	- Prey size and longer handling time resulted in higher likelihood of conspecific stealing (Ha_2003)
 
 - Environmental factors
 	- (also under Sex) Air temperature, time of day, season (breeding vs nonbreeding), age or sex did not influence the probability of retaining prey (Ha_2003)
+	- Wind exposure as a proxy to manipulate overnight energy expenditure lead dominants to scrounge more often and subordinates only marginally increase scrounging (Lendvai_2004)
 	
 
 - Energy reserves / fed or fasted
@@ -210,10 +235,10 @@
 	- (also under Vigilance) Scrounging not simply explained by antipredator vigilance, alternatively may be due to scrounging being a variance-averse strategy or favored strategy when energy reserves are low (Barta_2004)
 
 - Spatial position
-	- Scroungers more commonly found towards center of group, producers towards edges of group (Flynn_2001)
+	- Scroungers more commonly found towards center of group, producers towards edges of group (Flynn_2001) (King_2009)
 	- Groups with more scroungers tended to be more compact and densely grouped (Flynn_2001)
-	
-	
+	- Patch finding rate increased for individuals at the front edge of the group (Hirsch_2019)
+	- Foraging success was higher for individuals at the back of the group where fewer conspecifics joined (Hirsch_2019)
 
 
 - Relatedness
@@ -226,14 +251,21 @@
 	
 - Group size
 	- Larger groups had a higher proportion of scroungers (Alfaro_2021) (Aplin_2017) (Barta_2004) (Coolen_2002)
-	
+	- (also under Finder's share) Finder's share decreased with forager density (Hirsch_2019)
 	
 - Resource depletability
 	- Larger groups required less time to deplete resources (Alfaro_2021)
 	
 - Patch finding rates
 	- More scroungers resulted in a lower patch finding rate for the group (Coolen_2002)
+	- (also under Spatial position) Patch finding rate increased for individuals at the front edge of the group (Hirsch_2019)
+
+- Patch size
+	- If patches are large, scrounging should be more frequent (Hansen_2016) (King_2009)
+	- If patches are small, solitary foraging should be more frequent (Hansen_2016)
 	
+- Patch richness
+	- (also under Finder's share) Finder's share decreased with increasing patch richness (Teichroeb_2015)
 	
 - Variance strategies
 	- Variance-averse foragers prefer scrounging as it is less sensitive to patch quality variance (Afshar_2015)
@@ -242,3 +274,7 @@
 - Arrival time on patch
 	- Individuals that arrived earlier on the patch were less likely to scrounge (Aplin_2017)
 	- 
+
+- Payoffs
+	- Payoffs were higher for producers in all environmental conditions, likely due to body size and foraging efficiency (Hansen_2016)
+
