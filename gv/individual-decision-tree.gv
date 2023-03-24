@@ -9,51 +9,46 @@ digraph decision_tree {
 	// Ranks ---------------------------------------------------
 	subgraph cluster_scroung {
 		{rank = same
-		prop_scroung [label = "Proportion \n of scroungers"]
-
-		a [style = "invis"]
-		b [style = "invis"]
-		c [style = "invis"]
-		d [style = "invis"]
-		e [style = "invis"]
-		f [style = "invis"]
-		g [style = "invis"]
-		h [style = "invis"]
-		i [style = "invis"]
-		j [style = "invis"]
-		k [style = "invis"]
-		l [style = "invis"]
-		m [style = "invis"]
-		n [style = "invis"]
-		o [style = "invis"]
+		prop_scroung [label = "Proportion \n of scroungers", color = 'white', fontsize = 16]
 
 
-			a -> b ->  c -> d -> e -> f -> prop_scroung [style = "invis"]
-			prop_scroung -> g -> h -> i -> j -> j -> k -> l -> m -> n -> o
+		a// [style = "invis"]
+		b //[style = "invis"]
+		c //[style = "invis"]
+		d// [style = "invis"]
+		e// [style = "invis"]
+		f// [style = "invis"]
+		g// [style = "invis"]
+		h// [style = "invis"]
+		i// [style = "invis"]
+		j// [style = "invis"]
+		k// [style = "invis"]
+		l// [style = "invis"]
+		m// [style = "invis"]
+		n// [style = "invis"]
+		o// [style = "invis"]
 		}
-		//a -> b ->  c -> d -> e -> f -> prop_scroung
 
-
+		a -> b ->  c -> d -> e -> f -> prop_scroung  [style = "invis"]
+		prop_scroung -> g -> h -> i -> j -> k -> l -> m -> n -> o [style = "invis"]
 	}
+
+
 
 	// Nodes ---------------------------------------------------
 	group_size [label = "Group size"]
 
 	find_share [label = "Finder share"]
-	forag_eff [label = "Foraging efficiency"]
-	forag_acc [label = "Forage access"]
 
 	patch_dens [label = "Patch density"]
 	patch_rich [label = "Patch richness"]
 	patch_dist [label = "Patch distribution"]
 	patch_size [label = "Patch size"]
 	patch_discov [label = "Patch disovery rate"]
-	patch_deplet [label = "Patch depletion rate"]
 	patch_arrive [label = "Patch arrival time"]
 
 
 	pred_risk [label = "Predation risk"]
-	vig [label = "Antipredator vigilance"]
 
 
 	spatial_pos [label = "Spatial position"]
@@ -62,7 +57,6 @@ digraph decision_tree {
 
 	learn [label = "Learning"]
 
-	rate_agg [label = "Rate of aggression"]
 	cost_cont [label = "Cost of contest"]
 
 	dominance [label = "Dominance"]
@@ -158,106 +152,117 @@ digraph decision_tree {
 
 
   // Model ===================================================
-  cost_cont -> prop_scroung [label = "Dubois_2005", color = "#7E1900", style = 'solid', lhead = cluster_scroung]
-
-	dominance -> forag_eff [label = "Caraco_1979", color = "#1A3399", style = "solid"]
-	dominance -> forag_acc [label = "Caraco_1979", color = "#1A3399", style = "solid"]
-	dominance -> prop_scroung [label = "Caraco_1989, Barta_1998, Lee_2016", color = "#1A3399", style = "solid", lhead = cluster_scroung]
-
-
-	find_share -> prop_scroung [label = "Barta_1998, Lee_2016", color = "#7E1900", style = "solid", lhead = cluster_scroung]
-
-
-	group_size -> rate_agg [label = "Caraco_1979", color = "#7E1900", style = "solid"]
+	//group_size -> rate_agg [label = "Caraco_1979", color = "#7E1900", style = "solid"]
 	group_size -> learn [label = "Smolla_2015", color = "#1A3399", style = "solid"]
-	group_size -> prop_scroung [label = "Beauchamp_2000a, Dubois_2005", color = "#1A3399", style = "solid", lhead = cluster_scroung]
 
 
 
-	patch_dens -> prop_scroung [label = "Dubois_2005, Dubois_2020", color = "#7E1900", style = "solid", lhead = cluster_scroung]
-	patch_dens -> rate_agg [label = "Dubois_2003", color = "#7E1900", style = "solid"]
+
+	//patch_dens -> rate_agg [label = "Dubois_2003", color = "#7E1900", style = "solid"]
 	patch_dens -> patch_discov [label = "Dubois_2005", color = "#1A3399", style = "solid"]
 
-	patch_discov -> prop_scroung [label = "Ohtsuka_2009, Lee_2016", color = "#7E1900", style = "solid", lhead = cluster_scroung]
-
-	patch_dist -> prop_scroung [label = "Dubois_2020, Ohtsuka_2009", color = "#1A3399", style = "solid", lhead = cluster_scroung]
-
-	patch_rich -> rate_agg [label = "Dubois_2003", color = "#7E1900", style = "solid"]
-	patch_rich -> prop_scroung [label = "Beauchamp_2000a, Dubois_2005, Dubois_2020", color = "#1A3399", style = "solid", lhead = cluster_scroung]
 
 
-	pred_risk -> rate_agg [label = "Dubois_2005", color = "#7E1900", style = "solid"]
+
+	//patch_rich -> rate_agg [label = "Dubois_2003", color = "#7E1900", style = "solid"]
+
+
+	//pred_risk -> rate_agg [label = "Dubois_2005", color = "#7E1900", style = "solid"]
 	pred_risk -> prop_scroung [label = "Dubois_2020", color = "#7E1900", style = "solid", lhead = cluster_scroung]
 
 
 	//subord -> prop_scroung [label = "Caraco_1989, Barta_1998, Lee_2016", color = "#7E1900", style = "solid"]
 
 
-	tod -> prop_scroung [label = "Barta_2000", color = "#B48A2C", style = "solid", lhead = cluster_scroung]
+	tod -> c [label = "Barta_2000", color = "#B48A2C", style = "solid", lhead = cluster_scroung]
 
 
+
+  cost_cont -> c [label = "Dubois_2005", color = "#7E1900", style = 'solid', lhead = cluster_scroung]
+
+	patch_dens -> prop_scroung [label = "Dubois_2005, Dubois_2020", color = "#7E1900", style = "solid", lhead = cluster_scroung]
+
+	patch_discov -> g [label = "Ohtsuka_2009, Lee_2016", color = "#7E1900", style = "solid", lhead = cluster_scroung]
+
+	patch_dist -> f [label = "Dubois_2020, Ohtsuka_2009", color = "#1A3399", style = "solid", lhead = cluster_scroung]
+
+	find_share -> l [label = "Barta_1998, Lee_2016", color = "#7E1900", style = "solid", lhead = cluster_scroung]
+
+	dominance -> j [label = "Caraco_1989, Barta_1998, Lee_2016", color = "#1A3399", style = "solid", lhead = cluster_scroung]
+
+	patch_rich -> m [label = "Beauchamp_2000a, Dubois_2005, Dubois_2020", color = "#1A3399", style = "solid", lhead = cluster_scroung]
+
+	group_size -> o [label = "Beauchamp_2000a, Dubois_2005", color = "#1A3399", style = "solid", lhead = cluster_scroung]
 
 
 
 
 	// Group
-	group_size -> vig [label = "Caraco_1979", color = "#7E1900", style = "solid"]
+	//group_size -> vig [label = "Caraco_1979", color = "#7E1900", style = "solid"]
 
 	//patch_discov -> n_producers Rita_1997
 
 	// population bits
 
   // Empirical ===============================================
-	sex -> male
-	sex -> female
-	male -> prop_scroung [label = "Aplin_2017", color = "#7E1900", style = "dashed", lhead = cluster_scroung]
-	female -> prop_scroung [label = "Aplin_2017", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
-
-	age -> adult
-	age -> juv
-	adult -> prop_scroung [label = "Aplin_2017", color = "#7E1900", style = "dashed", lhead = cluster_scroung]
-	adult -> prop_scroung [label = "Teichroeb_2015", color = '0', style = "dashed", lhead = cluster_scroung]
-	juv -> prop_scroung [label = "Aplin_2017", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
-	juv -> prop_scroung [label = "Teichroeb_2015", color = '0', style = "dashed", lhead = cluster_scroung]
-
-	soc_affil -> prop_scroung [label = "King_2009", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
-	dominance -> prop_scroung [label = "Bugnyar_2002, Werdenich_2002, King_2009, Aplin_2017", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
 
 
-	dominance -> forag_eff [label = "Teichroeb_2015", color = "#1A3399", style = "dashed"]
-	dominance -> find_share [label = "Teichroeb_2015", color = "#1A3399", style = "dashed"]
+	soc_affil -> d [label = "King_2009", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
+
+
 
 
 	pred_risk -> prop_scroung [label = "Barta_2004, Mathot_2007", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
-	pred_risk -> vig [label = "Mathot_2007", color = "#1A3399", style = "dashed"]
+	//pred_risk -> vig [label = "Mathot_2007", color = "#1A3399", style = "dashed"]
 
 	patch_size -> find_share [label = "Hansen_2016", color = "#7E1900", style = "dashed"]
 	patch_rich -> find_share [label = "Teichroeb_2015", color = "#7E1900", style = "dashed"]
 	group_size -> find_share [label = "Hirsch_2019", color = "#7E1900", style = "dashed"]
 
-	energ_res -> prop_scroung [label = "Lendvai_2004", color = "#7E1900", style = "dashed", lhead = cluster_scroung]
-	energ_res -> prop_scroung [label = "Lee_2016a", color = "#180B09", style = "dashed", lhead = cluster_scroung]
+
+	age -> adult
+	age -> juv
+	adult -> a [label = "Aplin_2017", color = "#7E1900", style = "dashed", lhead = cluster_scroung]
+	adult -> a [label = "Teichroeb_2015", color = '0', style = "dashed", lhead = cluster_scroung]
+	juv -> a [label = "Aplin_2017", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
+	juv -> a [label = "Teichroeb_2015", color = '0', style = "dashed", lhead = cluster_scroung]
+
+
+	sex -> male
+	sex -> female
+	male -> b [label = "Aplin_2017", color = "#7E1900", style = "dashed", lhead = cluster_scroung]
+	female -> b [label = "Aplin_2017", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
+
+
+	related -> c [label = "Mathot_2010", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
+
+	energ_res -> i [label = "Lendvai_2004", color = "#7E1900", style = "dashed", lhead = cluster_scroung]
+	energ_res -> i [label = "Lee_2016a", color = "#180B09", style = "dashed", lhead = cluster_scroung]
 	energ_res -> patch_discov [label = "Lee_2016a", color = "#1A3399", style = "dashed"]
-	energ_res -> forag_eff [label = "Lee_2016a", color = "#1A3399", style = "dashed"]
+
+
 
 	spatial_pos -> central_pos
 	spatial_pos -> edge_pos
-	central_pos -> prop_scroung [label = "Flynn_2001, King_2009", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
-	edge_pos -> prop_scroung [label = "Flynn_2001, King_2009", color = "#7E1900", style = "dashed", lhead = cluster_scroung]
+	central_pos -> e [label = "Flynn_2001, King_2009", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
+	edge_pos -> h [label = "Flynn_2001, King_2009", color = "#7E1900", style = "dashed", lhead = cluster_scroung]
 	edge_pos -> patch_discov [label = "Hirsch_2019", color = "#1A3399", style = "dashed"]
 
-	related -> prop_scroung [label = "Mathot_2010", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
 
-	learn -> prop_scroung [label = "Aplin_2017", color = "#7E1900", style = "dashed", lhead = cluster_scroung]
-	learn -> prop_scroung [label = "Afshar_2015", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
 
-	group_size -> prop_scroung [label = "Coolen_2002, Barta_2004, Aplin_2017, Alfaro_2021", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
-
-	patch_size -> prop_scroung [label = "King_2009, Hansen_2016", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
+	patch_size -> l [label = "King_2009, Hansen_2016", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
 	//patch_size -> sol_forag [label = "King_2009", color = "#7E1900", style = "dashed"]
 
-	patch_arrive -> prop_scroung [label = "Aplin_2017", color = "#7E1900", style = "dashed", lhead = cluster_scroung]
+	patch_arrive -> e [label = "Aplin_2017", color = "#7E1900", style = "dashed", lhead = cluster_scroung]
 
+	dominance -> find_share [label = "Teichroeb_2015", color = "#1A3399", style = "dashed"]
+	dominance -> j [label = "Bugnyar_2002, Werdenich_2002, King_2009, Aplin_2017", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
+
+
+	learn -> n [label = "Aplin_2017", color = "#7E1900", style = "dashed", lhead = cluster_scroung]
+	learn -> n [label = "Afshar_2015", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
+
+	group_size -> o [label = "Coolen_2002, Barta_2004, Aplin_2017, Alfaro_2021", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
 
 
 }
