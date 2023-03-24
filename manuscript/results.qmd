@@ -84,11 +84,11 @@
 	- In habitats with poorer patches, scrounging should be less likely (Beauchamp_2000a)
 	- Increasing patch richness will increase scrounger's share and the proportion of scroungers will increase (Dubois_2005)
 	- (also under Sharing) When retaliator strategy is included, there is widespread sharing predicted in habitats clumped with intermediate richness (Dubois_2007)
-	- (also under patch distribution) If patches are distributed in rich, clumps, scrounging should increase (Dubois_2020)
+	- (also under Patch distribution) If patches are distributed in rich, clumps, scrounging should increase (Dubois_2020)
 	
 	
 - Patch density
-	- At higher patch densities, the producer's patch finding rate should decrease (Dubois_2005)
+	- At higher patch densities, the producer's patch finding rate should increase (Dubois_2005)
 	- At higher patch densities, the rate of scrounging should decrease as the temporal costs of contests makes scrounging less profitable (Dubois_2005)
 
 
