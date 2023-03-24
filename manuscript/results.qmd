@@ -76,7 +76,6 @@
 	
 - Group size
 	- At larger group sizes, scrounging should be more likely and when there are few foragers, scrounging should be rare (Beauchamp_2000a) (Dubois_2005)
-	- At larger group sizes, energy intake and probability of obtaining a fish declined (Belisle_1998)
 	- (also under Patch finding rate) When probability of finding patches decreases with increasing group size, number of scroungers should increase (Dubois_2020)
 	- (also under Patch finding rate) When probability of finding patches increases with increasing group size, number of scroungers should decrease (Dubois_2020)
 
@@ -126,21 +125,18 @@
 
 	
 - Information
-	- Extra information held by producers can be both beneficiall and harmful (Broom_2016). 
+	- Extra information held by producers can be both beneficial and harmful (Broom_2016). 
 	- Information not available to scrounger in situations where resources are not immediately visible eg. concelead nests, or where contest occurs quickly after patch is discovered and before producer has time to evaluate it (Broom_2016)
 	- Producers should fight for resources when costs of contests are high or scrounger has a small change of winning the contest eg. if patch is easily defended (Broom_2016)
 	- When scrounger's potential cost is small compared to the value of the patch or if the scrounger has a high change of winning, the scrounger should always fight (Broom_2016)
 
-
-- Group formation
-	- By being attracted to producers, scroungers induce group formation (Belisle_1998)
 
 - Relatedness
 	- Increased relatedness can lead producers to being more tolerant of scrounging relatives (Mathot_2010)
 
 
 - Population
-	- Scrounging can act as a population regulator by reducing population levell foraging efficiency and intake rate and allowing larger population sizes of predators (Coolen_2007)
+	- Scrounging can act as a population regulator by reducing population level foraging efficiency and intake rate and allowing larger population sizes of predators (Coolen_2007)
 	- Social foraging can stabilize one prey and two prey systems when scrounging is prevalent in predators (Toyokawa_2017) (Vickery_2020)
 	- Scrounging can lower the growth rate of a population (Toyokawa_2017)
 	- Scrounging can allow prey resources to persist at higher densities than if scrounging was absent (Toyokawa_2017) (Vickery_2020)
@@ -252,6 +248,7 @@
 - Group size
 	- Larger groups had a higher proportion of scroungers (Alfaro_2021) (Aplin_2017) (Barta_2004) (Coolen_2002)
 	- (also under Finder's share) Finder's share decreased with forager density (Hirsch_2019)
+	- At larger group sizes, energy intake and probability of obtaining a fish declined (Belisle_1998)
 	
 - Resource depletability
 	- Larger groups required less time to deplete resources (Alfaro_2021)
@@ -278,3 +275,7 @@
 - Payoffs
 	- Payoffs were higher for producers in all environmental conditions, likely due to body size and foraging efficiency (Hansen_2016)
 
+
+- Group formation
+	- By being attracted to producers, scroungers induce group formation (Belisle_1998)
+	
