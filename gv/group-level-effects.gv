@@ -5,26 +5,12 @@ digraph decision_tree {
 	node [shape = box, fontname = Helvetica]
 
 	// Ranks ---------------------------------------------------
-	{rank = same
-		patch_discov [label = "Patch \n discovery rate"]
-		scroung_part [label = "Scrounger&rsquo;s \n portion"]
-		// where cite find_part [label = "Finder&rsquo;s \n share"]
-	}
-
-
-	{rank = same
-		cond [label = 'Conditions']
-		res [label = 'Resources']
-		risk [label = 'Risks']
-	}
 
 	// Nodes ---------------------------------------------------
 	prop_prod [label = "Proportion \n of producers"]
 	prop_scroung [label = "Proportion \n of scroungers"]
 	group_size [label = "Group size"]
-	handling_time [label = "Handling time"]
-	reduce_sens [label = "Reduced \n sensory contact"]
-	// high_dens [label = "High density"]
+
 	tot_food [label = "Total food \n available \n to group"]
 
 	// Citations -----------------------------------------------
