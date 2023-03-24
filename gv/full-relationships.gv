@@ -1,0 +1,290 @@
+digraph decision_tree {
+
+  graph [fontsize = 12]
+  rankdir = LR
+	node [shape = box, fontname = Helvetica]
+
+	// Ranks ---------------------------------------------------
+	{rank = same
+		/*
+		cond [label = 'Conditions']
+		res [label = 'Resources']
+		risk [label = 'Risks']
+		*/
+	}
+
+	// Nodes ---------------------------------------------------
+	prop_scroung [label = "Proportion \n of scroungers"]
+	group_size [label = "Group size"]
+
+	//soc_forag [label = "Social foraging"]
+	//sol_forag [label = "Solitary foraging"]
+	interf [label = "Interference"]
+
+	find_share [label = "Finder share"]
+	forag_eff [label = "Foraging efficiency"]
+	forag_acc [label = "Forage access"]
+
+	patch_depart [label = "Patch departure time"]
+	patch_dens [label = "Patch density"]
+	patch_rich [label = "Patch richness"]
+	patch_dist [label = "Patch distribution"]
+	patch_size [label = "Patch size"]
+	patch_discov [label = "Patch disovery rate"]
+	patch_deplet [label = "Patch depletion rate"]
+	//patch_exploit	[label = "Patch exploitation rate"]
+	patch_arrive [label = "Patch arrival time"]
+
+	//resource_mono [label = "Resource monopolizability"]
+
+	pred_risk [label = "Predation risk"]
+	vig [label = "Antipredator vigilance"]
+
+	//info_asym [label = "Information asymmetry"]
+	//info_sym [label = "Information symmetry"]
+
+	move_speed [label = "Movement speed"]
+	// move_cost [label = "Movement cost"]
+
+	spatial_pos [label = "Spatial position"]
+	central_pos [label = "Central position \n in group"]
+	edge_pos [label = "Edge position \n in group"]
+
+	learn [label = "Learning"]
+
+	rate_agg [label = "Rate of aggression"]
+	cost_cont [label = "Cost of contest"]
+	patch_defend [label = "Patch defense rate"]
+
+	dominance [label = "Dominance"]
+	//dominant [label = "Dominant"]
+	//subord [label = "Subordinate"]
+
+	related [label = "Relatedness"]
+	soc_affil [label = "Social affiliation"]
+	net_cent [label = "Network centrality"]
+
+	tod [label = "Time of day"]
+	energ_res [label = "Energy reserves"]
+
+	pop_growth_rate [label = 'Population growth rate']
+	tot_food [label = "Total quantity \n foraged \n by group"]
+	// interspecific_comp [label = "Interspecific competition"]
+	species_div [label = "Species diversity"]
+
+	dilution [label = "Dilution"]
+
+	join_dist [label = "Joining distance"]
+
+	sex [label = "Sex"]
+	male [label = "Males"]
+	female [label = "Females"]
+
+	age [label = "Age"]
+	adult [ label = "Adults"]
+	juv [label = "Juveniles"]
+
+
+	//*/
+
+	// Citations -----------------------------------------------
+	/*
+	1	Afshar_2014.md
+	2	Afshar_2015.md
+	3	Alfaro_2021.md
+	4	Aplin_2017.md
+	5	Barnard_1981.md
+	6	Barta_1998.md
+	7	Barta_2000.md
+	8	Barta_2001.md
+	9	Barta_2004.md
+	10	Beauchamp_1997.md
+	11	Beauchamp_2000a.md
+	12	Belisle_1998.md
+	13	Broom_2014.md
+	14	Broom_2015.md
+	15	Broom_2016.md
+	16	Broom_2018.md
+	17	Bugnyar_2002.md
+	18	Caraco_1979.md
+	19	Caraco_1989.md
+	20	Caraco_1991.md
+	21	Coolen_2002.md
+	22	Coolen_2003.md
+	23	Coolen_2007.md
+	24	Danchin_2004.md
+	25	Dubois_2003.md
+	26	Dubois_2005.md
+	27	Dubois_2007.md
+	28	Dubois_2010.md
+	29	Dubois_2020.md
+	30	Flynn_2001.md
+	31	Fretwell_and_Lucas_1969.md
+	32	Giraldeau_1990.md
+	33	Giraldeau_1999.md
+	34	Ha_2003.md
+	35	Hansen_2016.md
+	36	Hirsch_2019.md
+	37	Kane_2014.md
+	38	King_2009.md
+	39	Kok_2017.md
+	40	Lee_2016.md
+	41	Lee_2016a.md
+	42	Lendvai_2004.md
+	43	Mathot_2007.md
+	44	Mathot_2010.md
+	45	Morand-Ferron_2007.md
+	46	Morand-Ferron_2011.md
+	47	Ohtsuka_2009.md
+	48	Ranta_1993.md
+	49	Ranta_1993a.md
+	50	Ranta_1996.md
+	51	Ranta_1998.md
+	52	Rita_1997.md
+	53	Rita_1998.md
+	54	Ruxton_2005.md
+	55	Smith_1999.md
+	56	Smolla_2015.md
+	57	Teichroeb_2015.md
+	58	Toyokawa_2017.md
+	59	Vickery_1991.md
+	60	Vickery_2020.md
+	61	Werdenich_2002.md
+	*/
+
+
+  // Edges ---------------------------------------------------
+  // beige - #f1a340
+  // purple - #998ec3
+
+  // type +, -, U, 0
+
+
+  // Model ===================================================
+  cost_cont -> prop_scroung [label = "Dubois_2005", color = "#7E1900", style = 'solid']
+
+	dominance -> forag_eff [label = "Caraco_1979", color = "#1A3399", style = "solid"]
+	dominance -> forag_acc [label = "Caraco_1979", color = "#1A3399", style = "solid"]
+	dominance -> prop_scroung [label = "Caraco_1989, Barta_1998, Lee_2016", color = "#1A3399", style = "solid"]
+
+
+	find_share -> prop_scroung [label = "Barta_1998, Lee_2016", color = "#7E1900", style = "solid"]
+	find_share -> patch_defend [label = "Dubois_2005", color = "#1A3399", style = "solid"]
+	find_share -> patch_depart [label = "Rita_1997", color = "#1A3399", style = "solid"]
+
+
+	group_size -> rate_agg [label = "Caraco_1979", color = "#7E1900", style = "solid"]
+	group_size -> learn [label = "Smolla_2015", color = "#1A3399", style = "solid"]
+	group_size -> prop_scroung [label = "Beauchamp_2000a, Dubois_2005", color = "#1A3399", style = "solid"]
+	group_size -> join_dist [label = "Ruxton_2005", color = "#7E1900", style = "solid"]
+
+
+	interf -> tot_food [label = "Beauchamp_1997", color = "#7E1900", style = "solid"]
+
+
+	move_speed -> join_dist [label = "Ruxton_2005", color = "#1A3399", style = "solid"]
+
+
+	patch_dens -> prop_scroung [label = "Dubois_2005, Dubois_2020", color = "#7E1900", style = "solid"]
+	patch_dens -> rate_agg [label = "Dubois_2003", color = "#7E1900", style = "solid"]
+	patch_dens -> patch_discov [label = "Dubois_2005", color = "#1A3399", style = "solid"]
+
+	patch_deplet -> join_dist [label = "Ruxton_2005", color = "#7E1900", style = "solid"]
+
+	patch_discov -> prop_scroung [label = "Ohtsuka_2009, Lee_2016", color = "#7E1900", style = "solid"]
+	patch_discov -> join_dist [label = "Ruxton_2005", color = "#1A3399", style = "solid"]
+	patch_discov -> patch_deplet [label = "Ruxton_2005", color = "#7E1900", style = "solid"]
+
+	patch_dist -> prop_scroung [label = "Dubois_2020, Ohtsuka_2009", color = "#1A3399", style = "solid"]
+
+	patch_rich -> rate_agg [label = "Dubois_2003", color = "#7E1900", style = "solid"]
+	patch_rich -> prop_scroung [label = "Beauchamp_2000a, Dubois_2005, Dubois_2020", color = "#1A3399", style = "solid"]
+
+
+	pred_risk -> rate_agg [label = "Dubois_2005", color = "#7E1900", style = "solid"]
+	pred_risk -> prop_scroung [label = "Dubois_2020", color = "#7E1900", style = "solid"]
+
+
+	//subord -> prop_scroung [label = "Caraco_1989, Barta_1998, Lee_2016", color = "#7E1900", style = "solid"]
+
+
+	tod -> prop_scroung [label = "Barta_2000", color = "#B48A2C", style = "solid"]
+
+
+
+
+
+
+	// Group
+	prop_scroung -> dilution [label = "Ranta_1996, Ranta_1998", color = "#1A3399", style = "solid"]
+	prop_scroung -> vig [label = "Ranta_1996, Ranta_1998", color = "#1A3399", style = "solid"]
+	prop_scroung -> tot_food [label = "Vickery_2020", color = "#7E1900", style = "solid"]
+	prop_scroung -> group_size [label = "Vickery_2020", color = "#7E1900", style = "solid"]
+	prop_scroung -> pop_growth_rate [label = "Vickery_2020", color = "#7E1900", style = "solid"]
+	prop_scroung -> species_div [label = "Vickery_2020", color = "#1A3399", style = "solid"]
+
+	group_size -> vig [label = "Caraco_1979", color = "#7E1900", style = "solid"]
+
+	//patch_discov -> n_producers Rita_1997
+
+	// population bits
+
+  // Empirical ===============================================
+	sex -> male
+	sex -> female
+	male -> prop_scroung [label = "Aplin_2017", color = "#7E1900", style = "dashed"]
+	female -> prop_scroung [label = "Aplin_2017", color = "#1A3399", style = "dashed"]
+
+	age -> adult
+	age -> juv
+	adult -> prop_scroung [label = "Aplin_2017", color = "#7E1900", style = "dashed"]
+	adult -> prop_scroung [label = "Teichroeb_2015", color = '0', style = "dashed"]
+	juv -> prop_scroung [label = "Aplin_2017", color = "#1A3399", style = "dashed"]
+	juv -> prop_scroung [label = "Teichroeb_2015", color = '0', style = "dashed"]
+
+	soc_affil -> prop_scroung [label = "King_2009", color = "#1A3399", style = "dashed"]
+	dominance -> prop_scroung [label = "Bugnyar_2002, Werdenich_2002, King_2009, Aplin_2017", color = "#1A3399", style = "dashed"]
+
+
+	dominance -> forag_eff [label = "Teichroeb_2015", color = "#1A3399", style = "dashed"]
+	dominance -> find_share [label = "Teichroeb_2015", color = "#1A3399", style = "dashed"]
+
+	prop_scroung -> net_cent [label = "Aplin_2017", color = "#1A3399", style = "dashed"]
+
+	pred_risk -> prop_scroung [label = "Barta_2004, Mathot_2007", color = "#1A3399", style = "dashed"]
+	pred_risk -> vig [label = "Mathot_2007", color = "#1A3399", style = "dashed"]
+	prop_scroung -> vig [label = "Mathot_2007", color = "#180B09", style = "dashed"]
+
+	patch_size -> find_share [label = "Hansen_2016", color = "#7E1900", style = "dashed"]
+	patch_rich -> find_share [label = "Teichroeb_2015", color = "#7E1900", style = "dashed"]
+	group_size -> find_share [label = "Hirsch_2019", color = "#7E1900", style = "dashed"]
+
+	energ_res -> prop_scroung [label = "Lendvai_2004", color = "#7E1900", style = "dashed"]
+	energ_res -> prop_scroung [label = "Lee_2016a", color = "#180B09", style = "dashed"]
+	energ_res -> patch_discov [label = "Lee_2016a", color = "#1A3399", style = "dashed"]
+	energ_res -> forag_eff [label = "Lee_2016a", color = "#1A3399", style = "dashed"]
+
+	spatial_pos -> central_pos
+	spatial_pos -> edge_pos
+	central_pos -> prop_scroung [label = "Flynn_2001, King_2009", color = "#1A3399", style = "dashed"]
+	edge_pos -> prop_scroung [label = "Flynn_2001, King_2009", color = "#7E1900", style = "dashed"]
+	edge_pos -> patch_discov [label = "Hirsch_2019", color = "#1A3399", style = "dashed"]
+
+	related -> prop_scroung [label = "Mathot_2010", color = "#1A3399", style = "dashed"]
+
+	learn -> prop_scroung [label = "Aplin_2017", color = "#7E1900", style = "dashed"]
+	learn -> prop_scroung [label = "Afshar_2015", color = "#1A3399", style = "dashed"]
+
+	group_size -> prop_scroung [label = "Coolen_2002, Barta_2004, Aplin_2017, Alfaro_2021", color = "#1A3399", style = "dashed"]
+	group_size -> patch_deplet [label = "Alfaro_2021", color = "#1A3399", style = "dashed"]
+
+	prop_scroung -> patch_discov [label = "Coolen_2002", color = "#7E1900", style = "dashed"]
+
+	patch_size -> prop_scroung [label = "King_2009, Hansen_2016", color = "#1A3399", style = "dashed"]
+	//patch_size -> sol_forag [label = "King_2009", color = "#7E1900", style = "dashed"]
+
+	patch_arrive -> prop_scroung [label = "Aplin_2017", color = "#7E1900", style = "dashed"]
+
+
+
+}
