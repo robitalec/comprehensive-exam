@@ -1,7 +1,7 @@
 digraph decision_tree {
 
   graph [fontsize = 12]
-  rankdir = TB
+  rankdir = LR
 	node [shape = box, fontname = Helvetica]
 
 	// Ranks ---------------------------------------------------
@@ -17,8 +17,8 @@ digraph decision_tree {
 	prop_scroung [label = "Proportion \n of scroungers"]
 	group_size [label = "Group size"]
 
-	soc_forag [label = "Social foraging"]
-	sol_forag [label = "Solitary foraging"]
+	//soc_forag [label = "Social foraging"]
+	//sol_forag [label = "Solitary foraging"]
 	interf [label = "Interference"]
 
 	find_share [label = "Finder share"]
@@ -32,19 +32,19 @@ digraph decision_tree {
 	patch_size [label = "Patch size"]
 	patch_discov [label = "Patch disovery rate"]
 	patch_deplet [label = "Patch depletion rate"]
-	patch_exploit	[label = "Patch exploitation rate"]
+	//patch_exploit	[label = "Patch exploitation rate"]
 	patch_arrive [label = "Patch arrival time"]
 
-	resource_mono [label = "Resource monopolizability"]
+	//resource_mono [label = "Resource monopolizability"]
 
 	pred_risk [label = "Predation risk"]
 	vig [label = "Antipredator vigilance"]
 
-	info_asym [label = "Information asymmetry"]
-	info_sym [label = "Information symmetry"]
+	//info_asym [label = "Information asymmetry"]
+	//info_sym [label = "Information symmetry"]
 
 	move_speed [label = "Movement speed"]
-	move_cost [label = "Movement cost"]
+	// move_cost [label = "Movement cost"]
 
 	spatial_pos [label = "Spatial position"]
 	central_pos [label = "Central position \n in group"]
@@ -53,7 +53,7 @@ digraph decision_tree {
 	learn [label = "Learning"]
 
 	rate_agg [label = "Rate of aggression"]
-	cont_cost [label = "Cost of contest"]
+	cost_cont [label = "Cost of contest"]
 	patch_defend [label = "Patch defense rate"]
 
 	dominance [label = "Dominance"]
@@ -69,7 +69,7 @@ digraph decision_tree {
 
 	pop_growth_rate [label = 'Population growth rate']
 	tot_food [label = "Total quantity \n foraged \n by group"]
-	interspecific_comp [label = "Interspecific competition"]
+	// interspecific_comp [label = "Interspecific competition"]
 	species_div [label = "Species diversity"]
 
 	dilution [label = "Dilution"]
@@ -161,6 +161,8 @@ digraph decision_tree {
 
 
   // Model ===================================================
+  cost_cont -> prop_scroung [label = "Dubois_2005", color = "-", style = 'solid']
+
 	dominance -> prop_scroung [label = "Barta_1998", color = "+", style = "solid"]
 	dominance -> forag_eff [label = "Caraco_1979", color = "+", style = "solid"]
 	dominance -> forag_acc [label = "Caraco_1979", color = "+", style = "solid"]
@@ -273,7 +275,10 @@ digraph decision_tree {
 	prop_scroung -> patch_discov [label = "Coolen_2002", color = "-", style = "dashed"]
 
 	patch_size -> prop_scroung [label = "King_2009, Hansen_2016", color = "+", style = "dashed"]
-	patch_size -> sol_forag [label = "King_2009", color = "-", style = "dashed"]
+	//patch_size -> sol_forag [label = "King_2009", color = "-", style = "dashed"]
 
 	patch_arrive -> prop_scroung [label = "Aplin_2017", color = "-", style = "dashed"]
+
+
+
 }
