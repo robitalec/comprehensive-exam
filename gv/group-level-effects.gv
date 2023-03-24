@@ -1,7 +1,7 @@
 digraph decision_tree {
 
   graph [fontsize = 12]
-  rankdir = TB
+  rankdir = LR
 	node [shape = box, fontname = Helvetica]
 
 	// Ranks ---------------------------------------------------
@@ -9,7 +9,6 @@ digraph decision_tree {
 		prop_scroung [label = "Proportion \n of scroungers"]
 		group_size [label = "Group size"]
 	}
-
 
 	subgraph cluster_risk {
 
@@ -35,6 +34,7 @@ digraph decision_tree {
 		patch_defend [label = "Patch defense rate"]
 
 		tot_food [label = "Total quantity \n foraged \n by group"]
+
 
 	}
 
