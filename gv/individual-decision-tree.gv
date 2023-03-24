@@ -19,17 +19,60 @@ digraph decision_tree {
 	}
 
 	// Nodes ---------------------------------------------------
-	prop_prod [label = "Proportion \n of producers"]
 	prop_scroung [label = "Proportion \n of scroungers"]
 	group_size [label = "Group size"]
-	handling_time [label = "Handling time"]
-	reduce_sens [label = "Reduced \n sensory contact"]
-	// high_dens [label = "High density"]
-	tot_food [label = "Total food \n available \n to group"]
+
+	soc_forag [label = "Social foraging"]
+	sol_forag [label = "Solitary foraging"]
+	interf [label = "Interference"]
 
 	find_share [label = "Finder share"]
+	forag_eff [label = "Foraging efficiency"]
+	forag_acc [label = "Forage access"]
+
+	patch_depart [label = "Patch departure time"]
+	patch_dens [label = "Patch density"]
+	patch_rich [label = "Patch richness"]
+	patch_dist [label = "Patch distribution"]
+	patch_discov [label = "Patch disovery rate"]
+	patch_deplet [label = "Patch depletion rate"]
+	patch_exploit	[label = "Patch exploitation rate"]
+
+	resource_mono [label = "Resource monopolizability"]
 
 	pred_risk [label = "Predation risk"]
+	vig [label = "Antipredator vigilance"]
+
+	info_asym [label = "Information asymmetry"]
+	info_sym [label = "Information symmetry"]
+
+	move_speed [label = "Movement speed"]
+	move_cost [label = "Movement cost"]
+
+	learn [label = "Learning"]
+
+	rate_agg [label = "Rate of aggression"]
+	cont_cost [label = "Cost of contest"]
+
+	dominance [label = "Dominance"]
+	dominant [label = "Dominant"]
+	subord [label = "Subordinate"]
+
+	related [label = "Relatedness"]
+
+	tod [label = "Time of day"]
+	energ_res [label = "Energy reserves"]
+
+	pop_growth_rate [label = 'Population growth rate']
+	tot_food [label = "Total quantity \n foraged \n by group"]
+	interspecific_comp [label = "Interspecific competition"]
+	species_div [label = "Species diversity"]
+
+	//handling_time [label = "Handling time"]
+	//reduce_sens [label = "Reduced \n sensory contact"]
+	// high_dens [label = "High density"]
+
+
 
 	// Citations -----------------------------------------------
 	// [1] Vickery et al 1991 &#x00B9
@@ -37,6 +80,13 @@ digraph decision_tree {
 
 
   // Edges ---------------------------------------------------
+	// label = "&#x00B9;", color = '#f1a340'
+
+  // Model ===================================================
+
+  // Empirical ===============================================
+
+
 	//where cite prop_prod -> patch_discov [label = "Increase", color = '#998ec3']
 
 	//where cite risk -> high_dens
