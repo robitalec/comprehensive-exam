@@ -27,6 +27,10 @@ digraph decision_tree {
 	// high_dens [label = "High density"]
 	tot_food [label = "Total food \n available \n to group"]
 
+	find_share [label = "Finder share"]
+
+	pred_risk [label = "Predation risk"]
+
 	// Citations -----------------------------------------------
 	// [1] Vickery et al 1991 &#x00B9
   // [2] Vickery 2020 &#x00B2
