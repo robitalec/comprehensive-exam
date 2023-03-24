@@ -1,3 +1,53 @@
+In the context of frequency-dependent producer-scrounger dynamics,
+how would one’s role affect access to available resources considering risks 
+and conditions during habitat selection
+
+---
+
+What is the goal
+
+- determine if and how producer-scrounger dynamics consider risks and conditions 
+- identify takeaways from producer scrounger's explicit consideration of conspecifics and their influence on individual's access to forage
+- recommend next steps for integrating producer scrounger dynamics into habitat selection approaches
+
+Statement of position/angle
+
+- treating producer scrounger dynamics as occurring within habitat selection, where scrounging individuals use conspecifics to identify forage habitat
+- conspecifics explicitly incorporated
+- whereas habitat selection is concerned about used/available by environmental variables
+- focus is on how individual behaviours and conspecifics (frequency dependence) influence availability of habitat
+
+What have i done
+
+- reviewed the producer scrounger literature specifically 40 papers describing different producer scrounger models, a number of empirical studies testing on either captive or wild animals and a few papers using alternative approaches to testing producer scrounger dynamics including simulations
+- given these, identified influencing factors contributing to individual's foraging behaviour including foraging strategy choice, rate of aggression, dominance, and learning
+- in addition, identified group or population level outcomes of individual's foraging behaviours including population growth, group level foraging rate and group size
+
+What have i learned
+
+- the foundational models of producer scrounger dynamics have XYZ assumptions, which influence costs and benefits to each role
+- producer scrounger dynamics have proven flexible to different contexts and this allows it to generalize from kleptoparasitism to producing and scrounging to sharing. Interspecific and intraspecific. 
+- producer scrounger dynamics have been observed across taxa and ?contexts
+- producer scrounger literature however has considered in both theoretical and empirical approaches the various constraints on individuals choice of foraging strategy including dominance, learning and energy reserves
+
+However - 
+- producer scrounger models including game theoretical approaches, empirical tests and simulations have yet to thoroughly consider and evaluate the influence of habitat conditions on access to available resources
+- producer scrounger models including game theoretical approaches, empirical tests and simulations have solely identified predation risk either implicitly or explicitly. Proxies are often used for predation risk such as distance to cover or eg. clipping primary flight feathers
+- resources are often assumed to be available, sometimes experimental approaches include training only a subset to access
+
+
+What can we learn from habitat selection
+- The Matthiopolous definition of habitat includes resources, risks and conditions
+- more background habitat selection
+- What is available in the habitat selection world?
+- Producer scrounger dynamics provide an interesting insight into habitat selection and availability. For scroungers, prey are only available when a producer has discovered them. 
+
+
+What is next
+- game theoretical approaches or agent based simulations of producer scrounger dynamics under different risks and conditions
+- observations of wild species to illuminate the connection between environmental variables and producer/scrounger dynamics
+- incorporate roles into habitat selection by defining availability of scroungers by their nearest producer neighbour
+
 # Outline
 
 ## Introduction
