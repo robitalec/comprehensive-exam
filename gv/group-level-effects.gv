@@ -30,7 +30,6 @@ digraph decision_tree {
 	patch_depart [label = "Patch departure time"]
 	patch_dens [label = "Patch density"]
 	patch_rich [label = "Patch richness"]
-	patch_dist [label = "Patch distribution"]
 	patch_discov [label = "Patch disovery rate"]
 	patch_deplet [label = "Patch depletion rate"]
 	patch_exploit	[label = "Patch exploitation rate"]
@@ -142,20 +141,16 @@ digraph decision_tree {
   // purple - #998ec3
 
   // Model ===================================================
-	dominance -> prop_scroung [label = "Barta_1998", color = "+", style = "solid"]
 	dominance -> forag_eff [label = "Caraco_1979", color = "+", style = "solid"]
 	dominance -> forag_acc [label = "Caraco_1979", color = "+", style = "solid"]
-	dominant -> prop_scroung [label = "Caraco_1989, Barta_1998, Lee_2016", color = "+", style = "solid"]
 
 
-	find_share -> prop_scroung [label = "Barta_1998, Lee_2016", color = "-", style = "solid"]
 	find_share -> patch_defend [label = "Dubois_2005", color = "+", style = "solid"]
 	find_share -> patch_depart [label = "Rita_1997", color = "+", style = "solid"]
 
 
 	group_size -> rate_agg [label = "Caraco_1979", color = "-", style = "solid"]
 	group_size -> learn [label = "Smolla_2015", color = "+", style = "solid"]
-	group_size -> prop_scroung [label = "Beauchamp_2000a, Dubois_2005", color = "+", style = "solid"]
 	group_size -> join_dist [label = "Ruxton_2005", color = "-", style = "solid"]
 
 
@@ -165,30 +160,20 @@ digraph decision_tree {
 	move_speed -> join_dist [label = "Ruxton_2005", color = "+", style = "solid"]
 
 
-	patch_dens -> prop_scroung [label = "Dubois_2005, Dubois_2020", color = "-", style = "solid"]
 	patch_dens -> rate_agg [label = "Dubois_2003", color = "-", style = "solid"]
 	patch_dens -> patch_discov [label = "Dubois_2005", color = "+", style = "solid"]
 
 	patch_deplet -> join_dist [label = "Ruxton_2005", color = "-", style = "solid"]
 
-	patch_discov -> prop_scroung [label = "Ohtsuka_2009, Lee_2016", color = "-", style = "solid"]
 	patch_discov -> join_dist [label = "Ruxton_2005", color = "+", style = "solid"]
 	patch_discov -> patch_deplet [label = "Ruxton_2005", color = "-", style = "solid"]
 
-	patch_dist -> prop_scroung [label = "Dubois_2020, Ohtsuka_2009", color = "+", style = "solid"]
 
 	patch_rich -> rate_agg [label = "Dubois_2003", color = "-", style = "solid"]
-	patch_rich -> prop_scroung [label = "Beauchamp_2000a, Dubois_2005, Dubois_2020", color = "+", style = "solid"]
 
 
 	pred_risk -> rate_agg [label = "Dubois_2005", color = "-", style = "solid"]
-	pred_risk -> prop_scroung [label = "Dubois_2020", color = "-", style = "solid"]
 
-
-	subord -> prop_scroung [label = "Caraco_1989, Barta_1998, Lee_2016", color = "-", style = "solid"]
-
-
-	tod -> prop_scroung [label = "Barta_2000", color = "U", style = "solid"]
 
 
 
