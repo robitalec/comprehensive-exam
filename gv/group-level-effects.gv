@@ -1,16 +1,16 @@
 digraph decision_tree {
 
-  graph [fontsize = 12]
   rankdir = LR
-	node [shape = box, fontname = Helvetica]
+	node [fontsize = 22, shape = box, fontname = Helvetica, penwidth = 2]
+	edge [penwidth = 3]
 
 	// Ranks ---------------------------------------------------
-	{rank = same
-		prop_scroung [label = "Proportion \n of scroungers"]
+	//{rank = same
+		prop_scroung [label = "Proportion \n of scroungers", shape = circle]
 		group_size [label = "Group size"]
-	}
+	//}
 
-	subgraph cluster_risk {
+	//subgraph cluster_risk {
 
 		rate_agg [label = "Rate of aggression"]
 		//cost_cont [label = "Cost of contest"]
@@ -19,10 +19,10 @@ digraph decision_tree {
 		vig [label = "Antipredator vigilance"]
 		dilution [label = "Dilution"]
 
-	}
+	//}
 
 
-	subgraph cluster_access {
+	//subgraph cluster_access {
 		find_share [label = "Finder share"]
 		forag_eff [label = "Foraging efficiency"]
 		forag_acc [label = "Forage access"]
@@ -34,9 +34,7 @@ digraph decision_tree {
 		patch_defend [label = "Patch defense rate"]
 
 		tot_food [label = "Total quantity \n foraged \n by group"]
-
-
-	}
+	//}
 
 	// Nodes ---------------------------------------------------
 
@@ -83,9 +81,9 @@ digraph decision_tree {
 	//tod [label = "Time of day"]
 	energ_res [label = "Energy reserves"]
 
-	//pop_growth_rate [label = 'Population growth rate']
-	// interspecific_comp [label = "Interspecific competition"]
-	//species_div [label = "Species diversity"]
+	pop_growth_rate [label = 'Population growth rate']
+	//interspecific_comp [label = "Interspecific competition"]
+	species_div [label = "Species diversity"]
 
 
 	//join_dist [label = "Joining distance"]
@@ -218,8 +216,8 @@ digraph decision_tree {
 	prop_scroung -> vig [label = "Ranta_1996, Ranta_1998", color = "#1A3399", style = "solid"]
 	prop_scroung -> tot_food [label = "Vickery_2020", color = "#7E1900", style = "solid"]
 	prop_scroung -> group_size [label = "Vickery_2020", color = "#7E1900", style = "solid"]
-	//prop_scroung -> pop_growth_rate [label = "Vickery_2020", color = "#7E1900", style = "solid"]
-	//prop_scroung -> species_div [label = "Vickery_2020", color = "#1A3399", style = "solid"]
+	prop_scroung -> pop_growth_rate [label = "Vickery_2020", color = "#7E1900", style = "solid"]
+	prop_scroung -> species_div [label = "Vickery_2020", color = "#1A3399", style = "solid"]
 
 	group_size -> vig [label = "Caraco_1979", color = "#7E1900", style = "solid"]
 
