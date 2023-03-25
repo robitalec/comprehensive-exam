@@ -26,46 +26,46 @@ targets_drive  <- c(
 	tar_target(
 		literature,
 		data.table(
-			drive_get('literature-comprehensive-exam') |>
-				read_sheet('producer-scrounger-wos-scopus-bioab')),
+			drive_get('producer-scrounger-literature-compared') |>
+				read_sheet('lit_results')),
 		cue = tar_cue('always')
 	),
 	tar_target(
-		table_1_ps_literature_compared,
+		table_lit_results_ps,
 		data.table(
 			drive_get('producer-scrounger-literature-compared') |>
-				read_sheet(sheet = 'table 1')),
+				read_sheet(sheet = 'lit_results_ps')),
 		cue = tar_cue('always')
 	),
 	tar_target(
-		table_2_ps_literature_compared,
+		table_lit_results_empirical,
 		data.table(
 			drive_get('producer-scrounger-literature-compared') |>
-				read_sheet(sheet = 'table 2')),
+				read_sheet(sheet = 'lit_results_empirical')),
 		cue = tar_cue('always')
 	),
 	tar_target(
-		table_3_ps_literature_compared,
+		table_lit_results_other,
 		data.table(
 			drive_get('producer-scrounger-literature-compared') |>
-			read_sheet(sheet = 'table 3')),
+			read_sheet(sheet = 'lit_results_other')),
 		cue = tar_cue('always')
 	),
 	tar_target(
 		write_literature,
-		fwrite(literature, 'tables/literature.csv')
+		fwrite(literature, 'data/literature/literature.csv')
 	),
 	tar_target(
-		write_table_1_ps_literature_compared,
-		fwrite(table_1_ps_literature_compared, 'tables/table_1_ps_literature_compared.csv')
+		write_table_lit_results_ps,
+		fwrite(table_lit_results_ps, 'data/literature/table_lit_results_ps.csv')
 	),
 	tar_target(
-		write_table_2_ps_literature_compared,
-		fwrite(table_2_ps_literature_compared, 'tables/table_2_ps_literature_compared.csv')
+		write_table_lit_results_empirical,
+		fwrite(table_lit_results_empirical, 'data/literature//table_lit_results_empirical.csv')
 	),
 	tar_target(
-		write_table_3_ps_literature_compared,
-		fwrite(table_3_ps_literature_compared, 'tables/table_3_ps_literature_compared.csv')
+		write_table_lit_results_other,
+		fwrite(table_lit_results_other, 'data/literature/table_lit_results_other.csv')
 	),
 	tar_target(
 		rrc_results,
@@ -76,7 +76,7 @@ targets_drive  <- c(
 	),
 	tar_target(
 		write_rrc_results,
-		fwrite(rrc_results, 'tables/rrc_results.csv')
+		fwrite(rrc_results, 'data/literature/rrc_results.csv')
 	)
 )
 
@@ -87,46 +87,15 @@ targets_drive  <- c(
 targets_literature <- c(
 	tar_target(
 		n_by_species,
-		sort(strsplit(literature$empirical, ',') |> unlist() |> table(), TRUE) |>
+		sort(strsplit(literature$Species, ', ') |> unlist() |> table(), TRUE) |>
 			data.table() |> setnames(new = c('Species', 'Count'))
 	),
 	tar_target(
 		n_by_type,
-		data.table(
-			Approach = c(
-				'Producer scrounger model',
-				'Empirical test or experiment',
-				'Simulation',
-				'Other model type'
-			),
-			Count = c(
-				literature[ps_model == 'y', .N],
-				literature[!is.na(empirical), .N],
-				literature[simulation == 'y', .N],
-				literature[!is.na(other_model), .N]
-			)
-		)
+		sort(strsplit(literature$Type, ', ') |> unlist() |> table(), TRUE) |>
+			data.table() |> setnames(new = c('Type', 'Count'))
 	)
 )
-
-
-
-# Targets: figures --------------------------------------------------------
-targets_figures <- c(
-	tar_target(
-		figure_1,
-		{}
-	),
-	tar_target(
-		figure_2,
-		{}
-	),
-	tar_target(
-		figure_3,
-		{}
-	)
-)
-
 
 
 

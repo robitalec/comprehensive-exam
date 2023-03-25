@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Comprehensive exam – lee_2016</title>
+<title>Comprehensive exam – figure-into-prop-scrounge</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -58,6 +58,10 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script src="../../site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="../../site_libs/viz-1.8.2/viz.js"></script>
+<link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
+<script src="../../site_libs/grViz-binding-1.0.9/grViz.js"></script>
 
 
 </head>
@@ -159,12 +163,12 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">Papers</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">Papers</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../literature/papers/Afshar_2014.html" class="sidebar-item-text sidebar-link">Afshar_2014</a>
@@ -367,7 +371,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../literature/papers/Lee_2016.html" class="sidebar-item-text sidebar-link active">Lee_2016</a>
+  <a href="../../literature/papers/Lee_2016.html" class="sidebar-item-text sidebar-link">Lee_2016</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -709,12 +713,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="false">Objects</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true">Objects</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../manuscript/objects/figure-habitat-producer.html" class="sidebar-item-text sidebar-link">Figure 1</a>
@@ -722,7 +726,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../manuscript/objects/figure-into-prop-scrounge.html" class="sidebar-item-text sidebar-link">Figure 2</a>
+  <a href="../../manuscript/objects/figure-into-prop-scrounge.html" class="sidebar-item-text sidebar-link active">Figure 2</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -808,20 +812,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#lee_2016" id="toc-lee_2016" class="nav-link active" data-scroll-target="#lee_2016">Lee_2016</a>
-  <ul class="collapse">
-  <li><a href="#strategies" id="toc-strategies" class="nav-link" data-scroll-target="#strategies">Strategies</a></li>
-  <li><a href="#frequency-dependence" id="toc-frequency-dependence" class="nav-link" data-scroll-target="#frequency-dependence">Frequency dependence</a></li>
-  <li><a href="#payoffs" id="toc-payoffs" class="nav-link" data-scroll-target="#payoffs">Payoffs</a></li>
-  <li><a href="#penalties" id="toc-penalties" class="nav-link" data-scroll-target="#penalties">Penalties</a></li>
-  <li><a href="#availability" id="toc-availability" class="nav-link" data-scroll-target="#availability">Availability</a></li>
-  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
-  <li><a href="#risks" id="toc-risks" class="nav-link" data-scroll-target="#risks">Risks</a></li>
-  <li><a href="#conditions" id="toc-conditions" class="nav-link" data-scroll-target="#conditions">Conditions</a></li>
-  <li><a href="#access" id="toc-access" class="nav-link" data-scroll-target="#access">Access</a></li>
-  <li><a href="#focus" id="toc-focus" class="nav-link" data-scroll-target="#focus">Focus</a></li>
-  <li><a href="#outcome" id="toc-outcome" class="nav-link" data-scroll-target="#outcome">Outcome</a></li>
-  </ul></li>
+  <li><a href="#figure-2" id="toc-figure-2" class="nav-link active" data-scroll-target="#figure-2">Figure 2</a></li>
   </ul>
 </nav>
     </div>
@@ -830,54 +821,17 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="lee_2016" class="level2">
-<h2 class="anchored" data-anchor-id="lee_2016">Lee_2016</h2>
-<p>Lee, Alexander E. G., James P. Ounsley, Tim Coulson, J. Marcus Rowcliffe, and Guy Cowlishaw. 2016. “Information Use and Resource Competition: An Integrative Framework.” <em>Proceedings of the Royal Society B: Biological Sciences</em> 283 (1825): 20152550. <a href="https://doi.org/10.1098/rspb.2015.2550">https://doi.org/10.1098/rspb.2015.2550</a>.</p>
-<hr>
-<section id="strategies" class="level3">
-<h3 class="anchored" data-anchor-id="strategies">Strategies</h3>
-</section>
-<section id="frequency-dependence" class="level3">
-<h3 class="anchored" data-anchor-id="frequency-dependence">Frequency dependence</h3>
-</section>
-<section id="payoffs" class="level3">
-<h3 class="anchored" data-anchor-id="payoffs">Payoffs</h3>
-<p><a href="../../literature/topics/finders_share.html">finders_share</a></p>
-</section>
-<section id="penalties" class="level3">
-<h3 class="anchored" data-anchor-id="penalties">Penalties</h3>
-</section>
-<section id="availability" class="level3">
-<h3 class="anchored" data-anchor-id="availability">Availability</h3>
-<p>Individuals can search for resources alone or by using social information</p>
-</section>
-<section id="resources" class="level3">
-<h3 class="anchored" data-anchor-id="resources">Resources</h3>
-<p>Depletion rate</p>
-</section>
-<section id="risks" class="level3">
-<h3 class="anchored" data-anchor-id="risks">Risks</h3>
-</section>
-<section id="conditions" class="level3">
-<h3 class="anchored" data-anchor-id="conditions">Conditions</h3>
-</section>
-<section id="access" class="level3">
-<h3 class="anchored" data-anchor-id="access">Access</h3>
-<p>Social rank</p>
-</section>
-<section id="focus" class="level3">
-<h3 class="anchored" data-anchor-id="focus">Focus</h3>
-<p>Developed a model to demonstrate how competition can facilitate or constrain an individual’s ability to use information when acquiring resources, considering resource distribution</p>
-</section>
-<section id="outcome" class="level3">
-<h3 class="anchored" data-anchor-id="outcome">Outcome</h3>
-<p>Increasing the producer’s resource discovery rate reduced the relative cost of solitary foraging. If patches were easy to find and individuals were unable to monopolize resources, scrounging became less common. Under conditions of strong monopolization and intermediate discovery rates, higher levels of scrounging occurred</p>
-<p>Two main predictions: 1 The effects of resource scarcity on social information use should depend on resource monopolizability. 2 The potential benefits of social <a href="../../literature/topics/dominance.html">dominance</a> should be closely linked to social information use in uncertain environments.</p>
-<p>There are constrains that competition imposes on an individual’s ability to use social information to access resources. When resources are monopolizable, social information use may become exclusive to dominant individuals leading to a positive relationship between social rank and resource acquisition rate.</p>
-<p>Selection pressures on <a href="../../literature/topics/dominance.html">dominance</a> will depend on multidimensional aspects of resources eg. scarcity, depletion rate and monopolizability</p>
+<section id="figure-2" class="level1">
+<h1>Figure 2</h1>
+<p>Figure 2: Variables identified in the literature as directly influencing the proportion of scrounging in a group of foragers</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-e04b6abfe1403d163fdc" style="width:100%;height:464px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-e04b6abfe1403d163fdc">{"x":{"diagram":"digraph decision_tree {\n\n  compound = true\n\n  graph []\n  rankdir = LR\n\tnode [fontsize = 22, shape = box, fontname = Helvetica, penwidth = 3, color = grey50]\n\tedge [penwidth = 3]\n\n\n\t// Nodes ---------------------------------------------------\n\tprop_scroung [label = \"Proportion \\n of scroungers\", shape = circle]\n\n\tgroup_size [label = \"Group size\"]\n\n\tfind_share [label = \"Finder share\"]\n\n\tpatch_dens [label = \"Patch density\"]\n\tpatch_rich [label = \"Patch richness\"]\n\tpatch_dist [label = \"Patch distribution\"]\n\tpatch_size [label = \"Patch size\"]\n\tpatch_discov [label = \"Patch disovery rate\"]\n\tpatch_arrive [label = \"Patch arrival time\"]\n\n\n\tpred_risk [label = \"Predation risk\"]\n\n\n\tspatial_pos [label = \"Spatial position\"]\n\tcentral_pos [label = \"Central position \\n in group\"]\n\tedge_pos [label = \"Edge position \\n in group\"]\n\n\tlearn [label = \"Learning\"]\n\n\tcost_cont [label = \"Cost of contest\"]\n\n\tdominance [label = \"Dominance\"]\n\n\trelated [label = \"Relatedness\"]\n\tsoc_affil [label = \"Social affiliation\"]\n\n\ttod [label = \"Time of day\"]\n\tenerg_res [label = \"Energy reserves\"]\n\n\tsex [label = \"Sex\"]\n\tmale [label = \"Males\"]\n\tfemale [label = \"Females\"]\n\n\tage [label = \"Age\"]\n\tadult [ label = \"Adults\"]\n\tjuv [label = \"Juveniles\"]\n\n\n  // Edges ---------------------------------------------------\n  // beige - #f1a340\n  // purple - #998ec3\n  // type +, -, U, 0\n\n\n  // Model ===================================================\n\t//group_size -> rate_agg [label = \"Caraco_1979\", color = \"#7E1900\", style = \"solid\"]\n\tgroup_size -> learn [label = \"Smolla_2015\", color = \"#1A3399\", style = \"solid\"]\n\n\n\n\n\t//patch_dens -> rate_agg [label = \"Dubois_2003\", color = \"#7E1900\", style = \"solid\"]\n\tpatch_dens -> patch_discov [label = \"Dubois_2005\", color = \"#1A3399\", style = \"solid\"]\n\n\n\n\n\t//patch_rich -> rate_agg [label = \"Dubois_2003\", color = \"#7E1900\", style = \"solid\"]\n\n\n\t//pred_risk -> rate_agg [label = \"Dubois_2005\", color = \"#7E1900\", style = \"solid\"]\n\tpred_risk -> prop_scroung [label = \"Dubois_2020\", color = \"#7E1900\", style = \"solid\", lhead = cluster_scroung]\n\n\n\t//subord -> prop_scroung [label = \"Caraco_1989, Barta_1998, Lee_2016\", color = \"#7E1900\", style = \"solid\"]\n\n\n\ttod -> prop_scroung [label = \"Barta_2000\", color = \"#B48A2C\", style = \"solid\", lhead = cluster_scroung]\n\n\n\n  cost_cont -> prop_scroung [label = \"Dubois_2005\", color = \"#7E1900\", style = \"solid\", lhead = cluster_scroung]\n\n\tpatch_dens -> prop_scroung [label = \"Dubois_2005, Dubois_2020\", color = \"#7E1900\", style = \"solid\", lhead = cluster_scroung]\n\n\tpatch_discov -> prop_scroung [label = \"Ohtsuka_2009, Lee_2016\", color = \"#7E1900\", style = \"solid\", lhead = cluster_scroung]\n\n\tpatch_dist -> prop_scroung [label = \"Dubois_2020, Ohtsuka_2009\", color = \"#1A3399\", style = \"solid\", lhead = cluster_scroung]\n\n\tfind_share -> prop_scroung [label = \"Barta_1998, Lee_2016\", color = \"#7E1900\", style = \"solid\", lhead = cluster_scroung]\n\n\tdominance -> prop_scroung [label = \"Caraco_1989, Barta_1998, Lee_2016\", color = \"#1A3399\", style = \"solid\", lhead = cluster_scroung]\n\n\tpatch_rich -> prop_scroung [label = \"Beauchamp_2000a, Dubois_2005, Dubois_2020\", color = \"#1A3399\", style = \"solid\", lhead = cluster_scroung]\n\n\tgroup_size -> prop_scroung [label = \"Beauchamp_2000a, Dubois_2005\", color = \"#1A3399\", style = \"solid\", lhead = cluster_scroung]\n\n\n\n  // Empirical ===============================================\n\tsoc_affil -> prop_scroung [label = \"King_2009\", color = \"#1A3399\", style = \"dashed\", lhead = cluster_scroung]\n\n\tpred_risk -> prop_scroung [label = \"Barta_2004, Mathot_2007\", color = \"#1A3399\", style = \"dashed\", lhead = cluster_scroung]\n\t//pred_risk -> vig [label = \"Mathot_2007\", color = \"#1A3399\", style = \"dashed\"]\n\n\tpatch_size -> find_share [label = \"Hansen_2016\", color = \"#7E1900\", style = \"dashed\"]\n\tpatch_rich -> find_share [label = \"Teichroeb_2015\", color = \"#7E1900\", style = \"dashed\"]\n\tgroup_size -> find_share [label = \"Hirsch_2019\", color = \"#7E1900\", style = \"dashed\"]\n\n\n\tage -> adult [color = \"grey40\"]\n\tage -> juv [color = \"grey40\"]\n\tadult -> prop_scroung [label = \"Aplin_2017\", color = \"#7E1900\", style = \"dashed\", lhead = cluster_scroung]\n\tadult -> prop_scroung [label = \"Teichroeb_2015\", color = \"0\", style = \"dashed\", lhead = cluster_scroung]\n\tjuv -> prop_scroung [label = \"Aplin_2017\", color = \"#1A3399\", style = \"dashed\", lhead = cluster_scroung]\n\tjuv -> prop_scroung [label = \"Teichroeb_2015\", color = \"0\", style = \"dashed\", lhead = cluster_scroung]\n\n\n\tsex -> male [color = \"grey40\"]\n\tsex -> female [color = \"grey40\"]\n\tmale -> prop_scroung [label = \"Aplin_2017\", color = \"#7E1900\", style = \"dashed\", lhead = cluster_scroung]\n\tfemale -> prop_scroung [label = \"Aplin_2017\", color = \"#1A3399\", style = \"dashed\", lhead = cluster_scroung]\n\n\n\trelated -> prop_scroung [label = \"Mathot_2010\", color = \"#1A3399\", style = \"dashed\", lhead = cluster_scroung]\n\n\tenerg_res -> prop_scroung [label = \"Lendvai_2004\", color = \"#7E1900\", style = \"dashed\", lhead = cluster_scroung]\n\tenerg_res -> prop_scroung [label = \"Lee_2016a\", color = \"#180B09\", style = \"dashed\", lhead = cluster_scroung]\n\tenerg_res -> patch_discov [label = \"Lee_2016a\", color = \"#1A3399\", style = \"dashed\"]\n\n\n\tspatial_pos -> central_pos [color = \"grey40\"]\n\tspatial_pos -> edge_pos [color = \"grey40\"]\n\tcentral_pos -> prop_scroung [label = \"Flynn_2001, King_2009\", color = \"#1A3399\", style = \"dashed\", lhead = cluster_scroung]\n\tedge_pos -> prop_scroung [label = \"Flynn_2001, King_2009\", color = \"#7E1900\", style = \"dashed\", lhead = cluster_scroung]\n\tedge_pos -> patch_discov [label = \"Hirsch_2019\", color = \"#1A3399\", style = \"dashed\"]\n\n\tpatch_size -> prop_scroung [label = \"King_2009, Hansen_2016\", color = \"#1A3399\", style = \"dashed\", lhead = cluster_scroung]\n\t//patch_size -> sol_forag [label = \"King_2009\", color = \"#7E1900\", style = \"dashed\"]\n\n\tpatch_arrive -> prop_scroung [label = \"Aplin_2017\", color = \"#7E1900\", style = \"dashed\", lhead = cluster_scroung]\n\n\tdominance -> find_share [label = \"Teichroeb_2015\", color = \"#1A3399\", style = \"dashed\"]\n\tdominance -> prop_scroung [label = \"Bugnyar_2002, Werdenich_2002, King_2009, Aplin_2017\", color = \"#1A3399\", style = \"dashed\", lhead = cluster_scroung]\n\n\n\tlearn -> prop_scroung [label = \"Aplin_2017\", color = \"#7E1900\", style = \"dashed\", lhead = cluster_scroung]\n\tlearn -> prop_scroung [label = \"Afshar_2015\", color = \"#1A3399\", style = \"dashed\", lhead = cluster_scroung]\n\n\tgroup_size -> prop_scroung [label = \"Coolen_2002, Barta_2004, Aplin_2017, Alfaro_2021\", color = \"#1A3399\", style = \"dashed\", lhead = cluster_scroung]\n\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
