@@ -114,10 +114,6 @@ targets_literature <- c(
 # Targets: figures --------------------------------------------------------
 targets_figures <- c(
 	tar_target(
-		figure_1,
-		{}
-	),
-	tar_target(
 		figure_2,
 		{}
 	),
