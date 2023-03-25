@@ -53,19 +53,19 @@ targets_drive  <- c(
 	),
 	tar_target(
 		write_literature,
-		fwrite(literature, 'tables/literature.csv')
+		fwrite(literature, 'data/literature/literature.csv')
 	),
 	tar_target(
 		write_table_lit_results_ps,
-		fwrite(table_lit_results_ps, 'tables/table_lit_results_ps.csv')
+		fwrite(table_lit_results_ps, 'data/literature/table_lit_results_ps.csv')
 	),
 	tar_target(
 		write_table_lit_results_empirical,
-		fwrite(table_lit_results_empirical, 'tables/table_lit_results_empirical.csv')
+		fwrite(table_lit_results_empirical, 'data/literature//table_lit_results_empirical.csv')
 	),
 	tar_target(
 		write_table_lit_results_other,
-		fwrite(table_lit_results_other, 'tables/table_lit_results_other.csv')
+		fwrite(table_lit_results_other, 'data/literature/table_lit_results_other.csv')
 	),
 	tar_target(
 		rrc_results,
@@ -76,7 +76,7 @@ targets_drive  <- c(
 	),
 	tar_target(
 		write_rrc_results,
-		fwrite(rrc_results, 'tables/rrc_results.csv')
+		fwrite(rrc_results, 'data/literature/rrc_results.csv')
 	)
 )
 
@@ -87,7 +87,7 @@ targets_drive  <- c(
 targets_literature <- c(
 	tar_target(
 		n_by_species,
-		sort(strsplit(literature$empirical, ',') |> unlist() |> table(), TRUE) |>
+		sort(strsplit(literature$Species, ', ') |> unlist() |> table(), TRUE) |>
 			data.table() |> setnames(new = c('Species', 'Count'))
 	),
 	tar_target(
