@@ -7,7 +7,7 @@ digraph decision_tree {
 	// Ranks ---------------------------------------------------
 
 	// Nodes ---------------------------------------------------
-	prop_scroung [label = "Proportion \n of scroungers"]
+	prop_scroung [label = "Proportion \n of scroungers", shape = ellipse]
 	group_size [label = "Group size"]
 
 	//soc_forag [label = "Social foraging"]
