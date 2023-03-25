@@ -66,6 +66,17 @@ targets_drive  <- c(
 	tar_target(
 		write_table_3_ps_literature_compared,
 		fwrite(table_3_ps_literature_compared, 'tables/table_3_ps_literature_compared.csv')
+	),
+	tar_target(
+		rrc_results,
+		data.table(
+			drive_get('producer-scrounger-literature-compared') |>
+				read_sheet(sheet = 'rrc_results')),
+		cue = tar_cue('always')
+	),
+	tar_target(
+		write_rrc_results,
+		fwrite(rrc_results, 'tables/rrc_results.csv')
 	)
 )
 

@@ -1,0 +1,8 @@
+# Table N
+
+Table N: Resources, risks and conditions in the producer-scrounger dynamics literature
+
+```{r, echo = FALSE}
+targets::tar_read(rrc_results)
+```
+
