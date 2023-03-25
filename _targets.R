@@ -26,8 +26,8 @@ targets_drive  <- c(
 	tar_target(
 		literature,
 		data.table(
-			drive_get('literature-comprehensive-exam') |>
-				read_sheet('producer-scrounger-wos-scopus-bioab')),
+			drive_get('producer-scrounger-literature-compared') |>
+				read_sheet('lit_results')),
 		cue = tar_cue('always')
 	),
 	tar_target(
