@@ -4,7 +4,6 @@ digraph decision_tree {
   rankdir = LR
 	node [fontsize = 22, shape = box, fontname = Helvetica, penwidth = 2, color = grey50]
 	edge [penwidth = 3]
-	// Ranks ---------------------------------------------------
 
 	// Nodes ---------------------------------------------------
 	prop_scroung [label = "Proportion \n of scroungers", shape = ellipse]
@@ -81,9 +80,7 @@ digraph decision_tree {
   // Edges ---------------------------------------------------
   // beige - #f1a340
   // purple - #998ec3
-
   // type +, -, U, 0
-
 
   // Model ===================================================
   cost_cont -> prop_scroung [label = "Dubois_2005", color = "#7E1900", style = 'solid']
@@ -130,14 +127,7 @@ digraph decision_tree {
 	pred_risk -> prop_scroung [label = "Dubois_2020", color = "#7E1900", style = "solid"]
 
 
-	//subord -> prop_scroung [label = "Caraco_1989, Barta_1998, Lee_2016", color = "#7E1900", style = "solid"]
-
-
 	tod -> prop_scroung [label = "Barta_2000", color = "#B48A2C", style = "solid"]
-
-
-
-
 
 
 	// Group
@@ -150,9 +140,6 @@ digraph decision_tree {
 
 	group_size -> vig [label = "Caraco_1979", color = "#7E1900", style = "solid"]
 
-	//patch_discov -> n_producers Rita_1997
-
-	// population bits
 
   // Empirical ===============================================
 	sex -> male  [color = "grey40"]

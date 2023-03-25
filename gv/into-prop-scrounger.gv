@@ -7,8 +7,6 @@ digraph decision_tree {
 	node [fontsize = 22, shape = box, fontname = Helvetica, penwidth = 3, color = grey50]
 	edge [penwidth = 3]
 
-	// Ranks ---------------------------------------------------
-
 
 	// Nodes ---------------------------------------------------
 	prop_scroung [label = "Proportion \n of scroungers", shape = circle]
@@ -53,78 +51,9 @@ digraph decision_tree {
 	juv [label = "Juveniles"]
 
 
-	//*/
-
-	// Citations -----------------------------------------------
-	/*
-	1	Afshar_2014.md
-	2	Afshar_2015.md
-	3	Alfaro_2021.md
-	4	Aplin_2017.md
-	5	Barnard_1981.md
-	6	Barta_1998.md
-	7	Barta_2000.md
-	8	Barta_2001.md
-	9	Barta_2004.md
-	10	Beauchamp_1997.md
-	11	Beauchamp_2000a.md
-	12	Belisle_1998.md
-	13	Broom_2014.md
-	14	Broom_2015.md
-	15	Broom_2016.md
-	16	Broom_2018.md
-	17	Bugnyar_2002.md
-	18	Caraco_1979.md
-	19	Caraco_1989.md
-	20	Caraco_1991.md
-	21	Coolen_2002.md
-	22	Coolen_2003.md
-	23	Coolen_2007.md
-	24	Danchin_2004.md
-	25	Dubois_2003.md
-	26	Dubois_2005.md
-	27	Dubois_2007.md
-	28	Dubois_2010.md
-	29	Dubois_2020.md
-	30	Flynn_2001.md
-	31	Fretwell_and_Lucas_1969.md
-	32	Giraldeau_1990.md
-	33	Giraldeau_1999.md
-	34	Ha_2003.md
-	35	Hansen_2016.md
-	36	Hirsch_2019.md
-	37	Kane_2014.md
-	38	King_2009.md
-	39	Kok_2017.md
-	40	Lee_2016.md
-	41	Lee_2016a.md
-	42	Lendvai_2004.md
-	43	Mathot_2007.md
-	44	Mathot_2010.md
-	45	Morand-Ferron_2007.md
-	46	Morand-Ferron_2011.md
-	47	Ohtsuka_2009.md
-	48	Ranta_1993.md
-	49	Ranta_1993a.md
-	50	Ranta_1996.md
-	51	Ranta_1998.md
-	52	Rita_1997.md
-	53	Rita_1998.md
-	54	Ruxton_2005.md
-	55	Smith_1999.md
-	56	Smolla_2015.md
-	57	Teichroeb_2015.md
-	58	Toyokawa_2017.md
-	59	Vickery_1991.md
-	60	Vickery_2020.md
-	61	Werdenich_2002.md
-	*/
-
-
   // Edges ---------------------------------------------------
   // beige - #f1a340
   // purple - #998ec3
-
   // type +, -, U, 0
 
 
@@ -173,21 +102,8 @@ digraph decision_tree {
 
 
 
-
-	// Group
-	//group_size -> vig [label = "Caraco_1979", color = "#7E1900", style = "solid"]
-
-	//patch_discov -> n_producers Rita_1997
-
-	// population bits
-
   // Empirical ===============================================
-
-
 	soc_affil -> prop_scroung [label = "King_2009", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
-
-
-
 
 	pred_risk -> prop_scroung [label = "Barta_2004, Mathot_2007", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
 	//pred_risk -> vig [label = "Mathot_2007", color = "#1A3399", style = "dashed"]
@@ -224,8 +140,6 @@ digraph decision_tree {
 	edge_pos -> prop_scroung [label = "Flynn_2001, King_2009", color = "#7E1900", style = "dashed", lhead = cluster_scroung]
 	edge_pos -> patch_discov [label = "Hirsch_2019", color = "#1A3399", style = "dashed"]
 
-
-
 	patch_size -> prop_scroung [label = "King_2009, Hansen_2016", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
 	//patch_size -> sol_forag [label = "King_2009", color = "#7E1900", style = "dashed"]
 
@@ -239,6 +153,5 @@ digraph decision_tree {
 	learn -> prop_scroung [label = "Afshar_2015", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
 
 	group_size -> prop_scroung [label = "Coolen_2002, Barta_2004, Aplin_2017, Alfaro_2021", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
-
 
 }
