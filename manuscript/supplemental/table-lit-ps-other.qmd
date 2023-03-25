@@ -1,0 +1,8 @@
+# Table S4
+
+Table S4: Simulations of producer-scrounger dynamics
+
+```{r, echo = FALSE}
+targets::tar_read(table_lit_results_other)[, .SD, .SDcols = -"Link"]
+```
+

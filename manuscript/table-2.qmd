@@ -1,8 +1,0 @@
-# Table 2
-
-Table 2: Empirical tests of producer-scrounger dynamics
-
-```{r, echo = FALSE}
-targets::tar_read(table_2_ps_literature_compared)
-```
-
