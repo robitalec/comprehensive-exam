@@ -121,13 +121,31 @@ targets_figures <- c(
 
 # Targets: graphviz -------------------------------------------------------
 targets_graphviz <- c(
-	tar_file_read(why_in_space, 'gv/why-space-use.gv', DiagrammeR::grViz(!!.x)),
-	tar_file_read(term_cloud, 'gv/term-cloud.gv', DiagrammeR::grViz(!!.x)),
-	tar_file_read(fundamental_realized, 'gv/fundamental-realized-niche.gv', DiagrammeR::grViz(!!.x)),
-	tar_file_read(resources_risks_conditions, 'gv/resources-risks-conditions.gv', DiagrammeR::grViz(!!.x)),
-	tar_file_read(resources_risks_conditions_plants, 'gv/resources-risks-conditions-plants.gv', DiagrammeR::grViz(!!.x)),
-	tar_file_read(habitat_and_producer, 'gv/habitat-and-producer.gv', DiagrammeR::grViz(!!.x)),
-	tar_file_read(decision_tree, 'gv/decision-tree.gv', DiagrammeR::grViz(!!.x))
+	tar_file_read(
+		into_prop_scrounger,
+		'gv/into-prop-scrounger.gv',
+		DiagrammeR::grViz(!!.x)
+	),
+	tar_file_read(
+		full_relationships,
+		'gv/full-relationships.gv',
+		DiagrammeR::grViz(!!.x)
+	),
+	tar_file_read(
+		habitat_and_producer,
+		'gv/habitat-and-producer.gv',
+		DiagrammeR::grViz(!!.x)
+	),
+	tar_file_read(
+		group_level,
+		'gv/group-level-effects.gv',
+		DiagrammeR::grViz(!!.x)
+	),
+	tar_file_read(
+		resources_risks_conditions,
+		'gv/archive/resources-risks-conditions.gv',
+		DiagrammeR::grViz(!!.x)
+	)
 )
 
 
