@@ -2,17 +2,16 @@ digraph decision_tree {
 
   compound = true
 
-  graph [fontsize = 12]
+  graph []
   rankdir = LR
-	node [shape = box, fontname = Helvetica]
+	node [fontsize = 22, shape = box, fontname = Helvetica, penwidth = 3, color = grey50]
 	edge [penwidth = 3]
-
 
 	// Ranks ---------------------------------------------------
 
 
 	// Nodes ---------------------------------------------------
-	prop_scroung [label = "Proportion \n of scroungers", fontsize = 16]
+	prop_scroung [label = "Proportion \n of scroungers", shape = circle]
 
 	group_size [label = "Group size"]
 
@@ -198,16 +197,16 @@ digraph decision_tree {
 	group_size -> find_share [label = "Hirsch_2019", color = "#7E1900", style = "dashed"]
 
 
-	age -> adult
-	age -> juv
+	age -> adult [color = "grey40"]
+	age -> juv [color = "grey40"]
 	adult -> prop_scroung [label = "Aplin_2017", color = "#7E1900", style = "dashed", lhead = cluster_scroung]
 	adult -> prop_scroung [label = "Teichroeb_2015", color = '0', style = "dashed", lhead = cluster_scroung]
 	juv -> prop_scroung [label = "Aplin_2017", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
 	juv -> prop_scroung [label = "Teichroeb_2015", color = '0', style = "dashed", lhead = cluster_scroung]
 
 
-	sex -> male
-	sex -> female
+	sex -> male [color = "grey40"]
+	sex -> female [color = "grey40"]
 	male -> prop_scroung [label = "Aplin_2017", color = "#7E1900", style = "dashed", lhead = cluster_scroung]
 	female -> prop_scroung [label = "Aplin_2017", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
 
@@ -219,9 +218,8 @@ digraph decision_tree {
 	energ_res -> patch_discov [label = "Lee_2016a", color = "#1A3399", style = "dashed"]
 
 
-
-	spatial_pos -> central_pos
-	spatial_pos -> edge_pos
+	spatial_pos -> central_pos [color = "grey40"]
+	spatial_pos -> edge_pos [color = "grey40"]
 	central_pos -> prop_scroung [label = "Flynn_2001, King_2009", color = "#1A3399", style = "dashed", lhead = cluster_scroung]
 	edge_pos -> prop_scroung [label = "Flynn_2001, King_2009", color = "#7E1900", style = "dashed", lhead = cluster_scroung]
 	edge_pos -> patch_discov [label = "Hirsch_2019", color = "#1A3399", style = "dashed"]
