@@ -92,20 +92,8 @@ targets_literature <- c(
 	),
 	tar_target(
 		n_by_type,
-		data.table(
-			Approach = c(
-				'Producer scrounger model',
-				'Empirical test or experiment',
-				'Simulation',
-				'Other model type'
-			),
-			Count = c(
-				literature[ps_model == 'y', .N],
-				literature[!is.na(empirical), .N],
-				literature[simulation == 'y', .N],
-				literature[!is.na(other_model), .N]
-			)
-		)
+		sort(strsplit(literature$Type, ', ') |> unlist() |> table(), TRUE) |>
+			data.table() |> setnames(new = c('Type', 'Count'))
 	)
 )
 
