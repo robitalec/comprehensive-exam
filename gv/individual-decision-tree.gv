@@ -12,7 +12,7 @@ digraph decision_tree {
 
 
 	// Nodes ---------------------------------------------------
-	prop_scroung [label = "Proportion \n of scroungers", color = 'white', fontsize = 16]
+	prop_scroung [label = "Proportion \n of scroungers", fontsize = 16]
 
 	group_size [label = "Group size"]
 
