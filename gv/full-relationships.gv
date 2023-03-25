@@ -3,7 +3,7 @@ digraph decision_tree {
   graph [fontsize = 12]
   rankdir = LR
 	node [shape = box, fontname = Helvetica]
-
+	edge [penwidth = 3]
 	// Ranks ---------------------------------------------------
 	{rank = same
 		/*
