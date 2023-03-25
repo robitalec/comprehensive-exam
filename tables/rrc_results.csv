@@ -1,0 +1,22 @@
+Type,Variable,Producer scrounger model,Empirical test
+Conditions,Wind,,
+,Pressure,,
+,Snow depth,,
+,Temperature,,"Caraco 1979 (group size), Ha 2003"
+,Salinity,,
+,Humidity,,
+Risks,Predation,Dubois 2020,Bugnyar 2002
+,Parasite,,
+,Anthropogenic harvest,,
+,Wildfire,,
+,Insect harassment,,
+,Perception of risk,,"Barta 2004, Mathot 2007"
+,Drought,,
+,Disease,,
+,Competition/contest,Broom 2015,
+Resources,Patch density,"Dubois 2003, Dubois 2005, Broom 2014, Dubois 2020",
+,Patch richness,"Giraldeau 1999, Beauchamp 2000a, Dubois 2003, Dubois 2005, Broom 2014, Dubois 2020",Teichroeb 2015
+,Patch distribution,"Caraco 1989, Ohtsuka 2009, Dubois 2020",Lee 2016a
+,Patch depletability,"Beauchamp 1997, Beauchamp 2000a",
+,Resting spaces,,
+,Nesting spaces,,
