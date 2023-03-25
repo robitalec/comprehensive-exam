@@ -1,8 +1,0 @@
-# Figure 1
-
-Figure 1: Risks and conditions of animal's habitat relevant to access (flowchart) 
-
-```{r, echo = FALSE}
-targets::tar_read(figure_1)
-```
-

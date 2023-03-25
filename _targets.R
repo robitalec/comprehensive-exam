@@ -31,24 +31,24 @@ targets_drive  <- c(
 		cue = tar_cue('always')
 	),
 	tar_target(
-		table_1_ps_literature_compared,
+		table_lit_results_ps,
 		data.table(
 			drive_get('producer-scrounger-literature-compared') |>
-				read_sheet(sheet = 'table 1')),
+				read_sheet(sheet = 'lit_results_ps')),
 		cue = tar_cue('always')
 	),
 	tar_target(
-		table_2_ps_literature_compared,
+		table_lit_results_empirical,
 		data.table(
 			drive_get('producer-scrounger-literature-compared') |>
-				read_sheet(sheet = 'table 2')),
+				read_sheet(sheet = 'lit_results_empirical')),
 		cue = tar_cue('always')
 	),
 	tar_target(
-		table_3_ps_literature_compared,
+		table_lit_results_other,
 		data.table(
 			drive_get('producer-scrounger-literature-compared') |>
-			read_sheet(sheet = 'table 3')),
+			read_sheet(sheet = 'lit_results_other')),
 		cue = tar_cue('always')
 	),
 	tar_target(
@@ -108,25 +108,6 @@ targets_literature <- c(
 		)
 	)
 )
-
-
-
-# Targets: figures --------------------------------------------------------
-targets_figures <- c(
-	tar_target(
-		figure_1,
-		{}
-	),
-	tar_target(
-		figure_2,
-		{}
-	),
-	tar_target(
-		figure_3,
-		{}
-	)
-)
-
 
 
 

@@ -1,9 +1,0 @@
-# Figure 3
-
-Figure 3: Population and group level outcomes from individual's choice
-of strategies (Figure 2)
-
-```{r, echo = FALSE}
-targets::tar_read(figure_3)
-```
-

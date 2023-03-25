@@ -1,0 +1,8 @@
+# Table S5
+
+
+Table S5: Approaches used in producer-scrounger dynamics literature
+
+```{r, echo = FALSE}
+targets::tar_read(n_by_type)
+```

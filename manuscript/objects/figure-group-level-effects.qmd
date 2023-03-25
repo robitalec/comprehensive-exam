@@ -1,0 +1,8 @@
+# Figure 3
+
+Figure 3: Group level effects of proportion scroungers and related variables
+
+```{r, echo = FALSE}
+targets::tar_read(group_level)
+```
+
