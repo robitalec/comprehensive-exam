@@ -44,7 +44,7 @@ digraph resources_risks_conditions {
 
     resources -> {prey nesting_spaces resting_spaces}
 
-    risks -> {predation perception_of_risk parasite disease anthro_harvest fire drought}
+    risks -> {predation perception_of_risk parasite disease anthro_harvest fire drought insect_harassment}
 
     conditions -> {ambient_temperature salinity humidity wind pressure snow_depth} -> {extreme typical}
 
@@ -58,7 +58,7 @@ digraph resources_risks_conditions {
     extreme -> negative_effect_on_fitness
     typical -> neutral_effect_on_fitness
 
-    {anthro_harvest fire disease parasite perception_of_risk predation resource_limitation} -> negative_effect_on_fitness
+    {anthro_harvest fire disease parasite perception_of_risk predation resource_limitation insect_harassment} -> negative_effect_on_fitness
 
 		{medium_density low_density, resting_spaces nesting_spaces prey} -> positive_effect_on_fitness
 
