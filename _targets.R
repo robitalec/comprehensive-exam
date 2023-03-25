@@ -56,16 +56,16 @@ targets_drive  <- c(
 		fwrite(literature, 'tables/literature.csv')
 	),
 	tar_target(
-		write_table_1_ps_literature_compared,
-		fwrite(table_1_ps_literature_compared, 'tables/table_1_ps_literature_compared.csv')
+		write_table_lit_results_ps,
+		fwrite(table_lit_results_ps, 'tables/table_lit_results_ps.csv')
 	),
 	tar_target(
-		write_table_2_ps_literature_compared,
-		fwrite(table_2_ps_literature_compared, 'tables/table_2_ps_literature_compared.csv')
+		write_table_lit_results_empirical,
+		fwrite(table_lit_results_empirical, 'tables/table_lit_results_empirical.csv')
 	),
 	tar_target(
-		write_table_3_ps_literature_compared,
-		fwrite(table_3_ps_literature_compared, 'tables/table_3_ps_literature_compared.csv')
+		write_table_lit_results_other,
+		fwrite(table_lit_results_other, 'tables/table_lit_results_other.csv')
 	),
 	tar_target(
 		rrc_results,
