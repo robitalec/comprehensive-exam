@@ -111,21 +111,6 @@ targets_literature <- c(
 
 
 
-# Targets: figures --------------------------------------------------------
-targets_figures <- c(
-	tar_target(
-		figure_2,
-		{}
-	),
-	tar_target(
-		figure_3,
-		{}
-	)
-)
-
-
-
-
 # Targets: graphviz -------------------------------------------------------
 targets_graphviz <- c(
 	tar_file_read(
