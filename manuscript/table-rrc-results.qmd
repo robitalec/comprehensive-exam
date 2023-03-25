@@ -1,5 +1,11 @@
 # Table N
 
+```{r}
+#| include: false
+library(targets)
+library(gt)
+```
+
 ```{r, echo = FALSE}
 targets::tar_load(rrc_results)
 
