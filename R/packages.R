@@ -7,6 +7,7 @@ library(data.table)
 library(ggplot2)
 
 library(quarto)
+library(gt)
 
 library(renv)
 library(conflicted)
