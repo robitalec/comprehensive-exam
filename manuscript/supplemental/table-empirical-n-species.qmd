@@ -1,6 +1,6 @@
 # Table S6
 
-Table S6: Species in empirical measures of producer-scrounger dynamics
+Table S6: Species in empirical tests of producer-scrounger dynamics
 
 ```{r, echo = FALSE}
 targets::tar_read(n_by_species)
