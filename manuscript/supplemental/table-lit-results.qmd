@@ -1,6 +1,6 @@
 # Table S1
 
-Table S1: Results from literature survey for producer-scrounger models, empirical tests and related approaches
+Table S1: Reviewed literature
 
 
 ```{r}
