@@ -4,8 +4,7 @@ project:
   execute-dir: project
   resources:
     - "_targets.R"
-    - "gv/why-space-use.gv"
-    - "gv/term-cloud.gv"
+    - "scripts/combine-lit.R"
 
 
 website:
