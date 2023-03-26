@@ -29,6 +29,7 @@ rrc_results |>
 		locations = cells_body(
 			columns = 'Producer scrounger model',
       rows = is.na(`Producer scrounger model`)
-    ))
+    )) |> 
+	summary_rows(groups = 'Type', columns = 'Count', fns = c('sum', 'mean', 'median'))
 ```
 
