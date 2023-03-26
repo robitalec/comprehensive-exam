@@ -2,7 +2,7 @@
 
 ## Captions
 
-Table S1: Review of producer-scrounger literature. Literature was obtained using a search for "producer" and "scrounger" in the titles, abstracts and keywords of articles in the databases SCOPUS, Web of Science and Biological Abstracts. Literature was filtered to remove duplicates using article's DOI (Script 1). Approaches used in the articles were categorized as producer-scrounger models using evolutionary game theory, empirical tests, other approaches and not relevant. For empirical tests, species and taxonomic classes were recorded. Article information also includes year of publication, journal, authors and title. 
+Table S1: Review of producer-scrounger literature grouped by approaches used. Approaches used included producer-scrounger models using evolutionary game theory, empirical tests, other approaches and not relevant. For empirical tests, species and taxonomic classes were recorded. Article information also includes year of publication, journal, authors and title. Literature was obtained using a search for "producer" and "scrounger" in the titles, abstracts and keywords of articles in the databases SCOPUS, Web of Science and Biological Abstracts. Literature was filtered to remove duplicates using article's DOI (Script 1). 
 
 Table S2: Counts of approaches in producer-scrounger dynamics literature. Approaches used in the reviewed literature (Table S1) were classified as producer-scrounger dynamic models using evolutionary game theory appproaches, empirical tests, other approaches, or not relevant. Some articles used multiple approaches therefore the total count is larger than the total number of articles reviewed. Other approaches included, for example, agent-based simulations and genetic algorithms. Approaches were deemed not relevant when they did not explicitly model or test producer-scrounger dynamics and included them solely in the article's keywords, introduction or discussion content. Counts are summarized using mean, median and total sum of counts across approaches.  
 
@@ -13,10 +13,10 @@ Table S4: Counts of species in empirical tests of producer-scrounger dynamics. A
 
 ## Described
 
+
 Table S2 shows the counts of approaches used to study producer-scrounger dynamics in the reviewed literature (Table S1). Of the literature deemed relevant, an empirical approach was used in 62 % of studies (N = 86 / 139), an producer-scrounger model with an evolutionary game theory approach was used in 20 % of studies (N = 28 / 139) and other approaches were used in 18 % of studies (N = 25 / 139). Five articles used multiple approaches including the earliest study where Barnard and Sibly (1981) used both a producer-scrounger model and an empirical test. 
 
 Table S3 shows the counts of species studied in empirical tests of producer-scrounger dynamics in the reviewed literature (Table S1). Three species of birds (spice finches (*Lonchura punctulata*), zebra finches (*Taeniopygia guttata*) and house sparrows (*Passer domesticus*)) make up 35 % (N = 33 / 93) of studied species. Notably, all other species were studied only three or less times with 34 species only being studied once. 
-
 
 Table S4 shows the counts of taxonomic classes studied in empirical tests of producer-scrounger dynamics in the reviewed literature (Table S1). There is a majority representation of Aves. The earliest empirical tests of producer-scrounger dynamics included Barnard and Sibley's work on house sparrows (*Passer domesticus*) (1981) and Giraldeau and Lefebvre's work on pigeons (*Columba livia*) (1986). Di Bitetti and Janson's test of producer-scrounger dynamics on capuchin monkeys (*Cebus apella*) (2001) was the first empirical test of producer-scrounger dynamics on a mammalian species. Western buffalo breams (Kyphosus cornelii) were the first ray-finned fish species (Hamilton and Dill 2003). Finally in 2016, producer-scrounger dynamics were tested in arachnids (Dumke et al 2016) and insects (Katz and Naug 216). Notable vertebrate groups that are not represented in the results of this literature survey include reptiles, amphibians, jawless fishes, lobe-finned fishes and cartilagenous fishes. 
 
