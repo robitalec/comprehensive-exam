@@ -7,3 +7,7 @@ The producer scrounger literature reviewed (Table S1) has overwhelmingly focused
 
 collection environmental variables is a point in environmental space that is defined by a set of resources, risks and conditions
 Environmental variables making up the Matthiopolous et al. (2023) definition
+
+
+Dubois 2005
+[Predation](../topics/predation.md) risk should not effect foraging tactic use unless one of the foraging tactics is  disproportionately exposed to [predation](../topics/predation.md) than the other 
