@@ -2,6 +2,13 @@
 
 Table S7: Taxonomic classes in empirical tests of producer-scrounger dynamics
 
+```{r}
+#| include: false
+library(gt)
+```
+
 ```{r, echo = FALSE}
-targets::tar_read(n_by_class)
+targets::tar_read(n_by_class) |>
+	gt() |>
+	summary_rows(columns = 'Count', fns = c('sum', 'mean', 'median'))
 ```

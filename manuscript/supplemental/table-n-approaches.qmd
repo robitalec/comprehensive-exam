@@ -3,6 +3,13 @@
 
 Table S5: Approaches used in producer-scrounger dynamics literature
 
+```{r}
+#| include: false
+library(gt)
+```
+
 ```{r, echo = FALSE}
-targets::tar_read(n_by_type)
+targets::tar_read(n_by_type) |>
+	gt() |>
+	summary_rows(columns = 'Count', fns = c('sum', 'mean', 'median'))
 ```
