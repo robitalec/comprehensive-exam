@@ -1,7 +1,6 @@
-# Table S2
+# Table S3
 
-
-Table S2: Approaches used in producer-scrounger dynamics literature
+Table S3: Taxonomic classes in empirical tests of producer-scrounger dynamics
 
 ```{r}
 #| include: false
@@ -9,7 +8,7 @@ library(gt)
 ```
 
 ```{r, echo = FALSE}
-targets::tar_read(n_by_type) |>
+targets::tar_read(n_by_class) |>
 	gt() |>
 	summary_rows(columns = 'Count', fns = c('sum', 'mean', 'median'))
 ```

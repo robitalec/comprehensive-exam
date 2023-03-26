@@ -1,8 +1,32 @@
 # Table S1
 
-Table S1: Results from literature survey for producer-scrounger models, empirical tests and related approaches
+Table S1: Reviewed literature
+
+
+```{r}
+#| include: false
+library(gt)
+```
 
 ```{r, echo = FALSE}
-targets::tar_read(literature)
+targets::tar_read(literature) |>
+	gt(groupname_col = 'Type') |>
+	tab_options(row_group.as_column = TRUE) |>
+	tab_style(  
+		style = list(
+      cell_text(color = "white")
+		),
+		locations = cells_body(
+			columns = 'Species',
+      rows = is.na(`Species`)
+    )) |>
+		tab_style(  
+		style = list(
+      cell_text(color = "white")
+		),
+		locations = cells_body(
+			columns = 'Class',
+      rows = is.na(`Class`)
+    ))
 ```
 

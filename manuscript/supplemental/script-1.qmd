@@ -1,0 +1,13 @@
+# Script 1
+
+Script 1: Literature combination and filtering. Literature was obtained using a 
+search for "producer" and "scrounger" in the titles, abstracts and keywords of 
+articles in the databases SCOPUS, Web of Science and Biological Abstracts. 
+Common field were merge including authors, year of publication, journal, title
+and DOI. Duplicated articles were removed by selecting the first row for 
+each article's unique DOI. 
+
+```{r}
+#| echo: false
+writeLines(readLines('scripts/combine-lit.R'))
+```

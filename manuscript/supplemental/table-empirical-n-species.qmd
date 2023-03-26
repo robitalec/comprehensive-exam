@@ -1,7 +1,14 @@
-# Table S6
+# Table S4
 
-Table S6: Species in empirical measures of producer-scrounger dynamics
+Table S4: Species in empirical tests of producer-scrounger dynamics
+
+```{r}
+#| include: false
+library(gt)
+```
 
 ```{r, echo = FALSE}
-targets::tar_read(n_by_species)
+targets::tar_read(n_by_species) |>
+		gt() |>
+	summary_rows(columns = 'Count', fns = c('sum', 'mean', 'median'))
 ```
