@@ -1,6 +1,8 @@
 # Scratch
 
-# Question parsed
+
+
+## Question parsed
 
 “In the context of frequency-dependent producer-scrounger dynamics, how would one’s role affect access to available resources considering risks and conditions during habitat selection?”
 
@@ -26,13 +28,11 @@
 
 
 ---
-# Literature results
-<!-- check topics, fix links --> 
 
+<!--
+## Literature results
 
-## Models
-
-<!-- check these are all models -->
+### Models
 
 - Strategies
 	- Producers, scroungers
@@ -137,8 +137,8 @@
 - Patch departure
 	- A producer should leave a patch earlier than a scrounger if the producer has a finder's share (Rita_1997)
 	
-<!-- - Resource monopolizability -->
-<!-- 	- Easily monopolized resources  -->
+- Resource monopolizabilitu
+ 	- Easily monopolized resources
 
 - Producer scrounger models
 	- Producer priority where scrounging reduces producer's food intake but does not depend on the number of scroungers in the group (Caraco_1991)
@@ -174,10 +174,8 @@
 	- Scrounging will not stability population dynamics, food chains and competitor interactions under all cases, if scrounging is too prevalent it can push the population to extinction  	- Other factors such as food abundance, variations in weather, predators and parasites may have stronger effects that can completely obscure the effects of scrounging on populations (Vickery_2020)
 	
 
-<!-- ---------------------------------------------------------------------------------------------------------------------- -->
-## Empirical
+### Empirical
 
-<!-- check these are all empirical -->
 
 - Interspecific social information
 	- Kane_2014
@@ -306,13 +304,12 @@
 
 - Group formation
 	- By being attracted to producers, scroungers induce group formation (Belisle_1998)
-	
+-->
 
 
 ---
 
 ## Old outline
-# Outline
 
 ## Foraging with others
 
@@ -527,7 +524,8 @@ Game theoretical model of producer-scrounger dynamic where resources, risks and 
 
 -   *How can the available approach answer the question?*
 
-## 
+
+
 
 ---
 
