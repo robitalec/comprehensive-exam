@@ -1,4 +1,4 @@
-# Script 1: Literature combination and filtering
+# Script 1
 
 Script 1: Literature combination and filtering. Literature was obtained using a 
 search for "producer" and "scrounger" in the titles, abstracts and keywords of 
