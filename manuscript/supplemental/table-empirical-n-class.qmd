@@ -1,6 +1,6 @@
-# Table S7
+# Table S3
 
-Table S7: Taxonomic classes in empirical tests of producer-scrounger dynamics
+Table S3: Taxonomic classes in empirical tests of producer-scrounger dynamics
 
 ```{r}
 #| include: false

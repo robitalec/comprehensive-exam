@@ -1,6 +1,6 @@
-# Table S6
+# Table S4
 
-Table S6: Species in empirical tests of producer-scrounger dynamics
+Table S4: Species in empirical tests of producer-scrounger dynamics
 
 ```{r}
 #| include: false

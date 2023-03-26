@@ -1,7 +1,7 @@
-# Table S5
+# Table S2
 
 
-Table S5: Approaches used in producer-scrounger dynamics literature
+Table S2: Approaches used in producer-scrounger dynamics literature
 
 ```{r}
 #| include: false
