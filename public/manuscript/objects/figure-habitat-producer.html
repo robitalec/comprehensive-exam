@@ -756,32 +756,27 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../manuscript/supplemental/script-1.html" class="sidebar-item-text sidebar-link">Script 1</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../manuscript/supplemental/table-lit-results.html" class="sidebar-item-text sidebar-link">Table S1</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../manuscript/supplemental/table-lit-ps-models.html" class="sidebar-item-text sidebar-link">Table S2</a>
+  <a href="../../manuscript/supplemental/table-n-approaches.html" class="sidebar-item-text sidebar-link">Table S2</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../manuscript/supplemental/table-lit-ps-empirical.html" class="sidebar-item-text sidebar-link">Table S3</a>
+  <a href="../../manuscript/supplemental/table-empirical-n-class.html" class="sidebar-item-text sidebar-link">Table S3</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../manuscript/supplemental/table-lit-ps-other.html" class="sidebar-item-text sidebar-link">Table S4</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../manuscript/supplemental/table-n-approaches.html" class="sidebar-item-text sidebar-link">Table S5</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../manuscript/supplemental/table-empirical-n-species.html" class="sidebar-item-text sidebar-link">Table S6</a>
+  <a href="../../manuscript/supplemental/table-empirical-n-species.html" class="sidebar-item-text sidebar-link">Table S4</a>
   </div>
 </li>
       </ul>
@@ -826,8 +821,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Figure 1: Producer-scrounger dynamics and habitat selection</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="htmlwidget-3ccfb69d631bb0e8dcc8" style="width:100%;height:464px;" class="grViz html-widget"></div>
-<script type="application/json" data-for="htmlwidget-3ccfb69d631bb0e8dcc8">{"x":{"diagram":"digraph habitat_and_producer {\n\n  graph []\n  rankdir = TB\n\tnode [fontsize = 22, shape = box, fontname = Helvetica, penwidth = 2]\n\tedge [penwidth = 2]\n\n    Habitat [label = \"Habitat\\nselection\", style = filled, color = grey]\n\n  \tResources [color = grey85]\n  \tConditions [color = grey85]\n  \tRisks [color = grey85]\n\n    access_avail [label = \"Availability\\nand\\naccess\", shape = ellipse]\n\t\tps_dyn [label = \"Producer-scrounger\\ndynamics\", style = filled, color = grey]\n\n\t\tpatch_penalties [label = \"Patch penalties\"]\n\t\tpatch_payoffs [label = \"Patch payoffs\"]\n\n\n\t\tps_dyn -> {patch_penalties patch_payoffs}\n\n\t\t{patch_penalties patch_payoffs} -> Roles -> access_avail\n\n\t\taccess_avail -> {Resources Conditions Risks} [dir = back]\n\n\t  {patch_penalties} ->  Risks [color = grey, dir = back]\n\t\tpatch_payoffs -> Resources [color = grey, dir = back]\n\t\t{patch_payoffs patch_penalties} -> Conditions [color = grey, dir = back]\n\n\n\t\t{Resources Risks Conditions} -> Habitat [dir = back]\n\n\n\n\t}\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-2f44312af7f07c84a740" style="width:100%;height:464px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-2f44312af7f07c84a740">{"x":{"diagram":"digraph habitat_and_producer {\n\n  graph []\n  rankdir = TB\n\tnode [fontsize = 22, shape = box, fontname = Helvetica, penwidth = 2]\n\tedge [penwidth = 2]\n\n    Habitat [label = \"Habitat\\nselection\", style = filled, color = grey]\n\n  \tResources [color = grey85]\n  \tConditions [color = grey85]\n  \tRisks [color = grey85]\n\n    access_avail [label = \"Availability\\nand\\naccess\", shape = ellipse]\n\n\t\tps_dyn [label = \"Producer-scrounger\\ndynamics\", style = filled, color = grey]\n\t\tfreq [label = \"Frequency\\ndependence\"]\n\t\tpatch_penalties [label = \"Patch penalties\"]\n\t\tpatch_payoffs [label = \"Patch payoffs\"]\n\n\n\t\tps_dyn -> freq -> {patch_penalties patch_payoffs}\n\n\t\t{patch_penalties patch_payoffs} -> Roles -> access_avail\n\n\t\taccess_avail -> {Resources Conditions Risks} [dir = back]\n\n\t  {patch_penalties} ->  Risks [color = grey, dir = back]\n\t\tpatch_payoffs -> Resources [color = grey, dir = back]\n\t\t{patch_payoffs patch_penalties} -> Conditions [color = grey, dir = back]\n\n\n\t\t{Resources Risks Conditions} -> Habitat [dir = back]\n\n\n\n\t}\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 

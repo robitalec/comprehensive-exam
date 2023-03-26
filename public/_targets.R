@@ -91,6 +91,11 @@ targets_literature <- c(
 			data.table() |> setnames(new = c('Species', 'Count'))
 	),
 	tar_target(
+		n_by_class,
+		sort(strsplit(literature$Class, ', ') |> unlist() |> table(), TRUE) |>
+			data.table() |> setnames(new = c('Class', 'Count'))
+	),
+	tar_target(
 		n_by_type,
 		sort(strsplit(literature$Type, ', ') |> unlist() |> table(), TRUE) |>
 			data.table() |> setnames(new = c('Type', 'Count'))
