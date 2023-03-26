@@ -3,5 +3,5 @@
 Table S7: Taxonomic classes in empirical tests of producer-scrounger dynamics
 
 ```{r, echo = FALSE}
-targets::tar_read(n_by_classes)
+targets::tar_read(n_by_class)
 ```
