@@ -1,0 +1,6 @@
+# Script 1: Combined literature
+
+```{r}
+#| echo: false
+writeLines(readLines('scripts/combine-lit.R'))
+```
