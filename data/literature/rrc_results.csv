@@ -1,22 +1,22 @@
 Type,Variable,Producer scrounger model,Empirical test,Count
-Conditions,Wind,,,
-Conditions,Pressure,,,
-Conditions,Snow depth,,,
+Conditions,Wind,,,0
+Conditions,Pressure,,,0
+Conditions,Snow depth,,,0
 Conditions,Temperature,,Ha 2003,1
-Conditions,Salinity,,,
-Conditions,Humidity,,,
+Conditions,Salinity,,,0
+Conditions,Humidity,,,0
 Risks,Predation,"Barta 2000, Dubois 2005, Dubois 2020",Bugnyar 2002,4
-Risks,Parasite,,,
-Risks,Anthropogenic harvest,,,
-Risks,Wildfire,,,
-Risks,Insect harassment,,,
+Risks,Parasite,,,0
+Risks,Anthropogenic harvest,,,0
+Risks,Wildfire,,,0
+Risks,Insect harassment,,,0
 Risks,Perception of risk,,"Barta 2004, Mathot 2007, Teichroeb 2015",3
-Risks,Drought,,,
-Risks,Disease,,,
+Risks,Drought,,,0
+Risks,Disease,,,0
 Risks,Competition/contest,Broom 2015,,1
 Resources,Patch density,"Dubois 2003, Dubois 2005, Broom 2014, Dubois 2020",,4
 Resources,Patch richness,"Giraldeau 1999, Beauchamp 2000a, Dubois 2003, Dubois 2005, Broom 2014, Dubois 2020",Teichroeb 2015,7
 Resources,Patch distribution,"Caraco 1989, Ohtsuka 2009, Dubois 2020",Lee 2016a,5
 Resources,Patch depletability,"Beauchamp 1997, Beauchamp 2000a",,2
-Resources,Resting spaces,,,
-Resources,Nesting spaces,,,
+Resources,Resting spaces,,,0
+Resources,Nesting spaces,,,0
