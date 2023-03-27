@@ -1,7 +1,7 @@
 digraph decision_tree {
 
-  graph []
-  rankdir = LR
+	graph []
+  	rankdir = LR
 	node [fontsize = 22, shape = box, fontname = Helvetica, penwidth = 2, color = grey50]
 	edge [penwidth = 3]
 
@@ -59,7 +59,7 @@ digraph decision_tree {
 	tod [label = "Time of day"]
 	energ_res [label = "Energy reserves"]
 
-	pop_growth_rate [label = 'Population growth rate']
+	pop_growth_rate [label = "Population growth rate"]
 	tot_food [label = "Total quantity \n foraged \n by group"]
 	// interspecific_comp [label = "Interspecific competition"]
 	species_div [label = "Species diversity"]
@@ -77,13 +77,13 @@ digraph decision_tree {
 	juv [label = "Juveniles"]
 
 
-  // Edges ---------------------------------------------------
-  // beige - #f1a340
-  // purple - #998ec3
-  // type +, -, U, 0
+	// Edges ---------------------------------------------------
+	// beige - #f1a340
+	// purple - #998ec3
+	// type +, -, U, 0
 
-  // Model ===================================================
-  cost_cont -> prop_scroung [label = "Dubois_2005", color = "#7E1900", style = 'solid']
+	// Model ===================================================
+	cost_cont -> prop_scroung [label = "Dubois_2005", color = "#7E1900", style = "solid"]
 
 	dominance -> forag_eff [label = "Caraco_1979", color = "#1A3399", style = "solid"]
 	dominance -> forag_acc [label = "Caraco_1979", color = "#1A3399", style = "solid"]
@@ -141,7 +141,7 @@ digraph decision_tree {
 	group_size -> vig [label = "Caraco_1979", color = "#7E1900", style = "solid"]
 
 
-  // Empirical ===============================================
+	// Empirical ===============================================
 	sex -> male  [color = "grey40"]
 	sex -> female  [color = "grey40"]
 	male -> prop_scroung [label = "Teichroeb_2015, Aplin_2017", color = "#7E1900", style = "dashed"]
@@ -150,9 +150,9 @@ digraph decision_tree {
 	age -> adult  [color = "grey40"]
 	age -> juv  [color = "grey40"]
 	adult -> prop_scroung [label = "Aplin_2017", color = "#7E1900", style = "dashed"]
-	adult -> prop_scroung [label = "Teichroeb_2015", color = '0', style = "dashed"]
+	adult -> prop_scroung [label = "Teichroeb_2015", color = "black", style = "dashed"]
 	juv -> prop_scroung [label = "Aplin_2017", color = "#1A3399", style = "dashed"]
-	juv -> prop_scroung [label = "Teichroeb_2015", color = '0', style = "dashed"]
+	juv -> prop_scroung [label = "Teichroeb_2015", color = "black", style = "dashed"]
 
 	soc_affil -> prop_scroung [label = "King_2009", color = "#1A3399", style = "dashed"]
 	dominance -> prop_scroung [label = "Bugnyar_2002, Werdenich_2002, King_2009, Aplin_2017", color = "#1A3399", style = "dashed"]
@@ -199,4 +199,4 @@ digraph decision_tree {
 
 
 
-}
+	}
