@@ -2,7 +2,4 @@
 
 Figure 1: Producer-scrounger dynamics and habitat selection 
 
-```{r, echo = FALSE}
-targets::tar_read(habitat_and_producer)
-```
-
+![](figures/habitat-and-producer.png)

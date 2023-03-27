@@ -2,7 +2,4 @@
 
 Figure S1: Full flowchart of relationships in the producer scrounger literature
 
-```{r, echo = FALSE}
-targets::tar_read(full_relationships)
-```
-
+![](figures/full-relationships.png)
