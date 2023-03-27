@@ -1,13 +1,59 @@
 # Discussion
 
-The producer scrounger literature reviewed (Table S1) has overwhelmingly focused on variables related to resources and to constraints on individuals when foraging. Some studies 
+<!-- note citation style used throughout (first author's last name, year, optional letter if multiple publications per author/year), regardless of number of authors for brevity in the graph visualizations, and for consistency in the text with the visualizations -->
 
+
+
+The producer-scrounger literature reviewed (Table S1) has overwhelmingly focused on variables related to resources and to constraints on individuals when foraging. Some studies 
 
 
 
 collection environmental variables is a point in environmental space that is defined by a set of resources, risks and conditions
-Environmental variables making up the Matthiopolous et al. (2023) definition
+Environmental variables making up the Matthiopolous (2023) definition
 
 
-Dubois 2005
-[Predation](../topics/predation.md) risk should not effect foraging tactic use unless one of the foraging tactics is  disproportionately exposed to [predation](../topics/predation.md) than the other 
+
+## Risks
+
+1. Recall how risks are originally integrated into producer-scrounger models
+    - Costs and benefits of sociality
+    - Giraldeau and Caraco: social foraging is not the evolution of sociality
+    - Predation risk is assumed, implied 
+1. Dubois 2005 predation risk risk should not effect foraging tactic use unless one of the foraging tactics is  disproportionately exposed to predation than the other 
+    - Teichroeb spatial position
+1. Where predation risk has been made explicit, producer-scrounger models have found XYZ
+1. Considering the relationships of producers and scroungers in geographical space, we can expect additional constraints on the scrounging behaviour. 
+    - Ruxton_2005
+        - Joining distance
+    - Kok_2017
+1. 
+
+
+
+
+The producer-scrounger literature 
+
+Benefits and costs of sociality
+
+Giraldeau and Caraco highlight that social foraging theory is not the evolution of sociality
+
+Producer-scrounger models have predation risk assumed, integrated in the payoffs and penalties. 
+
+While conspecifics may provide predation dilution and contribute to antipredator vigilance, they may also reduce foraging efficiency and increase the rate of conflicts and aggression. These costs and benefits of sociality have been explored in the producer-scrounger literature where scrounging behaviour 
+
+
+
+Original integration predation risk of payoffs and penalties in Barnard and Sibly 
+
+
+ 
+
+## Conditions
+
+
+If we adopt the logic from Dubois (2005), we can predict which conditions could influence producer-scrounger dynamics if the condition disproportionately affects one of the contrasting foraging behaviours. 
+
+Increased snow depth could increase movement cost for a scrounger to join a producer's patch. 
+
+Joining decision paper 
+
