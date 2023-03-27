@@ -59,7 +59,7 @@ digraph decision_tree {
 	tod [label = "Time of day"]
 	energ_res [label = "Energy reserves"]
 
-	pop_growth_rate [label = 'Population growth rate']
+	pop_growth_rate [label = "Population growth rate"]
 	tot_food [label = "Total quantity \n foraged \n by group"]
 	// interspecific_comp [label = "Interspecific competition"]
 	species_div [label = "Species diversity"]
@@ -83,7 +83,7 @@ digraph decision_tree {
   // type +, -, U, 0
 
   // Model ===================================================
-  cost_cont -> prop_scroung [label = "Dubois_2005", color = "#7E1900", style = 'solid']
+  cost_cont -> prop_scroung [label = "Dubois_2005", color = "#7E1900", style = "solid"]
 
 	dominance -> forag_eff [label = "Caraco_1979", color = "#1A3399", style = "solid"]
 	dominance -> forag_acc [label = "Caraco_1979", color = "#1A3399", style = "solid"]
@@ -150,9 +150,9 @@ digraph decision_tree {
 	age -> adult  [color = "grey40"]
 	age -> juv  [color = "grey40"]
 	adult -> prop_scroung [label = "Aplin_2017", color = "#7E1900", style = "dashed"]
-	adult -> prop_scroung [label = "Teichroeb_2015", color = '0', style = "dashed"]
+	adult -> prop_scroung [label = "Teichroeb_2015", color = "black", style = "dashed"]
 	juv -> prop_scroung [label = "Aplin_2017", color = "#1A3399", style = "dashed"]
-	juv -> prop_scroung [label = "Teichroeb_2015", color = '0', style = "dashed"]
+	juv -> prop_scroung [label = "Teichroeb_2015", color = "black", style = "dashed"]
 
 	soc_affil -> prop_scroung [label = "King_2009", color = "#1A3399", style = "dashed"]
 	dominance -> prop_scroung [label = "Bugnyar_2002, Werdenich_2002, King_2009, Aplin_2017", color = "#1A3399", style = "dashed"]
