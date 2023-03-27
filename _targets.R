@@ -106,30 +106,46 @@ targets_literature <- c(
 
 # Targets: graphviz -------------------------------------------------------
 targets_graphviz <- c(
-	tar_file_read(
+	tar_file(
 		into_prop_scrounger,
-		'gv/into-prop-scrounger.gv',
-		DiagrammeR::grViz(!!.x)
+		'gv/into-prop-scrounger.gv'
 	),
-	tar_file_read(
+	tar_file(
 		full_relationships,
-		'gv/full-relationships.gv',
-		DiagrammeR::grViz(!!.x)
+		'gv/full-relationships.gv'
 	),
-	tar_file_read(
+	tar_file(
 		habitat_and_producer,
-		'gv/habitat-and-producer.gv',
-		DiagrammeR::grViz(!!.x)
+		'gv/habitat-and-producer.gv'
 	),
-	tar_file_read(
+	tar_file(
 		group_level,
-		'gv/group-level-effects.gv',
-		DiagrammeR::grViz(!!.x)
+		'gv/group-level-effects.gv'
 	),
-	tar_file_read(
+	tar_file(
 		resources_risks_conditions,
-		'gv/archive/resources-risks-conditions.gv',
-		DiagrammeR::grViz(!!.x)
+		'gv/archive/resources-risks-conditions.gv'
+	),
+
+	tar_target(
+		into_prop_scrounger_png,
+		system(paste('dot', into_prop_scrounger, '-Tpng -Gdpi=300  -o figures/into-prop-scrounger.png'))
+	),
+	tar_target(
+		full_relationships_png,
+		system(paste('dot', full_relationships, '-Tpng -Gdpi=300  -o figures/full-relationships.png'))
+	),
+	tar_target(
+		habitat_and_producer_png,
+		system(paste('dot', habitat_and_producer, '-Tpng -Gdpi=300  -o figures/habitat-and-producer.png'))
+	),
+	tar_target(
+		group_level_png,
+		system(paste('dot', group_level, '-Tpng -Gdpi=300  -o figures/group-level.png'))
+	),
+	tar_target(
+		resources_risks_conditions_png,
+		system(paste('dot', resources_risks_conditions, '-Tpng -Gdpi=300  -o figures/resources-risks-conditions.png'))
 	)
 )
 
