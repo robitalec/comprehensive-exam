@@ -2,21 +2,45 @@
 title: Discussion
 ---
 
+<!-- note citation style used throughout (first author's last name, year, optional letter if multiple publications per author/year), regardless of number of authors for brevity in the graph visualizations, and for consistency in the text with the visualizations 
 
-<!-- note citation style used throughout (first author's last name, year, optional letter if multiple publications per author/year), regardless of number of authors for brevity in the graph visualizations, and for consistency in the text with the visualizations -->
+relationships directly linked to proportion of scrounging are discussed, tangentially 
+eg. group size related to predation risk, are not considered
 
-
-
-The producer-scrounger literature reviewed (Table S1) has overwhelmingly focused on variables related to resources and to constraints on individuals when foraging. Some studies 
-
-
-
-collection environmental variables is a point in environmental space that is defined by a set of resources, risks and conditions
-Environmental variables making up the Matthiopolous (2023) definition
+-->
 
 
+The primary goals of this manuscript are to:
+
+1. Determine how foraging strategies are influenced by risks and conditions
+1. Determine how access to available resources is driven by foraging strategies
+1. Consider how the concept of availability during habitat selection can be extended to include foraging strategies
+
+
+
+The Matthiopolous' definition (2023) parses habitat into environmental variables categorized as resources, risks and conditions. The producer-scrounger literature reviewed (Table S1) has overwhelmingly focused on variables related to resources (Table 1). Some studies have examined risk explicitly, though mainly by using proxies for perception of predation risk under controlled experiments (Barta 2004, Mathot 2007, but see Bugnyar 2002). Only one study considered conditions, though it is deemed here as an example of kleptoparasitism rather than producer-scrounger dynamics because food items were indivisible (Ha 2003, see details in Conditions below). The reviewed literature has, however, explored many constraints on individuals beyond resources, risks and conditions that shape foraging strategy use including dominance hierarchies (Caraco 1989, Werdenich 2002, King 2009, Lee 2016), energy reserves (Lendvai 2004, Lee 2016a) and learning (Afshar 2015, Aplin 2017). 
 
 ## Risks
+
+
+Payoffs and penalties
+
+Barnard and Sibly (1981) define patch payoffs as the amount of any resource. Resources, in contrast with the reviewed literature (Table S1), are more broadly defined with examples given including nests, forage and mating opportunities. 
+
+Producer-scrounger models differ in their assumptions and constraints on producer and scrounger payoffs and penalties. One example for scrounger payoffs is where all scroungers attend to all producer's discovered patches and divide the remaining food items equally (after subtracting the finder's share consumed exclusively by the producer) (Giraldeau 2000). The cost for producers depends on the rule defining the relationship between a producer and the number of scroungers in the group. For models that assume the producer-priority rule, the producer's loss is independent on the number of scroungers while for models that assume the scramble-competition rule, the producer's loss increases with the number of scroungers in the group (Giraldeau 2000). 
+
+
+but
+the producer's loss does not depend on the exact number o f scroungers (the
+producer-priority rule). I n the other, a producer's expected intake declines
+strictly monotonically as the number o f scroungers i n the group increases
+(the scramble-competition rule). I n either case, clumps are randomly appor
+tioned among the exploiters according to a m u l t i n o m i a l outcome
+
+Barnard and Sibly (1981) considered only consider the risk of conspecifics increasing competition or interference in foraging. Giraldeau and Caraco 
+
+
+
 
 1. Recall how risks are originally integrated into producer-scrounger models
     - Costs and benefits of sociality
@@ -49,14 +73,22 @@ While conspecifics may provide predation dilution and contribute to antipredator
 Original integration predation risk of payoffs and penalties in Barnard and Sibly 
 
 
- 
+ ## Conditions
 
-## Conditions
-
-
-If we adopt the logic from Dubois (2005), we can predict which conditions could influence producer-scrounger dynamics if the condition disproportionately affects one of the contrasting foraging behaviours. 
+1. while risks and resources related respectively to patch payoffs and penalties the relationship between habitat conditions and foraging strategy is less clear. 
+    - Ha 2003, except it was an indivisible food item therefore results more closely related to kleptoparasitism and either way they found no relationship with temperature
+1. Taking the logic from Dubois (2005), consider which conditions may affect one of the two foraging strategies disproportionately.
+    - Joining decision 
+        - 
 
 Increased snow depth could increase movement cost for a scrounger to join a producer's patch. 
 
 Joining decision paper 
 
+
+## Resources
+
+
+
+
+## Availability
