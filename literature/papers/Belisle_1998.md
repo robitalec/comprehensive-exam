@@ -5,7 +5,7 @@ Bélisle, Marc. 1998. “Foraging Group Size: Models and a Test with Jaegers Kle
 ---
 [interspecific](../topics/interspecific.md) empirical studdy of jaegers kleptoparasitizing terns carrying fish
 
-By being attracted to producers, scroungers induce group formation. Producer-scrounger systems may be the cause of foraging group formation and not a consequence of animal aggregation
+By being attracted to [producers](../topics/producers.md), [scroungers](../topics/scroungers.md) induce group formation. [Producer-scrounger](../topics/producer-scrounger.md) systems may be the cause of foraging group formation and not a consequence of animal aggregation
 
 ### Strategies
 

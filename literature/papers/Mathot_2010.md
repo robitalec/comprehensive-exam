@@ -8,7 +8,7 @@ Allowing kin to exploit one's efforts may be less costly than allowing exploitat
 
 > In scrounger-controlled systems, the general  
 finding for organisms ranging from bacteria to higher verte-  
-brates is that increasing relatedness among group members  
+brates is that increasing [relatedness](../topics/relatedness.md) among group members  
 decreases the frequency of exploitation (Buss 1982; Schneider  
 1996; Zink 2000; Semel and Sherman 2001; Hudson et al.  
 2002; Griffin et al. 2004; Castillo et al. 2005; Fiegna and  
@@ -24,14 +24,14 @@ Producer-controlled and scrounger-controlled joining
 
 
 ### Strategies
-Producers, scroungers
+[Producers](../topics/producers.md), [scroungers](../topics/scroungers.md)
 
 ### Frequency dependence
 
 ### Payoffs
 
 ### Penalties
-Aggression from producers towards scroungers, different depending on kin and nonkin
+[Aggression](../topics/aggression.md) from [producers](../topics/producers.md) towards [scroungers](../topics/scroungers.md), different depending on kin and nonkin
 
 ### Resources
 
@@ -43,8 +43,8 @@ Aggression from producers towards scroungers, different depending on kin and non
 Differential tolerance towards scrounging by kin and nonkin 
 
 ### Focus
-Do producers allow kin to scrounge more frequently?
+Do [producers](../topics/producers.md) allow kin to scrounge more frequently?
 
 ### Outcome
-Model predicts increased relatedness can lead to higher levels of exploitation when producers are kin-selected to be more tolerant of scrounging from relatives compared with non relatives, eg. being more aggressive towards nonkin. Empirical tests in this study with zebra finches had higher frequencies of scrounging and lower levels of aggressive interactions when finches were related compared to when finches were unrelated.  
+Model predicts increased [relatedness](../topics/relatedness.md) can lead to higher levels of exploitation when [producers](../topics/producers.md) are kin-selected to be more tolerant of scrounging from relatives compared with non relatives, eg. being more aggressive towards nonkin. Empirical tests in this study with zebra finches had higher frequencies of scrounging and lower levels of aggressive interactions when finches were related compared to when finches were unrelated.  
 
