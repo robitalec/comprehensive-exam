@@ -30,61 +30,36 @@ Risks of an animal's habitat are often implied in producer-scrounger models but 
 
 @Bugnyar_2002 evaluated the proportion of scrounging behaviour depending on predation risk using a multispecies system of ravens (*Corvus corax*) scavenging either among wolves (*Canis lupus*) or among wild boars (*Sus scrofa*). Wolves would aggressively defend their food and potentially kill ravens, while wild boars would not. Foraging behaviour was categorized as producing when ravens attempted to obtain food directly from wolves or wild boars and categorized as scrounging when ravens attempted to obtain food from conspecifics. The proportion of scrounging was higher in ravens scavenging among wolves than among wild boars. 
 
-- Broom 2015
-- conditions not considered in the literature
- - parasite
- - anthro harvest
- - wildfire
- - insect harassment
- - drought
- - disease
+@Broom_2015 explicitly considered the relationship between foraging strategy and cost of contests on access to forage using an evolutionary game theory model of producer-scrounger dynamics. Instead of a binary determination for engaging in a contest, individuals could invest effort along a particular cost function. Two cost functions were described: convex cost functions where intial costs were small but quickly grew larger, and concave cost functions where initial costs are high but continued investment is comparitively small. Convex cost functions correspond to major costs such as risk of injury, and concave cost functions correspond to time costs such as exposure of predation risk. @Broom_2015 predicted that at high levels of maximum investment, scroungers should obtain resources at some cost for convex functions while producers should obtain resources without contest for concave functions. 
 
+Risks  not considered in the reviewed producer-scrounger literature (Table S1) include, for example, parasites, diseases, insect harassment, wildfires, drought, and anthropogenic harvest or disturbance (Table 1). 
 
-
-@Teichroeb_2015 found that vervet monkeys (*Chlorocebus pygerythrus*) balanced the risk of predation with foraging success by modifying their spatial position within the group. Individuals on the edge of the foraging group had higher foraging success while individuals in the center were safer.
-
-1.  Where predation risk has been made explicit, producer-scrounger models have found XYZ
-    1.  Conflicts in the literature for the influence of predation risk on proportion of scroungers in a group
-2.  Considering the relationships of producers and scroungers in geographical space, we can expect additional constraints on the scrounging behaviour.
-    -   Finder's share is the implicit incorporation of movement cost
-    -   @Ruxton_2005
-        -   Joining distance - related to risk, then others related to accesss/availability later
-    -   @Kok_2017
-3.  
-
-The producer-scrounger literature
-
-Benefits and costs of sociality
-
-Giraldeau and Caraco highlight that social foraging theory is not the evolution of sociality
-
-Producer-scrounger models have predation risk assumed, integrated in the payoffs and penalties.
-
-While conspecifics may provide predation dilution and contribute to antipredator vigilance, they may also reduce foraging efficiency and increase the rate of conflicts and aggression. These costs and benefits of sociality have been explored in the producer-scrounger literature where scrounging behaviour
-
-Original integration predation risk of payoffs and penalties in Barnard and Sibly
 
 ## Conditions
-
 1.  while risks and resources related respectively to patch payoffs and penalties the relationship between habitat conditions and foraging strategy is less clear.
     -   @Ha_2003 , except it was an indivisible food item therefore results more closely related to kleptoparasitism and either way they found no relationship with temperature
 2.  Taking the logic from @Dubois_2005, consider which conditions may affect one of the two foraging strategies disproportionately.
     - Joining decision
-   
-
-Increased snow depth could increase movement cost for a scrounger to join a producer's patch.
-
-Joining decision paper
+        - movement speedd, difficulty findingg undiscovered food patches
+        - Increased snow depth could increase movement cost for a scrounger to join a producer's patch.
 
 ## Resources
 
-## Individual constraints
+
+
+## Individual constraints 
+<!-- and modifiers? -->
+
+@Teichroeb_2015 found that vervet monkeys (*Chlorocebus pygerythrus*) balanced the risk of predation with foraging success by modifying their spatial position within the group. Individuals on the edge of the foraging group had higher foraging success while individuals in the center were safer.
+
 
 -   Dominance
     - Dominance not as relevant for eg finches than baboons?
     - @Bugnyar_2002 dominance, displacement, type of food sharing
 - Social affiliation
     - @Bugnyar_2002 dominance, displacement, type of food sharing
+- Value of resources, strong/weak
+    - @Broom_2014
 
 ## Availability
 
