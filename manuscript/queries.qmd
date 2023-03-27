@@ -1,4 +1,7 @@
-## Queries
+---
+title: Queries
+---
+
 - How does habitat selection relate to individuals?
 - State of "niche" as a concept?
 - Clarify fitness assumptions?

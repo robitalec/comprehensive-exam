@@ -1,4 +1,7 @@
-# Discussion
+---
+title: Discussion
+---
+
 
 <!-- note citation style used throughout (first author's last name, year, optional letter if multiple publications per author/year), regardless of number of authors for brevity in the graph visualizations, and for consistency in the text with the visualizations -->
 
