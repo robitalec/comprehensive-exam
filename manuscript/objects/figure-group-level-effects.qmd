@@ -3,4 +3,11 @@
 Figure 3: Group level effects of proportion scroungers and related variables
 
 
-![](figures/group-level.png)
+
+```{r}
+#| include: false
+targets::tar_read(group_level_png)
+```
+
+
+![](../../figures/group-level.png)
