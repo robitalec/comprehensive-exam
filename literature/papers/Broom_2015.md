@@ -7,7 +7,7 @@ Broom, Mark, Michal Johanis, and Jan Rychtář. 2015. “The Effect of Fight Cos
 Cost functions can be 
 
 - convex cost functions where alpha is greater than 1 represent where major cost is risk of injury or lost energy. A small investment in the fight are cheap but enlarging an already large investment is very costly 
-- concave cost functions where alpha is less than 1 represent where time costs are the biggest problems eg. due to exposure of predation risk. A small investment in the fight is relatively costly but enlarging an already large investment is relatively inexpensive
+- concave cost functions where alpha is less than 1 represent where time costs are the biggest problems eg. due to exposure of [predation](../topics/predation.md) risk. A small investment in the fight is relatively costly but enlarging an already large investment is relatively inexpensive
  
 
 ### Strategies

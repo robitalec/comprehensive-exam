@@ -4,6 +4,7 @@ Mathot, K. J., and L.-A. Giraldeau. 2007. “Increasing Vulnerability to Predati
 
 ---
 [spatial-position](../topics/spatial-position.md) 
+
 - scroungers hop with their heads up and tend to occupy central [spatial-position](../topics/spatial-position.md) in a group (lower predation risk)
 - producers hop with their heads down and tend to occupy edge [spatial-position](../topics/spatial-position.md) (higher predation risk)
 

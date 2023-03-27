@@ -1,0 +1,9 @@
+---
+output: Conclusion
+---
+
+
+## Future directions
+
+- Since dominance individuals tend to scrounge more often, use focal observations to determine dominance hierarchies 
+- If dominant individual, assume step distribution more limited to producer distribution

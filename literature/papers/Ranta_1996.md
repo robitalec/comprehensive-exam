@@ -7,12 +7,12 @@ Ranta, Esa, Nina Peuhkuri, Anssi Laurila, Hannu Rita, and Neil B. Metcalfe. “P
 
 
 ### Strategies
-Producers, scroungers 
+[Producers](../topics/producers.md), [scroungers](../topics/scroungers.md) 
 
 ### Frequency dependence
 
 ### Payoffs
-Finder's share, intake rate and competitive ability
+[finders_share](../topics/finders_share.md), intake rate and competitive ability
 
 ### Penalties
 
@@ -28,4 +28,4 @@ Finder's share, intake rate and competitive ability
 Allow individuals to differ in food-finding ability and competitive ability once food is found
 
 ### Outcome
-Benefits to producers where scroungers are at the same time vigilant of predators and contribute to dilution effect. 
+Benefits to [producers](../topics/producers.md) where [scroungers](../topics/scroungers.md) are at the same time [vigilance](../topics/vigilance.md) of predators and contribute to dilution effect. 

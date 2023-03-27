@@ -1,4 +1,6 @@
-# Outline
+---
+title: Outline
+---
 
 ## Introduction
 

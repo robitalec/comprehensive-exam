@@ -1,7 +1,7 @@
 digraph decision_tree {
 
-  graph []
-  rankdir = LR
+	graph []
+  	rankdir = LR
 	node [fontsize = 22, shape = box, fontname = Helvetica, penwidth = 2, color = grey50]
 	edge [penwidth = 3]
 
@@ -77,13 +77,13 @@ digraph decision_tree {
 	juv [label = "Juveniles"]
 
 
-  // Edges ---------------------------------------------------
-  // beige - #f1a340
-  // purple - #998ec3
-  // type +, -, U, 0
+	// Edges ---------------------------------------------------
+	// beige - #f1a340
+	// purple - #998ec3
+	// type +, -, U, 0
 
-  // Model ===================================================
-  cost_cont -> prop_scroung [label = "Dubois_2005", color = "#7E1900", style = "solid"]
+	// Model ===================================================
+	cost_cont -> prop_scroung [label = "Dubois_2005", color = "#7E1900", style = "solid"]
 
 	dominance -> forag_eff [label = "Caraco_1979", color = "#1A3399", style = "solid"]
 	dominance -> forag_acc [label = "Caraco_1979", color = "#1A3399", style = "solid"]
@@ -141,7 +141,7 @@ digraph decision_tree {
 	group_size -> vig [label = "Caraco_1979", color = "#7E1900", style = "solid"]
 
 
-  // Empirical ===============================================
+	// Empirical ===============================================
 	sex -> male  [color = "grey40"]
 	sex -> female  [color = "grey40"]
 	male -> prop_scroung [label = "Teichroeb_2015, Aplin_2017", color = "#7E1900", style = "dashed"]
@@ -199,4 +199,4 @@ digraph decision_tree {
 
 
 
-}
+	}

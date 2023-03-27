@@ -1,0 +1,32 @@
+---
+title: "Box: Habitat Selection"
+---
+
+
+- Habitat selection, use /  available
+- Habitat as environmental variables (resources, risks, conditions)
+- Relationships between fitness and resources, risks and conditions (graphs)
+- Examples of resources, risks and conditions from Matthiopolous 2023
+- Examples of resources, risks and conditions from habitat selection literature
+
+
+dynamic mechanisms influencing the relationship between fitness and species distribution
+
+- demographic sorting at the population level
+- habitat selection at the individuall level (behavioural selection)
+    - voluntary movement composed of 
+        - patch departure rules or giving up rates
+            - marginal value theorem
+            - intake rate
+            - learning
+            - information
+            - environmental predictability
+        - decision where to go
+            - sensory perception
+            - spatial memory
+            - conspecific information
+
+
+    
+
+

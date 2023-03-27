@@ -4,7 +4,7 @@ Vickery, William L., Luc-Alain Giraldeau, Jennifer J. Templeton, Donald L. Krame
 
 ---
 
-Reconcile information-sharing and producer-scrounger models of group foraging
+Reconcile information-sharing and [producer-scrounger](../topics/producer-scrounger.md) models of group foraging
 
 [information-sharing-models](../topics/information-sharing-models.md) have examined how group size influences the rate of food discovery. Concerned with the functional advantage of sociality. Assume all individuals search independently while simultaneously observing each other. When a patch is found, all individuals feed on it. This assumption if called complete compatibility. 
 
@@ -14,15 +14,15 @@ These two extremes are likely unrealistic with partial compatibility being more 
 
 ### Strategies
 
-- producers
-- scroungers
-- opportunists (can produce or scrounge at a reduced efficiency)
+- [producers](../topics/producers.md)
+- [scroungers](../topics/scroungers.md)
+- [opportunists](../topics/opportunists.md) (can produce or scrounge at a reduced efficiency)
 
 ### Frequency dependence
 
 - effective group size
 - patch discovery rate decreased with less producers
-- scrounger's portion decreases for each patch with more scroungers
+- scrounger's portion decreases for each patch with more [scroungers](../topics/scroungers.md)
 
 ### Payoffs
 
@@ -34,24 +34,24 @@ These two extremes are likely unrealistic with partial compatibility being more 
 
 ### Resources
 
-Patchy resources may lead to larger group size and more scroungers
+Patchy [resources](../topics/resources.md) may lead to larger group size and more [scroungers](../topics/scroungers.md)
 
 ### Risks
 
 ### Conditions
 
-Reduction of sensory contact between individuals, eg. wind or fog, likely reduce group size and favor increased proportion of producers
+Reduction of sensory contact between individuals, eg. wind or fog, likely reduce group size and favor increased proportion of [producers](../topics/producers.md)
 
 ### Access
 
-Assumed that producers have a finder's share before scroungers and opportunities arrive at the patch. The remainder is divided equally between the producer and all scroungers (including opportunists), where the total consumed by scroungers is the scrounger's share.
+Assumed that [producers](../topics/producers.md) have a finder's share before [scroungers](../topics/scroungers.md) and opportunities arrive at the patch. The remainder is divided equally between the producer and all [scroungers](../topics/scroungers.md) (including [opportunists](../topics/opportunists.md)), where the total consumed by [scroungers](../topics/scroungers.md) is the scrounger's share.
 
-Solitary foraging could be a solution for producers to avoid sharing with scroungers. This may not be possible when food is localized and presence of others cannot be escaped. Trade off of others balanced with [predation](../topics/predation.md) risk. 
+Solitary foraging could be a solution for [producers](../topics/producers.md) to avoid sharing with [scroungers](../topics/scroungers.md). This may not be possible when food is localized and presence of others cannot be escaped. Trade off of others balanced with [predation](../topics/predation.md) risk. 
 
 ### Focus
 
-Reconcile information-sharing and producer-scrounger models of group foraging
+Reconcile information-sharing and [producer-scrounger](../topics/producer-scrounger.md) models of group foraging
 
 ### Outcome
 
-These three strategies can only coexist when opportunist's loss in searching ability is exactly equal to its gain in scrounging ability. All pairs of strategies can coexist, depending on relative producing ability and relative scrounging ability of opportunists and the finder's share. 
+These three [strategies](../topics/strategies.md) can only coexist when opportunist's loss in searching ability is exactly equal to its gain in scrounging ability. All pairs of [strategies](../topics/strategies.md) can coexist, depending on relative producing ability and relative scrounging ability of [opportunists](../topics/opportunists.md) and the finder's share. 

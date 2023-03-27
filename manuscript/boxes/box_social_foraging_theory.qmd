@@ -2,6 +2,13 @@
 title: "Box: Social Foraging"
 ---
 
+## Payoffs and penalties
+
+Barnard and Sibly (1981) define patch payoffs as the amount of any resource. Resources, in contrast with the reviewed literature (Table S1), are more broadly defined with examples given including nests, forage and mating opportunities. 
+
+Producer-scrounger models differ in their assumptions and constraints on producer and scrounger payoffs and penalties. One example for scrounger payoffs is where all scroungers attend to all producer's discovered patches and divide the remaining food items equally (after subtracting the finder's share consumed exclusively by the producer) (Giraldeau 2000). The cost for producers depends on the rule defining the relationship between a producer and the number of scroungers in the group. For models that assume the producer-priority rule, the producer's loss is independent on the number of scroungers while for models that assume the scramble-competition rule, the producer's loss increases with the number of scroungers in the group (Giraldeau 2000).
+
+
 <!--
 Social foraging box:
 Broad introduction that overviews how social foraging extends individual foraging
