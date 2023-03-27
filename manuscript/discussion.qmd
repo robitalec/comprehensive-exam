@@ -3,6 +3,7 @@ title: Discussion
 bibliography: '../references/comprehensive-exam.bib'
 ---
 
+
 <!-- note citation style used throughout (first author's last name, year, optional letter if multiple publications per author/year), regardless of number of authors for brevity in the graph visualizations, and for consistency in the text with the visualizations 
 
 relationships directly linked to proportion of scrounging are discussed, tangentially 
@@ -13,85 +14,65 @@ eg. group size related to predation risk, are not considered
 
 The primary goals of this manuscript are to:
 
-1. Determine how foraging strategies are influenced by risks and conditions
-1. Determine how access to available resources is driven by foraging strategies
-1. Consider how the concept of availability during habitat selection can be extended to include foraging strategies
+1.  Determine how foraging strategies are influenced by risks and conditions
+2.  Determine how access to available resources is driven by foraging strategies
+3.  Consider how the concept of availability during habitat selection can be extended to include foraging strategies
 
-
-
-The @Matthiopoulos_2023 definition parses habitat into environmental variables categorized as resources, risks and conditions. The producer-scrounger literature reviewed (Table S1) has overwhelmingly focused on variables related to resources (Table 1). Some studies have examined risk explicitly, though mainly by using proxies for perception of predation risk under controlled experiments [@Barta_2004; @Mathot_2007; but see @Bugnyar_2002]. Only one study considered conditions, though it is deemed here as an example of kleptoparasitism rather than producer-scrounger dynamics because food items were indivisible [@Ha_2003, see details in Conditions below]. The reviewed literature has, however, explored many constraints on individuals beyond resources, risks and conditions that shape foraging strategy use including dominance hierarchies [@Caraco_1989; @Werdenich_2002; @King_2009; @Lee_2016], energy reserves [@Lendvai_2004; @Lee_2016a] and learning [@Afshar_2015; @Aplin_2017]. 
-
-
+The @Matthiopoulos_2023 definition parses habitat into environmental variables categorized as resources, risks and conditions. The producer-scrounger literature reviewed (Table S1) has overwhelmingly focused on variables related to resources (Table 1). Some studies have examined risk explicitly, though mainly by using proxies for perception of predation risk in controlled environments [@Barta_2004; @Mathot_2007; but see @Bugnyar_2002]. Only one study considered conditions, though it is deemed here an example of kleptoparasitism rather than producer-scrounger dynamics because food items were indivisible [@Ha_2003, see details in Conditions below]. The reviewed literature has, however, explored many constraints on individuals beyond resources, risks and conditions that shape foraging strategy use including dominance hierarchies [@Caraco_1989; @Werdenich_2002; @King_2009; @Lee_2016], energy reserves [@Lendvai_2004; @Lee_2016a] and learning [@Afshar_2015; @Aplin_2017].
 
 ## Risks
 
-@Barnard_1981 considered only consider the risk of conspecifics increasing competition or interference in foraging. @Giraldeau_2000
+Risks of an animal's habitat are often implied in producer-scrounger models but rarely explicitly evaluated. @Barnard_1981 only consider the risks of conspecifics increasing competition or interference in foraging in their foundational work on producer-scrounger dynamics. @Giraldeau_2000 emphasize that social foraging theory is not the study of how foraging groups have evolved, for example in response to predation pressure. Rather, the focus is on the economic interdependence of individual foraging decisions where related payoffs and penalties can be incorporated. Nevertheless in the reviewed literature (Table S1), only seven studies explicitly considered predation risk (Table 1; 8.4 % relevant studies) and one study explicitly considered risks associated with fighting costs (Table 1; 1.2 % relevant studies).
 
+@Dubois_2005 posited that predation risk should only affect foraging strategy use if one of the foraging strategies is disproportionately exposed to predator risk.
 
+@Teichroeb_2015 found that vervet monkeys (*Chlorocebus pygerythrus*) balanced the risk of predation with foraging success by modifying their spatial position within the group. Individuals on the edge of the foraging group had higher foraging success while individuals in the center were safer.
 
+1.  Where predation risk has been made explicit, producer-scrounger models have found XYZ
+    1.  Conflicts in the literature for the influence of predation risk on proportion of scroungers in a group
+2.  Considering the relationships of producers and scroungers in geographical space, we can expect additional constraints on the scrounging behaviour.
+    -   Finder's share is the implicit incorporation of movement cost
+    -   @Ruxton_2005
+        -   Joining distance - related to risk, then others related to accesss/availability later
+    -   @Kok_2017
+3.  
 
-1. Recall how risks are originally integrated into producer-scrounger models
-    - Costs and benefits of sociality
-    - Giraldeau and Caraco: social foraging is not the evolution of sociality
-    - Predation risk is assumed, implied 
-1. @Dubois_2005 predation risk risk should not effect foraging tactic use unless one of the foraging tactics is  disproportionately exposed to predation than the other 
-    - @Teichroeb_2015 spatial position
-1. Where predation risk has been made explicit, producer-scrounger models have found XYZ
-    1. Conflicts in the literature for the influence of predation risk on proportion of scroungers in a group
-1. Considering the relationships of producers and scroungers in geographical space, we can expect additional constraints on the scrounging behaviour. 
-    - Finder's share is the implicit incorporation of movement cost
-    - @Ruxton_2005
-        - Joining distance
-    - @Kok_2017
-1. 
-
-
-
-
-The producer-scrounger literature 
+The producer-scrounger literature
 
 Benefits and costs of sociality
 
 Giraldeau and Caraco highlight that social foraging theory is not the evolution of sociality
 
-Producer-scrounger models have predation risk assumed, integrated in the payoffs and penalties. 
+Producer-scrounger models have predation risk assumed, integrated in the payoffs and penalties.
 
-While conspecifics may provide predation dilution and contribute to antipredator vigilance, they may also reduce foraging efficiency and increase the rate of conflicts and aggression. These costs and benefits of sociality have been explored in the producer-scrounger literature where scrounging behaviour 
+While conspecifics may provide predation dilution and contribute to antipredator vigilance, they may also reduce foraging efficiency and increase the rate of conflicts and aggression. These costs and benefits of sociality have been explored in the producer-scrounger literature where scrounging behaviour
 
-
-
-Original integration predation risk of payoffs and penalties in Barnard and Sibly 
-
+Original integration predation risk of payoffs and penalties in Barnard and Sibly
 
 ## Conditions
 
-1. while risks and resources related respectively to patch payoffs and penalties the relationship between habitat conditions and foraging strategy is less clear. 
-    - @Ha_2003 , except it was an indivisible food item therefore results more closely related to kleptoparasitism and either way they found no relationship with temperature
-1. Taking the logic from @Dubois_2005, consider which conditions may affect one of the two foraging strategies disproportionately.
-    - Joining decision 
-        - 
+1.  while risks and resources related respectively to patch payoffs and penalties the relationship between habitat conditions and foraging strategy is less clear.
+    -   @Ha_2003 , except it was an indivisible food item therefore results more closely related to kleptoparasitism and either way they found no relationship with temperature
+2.  Taking the logic from @Dubois_2005, consider which conditions may affect one of the two foraging strategies disproportionately.
+    -   Joining decision
+        -   
 
-Increased snow depth could increase movement cost for a scrounger to join a producer's patch. 
+Increased snow depth could increase movement cost for a scrounger to join a producer's patch.
 
-Joining decision paper 
-
+Joining decision paper
 
 ## Resources
 
-
-
-
 ## Individual constraints
 
-- Dominance
-    - Dominance not as relevant for eg finches than baboons?
-
+-   Dominance
+    -   Dominance not as relevant for eg finches than baboons?
 
 ## Availability
 
-- Habitat availability 
-    - Geographical accessibility
-        - @Matthiopoulos_2020
+-   Habitat availability
+    -   Geographical accessibility
+        -   @Matthiopoulos_2020
 
 
 ## References
