@@ -19,14 +19,13 @@ The primary goals of this manuscript are to:
 
 
 
-The Matthiopolous' definition (2023) parses habitat into environmental variables categorized as resources, risks and conditions. The producer-scrounger literature reviewed (Table S1) has overwhelmingly focused on variables related to resources (Table 1). Some studies have examined risk explicitly, though mainly by using proxies for perception of predation risk under controlled experiments (Barta 2004, Mathot 2007, but see Bugnyar 2002). Only one study considered conditions, though it is deemed here as an example of kleptoparasitism rather than producer-scrounger dynamics because food items were indivisible (Ha 2003, see details in Conditions below). The reviewed literature has, however, explored many constraints on individuals beyond resources, risks and conditions that shape foraging strategy use including dominance hierarchies (Caraco 1989, Werdenich 2002, King 2009, Lee 2016), energy reserves (Lendvai 2004, Lee 2016a) and learning (Afshar 2015, Aplin 2017). 
+The @Matthiopoulos_2023 definition parses habitat into environmental variables categorized as resources, risks and conditions. The producer-scrounger literature reviewed (Table S1) has overwhelmingly focused on variables related to resources (Table 1). Some studies have examined risk explicitly, though mainly by using proxies for perception of predation risk under controlled experiments [@Barta_2004; @Mathot_2007; but see @Bugnyar_2002]. Only one study considered conditions, though it is deemed here as an example of kleptoparasitism rather than producer-scrounger dynamics because food items were indivisible [@Ha_2003, see details in Conditions below]. The reviewed literature has, however, explored many constraints on individuals beyond resources, risks and conditions that shape foraging strategy use including dominance hierarchies [@Caraco_1989; @Werdenich_2002; @King_2009; @Lee_2016], energy reserves [@Lendvai_2004; @Lee_2016a] and learning [@Afshar_2015; @Aplin_2017]. 
+
+
 
 ## Risks
 
-
- 
-
-Barnard and Sibly (1981) considered only consider the risk of conspecifics increasing competition or interference in foraging. Giraldeau and Caraco 
+@Barnard_1981 considered only consider the risk of conspecifics increasing competition or interference in foraging. @Giraldeau_2000
 
 
 
@@ -35,15 +34,15 @@ Barnard and Sibly (1981) considered only consider the risk of conspecifics incre
     - Costs and benefits of sociality
     - Giraldeau and Caraco: social foraging is not the evolution of sociality
     - Predation risk is assumed, implied 
-1. Dubois 2005 predation risk risk should not effect foraging tactic use unless one of the foraging tactics is  disproportionately exposed to predation than the other 
-    - Teichroeb spatial position
+1. @Dubois_2005 predation risk risk should not effect foraging tactic use unless one of the foraging tactics is  disproportionately exposed to predation than the other 
+    - @Teichroeb_2015 spatial position
 1. Where predation risk has been made explicit, producer-scrounger models have found XYZ
     1. Conflicts in the literature for the influence of predation risk on proportion of scroungers in a group
 1. Considering the relationships of producers and scroungers in geographical space, we can expect additional constraints on the scrounging behaviour. 
     - Finder's share is the implicit incorporation of movement cost
-    - Ruxton_2005
+    - @Ruxton_2005
         - Joining distance
-    - Kok_2017
+    - @Kok_2017
 1. 
 
 
@@ -64,11 +63,11 @@ While conspecifics may provide predation dilution and contribute to antipredator
 Original integration predation risk of payoffs and penalties in Barnard and Sibly 
 
 
- ## Conditions
+## Conditions
 
 1. while risks and resources related respectively to patch payoffs and penalties the relationship between habitat conditions and foraging strategy is less clear. 
-    - Ha 2003, except it was an indivisible food item therefore results more closely related to kleptoparasitism and either way they found no relationship with temperature
-1. Taking the logic from Dubois (2005), consider which conditions may affect one of the two foraging strategies disproportionately.
+    - @Ha_2003 , except it was an indivisible food item therefore results more closely related to kleptoparasitism and either way they found no relationship with temperature
+1. Taking the logic from @Dubois_2005, consider which conditions may affect one of the two foraging strategies disproportionately.
     - Joining decision 
         - 
 
