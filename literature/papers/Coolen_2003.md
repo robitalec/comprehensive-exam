@@ -22,9 +22,9 @@ nutmeg mannikins (_Lonchura punctulata_)
 ### Access
 
 ### Focus
-Is the scrounger tactic compatible with antipredatory [[vigilance](../topics/vigilance.md)?
+Is the scrounger tactic compatible with antipredator [vigilance](../topics/vigilance.md)?
 
 ### Outcome
-Found no evidence of compatibility between the scrounger tactic and antipredatory [vigilance](../topics/vigilance.md)
+Found no evidence of compatibility between the scrounger tactic and antipredator [vigilance](../topics/vigilance.md)
 
 

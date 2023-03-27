@@ -21,7 +21,7 @@ Resource, [finders_share](../topics/finders_share.md)
 ### Resources
 
 ### Risks
-Predation
+[predation](../topics/predation.md)
 
 ### Conditions
 
