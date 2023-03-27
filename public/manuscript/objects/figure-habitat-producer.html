@@ -58,10 +58,6 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script src="../../site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
-<script src="../../site_libs/viz-1.8.2/viz.js"></script>
-<link href="../../site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
-<script src="../../site_libs/grViz-binding-1.0.9/grViz.js"></script>
 
 
 </head>
@@ -819,12 +815,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="figure-1" class="level1">
 <h1>Figure 1</h1>
 <p>Figure 1: Producer-scrounger dynamics and habitat selection</p>
-<div class="cell">
-<div class="cell-output-display">
-<div id="htmlwidget-2f44312af7f07c84a740" style="width:100%;height:464px;" class="grViz html-widget"></div>
-<script type="application/json" data-for="htmlwidget-2f44312af7f07c84a740">{"x":{"diagram":"digraph habitat_and_producer {\n\n  graph []\n  rankdir = TB\n\tnode [fontsize = 22, shape = box, fontname = Helvetica, penwidth = 2]\n\tedge [penwidth = 2]\n\n    Habitat [label = \"Habitat\\nselection\", style = filled, color = grey]\n\n  \tResources [color = grey85]\n  \tConditions [color = grey85]\n  \tRisks [color = grey85]\n\n    access_avail [label = \"Availability\\nand\\naccess\", shape = ellipse]\n\n\t\tps_dyn [label = \"Producer-scrounger\\ndynamics\", style = filled, color = grey]\n\t\tfreq [label = \"Frequency\\ndependence\"]\n\t\tpatch_penalties [label = \"Patch penalties\"]\n\t\tpatch_payoffs [label = \"Patch payoffs\"]\n\n\n\t\tps_dyn -> freq -> {patch_penalties patch_payoffs}\n\n\t\t{patch_penalties patch_payoffs} -> Roles -> access_avail\n\n\t\taccess_avail -> {Resources Conditions Risks} [dir = back]\n\n\t  {patch_penalties} ->  Risks [color = grey, dir = back]\n\t\tpatch_payoffs -> Resources [color = grey, dir = back]\n\t\t{patch_payoffs patch_penalties} -> Conditions [color = grey, dir = back]\n\n\n\t\t{Resources Risks Conditions} -> Habitat [dir = back]\n\n\n\n\t}\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
+<p><img src="../../figures/habitat-and-producer.png" style="height:4in"></p>
 
 
 </section>
