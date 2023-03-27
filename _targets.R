@@ -127,25 +127,30 @@ targets_graphviz <- c(
 		'gv/archive/resources-risks-conditions.gv'
 	),
 
-	tar_target(
+	tar_file(
 		into_prop_scrounger_png,
-		system(paste('dot', into_prop_scrounger, '-Tpng -Gdpi=300  -o figures/into-prop-scrounger.png'))
+		{system(paste('dot', into_prop_scrounger, '-Tpng -Gdpi=300  -o figures/into-prop-scrounger.png'));
+			'figures/into-prop-scrounger.png'}
 	),
-	tar_target(
+	tar_file(
 		full_relationships_png,
-		system(paste('dot', full_relationships, '-Tpng -Gdpi=300  -o figures/full-relationships.png'))
+		{system(paste('dot', full_relationships, '-Tpng -Gdpi=300  -o figures/full-relationships.png'));
+			'figures/full-relationships.png'}
 	),
-	tar_target(
+	tar_file(
 		habitat_and_producer_png,
-		system(paste('dot', habitat_and_producer, '-Tpng -Gdpi=300  -o figures/habitat-and-producer.png'))
+		{system(paste('dot', habitat_and_producer, '-Tpng -Gdpi=300  -o figures/habitat-and-producer.png'));
+			'figures/habitat-and-producer.png'}
 	),
-	tar_target(
+	tar_file(
 		group_level_png,
-		system(paste('dot', group_level, '-Tpng -Gdpi=300  -o figures/group-level.png'))
+		{system(paste('dot', group_level, '-Tpng -Gdpi=300  -o figures/group-level.png'));
+			'figures/group-level.png'}
 	),
-	tar_target(
+	tar_file(
 		resources_risks_conditions_png,
-		system(paste('dot', resources_risks_conditions, '-Tpng -Gdpi=300  -o figures/resources-risks-conditions.png'))
+		{system(paste('dot', resources_risks_conditions, '-Tpng -Gdpi=300  -o figures/resources-risks-conditions.png'));
+			'figures/resources-risks-conditions.png'}
 	)
 )
 
