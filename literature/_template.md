@@ -1,4 +1,6 @@
-## {{citekey}}
+---
+title: {{citekey}}
+---
 
 {{bibliography}}
 
