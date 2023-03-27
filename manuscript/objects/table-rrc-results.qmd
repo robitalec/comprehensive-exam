@@ -7,12 +7,10 @@ library(gt)
 ```
 
 ```{r, echo = FALSE}
-targets::tar_load(rrc_results)
-
-rrc_results |>
+tar_read(rrc_results) |>
 	gt(rowname_col = "Variable",
-    groupname_col = "Type",
-		 caption = 'Table N: Resources, risks, and conditions in the producer-scrounger dynamics literature') |>
+     groupname_col = "Type",
+		 caption = 'Table 1: Resources, risks, and conditions in the producer-scrounger dynamics literature') |>
 	tab_options(row_group.as_column = TRUE) |>
 	tab_style(  
 		style = list(
@@ -29,6 +27,8 @@ rrc_results |>
 		locations = cells_body(
 			columns = 'Producer scrounger model',
       rows = is.na(`Producer scrounger model`)
-    ))
+    )) |> 
+	summary_rows(groups = TRUE, columns = 'Count', fns = 'sum', formatter = fmt_integer) |>
+	grand_summary_rows(columns = 'Count', fns = 'sum', formatter = fmt_integer)
 ```
 

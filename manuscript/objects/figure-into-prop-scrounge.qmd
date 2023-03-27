@@ -2,7 +2,11 @@
 
 Figure 2: Variables identified in the literature as directly influencing the proportion of scrounging in a group of foragers
 
-```{r, echo = FALSE}
-targets::tar_read(into_prop_scrounger)
+
+```{r}
+#| include: false
+targets::tar_read(into_prop_scrounger_png)
 ```
 
+
+![](../../figures/into-prop-scrounger.png)

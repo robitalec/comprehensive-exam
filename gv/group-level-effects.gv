@@ -37,7 +37,7 @@ digraph decision_tree {
 
 	energ_res [label = "Energy reserves"]
 
-	pop_growth_rate [label = 'Population growth rate']
+	pop_growth_rate [label = "Population growth rate"]
 	species_div [label = "Species diversity"]
 
 
