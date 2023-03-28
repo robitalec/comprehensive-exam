@@ -4,6 +4,24 @@ order: 4
 ---
 
 
+## Group level or population effects
+
+<!-- why are producer-scrounger dynamics important to consider? -->
+
+<!--
+- Population
+	- Scrounging can act as a population regulator by reducing population level foraging efficiency and intake rate and allowing larger population sizes of predators (Coolen_2007)
+	- Social foraging can stabilize one prey and two prey systems when scrounging is prevalent in predators (Toyokawa_2017) (Vickery_2020)
+	- Scrounging can lower the growth rate of a population (Toyokawa_2017)
+	- Scrounging can allow prey resources to persist at higher densities than if scrounging was absent (Toyokawa_2017) (Vickery_2020)
+	- Presence of scroungers in a predator can reduce the total amount of resource acquired by the group (Vickery_2020)
+	- Presence of scroungers in a predator can limit group size (Vickery_2020)
+	- Presence of scroungers in a predator can limit a predator's ability to outcompete other species promoting stability and species diversity (Vickery_2020)
+	- Scrounging will not stability population dynamics, food chains and competitor interactions under all cases, if scrounging is too prevalent it can push the population to extinction  	- Other factors such as food abundance, variations in weather, predators and parasites may have stronger effects that can completely obscure the effects of scrounging on populations (Vickery_2020)
+
+-->
+
+
 ## Future directions
 
 1. Establish the relationship with conditions using experiments or observations
