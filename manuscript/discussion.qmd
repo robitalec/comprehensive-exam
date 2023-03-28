@@ -105,7 +105,7 @@ Other types of risks are not considered in the reviewed producer-scrounger liter
     - Joining decision
         - movement speedd, difficulty findingg undiscovered food patches
         - Increased snow depth could increase movement cost for a scrounger to join a producer's patch.
-
+    - Vickery hypotheticall sensory connection
 
 
 ## Resources considered in producer-scrounger dynamics
