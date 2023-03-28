@@ -11,11 +11,78 @@ title: Individual constraints
 
 @Teichroeb_2015 found that vervet monkeys (*Chlorocebus pygerythrus*) balanced the risk of predation with foraging success by modifying their spatial position within the group. Individuals on the edge of the foraging group had higher foraging success while individuals in the center were safer.
 
-
+<!--
 -   Dominance
     - Dominance not as relevant for eg finches than baboons?
     - @Bugnyar_2002 dominance, displacement, type of food sharing
+	- Similar dominance, individuals should similarly play scrounger (Barta_1998)
+	- Asymmetrical dominance, dominant individuals should play scrounger more often (Barta_1998)
+	- Dominance increases foraging efficiency and access to forage (Caraco_1979)
+	- Dominant individuals prefer social foraging while subordinate individuals prefer solitary foraging (Caraco_1989) (Lee_2016)
+	- Scrounging can be an exclusive strategy of dominant individuals depending on resource monopolizability (Lee_2016)
+	- If patches are distributed in clumps, dominant individuals will be able to exploit most patches by following subordinates (Caraco_1989)
+- Dominance (empirical)
+	- Male dominants more likely to produce (Aplin_2017)
+	- Dominants took the role of scrounger and subordinates the role of producer (Werdenich_2002)
+	- Scrounging dominants were more likely to displace conspecifics while stealing was more likely for subordinates (Bugnyar_2002)
+	- (also under Sex) Dominant females scrounged from subordinate neighbors with whom they had a strong social affiliation (King_2009)
+	- (also under Environmental factors) Wind exposure as a proxy to manipulate overnight energy expenditure lead dominants to scrounge more often and subordinates only marginally increase scrounging (Lendvai_2004)
+	- Dominant individuals obtained more food than subordinates (Teichroeb_2015)
+	- Dominant individuals obtained a larger share when producing than scrounging, balancing predation risk with food acquisition (Teichroeb_2015)
+	- Finder's share increased with dominance (Teichroeb_2015)
+
+
 - Social affiliation
-    - @Bugnyar_2002 dominance, displacement, type of food sharing
+    - Relatedness
+	    - Increased relatedness can lead producers to being more tolerant of scrounging relatives (Mathot_2010)
+    - empirical
+        - Mating pairs may have contributed to male tolerance of female scroungers (Aplin_2017)
+	    - Scroungers had high network centrality (Aplin_2017)
+        - @Bugnyar_2002 dominance, displacement, type of food sharing
+	    - Sharing observed when dyads of ravens were at different stages of pair bonding eg mutual preening (Bugnyar_2002)
+	    - (also under Sex) Dominant females scrounged from subordinate neighbors with whom they had a strong social affiliation (King_2009)
+        	- Related finches had higher frequencies of scrounging than unrelated finches (Mathot_2010)
+
 - Value of resources, strong/weak
     - @Broom_2014
+
+
+- energy reservees
+    - Time of day
+        - Around dawn and dusk, individuals should play scrounger more often due to low energy reserves (Barta_2000)
+        - Around midday, individuals should play producer if they are near or above critical reserve level because if they are successful they can more quickly switch to resting and avoid predation hazard (Barta_2000)
+- Energy reserves / fed or fasted (empirical)
+	- Rates of strategy use did not differ depending on fed and fasted states in sparrows (Lee_2016a)
+	- Fasted sparrows stayed longer on the ground (Lee_2016a)
+	- Fasted sparrows discovered more patches and consumed more food than fed sparrows (Lee_2016a)
+	- (also under Vigilance) Scrounging not simply explained by antipredator vigilance, alternatively may be due to scrounging being a variance-averse strategy or favored strategy when energy reserves are low (Barta_2004)
+
+- learning
+- Learning
+	- Early success may lead to individuals not adapting strategy to changing environments (Beauchamp_2000a)
+	- Learning never evolves to fixation and at a stable equilibrium there is a mixture of fixed and learning players (Dubois_2010)
+	- Social learning is favored when competition is weak (Smolla_2015)
+	- If competition is strong, social learning is favored when resource quality is highly variable and there is low environmental turnover (Smolla_2015)
+    - empirical
+        - As individuals have more experience in variable environments, they increase proportion of scrounging (Afshar_2015)
+        - Individuals that learned the task faster were less likely to scrounger (Aplin_2017)
+	
+
+
+- Sex
+	- Females were more likely to scrounge (Aplin_2017) 
+	- Males were more likely to produce (Aplin_2017)
+	- Air temperature, time of day, season (breeding vs nonbreeding), age or sex did not influence the probability of retaining prey (Ha_2003)
+	- Females scrounged from males when pregnant (King_2009)
+	- Dominant females scrounged from subordinate neighbors with whom they had a strong social affiliation (King_2009)
+
+- Age
+	- Adults were more likely to produce (Aplin_2017)
+	- Juveniles were more likely to scrounge (Aplin_2017)
+	- (also under Sex) Air temperature, time of day, season (breeding vs nonbreeding), age or sex did not influence the probability of retaining prey (Ha_2003)
+	- No effect of age (Teichroeb_2015)
+
+Body size, foraging efficiency
+    Payoffs were higher for producers in all environmental conditions, likely due to body size and foraging efficiency (Hansen_2016)
+
+-->
