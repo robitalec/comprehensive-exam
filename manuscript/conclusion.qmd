@@ -53,3 +53,6 @@ Maybe:
 - If dominant individual, assume step distribution more limited to producer distribution
 
 
+<!--
+ A producer should leave a patch earlier than a scrounger if the producer has a finder's share (Rita_1997)
+-->
