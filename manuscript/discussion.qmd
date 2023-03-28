@@ -5,10 +5,11 @@ order: 3
 ---
 
 
-<!-- note citation style used throughout (first author's last name, year, optional letter if multiple publications per author/year), regardless of number of authors for brevity in the graph visualizations, and for consistency in the text with the visualizations 
+<!-- 
 
 relationships directly linked to proportion of scrounging are discussed, tangentially 
 eg. group size related to predation risk, are not considered
+
 
 -->
 
@@ -25,6 +26,47 @@ The @Matthiopoulos_2023 definition parses habitat into environmental variables c
 ## Access depending on foraging strategy
 
 
+<!--
+
+- Finder's share
+	- Increase finder's share leads to a decrease in proportion of scroungers (Barta_1998) (Lee_2016)
+	- Finder's share allows producers to always aggressively defend clumps (Dubois_2005)
+	- (also under Patch departure) A producer should leave a patch earlier than a scrounger if the producer has a finder's share (Rita_1997)
+    - empirical Finder's share
+        - (also under Resource availability) At low and intermediate resource availability, scrounging is not favored after a 30s finder's share (Kok_2017)
+        - (also under Resource availability) At high resource availability, scrounging is favored up to 120s (Kok_2017)
+        - Finder's share decreases with patch size (Hansen_2016)
+        - Finder's share decreased with forager density (Hirsch_2019)
+        - (also under Dominance) Finder's share increased with dominance (Teichroeb_2015)
+        - Finder's share decreased with increasing patch richness (Teichroeb_2015)
+	
+
+- Arrival time on patch
+	- Individuals that arrived earlier on the patch were less likely to scrounge (Aplin_2017)
+
+- Patch finding rate
+	- (also under Patch density)  At higher patch densities, the producer's patch finding rate should decrease (Dubois_2005)
+	- When probability of finding patches decreases with increasing group size, number of scroungers should increase (Dubois_2020)
+	- When probability of finding patches increases with increasing group size, number of scroungers should decrease (Dubois_2020)
+	- Decreased patch finding rate reduces the costs of solitary foraging and scrounging is less common (Lee_2016)
+	- Patch finding rate strongly influences frequency of producers (Ohtsuka_2009)
+	- Patch finding rate increases with the number of producers (Rita_1997)
+
+	- More scroungers resulted in a lower patch finding rate for the group (Coolen_2002)
+	- (also under Spatial position) Patch finding rate increased for individuals at the front edge of the group (Hirsch_2019)
+
+- Resource monopolizabilitu
+ 	- Easily monopolized resources (CITE?)
+    - Handling time
+	    - Prey size and longer handling time resulted in higher likelihood of conspecific stealing (Ha_2003)
+
+- Resource availability
+	- At low and intermediate resource availability, scrounging is not favored after a 30s finder's share (Kok_2017)
+	- At high resource availability, scrounging is favored up to 120s (Kok_2017)
+
+-->
+
+
 
 ## Influence of risks on foraging strategy
 
@@ -38,7 +80,19 @@ Risks of an animal's habitat are often implied in producer-scrounger models but 
 
 @Broom_2015 explicitly considered the relationship between foraging strategy and cost of contests on access to forage using an evolutionary game theory model of producer-scrounger dynamics. Instead of a binary determination for engaging in a contest, individuals could invest effort along a particular cost function. Two cost functions were described: convex cost functions where intial costs were small but quickly grew larger, and concave cost functions where initial costs are high but continued investment is comparitively small. Convex cost functions correspond to major costs such as risk of injury, and concave cost functions correspond to time costs such as exposure of predation risk. @Broom_2015 predicted that at high levels of maximum investment, scroungers should obtain resources at some cost for convex functions while producers should obtain resources without contest for concave functions. 
 
-Risks  not considered in the reviewed producer-scrounger literature (Table S1) include, for example, parasites, diseases, insect harassment, wildfires, drought, and anthropogenic harvest or disturbance (Table 1). 
+
+<!-- 
+Interactions between risks and resource quality or abundance have also been noted
+
+Where patches are dense, scrounging is disfavored because of the time invested in contests (Dubois_2005) 
+
+Aggression should decrease as the density and richness of food clumps increases (Dubois_2003)
+
+Costs of aggression increase with increasing predation pressure and so the rate of aggression should decrease (Dubois_2005)
+
+-->
+
+Other types of risks are not considered in the reviewed producer-scrounger literature (Table S1) including, for example, parasites, diseases, insect harassment, wildfires, drought, and anthropogenic harvest or disturbance (Table 1). 
 
 
 ## Influence of conditions on foraging strategy
@@ -54,7 +108,27 @@ Risks  not considered in the reviewed producer-scrounger literature (Table S1) i
 ## Resources considered in producer-scrounger dynamics
 
 
+<!--
+- Patch richness
+	- In habitats with poorer patches, scrounging should be less likely (Beauchamp_2000a)
+	- Increasing patch richness will increase scrounger's share and the proportion of scroungers will increase (Dubois_2005)
+	- (also under Sharing) When retaliator strategy is included, there is widespread sharing predicted in habitats clumped with intermediate richness (Dubois_2007)
+	- (also under Patch distribution) If patches are distributed in rich, clumps, scrounging should increase (Dubois_2020)
+    
+- Patch density
+	- At higher patch densities, the producer's patch finding rate should increase (Dubois_2005)
+	- At higher patch densities, the rate of scrounging should decrease as the temporal costs of contests makes scrounging less profitable (Dubois_2005)
 
+
+- Patch distribution
+	- (also under Dominance) If patches are distributed in clumps, dominant individuals will be able to exploit most patches by following subordinates (Caraco_1989)
+	- If patches are distributed in rich, clumps, scrounging should increase and if patches are evenly distributed, producing should increase (Dubois_2020) (Ohtsuka_2009) 
+
+- Patch size
+	- If patches are large, scrounging should be more frequent (Hansen_2016) (King_2009)
+	- If patches are small, solitary foraging should be more frequent (Hansen_2016)
+	
+-->
 
 
 
@@ -102,5 +176,12 @@ or set of neighbors within a reasonable distance
 
 This combination would assume that all individuals may opt to produce or to scrounge at
 each step and that an animal stepping to a neighbour is assumed to be scrounging from it
+
+<!-- 
+- Strategy specialization
+	- Stable dimorphic distribution of producers and scroungers (Aplin_2017)
+	- Individuals likely to use both strategies (Ha_2003)
+	
+-->
 
 ## References
