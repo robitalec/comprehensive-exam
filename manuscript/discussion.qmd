@@ -21,7 +21,12 @@ The primary goals of this manuscript are to:
 
 The @Matthiopoulos_2023 definition parses habitat into environmental variables categorized as resources, risks and conditions. The producer-scrounger literature reviewed (Table S1) has overwhelmingly focused on variables related to resources (Table 1). Some studies have examined risk explicitly, though mainly by using proxies for perception of predation risk in controlled environments [@Barta_2004; @Mathot_2007; but see @Bugnyar_2002]. Only one study considered conditions, though it is deemed here an example of kleptoparasitism rather than producer-scrounger dynamics because food items were indivisible [@Ha_2003, see details in Conditions below]. The reviewed literature has, however, explored many constraints on individuals beyond resources, risks and conditions that shape foraging strategy use including dominance hierarchies [@Caraco_1989; @Werdenich_2002; @King_2009; @Lee_2016], energy reserves [@Lendvai_2004; @Lee_2016a] and learning [@Afshar_2015; @Aplin_2017].
 
-## Risks
+
+## Access depending on foraging strategy
+
+
+
+## Influence of risks on foraging strategy
 
 Risks of an animal's habitat are often implied in producer-scrounger models but rarely explicitly evaluated. @Barnard_1981 only consider the risks of conspecifics increasing competition or interference in foraging in their foundational work on producer-scrounger dynamics. @Giraldeau_2000 emphasize that social foraging theory is not the study of how foraging groups have evolved, for example in response to predation pressure. Rather, the focus is on the economic interdependence of individual foraging decisions where related payoffs and penalties such as predation risk can be incorporated. In the reviewed literature (Table S1), only seven studies explicitly considered the influence of predation risk (Table 1; 8.4 % relevant studies) and one study considered risks associated with fighting costs (Table 1; 1.2 % relevant studies) on foraging strategy use. 
 
@@ -36,7 +41,7 @@ Risks of an animal's habitat are often implied in producer-scrounger models but 
 Risks  not considered in the reviewed producer-scrounger literature (Table S1) include, for example, parasites, diseases, insect harassment, wildfires, drought, and anthropogenic harvest or disturbance (Table 1). 
 
 
-## Conditions
+## Influence of conditions on foraging strategy
 1.  while risks and resources related respectively to patch payoffs and penalties the relationship between habitat conditions and foraging strategy is less clear.
     -   @Ha_2003 , except it was an indivisible food item therefore results more closely related to kleptoparasitism and either way they found no relationship with temperature
 2.  Taking the logic from @Dubois_2005, consider which conditions may affect one of the two foraging strategies disproportionately.
@@ -44,29 +49,58 @@ Risks  not considered in the reviewed producer-scrounger literature (Table S1) i
         - movement speedd, difficulty findingg undiscovered food patches
         - Increased snow depth could increase movement cost for a scrounger to join a producer's patch.
 
-## Resources
+
+
+## Resources considered in producer-scrounger dynamics
 
 
 
-## Individual constraints 
-<!-- and modifiers? -->
-
-@Teichroeb_2015 found that vervet monkeys (*Chlorocebus pygerythrus*) balanced the risk of predation with foraging success by modifying their spatial position within the group. Individuals on the edge of the foraging group had higher foraging success while individuals in the center were safer.
 
 
--   Dominance
-    - Dominance not as relevant for eg finches than baboons?
-    - @Bugnyar_2002 dominance, displacement, type of food sharing
-- Social affiliation
-    - @Bugnyar_2002 dominance, displacement, type of food sharing
-- Value of resources, strong/weak
-    - @Broom_2014
 
-## Availability
+## Contrasting approaches to availability of resources 
 
 -   Habitat availability
     -   Geographical accessibility
         -   @Matthiopoulos_2020
 
+
+Contrasting approaches to availability
+The ps literature has mostly assumed availability, often of all patches discovered by
+a producer are immediately available to a scrounger.
+Other times the availability is considered with more spatial criteria such as
+spatial position in a group or time to
+Movement time and cost are inherently built into the mathematical expression of
+producer scrounger evo game theory models in the finder s share
+Nevertheless, many assumptions disregard spatial realities of spatial relationships,
+movement costs
+
+Habitat selection theory explicitly considers what is available, compared to what
+is used
+The definition of availability has grown in development of concepts and ideas
+as well as as computational approaches are more efficient and accessible
+
+Treated simply, availability can be considered at a single scale or multiple scales
+It can be on the basis of a population distribution, an animal's home range or the availability
+of alternative destinations at each step
+
+A future direction for the habitat selection literature would be to attempt to
+reconcile where animal's roles directly influence their availability
+WHile a producer may have an entire landscape available to them, a scrounger only has the
+landscape uncovered by conspecifics available to them
+
+Roles are not fixed and animals switch between them
+Focal observations would help draw more relationships between habitat conditions and risks
+and foraging strategy use
+One analytical solution to the integration of foraging roles into availability during
+habitat selection could be to consider an each animal's availability (assuming
+a step selection approach) as composed of
+
+1. the animal's distribution of available steps and turn angles
+2. the distribution of steps that would allow the animal to scrounge from a nearest neighbour
+or set of neighbors within a reasonable distance
+
+This combination would assume that all individuals may opt to produce or to scrounge at
+each step and that an animal stepping to a neighbour is assumed to be scrounging from it
 
 ## References
