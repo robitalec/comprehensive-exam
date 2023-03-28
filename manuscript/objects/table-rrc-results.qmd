@@ -10,7 +10,7 @@ library(gt)
 tar_read(rrc_results) |>
 	gt(rowname_col = "Variable",
      groupname_col = "Type",
-		 caption = "Table 1: Resources, risks and conditions identified in the producer-scrounger literature reviewed (Table S1). Examples of variables for resources, risks and conditions comprising animal's habitats were derived from Matthiopolous et al. (2023). Corresponding articles that directly investigated the influence of each variable on  producer-scrounger dynamics were listed. Articles were grouped according to approach, either producer-scrounger models using evolutionary game theory or empirical tests.") |>
+		 caption = "Table 1: Resources, risks and conditions identified in the producer-scrounger literature reviewed (Table S1). Examples of variables for resources, risks and conditions comprising animal's habitats were derived from Matthiopolous et al. (2023). Corresponding articles that directly investigated the influence of each variable on  producer-scrounger dynamics were listed. Articles were grouped according to approach, either producer-scrounger models using evolutionary game theory or empirical tests. Counts are summarized using sum within variable type and total sum across variable types.") |>
 	tab_options(row_group.as_column = TRUE) |>
 	tab_style(  
 		style = list(
@@ -28,6 +28,7 @@ tar_read(rrc_results) |>
 			columns = 'Producer scrounger model',
       rows = is.na(`Producer scrounger model`)
     )) |> 
+	sub_missing() |>
 	summary_rows(groups = TRUE, columns = 'Count', fns = 'sum', formatter = fmt_integer) |>
 	grand_summary_rows(columns = 'Count', fns = 'sum', formatter = fmt_integer)
 ```
