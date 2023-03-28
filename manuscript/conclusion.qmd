@@ -4,7 +4,12 @@ order: 4
 ---
 
 
-## Differences between producer-scrounger and habitat selection
+## Future directions
+
+1. Establish the relationship with conditions using experiments or observations
+1. Consider different types of risks
+1. Incorporate producer-scrounger role into habitat selection availability
+
 
 
 - social foraging theory
@@ -23,7 +28,8 @@ resources often considered in producer-scrounger literature
 ?conspecifics considered in habitat selection literature
 
 
-## Future directions
+
+Maybe:
 
 - Since dominance individuals tend to scrounge more often, use focal observations to determine dominance hierarchies 
 - If dominant individual, assume step distribution more limited to producer distribution
