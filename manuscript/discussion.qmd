@@ -25,6 +25,10 @@ The @Matthiopoulos_2023 definition parses habitat into environmental variables c
 
 ## Access depending on foraging strategy
 
+<!-- WHAT ARE THE CONFLICTS 
+
+-->
+
 Foraging strategy influenced access to available resources through XYZ
 
 Finder's share (See Box 1) is incorporated in evolutionary game theory models of producer-scrounger dynamics to represent the advantage of a producer being on the patch first, and to represent the movement time and costs for a scrounger to join them. Increasing the finder's share leads to a decrease in the proportion of scroungers [@Barta_1998; @Lee_2016]. However, the finder's share decreases with patch size [@Hansen_2016], forager density [@Hirsch_2019] and patch richness [@Teichroeb_2015; @Kok_2017]. For example, when patches had more food available to share, scrounger veld goats (*Capra hircus*) would decide to join even after a longer delay (representing a larger finder's share) compared to patches with lower food availability [@Kok_2017].
@@ -33,16 +37,6 @@ Finder's share (See Box 1) is incorporated in evolutionary game theory models of
 
 <!--
 
-- Finder's share
-	- Increase finder's share leads to a decrease in proportion of scroungers (Barta_1998) (Lee_2016)
-	- Finder's share allows producers to always aggressively defend clumps (Dubois_2005)
-	- (also under Patch departure) A producer should leave a patch earlier than a scrounger if the producer has a finder's share (Rita_1997)
-    - empirical Finder's share
-        - Finder's share decreases with patch size (Hansen_2016)
-        - Finder's share decreased with forager density (Hirsch_2019)
-        - (also under Dominance) Finder's share increased with dominance (Teichroeb_2015)
-        - Finder's share decreased with increasing patch richness (Teichroeb_2015)
-	
 
 - Arrival time on patch
 	- Individuals that arrived earlier on the patch were less likely to scrounge (Aplin_2017)
