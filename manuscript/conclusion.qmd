@@ -21,6 +21,18 @@ order: 4
 
 -->
 
+## Representation
+
+
+The producer-scrounger dynamics has been examined using three categories of approaches: empirical tests (Table S2, 61.8 % of relevant studies), evolutionary game theory models (Table S2, 20.1 % of relevant studies) and other approaches (Table S2, 17.9 % of relevant studies). Birds , mammals and ray-finned fishes were
+
+three species make up 30% of studies
+
+many species with only one study
+
+<!-- remove "Notables" from results and move here or discussion -->
+
+
 
 ## Future directions
 
