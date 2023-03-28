@@ -31,6 +31,14 @@ tar_read(rrc_results) |>
     )) |> 
 	sub_missing() |>
 	summary_rows(groups = TRUE, columns = 'Count', fns = 'sum', formatter = fmt_integer) |>
+	tab_style(  
+		style = list(
+      cell_text(color = 'white')
+		),
+		locations = cells_body(
+			columns = 'Count',
+      rows = Count == 0
+    )) |>
 	grand_summary_rows(columns = 'Count', fns = 'sum', formatter = fmt_integer)
 ```
 
