@@ -7,8 +7,8 @@ order : 1
 
 Primary goals are to
 
-1. Determine how foraging strategies are influenced by risks and conditions
 1. Determine how access to available resources is driven by foraging strategies
+1. Determine how foraging strategies are influenced by risks and conditions
 1. Consider how the concept of availability during habitat selection can be extended to include foraging strategies
 
 
