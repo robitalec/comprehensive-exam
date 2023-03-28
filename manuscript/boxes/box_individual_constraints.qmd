@@ -1,11 +1,10 @@
 ---
-title: "Box 3: Individual constraints"
+title: Individual constraints
 ---
 
 
 
-
-<!-- and modifiers? -->
+<!-- constraints *and modifiers*? -->
 
 @Teichroeb_2015 found that vervet monkeys (*Chlorocebus pygerythrus*) balanced the risk of predation with foraging success by modifying their spatial position within the group. Individuals on the edge of the foraging group had higher foraging success while individuals in the center were safer.
 
@@ -78,7 +77,9 @@ title: "Box 3: Individual constraints"
 	- Adults were more likely to produce (Aplin_2017)
 	- Juveniles were more likely to scrounge (Aplin_2017)
 	- (also under Sex) Air temperature, time of day, season (breeding vs nonbreeding), age or sex did not influence the probability of retaining prey (Ha_2003)
-	- No effect of age (Teichroeb_2015)
+	- CONFLICT No effect of age (Teichroeb_2015) 
+
+    
 
 Body size, foraging efficiency
     Payoffs were higher for producers in all environmental conditions, likely due to body size and foraging efficiency (Hansen_2016)
