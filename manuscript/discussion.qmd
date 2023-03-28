@@ -1,6 +1,7 @@
 ---
 title: Discussion
 bibliography: '../references/comprehensive-exam.bib'
+order: 3
 ---
 
 
