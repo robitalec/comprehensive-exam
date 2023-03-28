@@ -1,5 +1,5 @@
 ---
-title: "Box: Habitat Selection"
+title: "Box 2: Habitat Selection"
 ---
 
 

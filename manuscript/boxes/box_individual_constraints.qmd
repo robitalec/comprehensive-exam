@@ -1,9 +1,7 @@
 ---
-title: Individual constraints
+title: "Box 3: Individual constraints"
 ---
 
-
-## Individual constraints 
 
 
 

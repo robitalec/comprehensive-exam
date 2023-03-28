@@ -1,5 +1,5 @@
 ---
-title: "Box: Social Foraging"
+title: "Box 1: Social Foraging Theory"
 ---
 
 ## Payoffs and penalties
