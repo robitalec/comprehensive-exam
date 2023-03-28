@@ -1,0 +1,21 @@
+---
+title: Individual constraints
+---
+
+
+## Individual constraints 
+
+
+
+<!-- and modifiers? -->
+
+@Teichroeb_2015 found that vervet monkeys (*Chlorocebus pygerythrus*) balanced the risk of predation with foraging success by modifying their spatial position within the group. Individuals on the edge of the foraging group had higher foraging success while individuals in the center were safer.
+
+
+-   Dominance
+    - Dominance not as relevant for eg finches than baboons?
+    - @Bugnyar_2002 dominance, displacement, type of food sharing
+- Social affiliation
+    - @Bugnyar_2002 dominance, displacement, type of food sharing
+- Value of resources, strong/weak
+    - @Broom_2014
