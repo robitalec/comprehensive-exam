@@ -26,6 +26,8 @@ To consolidate all the potential variables affecting producer-scrounger dynamics
 
 ## Access depending on foraging strategy
 
+<!-- is this just resources? -->
+
 Access differed between role in producer-scrounger dynamics when the availability of resources favored one foraging strategy over the other.
 Both in game theory approaches and empirical studies, these variables are relevant:
 
@@ -121,12 +123,21 @@ For example, we might expect that animals are more vulnerable to predation if th
 
 
 ## Influence of conditions on foraging strategy
-1.  while risks and resources related respectively to patch payoffs and penalties the relationship between habitat conditions and foraging strategy is less clear.
-    -   @Ha_2003 , except it was an indivisible food item therefore results more closely related to kleptoparasitism and either way they found no relationship with temperature
-2.  Taking the logic from @Dubois_2005, consider which conditions may affect one of the two foraging strategies disproportionately.
-    - Joining decision
-        - movement speedd, difficulty findingg undiscovered food patches
-        - Increased snow depth could increase movement cost for a scrounger to join a producer's patch.
+
+- relationship between risks and resources to patch payoffs and penalties respectively
+- @Matthiopoulos_2023 describe conditions as having a bell shaped relationship with fitness (double check) where outside the typical or reasonable range, individuals had decreased fitness
+- for producer scrounger dynamics, and taking dubois 2005's logic this means we are expecting variables to have a disproportionate influence on one foraging strategy outside of the regular or average conditions
+
+- @Ha_2003 found no relationship
+	- except it was an indivisible food item therefore results more closely related to kleptoparasitism and either way they found no relationship with temperature
+
+- Consider producing and Table 1
+	- difficulty finding undiscovered patches
+
+
+- Consider joining distance @Ruxton_2005 and Table 1
+	- movement speed
+	- Increased snow depth for example could increase movement cost for a scrounger to join a producer's patch.
     - Vickery hypotheticall sensory connection
 
 
