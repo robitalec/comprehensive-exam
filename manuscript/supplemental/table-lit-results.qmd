@@ -1,8 +1,5 @@
 # Table S1
 
-Table S1: Reviewed literature
-
-
 ```{r}
 #| include: false
 library(gt)

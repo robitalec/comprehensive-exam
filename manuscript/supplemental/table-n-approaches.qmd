@@ -1,8 +1,6 @@
 # Table S2
 
 
-Table S2: Approaches used in producer-scrounger dynamics literature
-
 ```{r}
 #| include: false
 library(gt)

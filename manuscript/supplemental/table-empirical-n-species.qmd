@@ -1,7 +1,5 @@
 # Table S4
 
-Table S4: Species in empirical tests of producer-scrounger dynamics
-
 ```{r}
 #| include: false
 library(gt)

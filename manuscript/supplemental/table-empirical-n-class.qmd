@@ -1,7 +1,5 @@
 # Table S3
 
-Table S3: Taxonomic classes in empirical tests of producer-scrounger dynamics
-
 ```{r}
 #| include: false
 library(gt)
