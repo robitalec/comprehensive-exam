@@ -48,9 +48,11 @@ Extensions of the early ps models
 - Increasing the finder's share leads to a decrease in the proportion of scroungers [@Barta_1998; @Lee_2016].
 - If patches are distributed in rich, clumps, scrounging should increase [@Dubois_2020]
 - Resource monopolizability [@Lee_2016]
-- At higher patch densities, the producer's patch finding rate should decrease (Dubois_2005)
-- Decreased patch finding rate reduces the costs of solitary foraging and scrounging is less common (Lee_2016)
-- - Patch finding rate strongly influences frequency of producers (Ohtsuka_2009)
+- At higher patch densities, the producer's patch finding rate should decrease @Dubois_2005
+- Decreased patch finding rate reduces the costs of solitary foraging and scrounging is less common @Lee_2016
+- Patch finding rate strongly influences frequency of producers @Ohtsuka_2009
+- In habitats with poorer patches, scrounging should be less likely @Beauchamp_2000a
+	- Increasing patch richness will increase scrounger's share and the proportion of scroungers will increase @Dubois_2005
 	
 
 
@@ -126,32 +128,6 @@ For example, we might expect that animals are more vulnerable to predation if th
         - movement speedd, difficulty findingg undiscovered food patches
         - Increased snow depth could increase movement cost for a scrounger to join a producer's patch.
     - Vickery hypotheticall sensory connection
-
-
-## Resources considered in producer-scrounger dynamics
-
-
-<!--
-- Patch richness
-	- In habitats with poorer patches, scrounging should be less likely (Beauchamp_2000a)
-	- Increasing patch richness will increase scrounger's share and the proportion of scroungers will increase (Dubois_2005)
-	- (also under Sharing) When retaliator strategy is included, there is widespread sharing predicted in habitats clumped with intermediate richness (Dubois_2007)
-	- (also under Patch distribution) If patches are distributed in rich, clumps, scrounging should increase (Dubois_2020)
-    
-- Patch density
-	- At higher patch densities, the producer's patch finding rate should increase (Dubois_2005)
-	- At higher patch densities, the rate of scrounging should decrease as the temporal costs of contests makes scrounging less profitable (Dubois_2005)
-
-
-- Patch distribution
-	- (also under Dominance) If patches are distributed in clumps, dominant individuals will be able to exploit most patches by following subordinates (Caraco_1989)
-	- If patches are distributed in rich, clumps, scrounging should increase and if patches are evenly distributed, producing should increase (Dubois_2020) (Ohtsuka_2009) 
-
-- Patch size
-	- If patches are large, scrounging should be more frequent (Hansen_2016) (King_2009)
-	- If patches are small, solitary foraging should be more frequent (Hansen_2016)
-	
--->
 
 
 
