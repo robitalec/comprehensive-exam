@@ -4,6 +4,15 @@ bibliography: '../references/comprehensive-exam.bib'
 order: 3
 ---
 
+<!-- 
+revise considering: 
+
+- combining references into general statements when they highlight the same thing
+- what's your take? eg. on risk, conditions and access?
+- what can we learn from the review? how does it relate back to your thesis statement?
+- start pars with summary or statement, then use references as evidence
+
+-->
 
 <!-- 
 
@@ -17,48 +26,31 @@ eg. group size related to predation risk, are not considered
 
 The objective was to answer the question: "How does one's role in frequency-dependent producer-scrounger dynamics influence access to available resources considering risks and conditions during habitat selection?". From this, I defined three goals: 1) to determine how foraging strategies differ in access to available resources, 2) to determine how risks and conditions influence foraging strategies and 3) to consider how the concept of availability during habitat selection can be extended to include foraging strategies. For 1) and 2), I identified empirical tests and model predictions in the literature that contribute to our understanding of access and the influence of habitat risks and conditions. For 3), I propose an extension of the concept of availability from the habitat selection literature to incorporate role in producer-scrounger dynamics. 
 
-Recall the @Matthiopoulos_2023 definition of habitat as the collection of environmental variables categorized as resources, risks and conditions. The literature reviewed (Table S1) has overwhelmingly focused on the influence of resources on producer-scrounger dynamics (Table 1). Some studies have examined the influence of risks, though mainly by using proxies for perception of predation risk in controlled environments [@Barta_2004; @Mathot_2007; but see @Bugnyar_2002]. Only one study considered the influence of conditions, though it is deemed here an example of kleptoparasitism rather than producer-scrounger dynamics because food items were indivisible [@Ha_2003, see details in Conditions below]. 
+Recall the @Matthiopoulos_2023 definition of habitat as the collection of environmental variables categorized as resources, risks and conditions. The literature reviewed (Table S1) has overwhelmingly focused on the influence of resources on producer-scrounger dynamics, leaving the influence of risks and conditions largely ignored (Table 1). Of the studies that examined the influence of risks, they mainly did so using proxies for perception of predation risk in controlled environments [@Barta_2004; @Mathot_2007; but see @Bugnyar_2002]. Only one study considered the influence of conditions, though it is deemed here an example of kleptoparasitism rather than producer-scrounger dynamics because food items were indivisible [@Ha_2003, see details in Conditions below]. 
 
-The reviewed literature has also explored many constraints on individuals beyond resources, risks and conditions that shape foraging strategy use including dominance hierarchies [@Caraco_1989; @Werdenich_2002; @King_2009; @Lee_2016], energy reserves [@Lendvai_2004; @Lee_2016a] and learning [@Afshar_2015; @Aplin_2017] (Box 3).
-To consolidate all the potential variables affecting producer-scrounger dynamics (Figure S1), I will take the logic from @Dubois_2005 who posited that predation risk should only affect foraging strategies if it disproportionately affects one strategy. Extending this, I will detail how variables related to access, availability, habitat risks, and conditions influence producer-scrounger dynamics. 
+The reviewed literature has also explored many constraints on individuals beyond resources, risks and conditions that shape foraging strategy use and access to available resources including dominance [@Caraco_1989; @Werdenich_2002; @King_2009; @Lee_2016], energy reserves [@Lendvai_2004; @Lee_2016a] and learning [@Afshar_2015; @Aplin_2017] (Box 3). I will take the logic from @Dubois_2005 who posited that predation risk should only influence foraging strategy use if it disproportionately affects certain strategies. Extending this, I concentrate among all the potential variables (Figure S1) to focus on those affecting access and availability of resources differentially depending on role in producer-scrounger dynamics. For clarity and equivalence with Figures 2, 3, and S1, I will discuss only in terms of proportion of scrounging behaviour where negative influences on the proportion of scrounging are equivalent to positive influences on the proportion of producing. 
 
-
-
-## Access depending on foraging strategy
-
-<!-- is this just resources? -->
-
-Access differed between role in producer-scrounger dynamics when the availability of resources favored one foraging strategy over the other.
-Both in game theory approaches and empirical studies, these variables are relevant:
-
-- finder's share
-- patch distribution, richness
-- patch discovery rate
+<!-- check always prop scrounge -->
 
 
-In evolutionary game theory approaches to producer-scrounger dynamics, access to available resources is incorporated directly into the foraging behaviour. 
-
-- producers
-- scroungers
-	- finder's share
-	- Finder's share (See Box 1) is incorporated in evolutionary game theory models of producer-scrounger dynamics to represent the advantage of a producer being on the patch first, and to represent the movement time and costs for a scrounger to join them. 
-- some times opportunists 
-- @Giraldeau_2000
-
-Extensions of the early ps models
-
-- Increasing the finder's share leads to a decrease in the proportion of scroungers [@Barta_1998; @Lee_2016].
-- If patches are distributed in rich, clumps, scrounging should increase [@Dubois_2020]
-- Resource monopolizability [@Lee_2016]
-- At higher patch densities, the producer's patch finding rate should decrease @Dubois_2005
-- Decreased patch finding rate reduces the costs of solitary foraging and scrounging is less common @Lee_2016
-- Patch finding rate strongly influences frequency of producers @Ohtsuka_2009
-- In habitats with poorer patches, scrounging should be less likely @Beauchamp_2000a
-	- Increasing patch richness will increase scrounger's share and the proportion of scroungers will increase @Dubois_2005
-	
+## Influence of resources on foraging strategy
 
 
-In empirical tests, <!-- (dont repeat) access between roles differed when the availability of resources favored one foraging strategy over the other. -->
+Access to resources differed between roles in producer-scrounger dynamics when the availability of resources favored one foraging strategy over the other. Producers have an initial period of solitary foraging before scroungers join them on the patch. This priority access, termed the finder's share, offers an advantage where producers can forage without interference before scroungers join the patch. Scroungers conversely had an advantage when the discovered patches were large or rich in resources, offering an abundance beyond the finder's share. 
+
+In evolutionary game theory approaches (Table 1), the differences in access to available resources are incorporated directly in the payoffs and penalties of each foraging strategy (See Box 1). The finder's share represents both the benefit to a producer for being on the patch first, and also the cost to a scrounger for the effort in joining them, either as a temporal delay or a movement cost [@Giraldeau_2000]. As the finder's share increases, the proportion of scroungers in the group or population decreases [@Barta_1998; @Ohtsuka_2009; @Lee_2016]. The rate at which producers find patches, termed the patch discovery rate, also influences the proportion of scroungers. When patches are more easily discovered, the costs of producing decreases and, correspondingly, the proportion of scroungers decreases [@Dubois_2005; @Lee_2016]. In sum, if patches are easily found or if finder's share is large, the producer strategy is favored in the group. 
+
+Large, rich or clumped patches lead to an increase in the proportion of scroungers. When patches are large and rich, the food items on the patch remaining after the finder's share, termed the scrounger's share, are larger. As the scrounger's share increases, so do the benefits to scroungers and the proportion of scrounging is expected to increase in the group or population [@Beauchamp_2000a; @Dubois_2005; @Dubois_2020]. The distribution of patches also influences the proportion of scrounging through the influence on patch discovery rate. When patches are scattered and clumped patches, patches less easily discovered and scrounging is favoured 
+
+
+
+<!-- 3 way If resources are monopolizable, however, @Lee_2016 predicts that scrounging -->
+
+
+
+
+
+In empirical tests, <!-- (dont repeat) access between roles differed when the availability of resources favored one foraging strategy over the other. --> CONFIRMS model predictions or not
 
 - However, the finder's share decreases with patch size [@Hansen_2016], forager density [@Hirsch_2019] and patch richness [@Teichroeb_2015; @Kok_2017]. For example, when patches had more food available to share, scrounger veld goats (*Capra hircus*) would decide to join even after a longer delay (representing a larger finder's share) compared to patches with lower food availability [@Kok_2017].
 - Individuals that arrived earlier on the patch were less likely to scrounge [@Aplin_2017]
