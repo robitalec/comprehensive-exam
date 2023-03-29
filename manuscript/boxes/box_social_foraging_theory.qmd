@@ -2,6 +2,9 @@
 title: "Box 1: Social Foraging Theory"
 ---
 
+<!-- emphasize vs information sharing --> 
+
+
 ## Payoffs and penalties
 
 Barnard and Sibly (1981) define patch payoffs as the amount of any resource. Resources, in contrast with the reviewed literature (Table S1), are more broadly defined with examples given including nests, forage and mating opportunities. 

@@ -19,6 +19,9 @@ order: 4
 	- Presence of scroungers in a predator can limit a predator's ability to outcompete other species promoting stability and species diversity (Vickery_2020)
 	- Scrounging will not stability population dynamics, food chains and competitor interactions under all cases, if scrounging is too prevalent it can push the population to extinction  	- Other factors such as food abundance, variations in weather, predators and parasites may have stronger effects that can completely obscure the effects of scrounging on populations (Vickery_2020)
 
+
+
+Stable dimorphic learning
 -->
 
 ## Representation

@@ -3,6 +3,24 @@ title: Introduction
 order : 1
 ---
 
+<!-- 
+
+
+get pyramid
+
+
+
+
+
+Access to available resources is a prereq for animal survival
+Habitat selection theory has defined availability as X, Y, Z
+
+Individual foraging theory 
+
+
+--> 
+
+
 
 - Behavioural selection for habitat is based in the decision when to leave a patch and where to go next @Matthioplous_2023
 - Habitats defined as RRC
