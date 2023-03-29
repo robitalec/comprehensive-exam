@@ -12,6 +12,9 @@ revise considering:
 - what can we learn from the review? how does it relate back to your thesis statement?
 - start pars with summary or statement, then use references as evidence
 
+
+- figure numbers/table numbers match
+
 -->
 
 <!-- 
@@ -42,24 +45,10 @@ In evolutionary game theory approaches (Table 1), the differences in access to a
 
 Large, rich or clumped patches lead to an increase in the proportion of scroungers. When patches are large and rich, the food items on the patch remaining after the finder's share, termed the scrounger's share, are larger. As the scrounger's share increases, so do the benefits to scroungers and the proportion of scrounging is expected to increase in the group or population [@Beauchamp_2000a; @Dubois_2005; @Dubois_2020]. The distribution of patches also influences the proportion of scrounging through the influence on patch discovery rate. When patches are scattered and clumped patches, patches less easily discovered and scrounging is favoured 
 
+Empirical tests confirmed some of the relationships between resources and foraging strategy use predicted from the evolutionary game theory models. Individuals were more likely to scrounge when the finder's share decreased either due to patch size [@King_2009; @Hansen_2016] or due to patch richness [@Teichroeb_2015; @Kok_2017]. For example, scrounger veld goats (*Capra hircus*) decided to join a producer's patch even after a longer delay when patch richness was higher [@Kok_2017]. Some of the evolutionary game theory predictions were not explicitly considered in the empirical tests including how the proportion of scrounging in a group is influenced by patch discovery rate and patch distribution.
 
 
 <!-- 3 way If resources are monopolizable, however, @Lee_2016 predicts that scrounging -->
-
-
-
-
-
-In empirical tests, <!-- (dont repeat) access between roles differed when the availability of resources favored one foraging strategy over the other. --> CONFIRMS model predictions or not
-
-- However, the finder's share decreases with patch size [@Hansen_2016], forager density [@Hirsch_2019] and patch richness [@Teichroeb_2015; @Kok_2017]. For example, when patches had more food available to share, scrounger veld goats (*Capra hircus*) would decide to join even after a longer delay (representing a larger finder's share) compared to patches with lower food availability [@Kok_2017].
-- Individuals that arrived earlier on the patch were less likely to scrounge [@Aplin_2017]
-
-- Patch size
-	- If patches are large, scrounging should be more frequent (Hansen_2016) (King_2009)
-	- If patches are small, solitary foraging should be more frequent (Hansen_2016)
-	
-
 
 
 
