@@ -140,7 +140,9 @@ Conclude: which conditions might and might not have disproportionate influence o
 -   Habitat availability
     -   Geographical accessibility
         -   @Matthiopoulos_2020
-
+- Scales of selection
+	- https://www.tandfonline.com/doi/abs/10.2980/16-2-3238
+- https://www.sciencedirect.com/science/article/abs/pii/S0304380002002934?via%3Dihub
 
 Contrasting approaches to availability
 The ps literature has mostly assumed availability, often of all patches discovered by
