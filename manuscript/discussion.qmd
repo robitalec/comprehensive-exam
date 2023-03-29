@@ -55,7 +55,7 @@ Empirical tests confirmed some of the relationships between resources and foragi
 ## Influence of risks on foraging strategy
 
 
-Risks related to social foraging are often implied in producer-scrounger models but rarely explicitly evaluated. @Barnard_1981 only indirectly consider the risks of conspecifics increasing competition in foraging in their foundational work on producer-scrounger dynamics. @Giraldeau_2000 emphasize that social foraging theory is not the study of how foraging groups have evolved, for example in response to predation pressure, but rather focused on the economic interdependence of individual foraging decisions where penalties such as predation risk can be incorporated. We reviewed the literature to determine if risks might disproportionately affect foraging strategies. Only seven studies explicitly investigated how foraging strategy use is influenced by predation risk (Table 1; 8.4 % of relevant studies) and one investigated risks associated with fighting costs (Table 1; 1.2 % of relevant studies). 
+Risks related to social foraging are often implied in producer-scrounger models but rarely explicitly evaluated. @Barnard_1981 only indirectly consider the risks of conspecifics increasing competition in foraging in their foundational work on producer-scrounger dynamics. @Giraldeau_2000 emphasize that social foraging theory is not the study of how foraging groups have evolved, for example in response to predation pressure, but rather focused on the economic interdependence of individual foraging decisions where penalties such as predation risk can be incorporated. I reviewed the literature to determine if risks might disproportionately affect foraging strategies. Only seven studies explicitly investigated how foraging strategy use is influenced by predation risk (Table 1; 8.4 % of relevant studies) and one investigated risks associated with fighting costs (Table 1; 1.2 % of relevant studies). 
 
 Consider, for example, if animals are more vulnerable to predation if they are searching for forage patches (producing) than if they are monitoring conspecifics for opportunities to scrounge. If an animal scrounging also reduces their individual predaiton risk, it could be the preferred foraging strategy where predation risk is high. In addition, if the foraging group benefits from scroungers' increased vigilance, it could also be an explanation for producers' tolerance of scroungers in the group [@Ranta_1996; @Ranta_1998]. The relationship between scrounging and antipredator vigilance, however, is contested. 
 
@@ -68,21 +68,21 @@ When the density of conspecifics is high, there is an increased risk of competit
 
 ## Influence of conditions on foraging strategy
 
-- relationship between risks and resources to patch payoffs and penalties respectively
-- @Matthiopoulos_2023 describe conditions as having a bell shaped relationship with fitness (double check) where outside the typical or reasonable range, individuals had decreased fitness
-- for producer scrounger dynamics, and taking dubois 2005's logic this means we are expecting variables to have a disproportionate influence on one foraging strategy outside of the regular or average conditions
-
-- @Ha_2003 found no relationship
-	- except it was an indivisible food item therefore results more closely related to kleptoparasitism and either way they found no relationship with temperature
-
-- Consider producing and Table 1
-	- difficulty finding undiscovered patches
+The general relationship between an animal's expected fitness and habitat conditions is likely to follow a Gaussian function, where average conditions for a particular species have a neutral relationship and extreme conditions have a negative relationship (and could then be considered risks) [@Matthiopoulos_2023]. The influence of conditions on foraging strategies in producer-scrounger dynamics is poorly studied. Only one article in the reviewed literature (Table S1) explored a habitat condition  (temperature) and found no influence on foraging strategy use [Table 1; @Ha_2003]. In addition, given the food items in this study were indivisible, it is deemed an example of kleptoparasitism instead of producer-scrounger dynamics. Given the lack of attention in the producer-scrounger literature support on how conditions influence foraging strategy, I will consider foraging behaviour more generally to posit some potential relationships with habitat conditions. 
 
 
 - Consider joining distance @Ruxton_2005 and Table 1
 	- movement speed
 	- Increased snow depth for example could increase movement cost for a scrounger to join a producer's patch.
-    - Vickery hypotheticall sensory connection
+    
+Vickery 
+sensory connection between individuals
+
+
+Conclude: which conditions might and might not have disproportionate influence on foraging strategy
+
+
+
 
 
 
