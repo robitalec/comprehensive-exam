@@ -74,13 +74,22 @@ The general relationship between an animal's expected fitness and habitat condit
 	- 	If preferred forage is found in areas that are more vulnerable to high heat, eg. due to lack of canopy cover, animals may 1) select lower quality forage, 2) move to areas of lower temperature or 3) engage in heat-ddissipation behaviours such as panting [@Cunningham_2021]. 
 	- Or only seasonally select preferred forage when temperatures are reduced. 
 	- [@DuPlessis_2012] found reduced foraging efficiency in Southern pied babblers (*Turdoides bicolo*) when temperatures were high due to required trade-offs between foraging with heat-dissipation behaviours, eg. panting [@Cunningham_2021]. If scrounging is more compatible with heat-dissipating behaviours, it may be less dramatically affected by extreme heat. 
+	- @Fogarty_2017
 	 
 - Wind
 	- @Studd_2022 found hares decreased activity and lynx increased activity as wind speed increased
-	- lynx also increased feeding events as wind speed increased
-	- species specific response 
-	- 
+		- lynx also increased feeding events as wind speed increased
+		- species specific response 
+	- @Wijers_2022
+	- @Cherry_2017
 
+- Snow
+	- Movement costs
+	- Access to forage depending on snow depth
+	- @Droghini_2018
+	- @Romtveit_2021
+	- @Hoy_2019
+	- group size @Jung_2019
 
 
 - Consider joining distance @Ruxton_2005 and Table 1
