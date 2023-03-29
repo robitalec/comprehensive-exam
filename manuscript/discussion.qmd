@@ -70,6 +70,18 @@ When the density of conspecifics is high, there is an increased risk of competit
 
 The general relationship between an animal's expected fitness and habitat conditions is likely to follow a Gaussian function, where average conditions for a particular species have a neutral relationship and extreme conditions have a negative relationship (and could then be considered risks) [@Matthiopoulos_2023]. The influence of conditions on foraging strategies in producer-scrounger dynamics is poorly studied. Only one article in the reviewed literature (Table S1) explored a habitat condition  (temperature) and found no influence on foraging strategy use [Table 1; @Ha_2003]. In addition, given the food items in this study were indivisible, it is deemed an example of kleptoparasitism instead of producer-scrounger dynamics. Given the lack of attention in the producer-scrounger literature support on how conditions influence foraging strategy, I will consider foraging behaviour more generally to posit some potential relationships with habitat conditions. 
 
+- Temperature
+	- 	If preferred forage is found in areas that are more vulnerable to high heat, eg. due to lack of canopy cover, animals may 1) select lower quality forage, 2) move to areas of lower temperature or 3) engage in heat-ddissipation behaviours such as panting [@Cunningham_2021]. 
+	- Or only seasonally select preferred forage when temperatures are reduced. 
+	- [@DuPlessis_2012] found reduced foraging efficiency in Southern pied babblers (*Turdoides bicolo*) when temperatures were high due to required trade-offs between foraging with heat-dissipation behaviours, eg. panting [@Cunningham_2021]. If scrounging is more compatible with heat-dissipating behaviours, it may be less dramatically affected by extreme heat. 
+	 
+- Wind
+	- @Studd_2022 found hares decreased activity and lynx increased activity as wind speed increased
+	- lynx also increased feeding events as wind speed increased
+	- species specific response 
+	- 
+
+
 
 - Consider joining distance @Ruxton_2005 and Table 1
 	- movement speed
@@ -77,6 +89,19 @@ The general relationship between an animal's expected fitness and habitat condit
     
 Vickery 
 sensory connection between individuals
+
+
+
+
+
+
+Larger groups are known to correspond with an increase in proportion of scroungers. 
+While larger groups may help mitigate some extreme conditions
+and scrouging is more successful in larger groups
+It is unclear how scrounging is directly influenced by extreme conditions.
+
+
+
 
 
 Conclude: which conditions might and might not have disproportionate influence on foraging strategy
