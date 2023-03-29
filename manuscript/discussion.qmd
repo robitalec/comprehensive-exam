@@ -29,7 +29,7 @@ eg. group size related to predation risk, are not considered
 
 The objective was to answer the question: "How does one's role in frequency-dependent producer-scrounger dynamics influence access to available resources considering risks and conditions during habitat selection?". From this, I defined three goals: 1) to determine how foraging strategies differ in access to available resources, 2) to determine how risks and conditions influence foraging strategies and 3) to consider how the concept of availability during habitat selection can be extended to include foraging strategies. For 1) and 2), I identified empirical tests and model predictions in the literature that contribute to our understanding of access and the influence of habitat risks and conditions. For 3), I propose an extension of the concept of availability from the habitat selection literature to incorporate role in producer-scrounger dynamics. 
 
-Recall the @Matthiopoulos_2023 definition of habitat as the collection of environmental variables categorized as resources, risks and conditions. The literature reviewed (Table S1) has overwhelmingly focused on the influence of resources on producer-scrounger dynamics, leaving the influence of risks and conditions largely ignored (Table 1). Of the studies that examined the influence of risks, they mainly did so using proxies for perception of predation risk in controlled environments [@Barta_2004; @Mathot_2007; but see @Bugnyar_2002]. Only one study considered the influence of conditions, though it is deemed here an example of kleptoparasitism rather than producer-scrounger dynamics because food items were indivisible [@Ha_2003, see details in Conditions below]. 
+Recall the @Matthiopoulos_2023 definition of habitat as the collection of environmental variables categorized as resources, risks and conditions. The literature reviewed (Table S1) has overwhelmingly focused on the influence of resources on producer-scrounger dynamics, leaving the influence of risks and conditions largely ignored (Table 1). Of the studies that examined the influence of risks, they mainly did so using proxies for perception of predation risk in controlled environments [eg. @Barta_2004; @Mathot_2007; but see @Bugnyar_2002]. Only one study considered the influence of conditions, though it is deemed here an example of kleptoparasitism rather than producer-scrounger dynamics because food items were indivisible [@Ha_2003, see details in Conditions below]. 
 
 The reviewed literature has also explored many constraints on individuals beyond resources, risks and conditions that shape foraging strategy use and access to available resources including dominance [@Caraco_1989; @Werdenich_2002; @King_2009; @Lee_2016], energy reserves [@Lendvai_2004; @Lee_2016a] and learning [@Afshar_2015; @Aplin_2017] (Box 3). I will take the logic from @Dubois_2005 who posited that predation risk should only influence foraging strategy use if it disproportionately affects certain strategies. Extending this, I concentrate among all the potential variables (Figure S1) to focus on those affecting access and availability of resources differentially depending on role in producer-scrounger dynamics. For clarity and equivalence with Figures 2, 3, and S1, I will discuss only in terms of proportion of scrounging behaviour where negative influences on the proportion of scrounging are equivalent to positive influences on the proportion of producing. 
 
@@ -45,7 +45,7 @@ In evolutionary game theory approaches (Table 1), the differences in access to a
 
 Large, rich or clumped patches lead to an increase in the proportion of scroungers. When patches are large and rich, the food items on the patch remaining after the finder's share, termed the scrounger's share, are larger. As the scrounger's share increases, so do the benefits to scroungers and the proportion of scrounging is expected to increase in the group or population [@Beauchamp_2000a; @Dubois_2005; @Dubois_2020]. The distribution of patches also influences the proportion of scrounging through the influence on patch discovery rate. When patches are scattered and clumped patches, patches less easily discovered and scrounging is favoured 
 
-Empirical tests confirmed some of the relationships between resources and foraging strategy use predicted from the evolutionary game theory models. Individuals were more likely to scrounge when the finder's share decreased either due to patch size [@King_2009; @Hansen_2016] or due to patch richness [@Teichroeb_2015; @Kok_2017]. For example, scrounger veld goats (*Capra hircus*) decided to join a producer's patch even after a longer delay when patch richness was higher [@Kok_2017]. Some of the evolutionary game theory predictions were not explicitly considered in the empirical tests including how the proportion of scrounging in a group is influenced by patch discovery rate and patch distribution.
+Empirical tests confirmed some of the relationships between resources and foraging strategy use predicted from the evolutionary game theory models described above. Individuals were more likely to scrounge when the finder's share decreased either due to patch size [@King_2009; @Hansen_2016] or due to patch richness [@Teichroeb_2015; @Kok_2017]. For example, scrounger veld goats (*Capra hircus*) decided to join a producer's patch even after a longer delay when patch richness was higher [@Kok_2017]. Some of the evolutionary game theory predictions were not explicitly considered in the empirical tests including how the proportion of scrounging in a group is influenced by patch discovery rate and patch distribution.
 
 
 <!-- 3 way If resources are monopolizable, however, @Lee_2016 predicts that scrounging -->
@@ -55,52 +55,15 @@ Empirical tests confirmed some of the relationships between resources and foragi
 ## Influence of risks on foraging strategy
 
 
-- Reviewed literature has N predation risk and N fighting cost
-- Barnard Sibly consider competition or interference in their foundational work as part of the frequency dependence
+Risks related to social foraging are often implied in producer-scrounger models but rarely explicitly evaluated. @Barnard_1981 only indirectly consider the risks of conspecifics increasing competition in foraging in their foundational work on producer-scrounger dynamics. @Giraldeau_2000 emphasize that social foraging theory is not the study of how foraging groups have evolved, for example in response to predation pressure, but rather focused on the economic interdependence of individual foraging decisions where penalties such as predation risk can be incorporated. We reviewed the literature to determine if risks might disproportionately affect foraging strategies. Only seven studies explicitly investigated how foraging strategy use is influenced by predation risk (Table 1; 8.4 % of relevant studies) and one investigated risks associated with fighting costs (Table 1; 1.2 % of relevant studies). 
 
-In the reviewed literature (Table S1), only seven studies explicitly considered the influence of predation risk (Table 1; 8.4 % of relevant studies) and one study considered risks associated with fighting costs (Table 1; 1.2 % of relevant studies) on foraging strategy use. 
+Consider, for example, if animals are more vulnerable to predation if they are searching for forage patches (producing) than if they are monitoring conspecifics for opportunities to scrounge. If an animal scrounging also reduces their individual predaiton risk, it could be the preferred foraging strategy where predation risk is high. In addition, if the foraging group benefits from scroungers' increased vigilance, it could also be an explanation for producers' tolerance of scroungers in the group [@Ranta_1996; @Ranta_1998]. The relationship between scrounging and antipredator vigilance, however, is contested. 
 
+@Mathot_2007 simulated predation risk using wing-loading manipulations on zebra finches (*Taeniopygia guttata*) and measured the time allocated to vigilance. Despite an increase in scrounging behaviour at higher predation risks, they could not separate the contribution of antipredator vigilance, spatial position in the group and head orientation (head up vigilant or head down foraging) on proportion of time scrounging. @Barta_2004 tested whether distance from cover as a proxy for predation risk increased use of scrounging behaviour in tree sparrows (*Passer montanus*). While scrounging behaviour was more common further from cover, it did not correspond to an increase in time vigilant. Finally, @Coolen_2003 found no evidence of compatibility between scrounger behaviour and antipredator vigilance in an experimental manipulation of predation risk in spice finches (*Lonchura punctulata*). Taken these, empirical tests find no correspondence between scrounging behaviour and antipredator vigilance. 
 
-Risks of an animal's habitat are often implied in producer-scrounger models but rarely explicitly evaluated. @Barnard_1981 only consider the risks of conspecifics increasing competition or interference in foraging in their foundational work on producer-scrounger dynamics. @Giraldeau_2000 emphasize that social foraging theory is not the study of how foraging groups have evolved, for example in response to predation pressure. Rather, the focus is on the economic interdependence of individual foraging decisions where related payoffs and penalties such as predation risk can be incorporated. 
+While scrounging behaviour is not found to be related to antipredator vigilance, @Bugnyar_2002 found that individuals were more likely to scrounge when predation risk. @Bugnyar_2002 evaluated the proportion of scrounging behaviour depending on predation risk using a multispecies system of ravens (*Corvus corax*) scavenging either among wolves (*Canis lupus*) or among wild boars (*Sus scrofa*). Wolves would aggressively defend their food and potentially kill ravens, while wild boars would not. Foraging behaviour was categorized as producing when ravens attempted to obtain food directly from wolves or wild boars and categorized as scrounging when ravens attempted to obtain food from conspecifics. The proportion of scrounging was higher in ravens among wolves than among wild boars. While this result is indicative of ravens changing foraging strategy depending on predation risk, the definition of producing behaviour is different from other examples in the literature because of this interspecific system. Producing is normally considered as obtaining forage independent of conspecifics, and @Bugnyar_2002 classify raven behaviour as producing when they are attempting to steal forage from an allospecific individual. The relationship of foraging strategy use and predation risk requires some bolstering from additional empirical tests, possibly in an intraspecific system evaluating scrounging across a gradient of predation risk.    
 
-
-- Does one foraging strategy disproportionately increase predation risk?
-
-For example, we might expect that animals are more vulnerable to predation if they are searching for forage patches than if they are monitoring conspecifics for opportunities to scrounge. If scrounging behaviour offers the foraging group the benefit of increased vigilance, it could also be an explanation for the producers' tolerance of scroungers [@Ranta_1996; @Ranta_1998]. The relationship between scrounging and antipredator vigilance, however, is contested. 
-
-@Mathot_2007 simulated predation risk using wing-loading manipulations on zebra finches (*Taeniopygia guttata*) and measured the time allocated to vigilance. Despite an increase in scrounging behaviour at higher predation risks, they could not separate the contribution of antipredator vigilance, spatial position in the group and head orientation (head up vigilant or head down foraging) on proportion of time scrounging. @Barta_2004 tested whether distance from cover as a proxy for predation risk increased use of scrounging behaviour in tree sparrows (*Passer montanus*). While scrounging behaviour was more common further from cover, it did not correspond to an increase in time vigilant. Finally, @Coolen_2003 found no evidence of compatibility between scrounger behaviour and antipredator vigilance in an experimental manipulation of predation risk in spice finches (*Lonchura punctulata*). 
-
-- If scrounging behaviour is not definitively related to antipredator vigilance, how does it differ from producing in terms of predation risk
-
-
-
-@Bugnyar_2002 evaluated the proportion of scrounging behaviour depending on predation risk using a multispecies system of ravens (*Corvus corax*) scavenging either among wolves (*Canis lupus*) or among wild boars (*Sus scrofa*). Wolves would aggressively defend their food and potentially kill ravens, while wild boars would not. Foraging behaviour was categorized as producing when ravens attempted to obtain food directly from wolves or wild boars and categorized as scrounging when ravens attempted to obtain food from conspecifics. The proportion of scrounging was higher in ravens scavenging among wolves than among wild boars. 
-
-- Interpret Bugnyar
-	- specific definitions of producing/scrounging depending on the case
-- Hypothetical
-	- group size related to scrounging vs producing which can be solitary
-	- dilution Ranta 
-
-
-- Another risk of social foraging is competition with conspecifics, specifically contests for access to forage 
-
-@Broom_2015 explicitly considered the relationship between foraging strategy and cost of contests on access to forage using an evolutionary game theory model of producer-scrounger dynamics. Instead of a binary determination for engaging in a contest, individuals could invest effort along a particular cost function. Two cost functions were described: convex cost functions where intial costs were small but quickly grew larger, and concave cost functions where initial costs are high but continued investment is comparatively small. Convex cost functions correspond to major costs such as risk of injury, and concave cost functions correspond to time costs such as exposure to predation risk. @Broom_2015 predicted that at high levels of maximum investment, scroungers should obtain resources at some cost for convex functions while producers should obtain resources without contest for concave functions. 
-
-- Interpret
-
-
-
-- More complex interactions of variables (excluded from Figure S1) include
-	- When overall availability of resources is high, and scrounging behaviour reduces access because of its time investment
-		- Where patches are dense, scrounging is disfavored because of the time invested in contests (Dubois_2005). 
-	- But see Dubois 2003, where density, richness of food clumps increases, aggression should decrease
-	- Aggression depending on predation risk
-		- Costs of aggression increase with increasing predation pressure and so the rate of aggression should decrease (Dubois_2005)
-- Other types of risks are not considered
-	- Other types of risks are not considered in the reviewed producer-scrounger literature (Table S1) including, for example, parasites, diseases, insect harassment, wildfires, drought, and anthropogenic harvest or disturbance (Table 1). 
-
-
+When the density of conspecifics is high, there is an increased risk of competition or contest [Table 1; @Matthiopoulos_2023]. @Broom_2015 explicitly considered the influence of cost of contest on foraging strategy use by considering two different cost functions. Convex cost functions had small intial costs but quickly grew larger, and concave cost functions had high initial costs but continued investment is comparatively small. Convex cost functions correspond to major costs such as risk of injury, and concave cost functions correspond to time costs such as exposure to predation risk. Instead of a binary determination for engaging in a contest, individuals could invest effort along a particular cost function. @Broom_2015 predicted that at high levels of maximum investment, scroungers should obtain resources at some cost for convex functions while producers should obtain resources without contest for concave functions. Despite these predicted relationships with foraging strategy use, there are no empirical tests of different cost functions. While a continuous measure of effort invested in contests seems more biologically relevant, it is unclear how it could be measured in wild populations. 
 
 
 ## Influence of conditions on foraging strategy
@@ -121,6 +84,21 @@ For example, we might expect that animals are more vulnerable to predation if th
 	- Increased snow depth for example could increase movement cost for a scrounger to join a producer's patch.
     - Vickery hypotheticall sensory connection
 
+
+
+
+## Complex interactions
+
+
+
+- More complex interactions of variables (excluded from Figure S1) include
+	- When overall availability of resources is high, and scrounging behaviour reduces access because of its time investment
+		- Where patches are dense, scrounging is disfavored because of the time invested in contests (Dubois_2005). 
+	- But see Dubois 2003, where density, richness of food clumps increases, aggression should decrease
+	- Aggression depending on predation risk
+		- Costs of aggression increase with increasing predation pressure and so the rate of aggression should decrease (Dubois_2005)
+- Other types of risks are not considered
+	- Other types of risks are not considered in the reviewed producer-scrounger literature (Table S1) including, for example, parasites, diseases, insect harassment, wildfires, drought, and anthropogenic harvest or disturbance (Table 1). 
 
 
 ## Contrasting approaches to availability of resources 
