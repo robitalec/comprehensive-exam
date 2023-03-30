@@ -1,4 +1,6 @@
-# Giraldeau_and_Caraco_2000
+---
+title: "Giraldeau_and_Caraco_2000"
+---
 
 Giraldeau, L.A. and Caraco, T., 2000. Social foraging theory. Princeton University Press.
 
