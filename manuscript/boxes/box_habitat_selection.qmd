@@ -26,7 +26,9 @@ dynamic mechanisms influencing the relationship between fitness and species dist
             - spatial memory
             - conspecific information
 
-
-    
+   
 
 Mayor multiscale selection
+
+
+conditional nature of preference
