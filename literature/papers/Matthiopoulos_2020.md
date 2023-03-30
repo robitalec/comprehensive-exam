@@ -6,3 +6,8 @@ Matthiopoulos, Jason, John Fieberg, Geert Aarts, Frédéric Barraquand, and Bruc
 
 ---
 
+The definition and calculation of [availability](../topics/availability.md) because it dramatically influences inferences and predictions from [habitat](../topics/habitat.md) selection models
+
+- random points
+- systematic popints
+- buffer around forager
