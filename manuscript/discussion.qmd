@@ -72,24 +72,16 @@ The general relationship between an animal's expected fitness and habitat condit
 
 Animals can use behavioural adjustments to manage extreme temperatures. Preferred forage patches, for example, may be found in areas more vulnerable to high heat due to lack of canopy cover. Animals that choose to forage in these patches regardless will be required to also engage in heat-dissipating behaviours such as panting that may reduce overall foraging efficiency [@DuPlessis_2012; @Cunningham_2021]. If animals select lower quality forage patches that are less vulnerable to high heat, they may require longer periods of foraging to achieve similar energy intake rates [@Cunningham_2021]. 
 If heat-dissipating behaviours are more compatible with scrounging behaviour, for example through panting while surveying conspecifics, it may be a preferred strategy under extreme temperatures. 
-In cold temperatures, animals can use social thermoregulation by huddling in dense aggregations to reduce exposed body surface area and minimize heat loss [@Gilbert_2010]. There is a positive relationship between group size and forager density on the proportion of scroungers in a group [predicted by eg. @Beauchamp_2000a, @Dubois_2005 and confirmed in empirical tests eg. @Coolen_2002, @Barta_2004, @Aplin_2017, @Alfaro_2021]. If animals aggregate in larger groups to manage cold temperatures, and if scrounging behaviour is more common in larger groups, then scrounging behaviour may be favored in cold temperatures. However, support from empirical studies that directly address the causality between these variables is required to derive any further conclusions. 
+In cold temperatures, animals can use social thermoregulation by huddling in dense aggregations to reduce exposed body surface area and minimize heat loss [@Gilbert_2010]. There is a positive relationship between group size and forager density on the proportion of scroungers in a group [predicted by eg. @Beauchamp_2000a, @Dubois_2005 and confirmed in empirical tests eg. @Coolen_2002, @Barta_2004, @Aplin_2017, @Alfaro_2021]. If animals aggregate in larger groups to manage cold temperatures, and if scrounging behaviour is more common in larger groups, then scrounging behaviour may be favored in cold temperatures. However, support from empirical studies that directly address the causal relationships between these variables is required to draw any conclusions. 
 
 
+Wind can influence the detection of prey [@Cherry_2017; @Fogarty_2017], activity rates, and movement costs [@@Cherry_2017; @Studd_2022] in foraging animals. @Studd_2022 found contrasting behavioural effects of wind speed in snowshoe hares (*Lepus americanus*), red squirrels (*Tamiasciurus hudsonicus*) and Canada lynx (*Lynx canadensis*). On windy days, time allocated to activity and travel decreased in snowshoe hares and red squirrels but increased in lynx. Lynx also had more feeding events while snowshoe hares and red squirrels spent more time vigilant. These results show differences between species but not indicate how specific behaviours within species would be influenced by wind. 
+- Detection of prey, however, would influence foraging strategy with longer discovery rates and known to increase scrounger
+- Cherry 
+- Fogarty
+- Patch discovery rate
 
 
-
-- Temperature
-	- 	If preferred forage is found in areas that are more vulnerable to high heat, eg. due to lack of canopy cover, animals may 1) select lower quality forage, 2) move to areas of lower temperature or 3) engage in heat-ddissipation behaviours such as panting [@Cunningham_2021]. 
-	- Or only seasonally select preferred forage when temperatures are reduced. 
-	- [@DuPlessis_2012] found reduced foraging efficiency in Southern pied babblers (*Turdoides bicolo*) when temperatures were high due to required trade-offs between foraging with heat-dissipation behaviours, eg. panting [@Cunningham_2021]. If scrounging is more compatible with heat-dissipating behaviours, it may be less dramatically affected by extreme heat. 
-	- @Fogarty_2017
-	 
-- Wind
-	- @Studd_2022 found hares decreased activity and lynx increased activity as wind speed increased
-		- lynx also increased feeding events as wind speed increased
-		- species specific response 
-	- @Wijers_2022
-	- @Cherry_2017
 
 - Snow
 	- Movement costs
