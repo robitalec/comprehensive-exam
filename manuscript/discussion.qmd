@@ -75,41 +75,11 @@ If heat-dissipating behaviours are more compatible with scrounging behaviour, fo
 In cold temperatures, animals can use social thermoregulation by huddling in dense aggregations to reduce exposed body surface area and minimize heat loss [@Gilbert_2010]. There is a positive relationship between group size and forager density on the proportion of scroungers in a group [predicted by eg. @Beauchamp_2000a, @Dubois_2005 and confirmed in empirical tests eg. @Coolen_2002, @Barta_2004, @Aplin_2017, @Alfaro_2021]. If animals aggregate in larger groups to manage cold temperatures, and if scrounging behaviour is more common in larger groups, then scrounging behaviour may be favored in cold temperatures. However, support from empirical studies that directly address the causal relationships between these variables is required to draw any conclusions. 
 
 
-Wind can influence the detection of prey [@Cherry_2017; @Fogarty_2017], activity rates, and movement costs [@@Cherry_2017; @Studd_2022] in foraging animals. @Studd_2022 found contrasting behavioural effects of wind speed in snowshoe hares (*Lepus americanus*), red squirrels (*Tamiasciurus hudsonicus*) and Canada lynx (*Lynx canadensis*). On windy days, time allocated to activity and travel decreased in snowshoe hares and red squirrels but increased in lynx. Lynx also had more feeding events while snowshoe hares and red squirrels spent more time vigilant. These results show differences between species but not indicate how specific behaviours within species would be influenced by wind. 
-- Detection of prey, however, would influence foraging strategy with longer discovery rates and known to increase scrounger
-- Cherry 
-- Fogarty
-- Patch discovery rate
+Wind can influence the detection of prey [@Cherry_2017; @Fogarty_2017], activity rates, and movement costs [@@Cherry_2017; @Studd_2022] in foraging animals. @Studd_2022 found contrasting effects of wnd speed on behaviour in snowshoe hares (*Lepus americanus*), red squirrels (*Tamiasciurus hudsonicus*) and Canada lynx (*Lynx canadensis*). On windy days, time allocated to activity and travel decreased in snowshoe hares and red squirrels but increased in lynx. Lynx also had more feeding events while snowshoe hares and red squirrels spent more time vigilant. These results show how wind can have different effects on behaviour between species but not necessarily indicate how different foraging behaviours within species might be affected. Considering the influence of wind on detection of prey, however, may highlight a potential effect on foraging strategy use. Recall that as patch discovery rate increases, the proportion of scroungers in a group increase [@Dubois_2005; @Lee_2016]. If detection of prey is negatively influenced by wind [@Cherry_2017; @Fogarty_2017], then the proportion of scroungers in the group may increase. Again, support from empirical studies is needed to determine if this relationship holds. 
 
+Other conditions that may influence foraging strategy use are related to a scrounger's ability to join a producer. @Ruxton_2005 found that the distance at which a scrounger decides to join a producer increases with increasing movement speed. If conditions such as increased snow depth result in decreased movement speed, an individual may opt not to join a producer's patch they would normally join under different conditions. Movement rates decreased in wolves during snowfall events (*Canis lupus*) [@Droghini_2018] and in wood bison as cumulative snow depth increased throughout the winter season (*Bison bison athabascae*) [@Sheppard_2021]. This may result in seasonal advantages to the producer strategy where scroungers are disadvantaged when movement is more challenging. Another potential influence of conditions posited by @Vickery_1991 is that when scroungers have reduced sensory contact with producers, the group size and rate of scrounging should decrease. This may occur, for example, due to wind and fog, or in aquatic animals due to the turbidity of water [@Vickery_1991]. 
 
-
-- Snow
-	- Movement costs
-	- Access to forage depending on snow depth
-	- @Droghini_2018
-	- @Romtveit_2021
-	- @Hoy_2019
-	- group size @Jung_2019
-
-
-- Consider joining distance @Ruxton_2005 and Table 1
-	- movement speed
-	- Increased snow depth for example could increase movement cost for a scrounger to join a producer's patch.
-    
-Vickery 
-sensory connection between individuals
-
-
-
-
-
-
-Larger groups are known to correspond with an increase in proportion of scroungers. 
-While larger groups may help mitigate some extreme conditions
-and scrouging is more successful in larger groups
-It is unclear how scrounging is directly influenced by extreme conditions.
-
-
+Intraspecific social interactions, including communication and group formation, are expected to be affected by abiotic environmental change [@Fisher_2021]. Complex interactions of resources, risks and conditions are also
 
 
 
