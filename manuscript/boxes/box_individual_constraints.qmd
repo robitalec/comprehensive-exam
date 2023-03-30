@@ -48,11 +48,13 @@ title: Individual constraints
     - Time of day
         - Around dawn and dusk, individuals should play scrounger more often due to low energy reserves (Barta_2000)
         - Around midday, individuals should play producer if they are near or above critical reserve level because if they are successful they can more quickly switch to resting and avoid predation hazard (Barta_2000)
+		- CONDITIONS
 - Energy reserves / fed or fasted (empirical)
 	- Rates of strategy use did not differ depending on fed and fasted states in sparrows (Lee_2016a)
 	- Fasted sparrows stayed longer on the ground (Lee_2016a)
 	- Fasted sparrows discovered more patches and consumed more food than fed sparrows (Lee_2016a)
 	- (also under Vigilance) Scrounging not simply explained by antipredator vigilance, alternatively may be due to scrounging being a variance-averse strategy or favored strategy when energy reserves are low (Barta_2004)
+	- CONDITIONS
 
 - learning
 - Learning
