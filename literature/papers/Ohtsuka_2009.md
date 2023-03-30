@@ -1,4 +1,6 @@
-## Ohtsuka_2009
+---
+title: "Ohtsuka_2009"
+---
 
 Ohtsuka, Yasunori, and Yukihiko Toquenaga. 2009. “The Patch Distributed Producer–Scrounger Game.” _Journal of Theoretical Biology_ 260 (2): 261–66. [https://doi.org/10.1016/j.jtbi.2009.06.002](https://doi.org/10.1016/j.jtbi.2009.06.002).
 

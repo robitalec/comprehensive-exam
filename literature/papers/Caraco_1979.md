@@ -1,4 +1,6 @@
-## Caraco_1979
+---
+title: "Caraco_1979"
+---
 
 Caraco, Thomas. 1979. “Time Budgeting and Group Size: A Test of Theory.” _Ecology_ 60 (3): 618–27. [https://doi.org/10.2307/1936082](https://doi.org/10.2307/1936082).
 

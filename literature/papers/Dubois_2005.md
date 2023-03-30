@@ -1,4 +1,6 @@
-## Dubois_2005
+---
+title: "Dubois_2005"
+---
 
 Dubois, Frédérique, and Luc-Alain Giraldeau. 2005. “FIGHTING FOR RESOURCES: THE ECONOMICS OF DEFENSE AND APPROPRIATION.” _Ecology_ 86 (1): 3–11. [https://doi.org/10.1890/04-0566](https://doi.org/10.1890/04-0566).
 

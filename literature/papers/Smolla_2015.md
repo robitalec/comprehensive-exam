@@ -1,4 +1,6 @@
-## Smolla_2015
+---
+title: "Smolla_2015"
+---
 
 Smolla, Marco, R. Tucker Gilman, Tobias Galla, and Susanne Shultz. “Competition for Resources Can Explain Patterns of Social and Individual Learning in Nature.” _Proceedings of the Royal Society B: Biological Sciences_ 282, no. 1815 (September 22, 2015): 20151405. [https://doi.org/10.1098/rspb.2015.1405](https://doi.org/10.1098/rspb.2015.1405).
 

@@ -1,4 +1,6 @@
-## Toyokawa_2017
+---
+title: "Toyokawa_2017"
+---
 
 Toyokawa, Wataru. 2017. “Scrounging by Foragers Can Resolve the Paradox of Enrichment.” _Royal Society Open Science_ 4 (3): 160830. [https://doi.org/10.1098/rsos.160830](https://doi.org/10.1098/rsos.160830).
 

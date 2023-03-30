@@ -1,4 +1,6 @@
-## Barta_2000
+---
+title: "Barta_2000"
+---
 
 Barta, Zoltán, and Luc‐Alain Giraldeau. 2000. “Daily Patterns of Optimal Producer and Scrounger Use under Predation Hazard: A State‐Dependent Dynamic Game Analysis.” _The American Naturalist_ 155 (4): 570–82. [https://doi.org/10.1086/303342](https://doi.org/10.1086/303342).
 

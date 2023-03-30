@@ -1,4 +1,6 @@
-## Hansen_2016
+---
+title: "Hansen_2016"
+---
 
 Hansen, Matthew J., Ashley J. W. Ward, Ines Fürtbauer, and Andrew J. King. 2016. “Environmental Quality Determines Finder-Joiner Dynamics in Socially Foraging Three-Spined Sticklebacks (Gasterosteus Aculeatus).” _Behavioral Ecology and Sociobiology_ 70 (6): 889–99. [https://doi.org/10.1007/s00265-016-2111-5](https://doi.org/10.1007/s00265-016-2111-5).
 

@@ -1,4 +1,6 @@
-## Dubois_2003
+---
+title: "Dubois_2003"
+---
 
 Dubois, F., L-A. Giraldeau, and Grant, James W.A. 2003. “Resource Defense in a Group-Foraging Context.” _Behavioral Ecology_ 14 (1): 2–9. [https://doi.org/10.1093/beheco/14.1.2](https://doi.org/10.1093/beheco/14.1.2).
 

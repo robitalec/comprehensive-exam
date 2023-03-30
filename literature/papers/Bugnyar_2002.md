@@ -1,4 +1,6 @@
-## Bugnyar_2002
+---
+title: "Bugnyar_2002"
+---
 
 Bugnyar, Thomas, and Kurt Kotrschal. 2002. “Scrounging Tactics in Free-Ranging Ravens, Corvus Corax.” _Ethology_ 108 (11): 993–1009. [https://doi.org/10.1046/j.1439-0310.2002.00832.x](https://doi.org/10.1046/j.1439-0310.2002.00832.x).
 

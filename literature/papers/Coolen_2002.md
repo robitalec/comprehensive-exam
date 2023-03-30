@@ -1,4 +1,6 @@
-## Coolen_2002
+---
+title: "Coolen_2002"
+---
 
 Coolen, Isabelle. “Increasing Foraging Group Size Increases Scrounger Use and Reduces Searching Efficiency in Nutmeg Mannikins ( Lonchura Punctulata ).” _Behavioral Ecology and Sociobiology_ 52, no. 3 (August 1, 2002): 232–38. [https://doi.org/10.1007/s00265-002-0500-4](https://doi.org/10.1007/s00265-002-0500-4).
 

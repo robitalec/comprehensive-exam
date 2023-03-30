@@ -1,4 +1,6 @@
-## Belisle_1998
+---
+title: "Belisle_1998"
+---
 
 Bélisle, Marc. 1998. “Foraging Group Size: Models and a Test with Jaegers Kleptoparasitizing Terns.” _Ecology_ 79 (6): 1922–38. [https://doi.org/10.1890/0012-9658(1998)079[1922:FGSMAA]2.0.CO;2](https://doi.org/10.1890/0012-9658(1998)079[1922:FGSMAA]2.0.CO;2).
 

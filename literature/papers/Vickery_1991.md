@@ -1,4 +1,6 @@
-## Vickery_1991
+---
+title: "Vickery_1991"
+---
 
 Vickery, William L., Luc-Alain Giraldeau, Jennifer J. Templeton, Donald L. Kramer, and Colin A. Chapman. 1991. “Producers, Scroungers, and Group Foraging.” _The American Naturalist_ 137 (6): 847–63. [https://doi.org/10.1086/285197](https://doi.org/10.1086/285197).
 

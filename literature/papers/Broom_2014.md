@@ -1,4 +1,6 @@
-## Broom_2014
+---
+title: "Broom_2014"
+---
 
 Broom, M., J. Rychtář, and D. Sykes. “Kleptoparasitic Interactions under Asymmetric Resource Valuation.” Edited by A. Morozov. _Mathematical Modelling of Natural Phenomena_ 9, no. 3 (2014): 138–47. [https://doi.org/10.1051/mmnp/20149309](https://doi.org/10.1051/mmnp/20149309).
 

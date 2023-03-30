@@ -1,4 +1,6 @@
-## Broom_2015
+---
+title: "Broom_2015"
+---
 
 Broom, Mark, Michal Johanis, and Jan Rychtář. 2015. “The Effect of Fight Cost Structure on Fighting Behaviour.” _Journal of Mathematical Biology_ 71 (4): 979–96. [https://doi.org/10.1007/s00285-014-0848-x](https://doi.org/10.1007/s00285-014-0848-x).
 

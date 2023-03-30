@@ -1,4 +1,6 @@
-## Ruxton_2005
+---
+title: "Ruxton_2005"
+---
 
 Ruxton, Graeme D., Chris Fraser, and Mark Broom. 2005. “An Evolutionarily Stable Joining Policy for Group Foragers.” _Behavioral Ecology_ 16 (5): 856–64. [https://doi.org/10.1093/beheco/ari063](https://doi.org/10.1093/beheco/ari063).
 

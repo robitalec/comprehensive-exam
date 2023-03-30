@@ -1,4 +1,6 @@
-## Mathot_2007
+---
+title: "Mathot_2007"
+---
 
 Mathot, K. J., and L.-A. Giraldeau. 2007. “Increasing Vulnerability to Predation Increases Preference for the Scrounger Foraging Tactic.” _Behavioral Ecology_ 19 (1): 131–38. [https://doi.org/10.1093/beheco/arm114](https://doi.org/10.1093/beheco/arm114).
 

@@ -1,4 +1,6 @@
-## Ranta_1996
+---
+title: "Ranta_1996"
+---
 
 Ranta, Esa, Nina Peuhkuri, Anssi Laurila, Hannu Rita, and Neil B. Metcalfe. “Producers, Scroungers and Foraging Group Structure.” _Animal Behaviour_ 51, no. 1 (January 1996): 171–75. [https://doi.org/10.1006/anbe.1996.0014](https://doi.org/10.1006/anbe.1996.0014).
 

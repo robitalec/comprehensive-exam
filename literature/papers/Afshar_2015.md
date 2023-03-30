@@ -1,4 +1,6 @@
-## Afshar_2015
+---
+title: "Afshar_2015"
+---
 
 Afshar, Mohammad, Carolyn L. Hall, and Luc-Alain Giraldeau. 2015. “Zebra Finches Scrounge More When Patches Vary in Quality: Experimental Support of the Linear Operator Learning Rule.” _Animal Behaviour_ 105 (July): 181–86. [https://doi.org/10.1016/j.anbehav.2015.04.016](https://doi.org/10.1016/j.anbehav.2015.04.016).
 

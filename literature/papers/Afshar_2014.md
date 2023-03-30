@@ -1,4 +1,6 @@
-## Afshar_2014
+---
+title: "Afshar_2014"
+---
 
 Afshar, Mohammad, and Luc-Alain Giraldeau. 2014. “A Unified Modelling Approach for Producer–Scrounger Games in Complex Ecological Conditions.” _Animal Behaviour_ 96 (October): 167–76. [https://doi.org/10.1016/j.anbehav.2014.07.022](https://doi.org/10.1016/j.anbehav.2014.07.022).
 
