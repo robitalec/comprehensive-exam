@@ -87,6 +87,17 @@ Resources, risks and conditions are expected to have numerous and complex intera
 
 ## Contrasting approaches to availability
 
+- producer-scrounger take on availability and accessibility
+- habitat selection take on availability and accessibility
+	- use, availability [@Beyer_2010; @Matthiopoulos_2023]
+	- critical to consider how availability is defined @Matthiopoulos_2020
+	- accessible habitat is a subset of available habitat [@Beyer_2010; @Matthiopoulos_2020]
+	- movement model can be used to weight availability by an estimate of their accessibility eg. movement rate [@Beyer_2010]
+	- 
+
+
+
+
 The producer-scrounger model often assumes that all patches discovered by producers are available to every scrounger in the group [@Barnard_1981; @Giraldeau_2000; ]
 
 -   Habitat availability
