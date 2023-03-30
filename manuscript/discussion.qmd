@@ -105,6 +105,15 @@ Resources, risks and conditions are expected to have numerous and complex intera
 
 The producer-scrounger model often assumes that all patches discovered by producers are available to every scrounger in the group [@Barnard_1981; @Giraldeau_2000; ]
 
+Habitat selection theory and producer-scrounger dynamics have different assumptions regarding availability of habitat due to differences in their objectives and measurement. Social foraging theory seeks to determine how foraging behaviour is affected by conspecifics [@Vickery_1991]. In producer-scrounger dynamics, the frequency of foraging strategies in a group or population contribute to the payoffs and penalties for individuals and the optimal behavioural choice is the one that cannot be improved by any alternative choice [@Vickery_1991; @Giraldeau_2000]. Models of producer-scrounger dynamics often assume that any patch discovered by a producer is available to all scroungers, disregarding the distance between patches or movement costs [for example @Vickery_1991; @Barta_2000 but see @Beauchamp_2008]. In contrast, the definition of availability is critical for habitat selection analyses as an animal's preference for certain habitats is explicity defined as the habitat used out of what was available. 
+
+Behavioural selection of habitat is preferential use of a habitat, disproportionate to its availability [@Beyer_
+
+
+- preferential use, disproportionate to 
+
+
+
 -   Habitat availability
     -   Geographical accessibility
         -   @Matthiopoulos_2020
