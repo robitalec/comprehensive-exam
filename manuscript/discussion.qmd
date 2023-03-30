@@ -84,7 +84,10 @@ Other conditions that may influence foraging strategy use are related to a scrou
 Resources, risks and conditions are expected to have numerous and complex interactions [@Matthiopoulos_2023]. Similarly, the reviewed literature indicated interactions between multiple variables related to producer-scrounger dynamics. In this discussion and in Figures 2, 3, and S1, interactions were not included to focus on the relationships between pairs of variables. Some examples of interactions include resource availability, foraging effort and proportion of scrounging [@Dubois_2005] and group size, energy intake and foraging success [@Belisle_1998]. Given the possibility of interactions and that the influence of many risks and conditions on producer-scrounger dynamics have yet to be studied (Table 1), future empirical studies should consider many environmental variables concurrently to help tease out causal relationships and identify interacting variables. 
 
 
-## Contrasting approaches to availability of resources 
+
+## Contrasting approaches to availability
+
+The producer-scrounger model often assumes that all patches discovered by producers are available to every scrounger in the group [@Barnard_1981; @Giraldeau_2000; ]
 
 -   Habitat availability
     -   Geographical accessibility
