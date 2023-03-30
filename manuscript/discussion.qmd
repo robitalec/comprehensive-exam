@@ -95,6 +95,11 @@ Resources, risks and conditions are expected to have numerous and complex intera
 	- movement model can be used to weight availability by an estimate of their accessibility eg. movement rate [@Beyer_2010]
 	- 
 
+@Aarts_2008
+
+@Thurfjell_2014
+
+@Northrup_2013
 
 
 
