@@ -40,7 +40,12 @@ and prediction)
 - Approach of habitat selection analyses
 3. How is availability informed by behaviour, specifically p-s dynamics?
 - Methods
-    - Review 
+    - Review  literature
+        - Search
+        - Game theory models, empirical, other
+        - Resources, risks, conditions
+        - Individual constraints
+        - Related variables
 
 
 
@@ -51,6 +56,13 @@ and prediction)
 
 Include figure 1
 
+
+Statement of position/angle
+
+- treating producer scrounger dynamics as occurring within habitat selection, where scrounging individuals use conspecifics to identify forage habitat
+- conspecifics explicitly incorporated
+- whereas habitat selection is concerned about used/available by environmental variables
+- focus is on how individual behaviours and conspecifics (frequency dependence) influence availability of habitat
 
 -->
 
