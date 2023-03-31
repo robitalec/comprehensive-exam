@@ -4,26 +4,23 @@ order : 1
 ---
 
 
-- Access to available resources is a prereq for animal survival
-- Individual foraging
-    - prey/forage selection
-    - net rate of intake
-    - effort/quitting time
-    - balance patch quality with risks or costs
+Foraging for resources depends on the behaviour of conspecifics. Early individual foraging theory often focused on forage selection, net rate of intake, and effort or quitting time [@Stephens_1986; @Stephens_2007]. Social foraging theory considers the interdependence between a forager's strategy and that of their conspecifics [@Giraldeau_2000; Box 1]. The complexity of multiple individuals foraging from a common patch requires attention to both the density of individuals and the frequency of strategies among them [@Barnard_1981; @Vickery_1991; @Giraldeau_2000]. Social foraging theory considers a minimum criterion for sociality where animals are considered social if their benefits and costs are interdependent [@Giraldeau_2000]. Producer-scrounger dynamics are a type of social foraging model that considers two types of foraging behaviours [@Barnard_1981; @Giraldeau_2000 but see @Vickery_1991]. Producers are animals that independently search for forage patches. Scroungers follow conspecific producers to share or steal from their discovered patches. The frequency of each strategy in a group or population changes its profitability. When producers are rare, scrounging is less favorable since less patches are being discovered. When scroungers are common, producers have to divide their patches among more conspecifics patches [@Vickery_1991; @Giraldeau_2000; @Dubois_2005]. Notably, the accessibility of resources is different depending on the foraging strategy where scroungers only have access to patches made available to them by producers. 
+
+Determining the subset of available habitats that are accessible to animals has long been a methodological focus of habitat selection analyses (CITE CITE). 
+
+
+Considering habitat as RRC, how is access among producers and scroungers changed
+
+
+
+
+
+Accessibility and availability are impossible to calculate is alternatively defined in habitat selection
+
 - Habitat selection offers species distributions, model inference or predictions about habitat selection
     - Behavioural selection for habitat is based in the decision when to leave a patch and where to go next @Matthioplous_2023
-- Social foraging
-    - See Box
-    - Social foraging theory extends individual foraging theory by considering
-the complexity of multiple individuals in a common resource
-    - The criteria for regarding animals as social in this context simply
-requires interdependence of the payoffs and penalties of their strategies
     - Animal sociality is often described as a balance between advantages and disadvantages. Social foraging theory is not centred on competing causes of sociality. Rather the payoffs and penalties are directly integrated as currencies of fitness. 
 - Producer scrounger dynamics
-    - Producer-scrounger dynamics consider two types of strategies. Producers search
-for and find food patches. Scroungers do not search for patches and attempt to steal or divide food patches with producers
-    - Frequency dependence
-    - Some assumptions
     - Approaches: game theory, empirical, other simulations
 - 1. How is access to available resources determined by role?
 - Conspecifics influence but so does habitat
