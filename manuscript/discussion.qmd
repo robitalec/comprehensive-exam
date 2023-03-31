@@ -144,6 +144,5 @@ each step and that an animal stepping to a neighbour is assumed to be scrounging
 	- Individuals likely to use both strategies (Ha_2003)
 -->
 
--->
 
 ## References
