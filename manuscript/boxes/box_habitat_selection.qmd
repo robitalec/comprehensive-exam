@@ -113,3 +113,11 @@ Extinction debt
 Site fidelity
 
 Landscapes of fear
+
+
+
+
+The dynamic mechanism for habitat selection at the individual level is behavioural selection. It is comprised of patch departure rules or giving up rates and the decision where to go next. Habitats are defined in terms of resources, risks and conditions. Environmental variables corresponding to these three can have complex interactions.
+
+
+Risks are integrated differently in producer-scrounger dynamics and habitat selection. Predation risk, for example, is directly incorporated into the penalty for each strategy in a producer-scrounger game. For habitat selection, predation risk would make up one of the relevant environmental variables under the risk category that define a habitat, with an expected negative relationship with fitness.
