@@ -33,7 +33,7 @@ tar_read(rrc_results) |>
 	summary_rows(groups = TRUE, columns = 'Count', fns = 'sum', formatter = fmt_integer) |>
 	tab_style(  
 		style = list(
-      cell_text(color = 'white')
+      cell_text(color = 'grey60')
 		),
 		locations = cells_body(
 			columns = 'Count',

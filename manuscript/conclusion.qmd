@@ -4,7 +4,45 @@ order: 4
 ---
 
 
-## Differences between producer-scrounger and habitat selection
+## Group level or population effects
+
+<!-- why are producer-scrounger dynamics important to consider? -->
+
+<!--
+- Population
+	- Scrounging can act as a population regulator by reducing population level foraging efficiency and intake rate and allowing larger population sizes of predators (Coolen_2007)
+	- Social foraging can stabilize one prey and two prey systems when scrounging is prevalent in predators (Toyokawa_2017) (Vickery_2020)
+	- Scrounging can lower the growth rate of a population (Toyokawa_2017)
+	- Scrounging can allow prey resources to persist at higher densities than if scrounging was absent (Toyokawa_2017) (Vickery_2020)
+	- Presence of scroungers in a predator can reduce the total amount of resource acquired by the group (Vickery_2020)
+	- Presence of scroungers in a predator can limit group size (Vickery_2020)
+	- Presence of scroungers in a predator can limit a predator's ability to outcompete other species promoting stability and species diversity (Vickery_2020)
+	- Scrounging will not stability population dynamics, food chains and competitor interactions under all cases, if scrounging is too prevalent it can push the population to extinction  	- Other factors such as food abundance, variations in weather, predators and parasites may have stronger effects that can completely obscure the effects of scrounging on populations (Vickery_2020)
+
+
+
+Stable dimorphic learning
+-->
+
+## Representation
+
+
+The producer-scrounger dynamics has been examined using three categories of approaches: empirical tests (Table S2, 61.8 % of relevant studies), evolutionary game theory models (Table S2, 20.1 % of relevant studies) and other approaches (Table S2, 17.9 % of relevant studies). Birds , mammals and ray-finned fishes were
+
+three species make up 30% of studies
+
+many species with only one study
+
+<!-- remove "Notables" from results and move here or discussion -->
+
+
+
+## Future directions
+
+1. Establish the relationship with conditions using experiments or observations
+1. Consider different types of risks
+1. Incorporate producer-scrounger role into habitat selection availability
+
 
 
 - social foraging theory
@@ -23,9 +61,18 @@ resources often considered in producer-scrounger literature
 ?conspecifics considered in habitat selection literature
 
 
-## Future directions
+
+Maybe:
 
 - Since dominance individuals tend to scrounge more often, use focal observations to determine dominance hierarchies 
 - If dominant individual, assume step distribution more limited to producer distribution
 
 
+<!--
+ A producer should leave a patch earlier than a scrounger if the producer has a finder's share (Rita_1997)
+-->
+
+
+In addition, a consideration for the broader challenges on animals is required
+while foraging is critical for survival, so is managing extreme temperatures 
+which is the priority?

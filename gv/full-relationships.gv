@@ -163,7 +163,7 @@ digraph decision_tree {
 
 	prop_scroung -> net_cent [label = "Aplin_2017", color = "#1A3399", style = "dashed"]
 
-	pred_risk -> prop_scroung [label = "Barta_2004, Mathot_2007", color = "#1A3399", style = "dashed"]
+	pred_risk -> prop_scroung [label = "Bugnyar_2002, Barta_2004, Mathot_2007", color = "#1A3399", style = "dashed"]
 	pred_risk -> vig [label = "Mathot_2007", color = "#1A3399", style = "dashed"]
 	prop_scroung -> vig [label = "Mathot_2007", color = "#180B09", style = "dashed"]
 

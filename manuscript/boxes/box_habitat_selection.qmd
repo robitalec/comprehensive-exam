@@ -1,5 +1,5 @@
 ---
-title: "Box: Habitat Selection"
+title: "Box 2: Habitat Selection"
 ---
 
 
@@ -26,7 +26,47 @@ dynamic mechanisms influencing the relationship between fitness and species dist
             - spatial memory
             - conspecific information
 
+   
 
-    
+Mayor multiscale selection
 
 
+conditional nature of preference
+
+
+while AIC is often recommended for evaluating alternative models [@Thurfjell_2014], model selection via AIC should only be used when the goal is to determine the most predictive model and not in cases where the model is used to provide inference about covariates causally influencing use and selection Stat rethink. adding more variables, and adding confounding variables can improve predictive performance and so selecting models for inference should be based on an understanding of the causal structure and not predictive performance of models
+
+- Distance to nearest road
+- Distance to nearest road (squared)
+- Aspen stand (binary)
+- Forest stand (binary)
+- Forest stand (proportion)
+- Steep slope
+- Aspend stand (binary) * wolf index cubed
+- Forest stand (binary) * wolf index cubed
+- Wolf index cubed
+
+Fortin_2005
+
+dag {
+bb="-4.948,-4.048,6.275,3.622"
+aspen_stand [exposure,pos="0.463,-3.409"]
+dist_road [exposure,pos="-3.036,-2.274"]
+dist_road_sq [exposure,pos="-4.013,-0.054"]
+forest_prop [exposure,pos="2.474,0.198"]
+forest_stand [exposure,pos="0.910,2.305"]
+steep_slope [exposure,pos="-1.404,2.983"]
+use [outcome,pos="-0.743,-0.223"]
+wolf_index [exposure,pos="2.517,-1.028"]
+aspen_stand -> use
+dist_road -> dist_road_sq
+dist_road -> use
+dist_road_sq -> use
+forest_prop -> forest_stand
+forest_prop -> use
+forest_prop -> wolf_index
+forest_stand -> use
+steep_slope -> forest_stand
+steep_slope -> use
+wolf_index -> use
+}

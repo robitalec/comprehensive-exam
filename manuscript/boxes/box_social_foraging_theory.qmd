@@ -1,6 +1,9 @@
 ---
-title: "Box: Social Foraging"
+title: "Box 1: Social Foraging Theory"
 ---
+
+<!-- emphasize vs information sharing --> 
+
 
 ## Payoffs and penalties
 
@@ -22,6 +25,50 @@ Types of models: information sharing, p-s, simulations, ESS, etc
 
 -->
 
+(Box)
+- Animal sociality is often described as a balance between advantages and disadvantages. Social foraging theory is not centred on competing causes of sociality. Rather the payoffs and penalties are directly integrated as currencies of fitness. 
+- The criteria for regarding animals as social in this context simply requires interdependence of the payoffs and penalties of their strategies
+- Payoffs can include
+- Penalties can include
+- ### Social foraging behaviours 
+- Three kinds of social foraging behaviours are commonly defined.  
+- #### Interference
+- Interference represents negative impacts on conspecifics that do not have a direct benefit to the individual and therefore do not represent a strategy that can be modelled as an evolutionary game
+- #### Kleptoparasitism
+- Kleptoparasitism is directly stealing indivisible food items from conspecifics
+- #### Producer-scrounger dynamics
+- Some producer-scrounger models also consider opportunists that produce and scrounge but at a reduced efficiency compared to the pure strategies of producing or scrounging
+- ##### Assumptions
+- When a scrounger arrives on a food patch, models can assume either total information or partial information about remaining food at the patch
+- Food patches can be divide equally, according to arrival time on the patch or asymmetrical given dominance or aggression of individuals
+- Contests between producers and scroungers are determined by the probability of the scrounger winning the contest and by the energetic cost of the contest
+- ##### Extensions
+- Extensions to producer-scrounger games include memory, learning and variable patch quality or distribution <!-- distribution https://pubmed.ncbi.nlm.nih.gov/19501599/ -->
+- ##### Frequency dependence
+- Unlike information sharing models, producer-scrounger models are frequency dependent. The assumptions of information sharing models are unrealistic and have had little support in empirical tests
+- Access to available resources in basic producer-scrounger games depends on the frequency of strategies being played in the group or population
+
+<!--At low density, scrounging is disfavored
+due to low overall number of producers. At high density, scrounging becomes more
+favorable given more opportunities to scrounge from producers. The inverse
+is true for producers where high density is disfavored given lower available
+empty patches in the environment. 
+-->
+
+- ##### Approaches
+<!-- optimization methods --> 
+- Models of producer-scrounger games show relationships between density, payoffs, and penalties (considering the specific goals and assumptions of each model) (Table 1)
+- Agent based simulation approaches are an alternative to solving evolutionary stable strategies of producer-scrounger dynamics with similar results
+- Empirical tests of producer-scrounger dynamics are (Table 2) 
+<!-- diverse and support models or not diverse and somewhat disagree.. 
+body size https://link.springer.com/article/10.1007/s12080-018-0375-2
+-->
+- Differences between empirical tests and model assumptions obscure these comparisons.Experiments testing producer-scrounger dynamics are challenging to control and execute
+- Producer-scrounger dynamics give us a mechanistic approach to investigating how animals can select foraging strategies depending conspecifics to maximize their fitness outcomes
+
+
+
+---
 
 Social foraging theory extends individual foraging theory by considering
 the complexity of multiple individuals in a common resource

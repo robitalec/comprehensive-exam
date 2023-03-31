@@ -105,7 +105,7 @@ digraph decision_tree {
   // Empirical ===============================================
 	soc_affil -> prop_scroung [label = "King_2009", color = "#1A3399", style = "dashed"]
 
-	pred_risk -> prop_scroung [label = "Barta_2004, Mathot_2007", color = "#1A3399", style = "dashed"]
+	pred_risk -> prop_scroung [label = "Bugnyar_2002, Barta_2004, Mathot_2007", color = "#1A3399", style = "dashed"]
 	//pred_risk -> vig [label = "Mathot_2007", color = "#1A3399", style = "dashed"]
 
 	patch_size -> find_share [label = "Hansen_2016", color = "#7E1900", style = "dashed"]

@@ -4,7 +4,7 @@ Barta, Zoltan, and Luc-Alain Giraldeau. 1998. “The Effect of Dominance Hierarc
 
 ---
 
-Impact of [dominance](../topics/dominance.md) depends on  food [distribution](../topics/distribution.md) and defendability eg. evenly distributed food, large patch size is difficult to defend whereas small, high value patches are easier to defend
+Impact of [dominance](../topics/dominance.md) depends on  food [distribution](../topics/distribution.md) and defendability eg. evenly distributed food, large [patch-size](../topics/patch-size.md) is difficult to defend whereas small, high value patches are easier to defend
 
 Competitive ability depends on [dominance](../topics/dominance.md)
 
