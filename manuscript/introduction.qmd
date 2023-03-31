@@ -93,6 +93,17 @@ Statement of position/angle
 
 -->
 
+*How do producers and scroungers differ in their access to available resources?*
+
+-   this relates to ESSs for different densities and proportion of producers/scroungers
+
+-   access for producers is high when density is low, because the number of available patches is high and they are more efficient than scroungers at searching for them
+
+-   access for scroungers is low when density is low, because the overall number of producers is low and therefore low scrounging potential
+
+-   access for producers is lower when density is high because unoccupied patches are lower
+
+-   access for scroungers is higher when density is high because more producers have found more patches and scrounging potential is higher
 
 
 
