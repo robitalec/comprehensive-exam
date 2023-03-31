@@ -70,3 +70,46 @@ steep_slope -> forest_stand
 steep_slope -> use
 wolf_index -> use
 }
+
+
+
+## (Species-habitat associations) How is the relationship between animals and their environments measured? What elements of this theory could be incorporated into social foraging?
+
+<!-- Point to Box Habitat Selection --> 
+
+Species-habitat associations are used to understand the relationship between
+species distribution and habitats (three general goals: estimation, inference, 
+and prediction)
+
+Habitats are as the combination of three kinds of environmental variables:
+resources, risks and conditions
+
+Resources are examples
+
+Risks are examples
+
+Conditions are examples
+<!-- how does an animal select for conditions? -->
+
+The diversity of individuals relationships with resources, risks and conditions 
+are complicated further by their two-way and three-way interactions  
+
+
+>
+
+### Confounds (Why is habitat selection theory more complicated than observing where animals are present/absent?)
+
+There are a number of confounds that cloud the relationship between
+species density and fitness
+
+Imperfect information 
+
+Dynamic environments
+
+Colonization credit 
+
+Extinction debt
+
+Site fidelity
+
+Landscapes of fear
