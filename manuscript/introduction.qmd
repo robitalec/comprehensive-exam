@@ -48,6 +48,33 @@ and prediction)
         - Related variables
 
 
+<!-- 
+
+## Literature searches
+
+
+
+https://www-webofscience-com.qe2a-proxy.mun.ca/wos/woscc/summary/081aaf7e-e39b-4500-aac2-e44bcf21d3f6-78707ffd/relevance/1
+
+
++ "habitat selection"
+
+
+
+https://www-webofscience-com.qe2a-proxy.mun.ca/wos/woscc/summary/b091d426-d8ea-4e4e-824c-3fda822b700d-7912459f/relevance/1
+
+"producer-scrounger" OR "producer scrounger" OR producer scrounger AND 1970-2023
+
+233 results
+
+- 41 Giraldeau
+- 12 Beauchamp G
+- 10 Barta Z
+- 8 Morrand-ferron J, Ranta E, Webster MM, Laland KN, Feldman MW 
+- ...
+
+Peak in 2012-2016, 2002, 2006
+-->
 
 
 
