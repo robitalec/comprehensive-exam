@@ -27,5 +27,5 @@ selecting the appropriate scale:
 
 - compare alternative models using different spatial and temporal scales
 
-grain or resolution of spatial variables can have consequences on inference if selection occurs at a scale smaller than the resolution of the data
+grain or resolution of spatial variables can have consequences on inference if selection occurs at a scale smaller than the resolution of the data. animals
 
