@@ -1,4 +1,6 @@
-## Vickery_2020
+---
+title: "Vickery_2020"
+---
 
 Vickery, William L. 2020. “Producing and Scrounging Can Have Stabilizing Effects at Multiple Levels of Organization.” _Ecology and Evolution_ 10 (6): 2969–78. [https://doi.org/10.1002/ece3.6111](https://doi.org/10.1002/ece3.6111).
 

@@ -1,4 +1,6 @@
-## Ranta_1998
+---
+title: "Ranta_1998"
+---
 
 Ranta, Esa, Nina Peuhkuri, Heikki Hirvonen, and Christopher J Barnard. 1998. “Producers, Scroungers and the Price of a Free Meal.” _Animal Behaviour_ 55 (3): 737–44. [https://doi.org/10.1006/anbe.1997.0649](https://doi.org/10.1006/anbe.1997.0649).
 

@@ -1,4 +1,6 @@
-## Dubois_2010
+---
+title: "Dubois_2010"
+---
 
 Dubois, Frédérique, Julie Morand-Ferron, and Luc-Alain Giraldeau. “Learning in a Game Context: Strategy Choice by Some Keeps Learning from Evolving in Others.” _Proceedings of the Royal Society B: Biological Sciences_ 277, no. 1700 (December 7, 2010): 3609–16. [https://doi.org/10.1098/rspb.2010.0857](https://doi.org/10.1098/rspb.2010.0857).
 

@@ -1,4 +1,6 @@
-## Mathot_2010
+---
+title: "Mathot_2010"
+---
 
 Mathot, Kimberley J., and Luc-Alain Giraldeau. “Within-Group Relatedness Can Lead to Higher Levels of Exploitation: A Model and Empirical Test.” _Behavioral Ecology_ 21, no. 4 (2010): 843–50. [https://doi.org/10.1093/beheco/arq069](https://doi.org/10.1093/beheco/arq069).
 

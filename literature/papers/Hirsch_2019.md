@@ -1,4 +1,6 @@
-## Hirsch_2019
+---
+title: "Hirsch_2019"
+---
 
 Hirsch, Ben T, Erica Malpass, and Yamil E Di Blanco. 2019. “Interindividual Spacing Affects the Finder’s Share in Ring-Tailed Coatis (Nasua Nasua).” Edited by Andrea Griffins. _Behavioral Ecology_, October, arz181. [https://doi.org/10.1093/beheco/arz181](https://doi.org/10.1093/beheco/arz181).
 

@@ -1,4 +1,6 @@
-## Nocera_2010
+---
+title: "Nocera_2010"
+---
 
 Nocera, Joseph J., and Graham J. Forbes. 2010. “Incorporating Social Information to Improve the Precision of Models of Avian Habitat Use.” _The Condor_ 112 (2): 235–44.
 

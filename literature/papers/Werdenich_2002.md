@@ -1,4 +1,6 @@
-## Werdenich_2002
+---
+title: "Werdenich_2002"
+---
 
 Werdenich, Dagmar, and Ludwig Huber. “Social Factors Determine Cooperation in Marmosets.” _Animal Behaviour_ 64, no. 5 (November 2002): 771–81. [https://doi.org/10.1006/anbe.2002.9001](https://doi.org/10.1006/anbe.2002.9001).
 

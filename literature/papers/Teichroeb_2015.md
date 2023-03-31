@@ -1,4 +1,6 @@
-## Teichroeb_2015
+---
+title: "Teichroeb_2015"
+---
 
 Teichroeb, Julie A., Maxine M. J. White, and Colin A. Chapman. 2015. “Vervet (Chlorocebus Pygerythrus) Intragroup Spatial Positioning: Dominants Trade-Off Predation Risk for Increased Food Acquisition.” _International Journal of Primatology_ 36 (1): 154–76. [https://doi.org/10.1007/s10764-015-9818-4](https://doi.org/10.1007/s10764-015-9818-4).
 

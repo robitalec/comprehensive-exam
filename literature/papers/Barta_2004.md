@@ -1,4 +1,6 @@
-## Barta_2004
+---
+title: "Barta_2004"
+---
 
 Barta, Zoltán, András Liker, and Ferenc Mónus. “The Effects of Predation Risk on the Use of Social Foraging Tactics.” _Animal Behaviour_ 67, no. 2 (February 2004): 301–8. [https://doi.org/10.1016/j.anbehav.2003.06.012](https://doi.org/10.1016/j.anbehav.2003.06.012).
 

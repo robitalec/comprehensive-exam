@@ -1,4 +1,6 @@
-## Barta_1998
+---
+title: "Barta_1998"
+---
 
 Barta, Zoltan, and Luc-Alain Giraldeau. 1998. “The Effect of Dominance Hierarchy on the Use of Alternative Foraging Tactics: A Phenotype-Limited Producing-Scrounging Game.” _Behavioral Ecology and Sociobiology_ 42 (3): 217–23. [https://doi.org/10.1007/s002650050433](https://doi.org/10.1007/s002650050433).
 

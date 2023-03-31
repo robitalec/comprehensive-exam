@@ -1,4 +1,6 @@
-## Dubois_2007
+---
+title: "Dubois_2007"
+---
 
 Dubois, Frédérique, and Luc-Alain Giraldeau. 2007. “Food Sharing among Retaliators: Sequential Arrivals and Information Asymmetries.” _Behavioral Ecology and Sociobiology_ 62 (2): 263–71. [https://doi.org/10.1007/s00265-007-0461-8](https://doi.org/10.1007/s00265-007-0461-8).
 

@@ -1,4 +1,6 @@
-## Broom_2018
+---
+title: "Broom_2018"
+---
 
 Broom, Mark, Michal Johanis, and Jan Rychtář. 2018. “The Effect of Fight Cost Structure on Fighting Behaviour Involving Simultaneous Decisions and Variable Investment Levels.” _Journal of Mathematical Biology_ 76 (1–2): 457–82. [https://doi.org/10.1007/s00285-017-1149-y](https://doi.org/10.1007/s00285-017-1149-y).
 

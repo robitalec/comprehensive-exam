@@ -1,4 +1,6 @@
-## Flynn_2001
+---
+title: "Flynn_2001"
+---
 
 Flynn, Robyn E., and Luc-Alain Giraldeau. “Producer-Scrounger Games in a Spatially Explicit World: Tactic Use Influences Flock Geometry of Spice Finches.” _Ethology_ 107, no. 3 (March 2, 2001): 249–57. [https://doi.org/10.1046/j.1439-0310.2001.00657.x](https://doi.org/10.1046/j.1439-0310.2001.00657.x).
 

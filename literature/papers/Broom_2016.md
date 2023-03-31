@@ -1,4 +1,6 @@
-## Broom_2016
+---
+title: "Broom_2016"
+---
 
 Broom, Mark, and Jan Rychtář. 2016. “A Model of Food Stealing with Asymmetric Information.” _Ecological Complexity_ 26 (June): 137–42. [https://doi.org/10.1016/j.ecocom.2015.05.001](https://doi.org/10.1016/j.ecocom.2015.05.001).
 

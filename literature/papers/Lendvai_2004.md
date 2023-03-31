@@ -1,4 +1,6 @@
-## Lendvai_2004
+---
+title: "Lendvai_2004"
+---
 
 Lendvai, ÁdÁm Z., Zoltán Barta, András Liker, and Veronika Bókony. 2004. “The Effect of Energy Reserves on Social Foraging: Hungry Sparrows Scrounge More.” _Proceedings of the Royal Society of London. Series B: Biological Sciences_ 271 (1556): 2467–72. [https://doi.org/10.1098/rspb.2004.2887](https://doi.org/10.1098/rspb.2004.2887).
 

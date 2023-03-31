@@ -1,4 +1,6 @@
-# Broom_and_Rychtár_2013
+---
+title: "Broom_and_Rychtár_2013"
+---
 
 Broom, M. and Rychtár, J., 2013. Game-theoretical models in biology. CRC Press.
 

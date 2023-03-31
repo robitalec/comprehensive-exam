@@ -1,4 +1,6 @@
-## Dubois_2020
+---
+title: "Dubois_2020"
+---
 
 Dubois, Frédérique, and Étienne Richard‐Dionne. 2020. “Consequences of Multiple Simultaneous Opportunities to Exploit Others’ Efforts on Free Riding.” _Ecology and Evolution_ 10 (10): 4343–51. [https://doi.org/10.1002/ece3.6201](https://doi.org/10.1002/ece3.6201).
 
