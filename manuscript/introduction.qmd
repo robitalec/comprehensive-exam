@@ -10,9 +10,10 @@ Determining the subset of available habitat that is accessible to animals has be
 
 A habitat is defined as a combination of environmental variables categorized as resources, risks and conditions [@Aarts_2008; @Matthioplous_2023; Box 2]. Resources are variables that provide a benefit to an animal including forage, mating opportunities, resting sites, and nesting sites. Risks are variables that can have a negative influence on survival or contribute to perceived risk including predation, anthropogenic disturbance or harvest, and parasites. Conditions are variables that often have negative effects when they are extreme but neutral effects at average levels including temperature, humidity, salinity, and wind speed. Resources, risks and conditions influence species distributions and individual behavioural selection of habitats [@Matthioplous_2023]. <!-- tie into behaviour influence -->
 
-The goals of this manuscript are to address the following questions: 1) how is access to available resources related to foraging strategies?, 2) how are foraging strategies influenced by resources, risks and conditions, and 3) how can the concept of availability during habitat selection be extended by consider foraging strategies? To address these, I will review the producer-scrounger dynamics literature (see details in Supplement: Methods) to identify variables influencing access and availability of resources, and tests of the influence of risks and conditions on foraging strategy use. Finally, I will bridge the social foraging theory into habitat selection analyses by proposing a novel integration of availability using foraging strategy.  
+The goals of this manuscript are to address the following questions: 1) how is access to available resources related to foraging strategies?, 2) how are foraging strategies influenced by resources, risks and conditions, and 3) how can the concept of availability during habitat selection be extended by consider foraging strategies? To address these, I will review the producer-scrounger dynamics literature (see details in Supplement: Methods) to identify variables influencing access and availability of resources, and tests of the influence of risks and conditions on foraging strategy use. Finally, I will bridge the social foraging theory into habitat selection analyses by proposing a novel integration of availability using foraging strategy (Figure 1).  
 
 
+<!-- 
 
 - Habitats are defined as a collection of environmental variables categorized as resources, risks and conditions. 
 - Accessibility and availability are impossible to calculate is alternatively defined in habitat selection
@@ -43,11 +44,7 @@ and prediction)
         - Individual constraints
         - Related variables
 
-
-
-<!--
-
-Include figure 1
+Include figure 1 or point to discussion
 
 
 Statement of position/angle
@@ -58,27 +55,5 @@ Statement of position/angle
 - focus is on how individual behaviours and conspecifics (frequency dependence) influence availability of habitat
 
 -->
-
-*How do producers and scroungers differ in their access to available resources?*
-
--   this relates to ESSs for different densities and proportion of producers/scroungers
-
--   access for producers is high when density is low, because the number of available patches is high and they are more efficient than scroungers at searching for them
-
--   access for scroungers is low when density is low, because the overall number of producers is low and therefore low scrounging potential
-
--   access for producers is lower when density is high because unoccupied patches are lower
-
--   access for scroungers is higher when density is high because more producers have found more patches and scrounging potential is higher
-
-
-
-
-<!-- from discussion -->
-
-The objective was to answer the question: "How does one's role in frequency-dependent producer-scrounger dynamics influence access to available resources considering risks and conditions during habitat selection?". From this, I defined three goals: 1) to determine how foraging strategies differ in access to available resources, 2) to determine how risks and conditions influence foraging strategies and 3) to consider how the concept of availability during habitat selection can be extended to include foraging strategies. For 1) and 2), I identified empirical tests and model predictions in the literature that contribute to our understanding of access to available resources, and the influence of habitat risks and conditions on producer-scrounger dynamics. For 3), I propose extending the concept of availability from the habitat selection literature to incorporate role in producer-scrounger dynamics. 
-
-
-
 
 
