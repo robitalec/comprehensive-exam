@@ -7,20 +7,24 @@ order: 3
 <!-- 
 revise considering: 
 
+
+- par 2, add more interpretation
+- add par to contrasting approaaches
+- content > writing
+- make sure big ideas are there
+
+
 - combining references into general statements when they highlight the same thing
 - what's your take? eg. on risk, conditions and access?
 - what can we learn from the review? how does it relate back to your thesis statement?
 - start pars with summary or statement, then use references as evidence
 
-
 - figure numbers/table numbers match
+- reference issues
 
--->
+- check always prop scrounging
 
-<!-- 
-
-relationships directly linked to proportion of scrounging are discussed, tangentially 
-eg. group size related to predation risk, are not considered
+- relationships directly linked to proportion of scrounging are discussed, tangentially eg. group size related to predation risk, are not considered
 
 
 -->
@@ -33,7 +37,6 @@ Recall the @Matthiopoulos_2023 definition of habitat as the collection of enviro
 
 The reviewed literature has also explored many constraints on individuals beyond resources, risks and conditions that shape foraging strategy use and access to available resources including dominance [@Caraco_1989; @Werdenich_2002; @King_2009; @Lee_2016], energy reserves [@Lendvai_2004; @Lee_2016a] and learning [@Afshar_2015; @Aplin_2017] (Box 3). I will take the logic from @Dubois_2005 who posited that predation risk should only influence foraging strategy use if it disproportionately affects certain strategies. Extending this, I concentrate among all the potential variables (Figure S1) to focus on those affecting access and availability of resources differentially depending on role in producer-scrounger dynamics. For clarity and equivalence with Figures 2, 3, and S1, I will discuss only in terms of proportion of scrounging behaviour where negative influences on the proportion of scrounging are equivalent to positive influences on the proportion of producing. 
 
-<!-- check always prop scrounge -->
 
 ## Influence of habitat on foraging strategy
 ### Resources
@@ -91,38 +94,17 @@ Habitat selection theory and producer-scrounger dynamics have different assumpti
 
 Habitat selection analyses have used different definitions of availability and recent increases in computational power have allowed for more precise and realistic approaches. If availability is defined as the total area encompassing an animal's locations (eg. a bounding box), or as an animal's home range, it is assumed that all locations in the area are equally accessible to the animal or that the animal can detect equal representation of each habitat in order to select preferred habitats [@Aarts_2008]. Availability in step selection analyses is constrained by the animal's movement where available points are drawn from probability density functions defining possible distances (step length) and directions (turn angle) travelled [@Aarts_2008; @Johnson_2008; @Thurfjell_2014].
 
-An extension to step selection analyses is to include behaviour to further refine the definition of availability [@Johnson_2008]. Behavioural specific habitat selection can improve our understanding of animals selection depending on behavioural states [@Roever_2014; @Abrahms_2016l @Suraci_2019]. For example, animals may select habitats that provide cover when resting, but not when travelling or foraging. We can potentially better characterize availability by defining it based on behavioural state. By extension, considering the producer-scrounger dynamics in the concept of availability for habitat selection analyses, producers and scroungers are expected to have different habitats available. Recall that scroungers only forage on patches discovered by producers. If the forage availability for scroungers is defined by the spatial relationship of their nearest producer conspecifics, availability could be more accurately represented by incorporating these social foraging relationships. A novel habitat selection methodology could be developed to incorporate availability depending on role in producer-scrounger dynamics, and behavioural state. to specifically consider foraging specific habitat selection. 
+<!--
+@Bastille-Rousseau_2018 - if distribution of step distance and turn angle is made at the based on the scale at which data is recorded, this assumptions means we are expecting animals to select at the scale at which data is recorded
+-->
+
+An extension to step selection analyses is to include behaviour to further refine the definition of availability [@Johnson_2008]. Behavioural specific habitat selection can improve our understanding of animals selection depending on behavioural states [@Roever_2014; @Abrahms_2016l @Suraci_2019]. For example, animals may select certain habitats that provide cover when resting, but avoid these same habitats when travelling or foraging. We can potentially better characterize availability by defining it based on behavioural state. By extension, considering the producer-scrounger dynamics in the concept of availability for habitat selection analyses, producers and scroungers are expected to have different habitats available. Recall that scroungers only forage on patches discovered by producers. If the forage availability for scroungers is defined by the spatial relationship of their nearest producer conspecifics, availability could be more accurately represented by incorporating these social foraging relationships. A novel habitat selection methodology could be developed to incorporate availability depending on role in producer-scrounger dynamics, and behavioural state. to specifically consider foraging specific habitat selection. 
 
 <!-- 
-
-UWsing behavioural states, we can better characterize availability by By defining availability differently based on behavioural states, we can better characterize 
-
-
-  - behavioural specific selection, where including all behaviours leads to poorer inference 
-
-@Bastille-Rousseau_2018 - if distribution of step distance and turn angle is made at the based on the scale at which data is recorded, this assumptions means we are expecting animals to select at the scale at which data is recorded
-
-
-
-
-probability density functions to 
-
-TODO, Rosensweig 1981, Kshatriya and Cosner 2002
-
-- single scale, multiscale @Mayor_2009 
-- population distribution, animal's home range 
-- movement based, turn angles and step distances, distribution corresponding to expectations of animal's movement rate
-
-- The definition of availability has grown in development of concepts and ideas as well as as computational approaches are more efficient and accessible
-
 A future direction for the habitat selection literature would be to attempt to
 reconcile where animal's roles directly influence their availability
 While a producer may have an entire landscape available to them, a scrounger only has the
 landscape uncovered by conspecifics available to them
-
-
-- Movement time and cost are inherently built into the mathematical expression of producer scrounger evo game theory models in the finder s share
-- Nevertheless, many assumptions disregard spatial realities of spatial relationships, movement costs
 
 Roles are not fixed and animals switch between them
 Focal observations would help draw more relationships between habitat conditions and risks
@@ -138,7 +120,16 @@ or set of neighbors within a reasonable distance
 This combination would assume that all individuals may opt to produce or to scrounge at
 each step and that an animal stepping to a neighbour is assumed to be scrounging from it
 
+
+-->
+
+
+
+
 <!-- 
+
+TODO, Rosensweig 1981, Kshatriya and Cosner 2002
+
 - Strategy specialization
 	- Stable dimorphic distribution of producers and scroungers (Aplin_2017)
 	- Individuals likely to use both strategies (Ha_2003)
