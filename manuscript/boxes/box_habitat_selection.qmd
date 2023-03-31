@@ -32,3 +32,6 @@ Mayor multiscale selection
 
 
 conditional nature of preference
+
+
+while AIC is often recommended for evaluating alternative models [@Thurfjell_2014], model selection via AIC should only be used when the goal is to determine the most predictive model and not in cases where the model is used to provide inference about covariates causally influencing use and selection Stat rethink. adding more variables, and adding confounding variables can improve predictive performance and so selecting models for inference should be based on an understanding of the causal structure and not predictive performance of models
