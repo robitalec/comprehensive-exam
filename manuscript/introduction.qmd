@@ -6,7 +6,21 @@ order : 1
 
 Foraging for resources depends on the behaviour of conspecifics. Early individual foraging theory often focused on forage selection, net rate of intake, and effort or quitting time [@Stephens_1986; @Stephens_2007]. Social foraging theory considers the interdependence between a forager's strategy and that of their conspecifics [@Giraldeau_2000; Box 1]. The complexity of multiple individuals foraging from a common patch requires attention to both the density of individuals and the frequency of strategies among them [@Barnard_1981; @Vickery_1991; @Giraldeau_2000]. Social foraging theory considers a minimum criterion for sociality where animals are considered social if their benefits and costs are interdependent [@Giraldeau_2000]. Producer-scrounger dynamics are a type of social foraging model that considers two types of foraging behaviours [@Barnard_1981; @Giraldeau_2000 but see @Vickery_1991]. Producers are animals that independently search for forage patches. Scroungers follow conspecific producers to share or steal from their discovered patches. The frequency of each strategy in a group or population changes its profitability. When producers are rare, scrounging is less favorable since less patches are being discovered. When scroungers are common, producers have to divide their patches among more conspecifics patches [@Vickery_1991; @Giraldeau_2000; @Dubois_2005]. Notably, the accessibility of resources is different depending on the foraging strategy where scroungers only have access to patches made available to them by producers. 
 
-Determining the subset of available habitats that are accessible to animals has long been a methodological focus of habitat selection analyses (CITE CITE). 
+Determining the subset of available habitat that is accessible to animals has been a methodological focus of habitat selection analyses [@Beyer_2010; @Northrup_2013; @Matthioplous_2020]. Part of this focus is due to the inherent requirement for a definition of availability to calculation selection. Preferential selection of a habitat by an animal is defined as the disproportionate use given the availability. If the measurement of available habitat is inaccurate, the measure of selection will be inaccurate. Advances in theory and computational power have offered a refined measure of availability that is constrained to variables related to animal's movement patterns [@Thurfjell_2014]. Given these, habitat selection analyses help discern the relationship between animal's movement and their selection or avoidance for particular habitats [@Matthioplous_2023, Box 2]. 
+
+A habitat is defined as a combination of environmental variables categorized as resources, risks and conditions [@Aarts_2008; @Matthioplous_2023; Box 2]. Resources are variables that provide a benefit to an animal including forage, mating opportunities, resting sites, and nesting sites. Risks are variables that can have a negative influence on survival or contribute to perceived risk including predation, anthropogenic disturbance or harvest, and parasites. Conditions are variables that often have negative effects when they are extreme but neutral effects at average levels including temperature, humidity, salinity, and wind speed. Resources, risks and conditions influence behavioural selection of habitats and species distributions [@Matthioplous_2023]. <!-- tie into behaviour influence -->
+
+How is foraging strategy related to access
+How is foraging strategy influenced by RRC
+How is availability informed by foraging strategy
+
+
+Habitats are defined as a collection of environmental variables categorized as resources, risks and conditions. 
+
+
+
+
+ of habitat is inaccurate, the measure of selection will Selection of habitat by animals is the disproportionate use given the ava
 
 
 Considering habitat as RRC, how is access among producers and scroungers changed
