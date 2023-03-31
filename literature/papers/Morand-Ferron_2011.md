@@ -7,5 +7,3 @@ Morand-Ferron, Julie, Gi-Mick Wu, and Luc-Alain Giraldeau. 2011. “Persistent I
 ---
 
 [individual-differences](../topics/individual-differences.md) in strategies in [producer-scrounger](../topics/producer-scrounger.md) dynamics
-
-%% Import Date: 2023-03-15T16:15:15.554-03:00 %%

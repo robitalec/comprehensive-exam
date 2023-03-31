@@ -27,4 +27,4 @@ three-spined sticklebacks  (Gasterosteus aculeatus)
 Social foraging dynamics of three-spined sticklebacks to determine if fish tend to use private information or rely on social information. 
 
 ### Outcome
-Fish's allocation to alternative foraging tactics can be explained by environmental quality. In larger patch sizes fish have a reduced finder's share and tend to scrounge more often. In smaller patch sizes fish rely on private information, solitary foraging. Payoffs were higher for fish that produced in all environmental conditions, likely due in part to consistent interindividual differences in foraging efficiency and body size
+Fish's allocation to alternative foraging tactics can be explained by environmental quality. In larger [patch-size](../topics/patch-size.md) fish have a reduced finder's share and tend to scrounge more often. In smaller [patch-size](../topics/patch-size.md) fish rely on private information, solitary foraging. Payoffs were higher for fish that produced in all environmental conditions, likely due in part to consistent interindividual differences in foraging efficiency and body size

@@ -3,12 +3,75 @@ title: Introduction
 order : 1
 ---
 
+<!-- 
 
 
-Primary goals are to
+get pyramid
 
-1. Determine how foraging strategies are influenced by risks and conditions
-1. Determine how access to available resources is driven by foraging strategies
-1. Consider how the concept of availability during habitat selection can be extended to include foraging strategies
+
+
+
+
+Access to available resources is a prereq for animal survival
+Habitat selection theory has defined availability as X, Y, Z
+
+Individual foraging theory 
+
+
+--> 
+
+
+
+- Behavioural selection for habitat is based in the decision when to leave a patch and where to go next @Matthioplous_2023
+- Habitats defined as RRC
+- Aspatial, environmental space
+- Beyond selecting for habitats for forage or for resting spaces, habitats under this definition allow for multiple scales of selection
+- Habitat selection: used available
+
+
+- Individual foraging theory 
+
+
+
+
+
+
+
+- Access to available resources is a prerequisite for animal survival
+- At the species level, there are eg. differences in specialization/generalization of resources, migratory behaviours, etc
+- Within species, individuals use different strategies  foraging strategies to meet energetic needs including prey/forage selection, effort/quitting time, balancing environmental variables, eg. temperature or insect harassment, with patch quality
+- Individuals also differ in morphological traits, eg. body size, and behaviours, eg. dominance or aggression, that can influence access 
+
+- Both mobile and immobile prey can also have temporal cycles through seasons of plant productivity or potential timing of antipredator behaviours / increased risks for prey eg. reproductive timing
+
+- Individual foraging theory emphasizes the selection of prey, net rate of intake and attack probabilities for individuals
+
+
+- ## Social foraging theory
+- (See Box)
+- Social foraging theory extends individual foraging theory by considering the complexity of multiple individuals in a common resource
+- Social foraging theory is grounded in evolutionary game theory and it seeks to determine optimal strategies given density and behaviour of conspecifics
+- Frequency dependence explained, eg. the payoffs and penalties of different strategies are density dependent
+- Social foraging theory has consider numerous foraging behaviours including interference, kleptoparasitism and producer-scrounger dynamics. 
+- Here we will focus on producer-scrounger dynamics and consider where food items are divisible to distinguish it from kleptoparasitism
+- Producer-scrounger dynamics consider two types of strategies. Producers search for and find food patches. Scroungers do not search for patches and attempt to steal or divide food patches with producers
+- Assumptions around cost of contest, division of items in foraging patch
+- And extensions to evaluate dominance, energy reserves, etc 
+- Approaches to social foraging / producer scrounger models
+
+
+
+- ## Habitat selection
+
+
+
+
+
+<!-- from discussion -->
+
+The objective was to answer the question: "How does one's role in frequency-dependent producer-scrounger dynamics influence access to available resources considering risks and conditions during habitat selection?". From this, I defined three goals: 1) to determine how foraging strategies differ in access to available resources, 2) to determine how risks and conditions influence foraging strategies and 3) to consider how the concept of availability during habitat selection can be extended to include foraging strategies. For 1) and 2), I identified empirical tests and model predictions in the literature that contribute to our understanding of access to available resources, and the influence of habitat risks and conditions on producer-scrounger dynamics. For 3), I propose extending the concept of availability from the habitat selection literature to incorporate role in producer-scrounger dynamics. 
+
+
+
 
 
