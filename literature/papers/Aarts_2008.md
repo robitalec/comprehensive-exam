@@ -10,6 +10,6 @@ Aarts, Geert, Monique MacKenzie, Bernie McConnell, Mike Fedak, and Jason Matthio
 - points in space are not all equally accessible to animals
 	- assumption that animals have equal access to all points in geographical space equally
 	- Johnson 1980 identified accessible space as within an animal's home range
-	- mechanistic approach by evaluating if an animal could travel from a starting position to available possition through eg. movement speed, travel type (land, water, air) or obstacles
+	- mechanistic approach by evaluating if an animal could travel from a starting position to available position through eg. movement speed, travel type (land, water, air) or obstacles
 		- represented as a probability density function from which random points can be sampled to construct available set of points
 		- 
