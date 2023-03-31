@@ -13,7 +13,7 @@ compared to RSFs, step selection functions:
 - linking successive animal locations as steps
 - random steps start at the observed location and end at a point defined by a random draw from step distance and turn angle distributions
 - objective is how covariates affect selection of steps
-- movement constrains availability and selection
+- movement constrains [availability](../topics/availability.md) and selection
 
 
 selection of step length distance and turn angle is likely to be the most critical aspect of SSFs

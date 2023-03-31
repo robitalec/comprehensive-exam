@@ -10,6 +10,6 @@ Northrup, Joseph M., Eric Vander Wal, Maegwin Bonar, John Fieberg, Michel P. Laf
 
 often definitions of available distribution are meant to capture one of the four orders of selection [Johnson_1980](Johnson_1980.md)
 
-recommend sensitivity analyses since accessibility and availability will never be known
+recommend sensitivity analyses since accessibility and [availability](../topics/availability.md) will never be known
 
 > Including distance as a covariate in selection  functions can also facilitate simultaneous estimation of  movement and habitat-selection processes by integrated  step-selection analyses (iSSAs; Avgar et al. 2016, Fieberg  et al. 2021)

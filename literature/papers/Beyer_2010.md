@@ -20,13 +20,13 @@ presence or occupancy does not imply selection
 
 activity patterns and habitat use can vary diurnally and seasonally 
 
-availability can be quantified at many spatial and temporal scales
+[availability](../topics/availability.md) can be quantified at many spatial and temporal scales
 
-one way of quantifying availability is to use a movement model which can include many factors that influence accessibility and weight availability by an estimate of their accessibility
+one way of quantifying [availability](../topics/availability.md) is to use a movement model which can include many factors that influence accessibility and weight [availability](../topics/availability.md) by an estimate of their accessibility
 
-given the preference is defined conditionally on the availability, there are a number of challenges:
+given the preference is defined conditionally on the [availability](../topics/availability.md), there are a number of challenges:
 
-- Positive (or negative) preference for a given habitat  implies only that the habitat is used ore (or less) frequently than expected by chance, conditional upon the  defined sample of availability
-- The sign and magnitude of the estimate of  preference is a function of both the sample of use  and the sample of availability. This creates an identifiability problem because reference can change as a  function of changing use and/or changing availability.  If the sample of availability differs between two  estimates of preference, it is meaningless to draw inferences based on the difference in preference
+- Positive (or negative) preference for a given habitat  implies only that the habitat is used ore (or less) frequently than expected by chance, conditional upon the  defined sample of [availability](../topics/availability.md)
+- The sign and magnitude of the estimate of  preference is a function of both the sample of use  and the sample of [availability](../topics/availability.md). This creates an identifiability problem because reference can change as a  function of changing use and/or changing [availability](../topics/availability.md).  If the sample of [availability](../topics/availability.md) differs between two  estimates of preference, it is meaningless to draw inferences based on the difference in preference
 - preference is not necessarily correlated with the value of the habitat to an animal, and cannot be used to gauge relative importance of different habitat
-- a coefficient near zero may indicate selection for the habitat occurs at other levels of availability
+- a coefficient near zero may indicate selection for the habitat occurs at other levels of [availability](../topics/availability.md)
