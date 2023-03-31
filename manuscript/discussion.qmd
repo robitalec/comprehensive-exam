@@ -87,11 +87,27 @@ Resources, risks and conditions are expected to have numerous and complex intera
 
 ## Contrasting approaches to availability
 
-Habitat selection theory and producer-scrounger dynamics have different assumptions regarding availability of habitat. Social foraging theory seeks to determine how foraging behaviour is affected by conspecifics [@Vickery_1991]. In producer-scrounger dynamics, the frequency of foraging strategies in a group or population contribute to the payoffs and penalties for individuals and the optimal behavioural choice is the one that cannot be improved by any alternative choice [@Vickery_1991; @Giraldeau_2000]. Models of producer-scrounger dynamics often assume that any patch discovered by a producer is available to all scroungers, disregarding the distance between patches or movement costs [for example @Vickery_1991; @Barta_2000 but see @Beauchamp_2008]. Behavioural selection of habitat is the preferential use of a habitat, disproportionate to its availability [@Beyer_2010; @Matthiopoulos_2023]. Different definitions and calculations of availability can influence predictions [@Matthiopoulos_2020] and different scales of availability can change the direction and magnitude of selection [@Beyer_2010]. In contrast with models of producer-scrounger dynamics, the definition of availability is integral to estimating habitat selection. 
+Habitat selection theory and producer-scrounger dynamics have different assumptions regarding availability of habitat. Social foraging theory seeks to determine how foraging behaviour is affected by conspecifics [@Vickery_1991]. In producer-scrounger dynamics, the frequency of foraging strategies in a group or population contribute to the payoffs and penalties for individuals and the optimal behavioural choice is the one that cannot be improved by any alternative choice [@Vickery_1991; @Giraldeau_2000]. Models of producer-scrounger dynamics often assume that any patch discovered by a producer is available to all scroungers, disregarding the distance between patches or movement costs [for example @Vickery_1991; @Barta_2000 but see @Beauchamp_2008]. Behavioural selection of habitat is the preferential use of a habitat, disproportionate to its availability [@Beyer_2010; @Matthiopoulos_2023]. The definition and calculation of availability can influence predictions [@Matthiopoulos_2020] and different scales of availability can change the direction and magnitude of selection [@Mayor_2009, @Beyer_2010]. In contrast with models of producer-scrounger dynamics, the definition of availability is integral to estimating habitat selection. 
 
-Different definitions of availability
+Habitat selection analyses have used different definitions of availability and recent increases in computational power have allowed for more precise and realistic approaches. If availability is defined as the total area encompassing an animal's locations (eg. a bounding box), or as an animal's home range, it is assumed that all locations in the area are equally accessible to the animal or that the animal can detect equal representation of each habitat in order to select preferred habitats [@Aarts_2008]. Availability in step selection analyses is constrained by the animal's movement where available points are drawn from probability density functions defining possible distances (step length) and directions (turn angle) travelled [@Aarts_2008; @Johnson_2008; @Thurfjell_2014].
 
-TODO: - @Aarts_2008, @Thurfjell_2014, @Northrup_2013
+An extension to step selection analyses is to include behaviour to further refine the definition of availability [@Johnson_2008]. Behavioural specific habitat selection can improve our understanding of animals selection depending on behavioural states [@Roever_2014; @Abrahms_2016l @Suraci_2019]. For example, animals may select habitats that provide cover when resting, but not when travelling or foraging. We can potentially better characterize availability by defining it based on behavioural state. By extension, considering the producer-scrounger dynamics in the concept of availability for habitat selection analyses, producers and scroungers are expected to have different habitats available. Recall that scroungers only forage on patches discovered by producers. If the forage availability for scroungers is defined by the spatial relationship of their nearest producer conspecifics, availability could be more accurately represented by incorporating these social foraging relationships. A novel habitat selection methodology could be developed to incorporate availability depending on role in producer-scrounger dynamics, and behavioural state. to specifically consider foraging specific habitat selection. 
+
+<!-- 
+
+UWsing behavioural states, we can better characterize availability by By defining availability differently based on behavioural states, we can better characterize 
+
+
+  - behavioural specific selection, where including all behaviours leads to poorer inference 
+
+@Bastille-Rousseau_2018 - if distribution of step distance and turn angle is made at the based on the scale at which data is recorded, this assumptions means we are expecting animals to select at the scale at which data is recorded
+
+
+
+
+probability density functions to 
+
+TODO, Rosensweig 1981, Kshatriya and Cosner 2002
 
 - single scale, multiscale @Mayor_2009 
 - population distribution, animal's home range 
@@ -126,6 +142,8 @@ each step and that an animal stepping to a neighbour is assumed to be scrounging
 - Strategy specialization
 	- Stable dimorphic distribution of producers and scroungers (Aplin_2017)
 	- Individuals likely to use both strategies (Ha_2003)
+-->
+
 -->
 
 ## References
