@@ -106,6 +106,9 @@ reconcile where animal's roles directly influence their availability
 While a producer may have an entire landscape available to them, a scrounger only has the
 landscape uncovered by conspecifics available to them
 
+So that social foraging can be integrated with resources, risks and conditions
+
+
 Roles are not fixed and animals switch between them
 Focal observations would help draw more relationships between habitat conditions and risks
 and foraging strategy use
@@ -119,6 +122,10 @@ or set of neighbors within a reasonable distance
 
 This combination would assume that all individuals may opt to produce or to scrounge at
 each step and that an animal stepping to a neighbour is assumed to be scrounging from it
+
+
+
+can issa tell us about behaviour eg. like hmm
 
 
 -->
