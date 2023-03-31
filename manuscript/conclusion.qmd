@@ -4,75 +4,41 @@ order: 4
 ---
 
 
-## Group level or population effects
-
-<!-- why are producer-scrounger dynamics important to consider? -->
-
-<!--
-- Population
-	- Scrounging can act as a population regulator by reducing population level foraging efficiency and intake rate and allowing larger population sizes of predators (Coolen_2007)
-	- Social foraging can stabilize one prey and two prey systems when scrounging is prevalent in predators (Toyokawa_2017) (Vickery_2020)
-	- Scrounging can lower the growth rate of a population (Toyokawa_2017)
-	- Scrounging can allow prey resources to persist at higher densities than if scrounging was absent (Toyokawa_2017) (Vickery_2020)
-	- Presence of scroungers in a predator can reduce the total amount of resource acquired by the group (Vickery_2020)
-	- Presence of scroungers in a predator can limit group size (Vickery_2020)
-	- Presence of scroungers in a predator can limit a predator's ability to outcompete other species promoting stability and species diversity (Vickery_2020)
-	- Scrounging will not stability population dynamics, food chains and competitor interactions under all cases, if scrounging is too prevalent it can push the population to extinction  	- Other factors such as food abundance, variations in weather, predators and parasites may have stronger effects that can completely obscure the effects of scrounging on populations (Vickery_2020)
-
-
-
-Stable dimorphic learning
--->
-
-## Representation
-
-
-The producer-scrounger dynamics has been examined using three categories of approaches: empirical tests (Table S2, 61.8 % of relevant studies), evolutionary game theory models (Table S2, 20.1 % of relevant studies) and other approaches (Table S2, 17.9 % of relevant studies). Birds , mammals and ray-finned fishes were
-
-three species make up 30% of studies
-
-many species with only one study
-
-<!-- remove "Notables" from results and move here or discussion -->
-
-
-
-## Future directions
-
-1. Establish the relationship with conditions using experiments or observations
-1. Consider different types of risks
-1. Incorporate producer-scrounger role into habitat selection availability
+- Goal
+	- 1. How is access to available resources determined by role?
+	- 2. How are foraging strategies influenced by habitat?
+	- 3. How is availability informed by behaviour, specifically p-s dynamics?
+- Position/angle
+	- Prioritize how risks and conditions influence foraging strategy
+	- Identify gaps
+	- Consider extensions to habitat selection from foraging
+- Results
+	- Reviewed literature
+	- N approach, species, etc
+		- The producer-scrounger dynamics has been examined using three categories of approaches: empirical tests (Table S2, 61.8 % of relevant studies), evolutionary game theory models (Table S2, 20.1 % of relevant studies) and other approaches (Table S2, 17.9 % of relevant studies). Birds , mammals and ray-finned fishes were
+		- three species make up 30% of studies
+		- many species with only one study
+	- remove "Notables" from results and move here or discussion
+	- Fig S1
+	- Group/population level outcomes
+		- Scrounging can act as a population regulator by reducing population level foraging efficiency and intake rate and allowing larger population sizes of predators (Coolen_2007)
+		- Social foraging can stabilize one prey and two prey systems when scrounging is prevalent in predators (Toyokawa_2017) (Vickery_2020)
+		- Scrounging can lower the growth rate of a population (Toyokawa_2017)
+		- Scrounging can allow prey resources to persist at higher densities than if scrounging was absent (Toyokawa_2017) (Vickery_2020)
+		- Presence of scroungers in a predator can reduce the total amount of resource acquired by the group (Vickery_2020)
+		- Presence of scroungers in a predator can limit group size (Vickery_2020)
+		- Presence of scroungers in a predator can limit a predator's ability to outcompete other species promoting stability and species diversity (Vickery_2020)
+		- Scrounging will not stability population dynamics, food chains and competitor interactions under all cases, if scrounging is too prevalent it can push the population to extinction  	- Other factors such as food abundance, variations in weather, predators and parasites may have stronger effects that can completely obscure the effects of scrounging on populations (Vickery_2020)
+- Conclusions
+	- Few examples of risks, conditions
+	- Many individual constraints
+- Future directions
+	- Expand risks considered
+	- Explore influence of conditions
+	- Determine which variables are most important eg. dominance, spatial position beyond role
+	- Incorporate role into availability in habitat selection
+	- What's the priority?
+		-In addition, a consideration for the broader challenges on animals is required while foraging is critical for survival, so is managing extreme temperatures which is the priority?
+		- Predictions of dynamic habitat change (eg. due to anthropogenic disturbance) could be related to increases or decreases in rates of producer and scrounger strategies
 
 
-
-- social foraging theory
-    - how animals maximize their fitness using different strategies to forage in the presence of conspecifics
-    - behaviour strategies that maximize fitness
-    - related to conspecifics
-- habitat selection
-    - how animals maximize fitness by selecting different habitats
-    - distribution of species in environmental space
-    - inference about relationship between environmental variables and habitat use
-    - prediction for habitat use in new temporal or spatial environments
-
-
-resources often considered in producer-scrounger literature
-
-?conspecifics considered in habitat selection literature
-
-
-
-Maybe:
-
-- Since dominance individuals tend to scrounge more often, use focal observations to determine dominance hierarchies 
-- If dominant individual, assume step distribution more limited to producer distribution
-
-
-<!--
- A producer should leave a patch earlier than a scrounger if the producer has a finder's share (Rita_1997)
--->
-
-
-In addition, a consideration for the broader challenges on animals is required
-while foraging is critical for survival, so is managing extreme temperatures 
-which is the priority?
