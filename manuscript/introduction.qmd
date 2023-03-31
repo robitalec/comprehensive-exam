@@ -6,16 +6,42 @@ order : 1
 <!-- 
 
 
-get pyramid
+- Access to available resources is a prereq for animal survival
+- Individual foraging
+    - prey/forage selection
+    - net rate of intake
+    - effort/quitting time
+    - balance patch quality with risks or costs
+- Social foraging
+    - See Box
+    - Social foraging theory extends individual foraging theory by considering
+the complexity of multiple individuals in a common resource
+    - The criteria for regarding animals as social in this context simply
+requires interdependence of the payoffs and penalties of their strategies
+    - Animal sociality is often described as a balance between advantages and disadvantages. Social foraging theory is not centred on competing causes of sociality. Rather the payoffs and penalties are directly integrated as currencies of fitness. 
+- Producer scrounger dynamics
+    - Producer-scrounger dynamics consider two types of strategies. Producers search
+for and find food patches. Scroungers do not search for patches and attempt to steal or divide food patches with producers
+    - Frequency dependence
+    - Some assumptions
+    - Approaches: game theory, empirical, other simulations
+- 1. How is access to available resources determined by role?
+- Conspecifics influence but so does habitat
+    - Habitat = resources, risks, conditions
+    - Species-habitat associations are used to understand the relationship between
+species distribution and habitats (three general goals: estimation, inference, 
+and prediction)
+2. How are foraging strategies influenced by habitat?
+    - resources
+    - risks
+    - conditions
+- Approach of habitat selection analyses
+3. How is availability informed by behaviour, specifically p-s dynamics?
+- Methods
+    - Review 
 
 
-
-
-
-Access to available resources is a prereq for animal survival
-Habitat selection theory has defined availability as X, Y, Z
-
-Individual foraging theory 
+Include figure 1
 
 
 --> 
