@@ -167,3 +167,10 @@ control and execute
 Producer-scrounger dynamics give us a mechanistic approach to investigating
 how animals can select foraging strategies depending conspecifics to maximize 
 their fitness outcomes
+
+
+
+
+
+---
+Producer-scrounger dynamics consider the payoffs and penalties of strategies given the density of conspecifics and their corresponding strategies. A strategy whose fitness cannot be improved given the current environment and set of conspecifics' strategies or a strategy that resists the invasion of a rare alternative is an evolutionary stable strategy.
