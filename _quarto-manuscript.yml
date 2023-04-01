@@ -6,11 +6,12 @@ book:
   author: "Alec L. Robitaille"
   date: "2023-04-03"
   chapters:
-    - introduction.qmd
-    - results.qmd
-    - discussion.qmd
-    - references.qmd
+    - index.qmd
+    - manuscript/introduction.qmd
+    - manuscript/results.qmd
+    - manuscript/discussion.qmd
+    - manuscript/references.qmd
 
-bibliography: '../references/comprehensive-exam.bib'
+bibliography: 'references/comprehensive-exam.bib'
 
 format: pdf
