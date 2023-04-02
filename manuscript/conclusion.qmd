@@ -4,6 +4,7 @@ order: 4
 ---
 
 
+To address the question: "How does one's role in frequency-dependent producer-scrounger dynamics influence access to available resources considering risks and conditions during habitat selection?", I defined three goals: 1) to determine how foraging strategies differ in access to available resources, 2) to determine how risks and conditions influence foraging strategies and 3) to consider how the concept of availability during habitat selection can be extended to include foraging strategies. For 1) and 2), I identified empirical tests and model predictions in the literature that contribute to our understanding of access to resources and the influence of habitat risks and conditions. For 3), I proposed an extension to the concept of availability from habitat selection analyses to incorporate role in producer-scrounger dynamics. 
 - Goal
 	- 1. How is access to available resources determined by role?
 	- 2. How are foraging strategies influenced by habitat?
