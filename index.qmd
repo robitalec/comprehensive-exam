@@ -1,12 +1,3 @@
----
-author: 
-  - name: Alec L. Robitaille
-    affiliations: Memorial University
-date: "2023-03-03"
----
-
-
-
 ```{r}
 #| include: false
 source('R/packages.R')
@@ -15,3 +6,5 @@ tar_read(example_formula)
 
 
 ## Acknowledgements
+
+
