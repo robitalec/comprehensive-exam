@@ -1,6 +1,6 @@
 ---
 title: Conclusion
-order: 4
+order: 5
 bibliography: '../references/comprehensive-exam.bib'
 ---
 

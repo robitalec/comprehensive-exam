@@ -1,6 +1,6 @@
 ---
 title: Results
-order: 2
+order: 3
 bibliography: '../references/comprehensive-exam.bib'
 csl: '../references/harvard-cite-them-right.csl'
 ---
