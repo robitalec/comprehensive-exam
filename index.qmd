@@ -3,7 +3,7 @@ title: "PhD Comprehensive Exam"
 author: 
   - name: Alec L. Robitaille
     affiliations: Memorial University
-date: "`r Sys.Date()`"
+date: "2023-03-03"
 ---
 
 
