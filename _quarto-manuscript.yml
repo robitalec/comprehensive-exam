@@ -28,9 +28,8 @@ format:
   pdf:
     include-in-header:
       text: |
-        \usepackage{lipsum}
         \usepackage{setspace}
         \doublespacing
-        \usepackage[sfdefault]{carlito}
+        \usepackage[sfdefault,lf]{carlito}
     fontsize: 12pt
     margin: 1
