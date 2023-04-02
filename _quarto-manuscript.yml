@@ -2,8 +2,14 @@ project:
   type: book
 
 book:
-  title: "Manuscript"
-  author: "Alec L. Robitaille"
+  title: "Ph.D. Comprehensive Examamination"
+  subtitle: "In the context of frequency-dependent producer-scrounger dynamics,
+  how would one’s role affect access to available resources considering risks 
+  and conditions during habitat selection?"
+  output-file: "Robitaille_Alec_PhD_Comprehensive_Examination"
+  author: 
+    - name: Alec L. Robitaille
+      affiliations: Memorial University
   date: "2023-04-03"
   chapters:
     - index.qmd
