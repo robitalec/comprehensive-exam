@@ -4,42 +4,57 @@ order: 4
 ---
 
 
+
+
+
 To address the question: "How does one's role in frequency-dependent producer-scrounger dynamics influence access to available resources considering risks and conditions during habitat selection?", I defined three goals: 1) to determine how foraging strategies differ in access to available resources, 2) to determine how risks and conditions influence foraging strategies and 3) to consider how the concept of availability during habitat selection can be extended to include foraging strategies. For 1) and 2), I identified empirical tests and model predictions in the literature that contribute to our understanding of access to resources and the influence of habitat risks and conditions. For 3), I proposed an extension to the concept of availability from habitat selection analyses to incorporate role in producer-scrounger dynamics. 
-- Goal
-	- 1. How is access to available resources determined by role?
-	- 2. How are foraging strategies influenced by habitat?
-	- 3. How is availability informed by behaviour, specifically p-s dynamics?
-- Position/angle
-	- Prioritize how risks and conditions influence foraging strategy
-	- Identify gaps
-	- Consider extensions to habitat selection from foraging
-- Results
-	- Reviewed literature
-	- N approach, species, etc
-		- The producer-scrounger dynamics has been examined using three categories of approaches: empirical tests (Table S2, 61.8 % of relevant studies), evolutionary game theory models (Table S2, 20.1 % of relevant studies) and other approaches (Table S2, 17.9 % of relevant studies). Birds , mammals and ray-finned fishes were
-		- three species make up 30% of studies
-		- many species with only one study
-	- remove "Notables" from results and move here or discussion
-	- Fig S1
-	- Group/population level outcomes
-		- Scrounging can act as a population regulator by reducing population level foraging efficiency and intake rate and allowing larger population sizes of predators (Coolen_2007)
-		- Social foraging can stabilize one prey and two prey systems when scrounging is prevalent in predators (Toyokawa_2017) (Vickery_2020)
-		- Scrounging can lower the growth rate of a population (Toyokawa_2017)
-		- Scrounging can allow prey resources to persist at higher densities than if scrounging was absent (Toyokawa_2017) (Vickery_2020)
-		- Presence of scroungers in a predator can reduce the total amount of resource acquired by the group (Vickery_2020)
-		- Presence of scroungers in a predator can limit group size (Vickery_2020)
-		- Presence of scroungers in a predator can limit a predator's ability to outcompete other species promoting stability and species diversity (Vickery_2020)
-		- Scrounging will not stability population dynamics, food chains and competitor interactions under all cases, if scrounging is too prevalent it can push the population to extinction  	- Other factors such as food abundance, variations in weather, predators and parasites may have stronger effects that can completely obscure the effects of scrounging on populations (Vickery_2020)
-- Conclusions
-	- Few examples of risks, conditions
-	- Many individual constraints
-- Future directions
-	- Expand risks considered
-	- Explore influence of conditions
-	- Determine which variables are most important eg. dominance, spatial position beyond role
-	- Incorporate role into availability in habitat selection
-	- What's the priority?
-		-In addition, a consideration for the broader challenges on animals is required while foraging is critical for survival, so is managing extreme temperatures which is the priority?
-		- Predictions of dynamic habitat change (eg. due to anthropogenic disturbance) could be related to increases or decreases in rates of producer and scrounger strategies
+
+
+We started with separate bodies of literature where social foraging concerns
+interdependence of individual's foraging strategies and 
+
+habitat selection concerns the relationship between used and available habitats to determine preferential selection 
+
+They have different objectives and approaches
+
+social foraging is focused on behaviour and observations and how individuals are theoretically (evo game theory) expected to maximize their foraging payoffs
+and actually (empirically) constrained by dominance or relatedness or energy reserves
+
+
+we learned that producer scrounger literature hasnt really considered risks and conditions
+
+we learned that it is largely been tested on birds and many species have not been tested multiple times 
+
+while there isnt a already tested relationship between habitat RRC and producer scrounger dynamics in most cases, there is a clear path forward
+consider constraints and measure the influence of RRC
+
+definition of habitat can inform future studies of producer scrounger dynamics by highlighting potentially influential variables, categorized by their expected fitness 
+
+
+
+we also identtified a methodological connection to expand habitat selection from produycer scrounger dynamics
+while the ddefinition of availability continues to be refined by considering animal's movement patterns, behaviours hahve not been as quickly adopted
+
+we note the HMM, behavioural state approach
+of which we propose should be integrated with foraging strategy 
+
+within behavioural state, animals make different selections
+eg for resting, or foraging
+
+within behavioural states that incorporate foraging, how do foraging strategies impact availability, eg. scroungers only where nearby conspecific producers
+
+
+
+
+
+
+While the producer-scrounger literature has not explicitly tested the influence of a diverse set of habitat risks and conditions (Table 1), a broad set of related variables have been identified as individual constraints (Box 3). Dominiance, relatedness and energy reserves, for example, have been shown to have large contributions to an animal's foraging strategy and their corresponding foraging success among conspecifics. In future empirical tests, risks and conditions must be carefully integrated to measure their specific relationships with foraging strategy and avoid confounding with individual constraints. In addition, more empirical tests are required on species underrepresented in the literature. Many species were only involved in one empirical test (Table S4) and entire classes of vertebrates were not represented (Table S3). Conflicts in the literature such as 
+
+The proposed extension of resource availability to consider an individual's role in producer-scrounger dynamics offers the integration of social foraging theory and habitat selection analyses. As the concept of availaility in habitat selection has developed, the subset of habitat that is realistically accessible has been constrained using variables related to the animal's movement. By incorporating behaviours, the distinctions between available and accessible habitats can be further refined. Consider first categorizingg an animal's movement according to a particular behavioural mode, eg. exploratory or encamped. Within encamped animal telemetry dataFirs, animal's behavioural mode, eg. foraging or encamped, 
+
+
+
+
+connection between p-s and modern tracking technology
 
 
