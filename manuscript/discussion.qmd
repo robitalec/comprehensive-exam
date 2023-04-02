@@ -29,6 +29,8 @@ revise considering:
 
 -->
 
+To address the question: "How does one's role in frequency-dependent producer-scrounger dynamics influence access to available resources considering risks and conditions during habitat selection?", I defined three goals: 1) to determine how foraging strategies differ in access to available resources, 2) to determine how risks and conditions influence foraging strategies and 3) to consider how the concept of availability during habitat selection can be extended to include foraging strategies. For 1) and 2), I identified empirical tests and model predictions in the literature that contribute to our understanding of access to resources and the influence of habitat risks and conditions. For 3), I propose an extension to the concept of availability from habitat selection analyses to incorporate role in producer-scrounger dynamics. 
+
 
 Recall the @Matthiopoulos_2023 definition of habitat as the collection of environmental variables categorized as resources, risks and conditions. The literature reviewed (Table S1) has overwhelmingly focused on the influence of resources on producer-scrounger dynamics, leaving the influence of risks and conditions largely ignored (Table 1). Of the studies that examined the influence of risks, they mainly did so using proxies for perception of predation risk in controlled environments [eg. @Barta_2004; @Mathot_2007; but see @Bugnyar_2002]. Only one study considered the influence of conditions, though it is deemed here an example of kleptoparasitism rather than producer-scrounger dynamics because food items were indivisible [@Ha_2003, see details in Conditions below]. 
 

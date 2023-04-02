@@ -7,7 +7,7 @@ order: 4
 
 
 
-To address the question: "How does one's role in frequency-dependent producer-scrounger dynamics influence access to available resources considering risks and conditions during habitat selection?", I defined three goals: 1) to determine how foraging strategies differ in access to available resources, 2) to determine how risks and conditions influence foraging strategies and 3) to consider how the concept of availability during habitat selection can be extended to include foraging strategies. For 1) and 2), I identified empirical tests and model predictions in the literature that contribute to our understanding of access to resources and the influence of habitat risks and conditions. For 3), I proposed an extension to the concept of availability from habitat selection analyses to incorporate role in producer-scrounger dynamics. 
+
 
 
 We started with separate bodies of literature where social foraging concerns
@@ -21,6 +21,8 @@ social foraging is focused on behaviour and observations and how individuals are
 and actually (empirically) constrained by dominance or relatedness or energy reserves
 
 
+
+
 we learned that producer scrounger literature hasnt really considered risks and conditions
 
 we learned that it is largely been tested on birds and many species have not been tested multiple times 
@@ -29,6 +31,8 @@ while there isnt a already tested relationship between habitat RRC and producer 
 consider constraints and measure the influence of RRC
 
 definition of habitat can inform future studies of producer scrounger dynamics by highlighting potentially influential variables, categorized by their expected fitness 
+
+
 
 
 
