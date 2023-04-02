@@ -9,7 +9,13 @@ project:
 
 
 website:
-  title: "Comprehensive exam"
+  title: "Ph.D. Comprehensive Examamination"
+  subtitle: "In the context of frequency-dependent producer-scrounger dynamics,
+  how would one’s role affect access to available resources considering risks 
+  and conditions during habitat selection?"
+  author: 
+    - name: Alec L. Robitaille
+      affiliations: Memorial University
   navbar:
      right:
       - icon: gitlab
