@@ -11,12 +11,11 @@ date: "2023-03-03"
 
 
 
-{{< include README.md >}}
-
-
-
 ```{r}
 #| include: false
 source('R/packages.R')
 tar_read(example_formula)
 ```
+
+
+## Acknowledgements
