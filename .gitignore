@@ -9,3 +9,6 @@ literature/.obsidian/
 
 /.quarto/
 *.canvas
+
+pdf/*
+!/pdf/Robitaille_Alec_PhD_Comprehensive_Examination.pdf
