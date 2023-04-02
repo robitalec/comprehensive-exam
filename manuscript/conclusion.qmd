@@ -5,20 +5,10 @@ order: 4
 
 
 
+Social foraging theory and habitat selection are related but relatively distinct bodies of literature. Whereas social foraging theory is concerned with the interdependence of individuals' foraging strategies, habitat selection is interested in the relationship between an an individuals' used and available habitats. Approaches to social foraging theory most commonly include evolutionary game theory models and empirical tests, where the outcomes are centered on observed behaviours and optimal strategies. Habitat selection analyses seek to determine species distributions, inference of selection for habitat variables and predictions of expected use of novel spatial and temporal landscapes. Despite their differences in focus and methodology, habitat selection and social foraging theory are unified by their shared interest in how animals use behaviour to balance the costs and benefits of their habitats.  I have identified that habitat selection can lend a comprehensive definition of habitat to social foraging theory, and that social foraging theory can offer a precision to the habitat selection definition of availability. 
 
+While the producer-scrounger literature has not explicitly tested the influence of a diverse set of habitat risks and conditions (Table 1), a broad set of related variables have been identified as individual constraints (Box 3). Dominiance, relatedness and energy reserves, for example, have been shown to have large contributions to an animal's foraging strategy and their corresponding foraging success among conspecifics. In future empirical tests, risks and conditions must be carefully integrated to avoid confounding with individual constraints. In addition, more empirical tests are required on species underrepresented in the literature. Most species were only involved in one empirical test (Table S4) and entire classes of vertebrates were not represented (Table S3). Conflicts in the literature such as 
 
-
-
-
-We started with separate bodies of literature where social foraging concerns
-interdependence of individual's foraging strategies and 
-
-habitat selection concerns the relationship between used and available habitats to determine preferential selection 
-
-They have different objectives and approaches
-
-social foraging is focused on behaviour and observations and how individuals are theoretically (evo game theory) expected to maximize their foraging payoffs
-and actually (empirically) constrained by dominance or relatedness or energy reserves
 
 
 
@@ -52,7 +42,7 @@ within behavioural states that incorporate foraging, how do foraging strategies 
 
 
 
-While the producer-scrounger literature has not explicitly tested the influence of a diverse set of habitat risks and conditions (Table 1), a broad set of related variables have been identified as individual constraints (Box 3). Dominiance, relatedness and energy reserves, for example, have been shown to have large contributions to an animal's foraging strategy and their corresponding foraging success among conspecifics. In future empirical tests, risks and conditions must be carefully integrated to measure their specific relationships with foraging strategy and avoid confounding with individual constraints. In addition, more empirical tests are required on species underrepresented in the literature. Many species were only involved in one empirical test (Table S4) and entire classes of vertebrates were not represented (Table S3). Conflicts in the literature such as 
+
 
 The proposed extension of resource availability to consider an individual's role in producer-scrounger dynamics offers the integration of social foraging theory and habitat selection analyses. As the concept of availaility in habitat selection has developed, the subset of habitat that is realistically accessible has been constrained using variables related to the animal's movement. By incorporating behaviours, the distinctions between available and accessible habitats can be further refined. Consider first categorizingg an animal's movement according to a particular behavioural mode, eg. exploratory or encamped. Within encamped animal telemetry dataFirs, animal's behavioural mode, eg. foraging or encamped, 
 
