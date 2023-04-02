@@ -2,6 +2,7 @@
 title: Results
 order: 2
 bibliography: '../references/comprehensive-exam.bib'
+csl: '../references/harvard-cite-them-right.csl'
 ---
 
 Table 1 shows the environmental variables considered in the producer-scrounger literature reviewed (Table S1). The variables included are derived from the definition of habitat in @Matthiopolous_2023: resources, risks and conditions. Only one article examined the influence of conditions (@Ha_2003). For the influence of risks, producer-scrounger models considered only predation risk in producer-scrounger models [@Barta_2000; @Dubois_2005; @Dubois_2020], empirical tests [@Bugnyar_2002], and the perception of predation in empirical tests @Barta_2004; @Mathot_2007 @Teichroeb_2015]. The remaining references examine patch related variables of the habitat's resources: patch density, richness, distribution and size. 
