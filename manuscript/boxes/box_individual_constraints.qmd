@@ -16,6 +16,7 @@ Social affiliation may contribute to tolerance of scroungers or increases in sha
 @Mathot_2010 found that producer zebra finches were more tolerant of related scroungers. 
 @Bugnyar_2002 found that dyads of ravens were more likely to share if they were also engaged in bonding behaviours such as mutual preening. While not specifically tested, @Aplin_2017 posit that male tolerance of female scroungers may have been due to mating pairs, and found that scroungers had high network centrality. 
 
+Demographic differences including sex and age also had influences on producer-scrounger dynamics. Female great tits [@Aplin_2017] and pregnant baboons [@King_2009] were more likely to scrounge while male great tits [@Aplin_2017] were more likely to produce. @Aplin_2017 found that adults were more likely to produce and juveniles were more likely ot scrounge, but @Teichroeb_2015 found no effect of age. 
 
 
 
@@ -30,18 +31,6 @@ Social affiliation may contribute to tolerance of scroungers or increases in sha
     - @Broom_2014
 
 
-- energy reservees
-    - Time of day
-        - Around dawn and dusk, individuals should play scrounger more often due to low energy reserves (Barta_2000)
-        - Around midday, individuals should play producer if they are near or above critical reserve level because if they are successful they can more quickly switch to resting and avoid predation hazard (Barta_2000)
-		- CONDITIONS
-- Energy reserves / fed or fasted (empirical)
-	- Rates of strategy use did not differ depending on fed and fasted states in sparrows (Lee_2016a)
-	- Fasted sparrows stayed longer on the ground (Lee_2016a)
-	- Fasted sparrows discovered more patches and consumed more food than fed sparrows (Lee_2016a)
-	- (also under Vigilance) Scrounging not simply explained by antipredator vigilance, alternatively may be due to scrounging being a variance-averse strategy or favored strategy when energy reserves are low (Barta_2004)
-	- CONDITIONS
-
 - learning
 - Learning
 	- Early success may lead to individuals not adapting strategy to changing environments (Beauchamp_2000a)
@@ -54,18 +43,6 @@ Social affiliation may contribute to tolerance of scroungers or increases in sha
 	
 
 
-- Sex
-	- Females were more likely to scrounge (Aplin_2017) 
-	- Males were more likely to produce (Aplin_2017)
-	- Air temperature, time of day, season (breeding vs nonbreeding), age or sex did not influence the probability of retaining prey (Ha_2003)
-	- Females scrounged from males when pregnant (King_2009)
-	- Dominant females scrounged from subordinate neighbors with whom they had a strong social affiliation (King_2009)
-
-- Age
-	- Adults were more likely to produce (Aplin_2017)
-	- Juveniles were more likely to scrounge (Aplin_2017)
-	- (also under Sex) Air temperature, time of day, season (breeding vs nonbreeding), age or sex did not influence the probability of retaining prey (Ha_2003)
-	- CONFLICT No effect of age (Teichroeb_2015) 
 
     
 
