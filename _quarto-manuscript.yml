@@ -29,7 +29,7 @@ book:
     - manuscript/references.qmd
   appendices:
     - manuscript/boxes/box_social_foraging_theory.qmd
-    #X- manuscript/boxes/box_habitat_selection.qmd
+    - manuscript/boxes/box_habitat_selection.qmd
     #X- manuscript/boxes/box_individual_constraints.qmd
     - manuscript/supplemental/figure-full-workflow.qmd
     - manuscript/supplemental/table-lit-results.qmd
