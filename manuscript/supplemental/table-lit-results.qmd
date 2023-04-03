@@ -3,7 +3,7 @@
 \singlespacing
 
 
-Table S1: Review of producer-scrounger literature. Approaches used included producer-scrounger models using evolutionary game theory, empirical tests, other approaches and not relevant. For empirical tests, species and taxonomic classes were recorded. Article information also includes year of publication, journal, authors and title. Literature was obtained using a search for 'producer' and 'scrounger' in the titles, abstracts and keywords of articles in the databases SCOPUS, Web of Science and Biological Abstracts. Literature was filtered to remove duplicates using article's DOI (Script 1).
+Table S1: Review of producer-scrounger literature. Approaches used included producer-scrounger models using evolutionary game theory, empirical tests, other approaches and not relevant. For empirical tests, species and taxonomic classes were recorded. Article information also includes year of publication, journal, and authors (authors limited to 30 characters). Literature was obtained using a search for 'producer' and 'scrounger' in the titles, abstracts and keywords of articles in the databases SCOPUS, Web of Science and Biological Abstracts. Literature was filtered to remove duplicates using article's DOI (Script 1).
 
 
 ```{r}
