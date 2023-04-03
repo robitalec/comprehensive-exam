@@ -1,0 +1,24 @@
+---
+title: "Supplement: Code"
+---
+
+First level package dependencies included:
+
+- targets
+- tarchetypes
+- data.table
+- ggplot2
+- quarto
+- gt
+- stringr
+- renv
+- conflicted
+- usethis
+- DiagrammeR
+- xfun
+- magick
+- googledrive
+- googlesheets4
+
+
+Sources for this project can be found at https://github.com/robitalec/comprehensive-exam and an accompanying website is at: https://robitalec.gitlab.io/comprehensive-exam/

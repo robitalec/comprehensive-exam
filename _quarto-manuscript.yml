@@ -37,6 +37,7 @@ book:
     - manuscript/supplemental/table-empirical-n-class.qmd
     - manuscript/supplemental/table-empirical-n-species.qmd
     - manuscript/supplemental/script-1.qmd
+    - manuscript/supplemental/code.qmd
 
 bibliography: 'references/comprehensive-exam.bib'
 csl: 'references/harvard-cite-them-right.csl'
