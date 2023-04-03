@@ -21,6 +21,5 @@ In the context of frequency-dependent producer-scrounger dynamics, how would one
 :::
 
 
-## Acknowledgements
 
 
