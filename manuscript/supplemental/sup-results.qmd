@@ -18,3 +18,5 @@ Table S3 shows the counts of species studied in empirical tests of producer-scro
 
 Table S4 shows the counts of taxonomic classes studied in empirical tests of producer-scrounger dynamics in the reviewed literature (Table S1). There is a majority representation of Aves. The earliest empirical tests of producer-scrounger dynamics include Barnard and Sibly's work on house sparrows (*Passer domesticus*) [-@Barnard_1981] and Giraldeau and Lefebvre's work on pigeons (*Columba livia*) [-@Giraldeau_1986]. di Bitetti and Janson's test producer-scrounger dynamics on capuchin monkeys (*Cebus apella*) [-@DiBitetti_2001] was the first empirical test of producer-scrounger dynamics on a mammalian species. Western buffalo breams (Kyphosus cornelii) were the first ray-finned fish species [@Hamilton_2003]. Finally in 2016, producer-scrounger dynamics were tested in arachnids [@Dumke_2016] and insects [@Katz_2016]. Notable vertebrate groups that are not represented in the results of this literature survey include reptiles, amphibians, jawless fishes, lobe-finned fishes and cartilagenous fishes. 
 
+
+<!-- make numbers in `r` --->
