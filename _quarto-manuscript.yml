@@ -47,5 +47,6 @@ format:
         \usepackage{setspace}
         \doublespacing
         \usepackage[sfdefault,lf]{carlito}
+        \usepackage{typearea}
     fontsize: 12pt
     margin: 1
