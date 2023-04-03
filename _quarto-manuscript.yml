@@ -39,6 +39,7 @@ book:
     - manuscript/supplemental/script-1.qmd
 
 bibliography: 'references/comprehensive-exam.bib'
+csl: 'references/harvard-cite-them-right.csl'
 
 format:
   pdf:

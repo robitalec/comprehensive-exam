@@ -28,3 +28,5 @@ format:
     df-print: kable
 
 
+bibliography: 'references/comprehensive-exam.bib'
+csl: 'references/harvard-cite-them-right.csl'
