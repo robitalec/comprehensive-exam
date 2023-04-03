@@ -22,16 +22,16 @@ book:
     - manuscript/results.qmd
     - manuscript/discussion.qmd
     - manuscript/conclusion.qmd
+    - manuscript/objects/figure-habitat-producer.qmd
+    - manuscript/objects/table-rrc-results.qmd
+    - manuscript/objects/figure-into-prop-scrounge.qmd
+    - manuscript/objects/figure-group-level-effects.qmd
     - manuscript/references.qmd
   appendices:
     - manuscript/boxes/box_social_foraging_theory.qmd
-    #- manuscript/boxes/box_habitat_selection.qmd
-    #- manuscript/boxes/box_individual_constraints.qmd
-    #- manuscript/objects/figure-habitat-producer.qmd
-    #- manuscript/objects/table-rrc-results.qmd
-    #- manuscript/objects/figure-into-prop-scrounge.qmd
-    #- manuscript/objects/figure-group-level-effects.qmd
-    #- manuscript/supplemental/figure-full-workflow.qmd
+    #X- manuscript/boxes/box_habitat_selection.qmd
+    #X- manuscript/boxes/box_individual_constraints.qmd
+    - manuscript/supplemental/figure-full-workflow.qmd
     - manuscript/supplemental/table-lit-results.qmd
     - manuscript/supplemental/table-n-approaches.qmd
     - manuscript/supplemental/table-empirical-n-class.qmd
