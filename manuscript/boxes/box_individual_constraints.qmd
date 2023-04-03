@@ -2,31 +2,24 @@
 title: "Box 3: Individual constraints"
 ---
 
+Many constraints on individuals were identified in the producer-scrounger literature (Figure S1; Table S1). These can be broadly categorized as metabolic, social demographic, spatial, and learning. 
 
-
-<!-- constraints *and modifiers*? -->
 
 @Teichroeb_2015 found that vervet monkeys (*Chlorocebus pygerythrus*) balanced the risk of predation with foraging success by modifying their spatial position within the group. Individuals on the edge of the foraging group had higher foraging success while individuals in the center were safer.
+
+
+Dominance was widely supported as a highly influential variable in producer-scrounger dynamics. Depending on patch distribution, dominant individuals can easily exploit most patches found by conspecific subordinates [@Caraco_1989]. Dominant individuals had better foraging efficiency, and access to forage [@Caraco_1979; @Teichroeb_2015]. Dominant individuals also had a larger finder's share [@Teichroeb_2015]. In game theory models, dominant individuals preferred the scrounger strategy while subordinate individuals preferred the producer strategy [@Barta_1998; @Lee_2016]. In empirical tests, there was disagreement whether dominant individuals were more likely to produce or scrounge. @Aplin_2017 found that male dominant great tits were more likely to produce while in marmosets [@Werdenich_2002] and juncos [@Caraco_1989] dominant individuals were more likely to scrounge. Depending on resource monopolizabilty, scrounging can also become the exclusive strategy of dominant individuals [@Lee_2016]. 
+
+
+
+
+
 
 <!--
 -   Dominance
     - Dominance not as relevant for eg finches than baboons?
     - @Bugnyar_2002 dominance, displacement, type of food sharing
-	- Similar dominance, individuals should similarly play scrounger (Barta_1998)
-	- Asymmetrical dominance, dominant individuals should play scrounger more often (Barta_1998)
-	- Dominance increases foraging efficiency and access to forage (Caraco_1979)
-	- Dominant individuals prefer social foraging while subordinate individuals prefer solitary foraging (Caraco_1989) (Lee_2016)
-	- Scrounging can be an exclusive strategy of dominant individuals depending on resource monopolizability (Lee_2016)
-	- If patches are distributed in clumps, dominant individuals will be able to exploit most patches by following subordinates (Caraco_1989)
-- Dominance (empirical)
-	- Male dominants more likely to produce (Aplin_2017)
-	- Dominants took the role of scrounger and subordinates the role of producer (Werdenich_2002)
-	- Scrounging dominants were more likely to displace conspecifics while stealing was more likely for subordinates (Bugnyar_2002)
 	- (also under Sex) Dominant females scrounged from subordinate neighbors with whom they had a strong social affiliation (King_2009)
-	- (also under Environmental factors) Wind exposure as a proxy to manipulate overnight energy expenditure lead dominants to scrounge more often and subordinates only marginally increase scrounging (Lendvai_2004)
-	- Dominant individuals obtained more food than subordinates (Teichroeb_2015)
-	- Dominant individuals obtained a larger share when producing than scrounging, balancing predation risk with food acquisition (Teichroeb_2015)
-	- Finder's share increased with dominance (Teichroeb_2015)
 
 
 - Social affiliation
