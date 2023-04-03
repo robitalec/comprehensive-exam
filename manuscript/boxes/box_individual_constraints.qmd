@@ -10,8 +10,7 @@ Many constraints on individuals were identified in the producer-scrounger litera
 
 Dominance was widely supported as a highly influential variable in producer-scrounger dynamics. Depending on patch distribution, dominant individuals can easily exploit most patches found by conspecific subordinates [@Caraco_1989]. Dominant individuals had better foraging efficiency, and access to forage [@Caraco_1979; @Teichroeb_2015]. Dominant individuals also had a larger finder's share [@Teichroeb_2015]. In game theory models, dominant individuals preferred the scrounger strategy while subordinate individuals preferred the producer strategy [@Barta_1998; @Lee_2016]. In empirical tests, there was disagreement whether dominant individuals were more likely to produce or scrounge. @Aplin_2017 found that male dominant great tits were more likely to produce while in marmosets [@Werdenich_2002] and juncos [@Caraco_1989] dominant individuals were more likely to scrounge. Depending on resource monopolizabilty, scrounging can also become the exclusive strategy of dominant individuals [@Lee_2016]. 
 
-
-
+Energy reserves influenced foraging strategy use. Individuals are predicted to scrounge at dawn when energy reserves are low, then switch to producing near midday, before switching back to scrounging to rest and avoid predation risk [@Barta_2000]. @Barta_2004 found that scrounging was more common when energy reserves were low in tree sparrows. In contrast, @Lee_2016a found the rates of producing and scrounging did not differ depending on fed and fasted states. However, fasted sparrows stayed longer on the ground and consumed more forage than fed sparrows [@Lee_2016a]. @Barta_2004 posit that scrounging is a more variance-averse strategy that allows individuals access to forage more regularly. 
 
 
 
