@@ -17,8 +17,7 @@ book:
   date-format: "YYYY-MM-DD"
   chapters:
     - index.qmd
-    - manuscript/abstract.qmd
-    - manuscript/introduction.qmd
+  - manuscript/introduction.qmd
     - manuscript/results.qmd
     - manuscript/discussion.qmd
     - manuscript/conclusion.qmd

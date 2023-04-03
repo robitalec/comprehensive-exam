@@ -1,8 +1,0 @@
----
-title: Abstract
-order: 1
----
-
-
-Social foraging theory examines how animal foraging behaviour is influenced by conspecifics. Individuals may choose to independently search for resources (producers) or to follow conspecifics to share or steal resources (scroungers). Producer-scrounger dynamics are often studied using evolutionary game theory to determine which behaviour can maximizing an individual's resource intake. Habitats, however, are more complex than patches of resources for individuals to share with or steal from each other. Risks, like predation or disturbance, may force an individual to avoid certain areas. Conditions, like temperature or snow cover, may reduce an individual's ability to forage. Together, habitat risks, conditions, and the density of conspecifics can influence the accessibility of resources. I reviewed the producer-scrounger literature to determine how access to available resources depends on foraging roles, risks, and conditions. While I found few examples of producer-scrounger dynamics where risks and conditions were tested, there were many examples of constraints on individuals, such as dominance or social affiliation, influencing foraging strategies. I propose that future work establishing the influence of risks and conditions on foraging strategies must also consider these potentially confounding individual constraints. Finally, I propose an extension to the habitat selection concept of availability to incorporate forager's role in producer-scrounger dynamics. 
-
