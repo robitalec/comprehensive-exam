@@ -1,5 +1,6 @@
 # Figure 1
 
+\singlespacing
 Figure 1: Producer-scrounger dynamics and habitat selection 
 
 
@@ -10,3 +11,5 @@ targets::tar_read(habitat_and_producer_png)
 
 
 ![](../../figures/habitat-and-producer.png){height=4in}
+
+\doublespacing

@@ -1,6 +1,12 @@
 # Table S2
 
 
+\singlespacing
+
+Table S2: Counts of approaches in the reviewed producer-scrounger literature (Table S1) categorized as producer-scrounger dynamic models using evolutionary game theory, empirical tests, other approaches, or not relevant. Some articles used multiple approaches therefore the total count is larger than the total number of articles reviewed. The category 'other approaches' included, for example, agent-based simulations and genetic algorithms. Approaches were deemed not relevant when they did not explicitly model or test producer-scrounger dynamics and included the term solely in the article's keywords, introduction or discussion content.
+
+
+
 ```{r}
 #| include: false
 library(gt)
@@ -8,7 +14,7 @@ library(gt)
 
 ```{r, echo = FALSE}
 targets::tar_read(n_by_type) |>
-	gt(caption = "Table S2: Counts of approaches in the reviewed producer-scrounger literature (Table S1) categorized as producer-scrounger dynamic models using evolutionary game theory, empirical tests, other approaches, or not relevant. Some articles used multiple approaches therefore the total count is larger than the total number of articles reviewed. The category 'other approaches' included, for example, agent-based simulations and genetic algorithms. Approaches were deemed not relevant when they did not explicitly model or test producer-scrounger dynamics and included the term solely in the article's keywords, introduction or discussion content. Counts are summarized using mean, median and grand total sum across approaches.  
-") |>
-	summary_rows(columns = 'Count', fns = c('sum', 'mean', 'median'))
+	gt()
 ```
+
+\doublespacing

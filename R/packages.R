@@ -8,6 +8,7 @@ library(ggplot2)
 
 library(quarto)
 library(gt)
+library(stringr)
 
 library(renv)
 library(conflicted)

@@ -1,31 +1,22 @@
 # Table S1
 
+\singlespacing
+
+
+Table S1: Review of producer-scrounger literature. Approaches used included producer-scrounger models using evolutionary game theory, empirical tests, other approaches and not relevant. For empirical tests, species and taxonomic classes were recorded. Article information also includes year of publication, journal, authors and title. Literature was obtained using a search for 'producer' and 'scrounger' in the titles, abstracts and keywords of articles in the databases SCOPUS, Web of Science and Biological Abstracts. Literature was filtered to remove duplicates using article's DOI (Script 1).
+
+
 ```{r}
 #| include: false
 library(gt)
+library(targets)
+library(data.table)
+library(stringr)
 ```
 
 ```{r, echo = FALSE}
-targets::tar_read(literature) |>
-	gt(groupname_col = 'Type', 
-		caption = "Table S1: Review of producer-scrounger literature grouped by approaches used. Approaches used included producer-scrounger models using evolutionary game theory, empirical tests, other approaches and not relevant. For empirical tests, species and taxonomic classes were recorded. Article information also includes year of publication, journal, authors and title. Literature was obtained using a search for 'producer' and 'scrounger' in the titles, abstracts and keywords of articles in the databases SCOPUS, Web of Science and Biological Abstracts. Literature was filtered to remove duplicates using article's DOI (Script 1). 
-") |>
-	tab_options(row_group.as_column = TRUE) |>
-	tab_style(  
-		style = list(
-      cell_text(color = "white")
-		),
-		locations = cells_body(
-			columns = 'Species',
-      rows = is.na(`Species`)
-    )) |>
-		tab_style(  
-		style = list(
-      cell_text(color = "white")
-		),
-		locations = cells_body(
-			columns = 'Class',
-      rows = is.na(`Class`)
-    ))
+tar_read(literature)[, .(Year, Author = str_trunc(Author, 30), Type)] |>
+	gt()
 ```
 
+\doublespacing

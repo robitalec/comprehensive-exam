@@ -1,5 +1,7 @@
 # Figure 3
 
+\singlespacing
+
 Figure 3: Graph visualization of all variables directly and indirectly related to the group level effects of scrounging behaviour identified in the reviewed literature (Table S1). The variables shown are a subset of the full graph (Figure S1) to focus on group level effects. The color of the lines indicates the nature of the relationship: blue indicates a positive relationship and red indicates a negative relationship. For example, dominance has a positive relationship on forage efficiency (Caraco 1979), proportion of scroungers has a negative relationship with total quantity foraged by a group (Vickery 2020). Linetypes indicate the approach of the study that contributed this relationship where solid lines are producer-scrounger models using evolutionary game theory and dashed lines are empirical tests. For example, the relationship between dominance and forage efficiency was contributed by an evolutionary game theory model (Caraco 1979) and the relationship between proportion of scroungers and network centrality was contributed by an empirical test (Aplin 2017). Note that multiple lines may be drawn between the same pair of variables and when they are differently colored it indicates a disagreement in the reviewed articles. Citations for multiple articles that contributed the same approach (linetype) and nature of relationship (color) are combined in a list. Citations are always found above the line between the two variables. The graph visualization was built using GraphViz (Gansner and North 2000). 
 
 ```{r}
@@ -9,3 +11,5 @@ targets::tar_read(group_level_png)
 
 
 ![](../../figures/group-level.png)
+
+\doublespacing

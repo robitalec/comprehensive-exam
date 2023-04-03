@@ -1,5 +1,9 @@
 # Table S4
 
+\singlespacing
+
+Table S4: Counts of species in empirical tests of producer-scrounger dynamics. Approaches used in the reviewed literature (Table S1) were classified as producer-scrounger dynamic models using evolutionary game theory appproaches, empirical tests, or other approaches. Some articles used multiple approaches. For each empirical test, species and taxonomic classes were recorded for each article. In some cases, multiple species were studied in a single article therefore these counts are occurence in articles and the total count is larger than the total number of empirical studies.
+
 ```{r}
 #| include: false
 library(gt)
@@ -7,6 +11,7 @@ library(gt)
 
 ```{r, echo = FALSE}
 targets::tar_read(n_by_species) |>
-		gt(caption = "Table S4: Counts of species in empirical tests of producer-scrounger dynamics. Approaches used in the reviewed literature (Table S1) were classified as producer-scrounger dynamic models using evolutionary game theory appproaches, empirical tests, or other approaches. Some articles used multiple approaches. For each empirical test, species and taxonomic classes were recorded for each article. In some cases, multiple species were studied in a single article therefore these counts are occurence in articles and the total count is larger than the total number of empirical studies. Counts are summarized using mean, median and total sum of counts across species.  ") |>
-	summary_rows(columns = 'Count', fns = c('sum', 'mean', 'median'))
+	gt()
 ```
+
+\doublespacing

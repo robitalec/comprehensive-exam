@@ -1,5 +1,7 @@
 # Figure 2
 
+\singlespacing
+
 Figure 2: Graph visualization of all variables directly and indirectly related to the proportion of scrounging behaviour identified in the reviewed literature (Table S1). The variables shown are a subset of the full graph (Figure S1) to focus on the proportion of scrounging in a group. The color of the lines indicates the nature of the relationship: blue indicates a positive relationship, red indicates a negative relationship, black indicates a neutral relationship, orange indicates a convex relationship and grey indicates subcategories. For example, group size has a positive relationship with learning (Smolla 2015), patch richness has a negative relationship with finder share (Teichroeb 2015), energy reserves has a neutral relationship with proportion of scroungers (Lee 2016a), adults and juveniles are a subcategory of age, and time of day has a convex relationship with proportion of scrounger (Barta 2000). Linetypes indicate the approach of the study that contributed this relationship where solid lines are producer-scrounger models using evolutionary game theory and dashed lines are empirical tests. For example, the relationship between group size andd learning was contributed by an evolutionary game theory model (Smolla 2015) and the relationship between patch richness and finder share  was contributed by an empirical test (Teichroeb 2015). Note that multiple lines may be drawn between the same pair of variables and when they are differently colored it indicates a disagreement in the reviewed articles. Citations for multiple articles that contributed the same approach (linetype) and nature of relationship (color) are combined in a list. Citations are always found above the line between the two variables. The graph visualization was built using GraphViz (Gansner and North 2000). 
 
 ```{r}
@@ -9,3 +11,5 @@ targets::tar_read(into_prop_scrounger_png)
 
 
 ![](../../figures/into-prop-scrounger.png)
+
+\doublespacing

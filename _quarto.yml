@@ -1,4 +1,5 @@
 project:
+  title: "Ph.D. Comprehensive Examination"
   type: website
   output-dir: public
   execute-dir: project
@@ -9,7 +10,6 @@ project:
 
 
 website:
-  title: "Comprehensive exam"
   navbar:
      right:
       - icon: gitlab
@@ -26,4 +26,5 @@ format:
     toc: true
     date-format: long
     df-print: kable
+
 

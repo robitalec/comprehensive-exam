@@ -1,15 +1,10 @@
 ---
-title: "PhD Comprehensive Exam"
-author: 
-  - name: Alec L. Robitaille
-    affiliations: Memorial University
+author:
+    - name: Alec L. Robitaille
+      affiliations:
+        - name: Memorial University
 date: "`r Sys.Date()`"
 ---
-
-
-
-{{< include README.md >}}
-
 
 
 ```{r}
@@ -17,3 +12,15 @@ date: "`r Sys.Date()`"
 source('R/packages.R')
 tar_read(example_formula)
 ```
+
+
+::: {.content-visible unless-profile="manuscript"}
+Ph.D. Comprehensive Examination
+
+In the context of frequency-dependent producer-scrounger dynamics, how would one's role affect access to available resources considering risks and conditions during habitat selection?
+:::
+
+
+## Acknowledgements
+
+

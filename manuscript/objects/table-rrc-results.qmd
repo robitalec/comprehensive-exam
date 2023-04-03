@@ -1,44 +1,33 @@
 # Table 1
 
+\newpage
+
+\KOMAoptions{paper=landscape,pagesize}
+\recalctypearea
+
+
+\singlespacing
+
+Table 1: Resources, risks and conditions identified in the producer-scrounger literature reviewed (Table S1). Examples of variables for resources, risks and conditions comprising animal's habitats were derived from Matthiopolous et al. (2023). Corresponding articles that directly investigated the influence of each variable on  producer-scrounger dynamics were listed. Articles were grouped according to approach, either producer-scrounger models using evolutionary game theory or empirical tests. Articles are abbreviated to the first two letters of the first author's last name and the year of publication without century (eg. Barta 1998 = Ba98), optionally with a letter to differentiate multiple articles for a first author within a year. 
+
+
 ```{r}
 #| include: false
 library(targets)
 library(gt)
+library(stringr)
 ```
 
 ```{r, echo = FALSE}
-tar_read(rrc_results) |>
+tar_read(rrc_results)[, .(Type, Variable, 'Producer-scrounger model' = str_trunc(`Producer scrounger model`, width = 40, ellipsis = '...)'), `Empirical test`)] |>
 	gt(rowname_col = 'Variable',
-     groupname_col = 'Type',
-		 caption = "Table 1: Resources, risks and conditions identified in the producer-scrounger literature reviewed (Table S1). Examples of variables for resources, risks and conditions comprising animal's habitats were derived from Matthiopolous et al. (2023). Corresponding articles that directly investigated the influence of each variable on  producer-scrounger dynamics were listed. Articles were grouped according to approach, either producer-scrounger models using evolutionary game theory or empirical tests. Counts are summarized using total sum within variable type and grand total sum across variable types.") |>
-	tab_options(row_group.as_column = TRUE,
-				summary_row.background.color = 'grey90',
-				grand_summary_row.background.color = 'grey90') |>
-	tab_style(  
-		style = list(
-      cell_text(color = 'white')
-		),
-		locations = cells_body(
-			columns = 'Empirical test',
-      rows = is.na(`Empirical test`)
-    )) |>
-		tab_style(  
-		style = list(
-      cell_text(color = 'white')
-		),
-		locations = cells_body(
-			columns = 'Producer scrounger model',
-      rows = is.na(`Producer scrounger model`)
-    )) |> 
-	summary_rows(groups = TRUE, columns = 'Count', fns = 'sum', formatter = fmt_integer) |>
-	tab_style(  
-		style = list(
-      cell_text(color = 'grey60')
-		),
-		locations = cells_body(
-			columns = 'Count',
-      rows = Count == 0
-    )) |>
-	grand_summary_rows(columns = 'Count', fns = 'sum', formatter = fmt_integer)
+     groupname_col = 'Type') |>
+	tab_options(row_group.as_column = TRUE)
 ```
 
+
+\doublespacing
+
+\newpage
+\KOMAoptions{paper=portrait,pagesize}
+\recalctypearea
