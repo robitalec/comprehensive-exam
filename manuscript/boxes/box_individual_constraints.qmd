@@ -8,9 +8,14 @@ Many constraints on individuals were identified in the producer-scrounger litera
 @Teichroeb_2015 found that vervet monkeys (*Chlorocebus pygerythrus*) balanced the risk of predation with foraging success by modifying their spatial position within the group. Individuals on the edge of the foraging group had higher foraging success while individuals in the center were safer.
 
 
-Dominance was widely supported as a highly influential variable in producer-scrounger dynamics. Depending on patch distribution, dominant individuals can easily exploit most patches found by conspecific subordinates [@Caraco_1989]. Dominant individuals had better foraging efficiency, and access to forage [@Caraco_1979; @Teichroeb_2015]. Dominant individuals also had a larger finder's share [@Teichroeb_2015]. In game theory models, dominant individuals preferred the scrounger strategy while subordinate individuals preferred the producer strategy [@Barta_1998; @Lee_2016]. In empirical tests, there was disagreement whether dominant individuals were more likely to produce or scrounge. @Aplin_2017 found that male dominant great tits were more likely to produce while in marmosets [@Werdenich_2002] and juncos [@Caraco_1989] dominant individuals were more likely to scrounge. Depending on resource monopolizabilty, scrounging can also become the exclusive strategy of dominant individuals [@Lee_2016]. 
+Dominance was widely supported as a highly influential variable in producer-scrounger dynamics. Depending on patch distribution, dominant individuals can easily exploit most patches found by conspecific subordinates [@Caraco_1989]. Dominant individuals had better foraging efficiency, and access to forage [@Caraco_1979; @Teichroeb_2015]. Dominant individuals also had a larger finder's share [@Teichroeb_2015]. In game theory models, dominant individuals preferred the scrounger strategy while subordinate individuals preferred the producer strategy [@Barta_1998; @Lee_2016]. In empirical tests, there was disagreement whether dominant individuals were more likely to produce or scrounge. @Aplin_2017 found that male dominant great tits were more likely to produce while in marmosets [@Werdenich_2002], baboons [@King_2009], and juncos [@Caraco_1989] dominant individuals were more likely to scrounge. Depending on resource monopolizabilty, scrounging can also become the exclusive strategy of dominant individuals [@Lee_2016]. 
 
 Energy reserves influenced foraging strategy use. Individuals are predicted to scrounge at dawn when energy reserves are low, then switch to producing near midday, before switching back to scrounging to rest and avoid predation risk [@Barta_2000]. @Barta_2004 found that scrounging was more common when energy reserves were low in tree sparrows. In contrast, @Lee_2016a found the rates of producing and scrounging did not differ depending on fed and fasted states. However, fasted sparrows stayed longer on the ground and consumed more forage than fed sparrows [@Lee_2016a]. @Barta_2004 posit that scrounging is a more variance-averse strategy that allows individuals access to forage more regularly. 
+
+Social affiliation may contribute to tolerance of scroungers or increases in sharing. 
+@Mathot_2010 found that producer zebra finches were more tolerant of related scroungers. 
+@Bugnyar_2002 found that dyads of ravens were more likely to share if they were also engaged in bonding behaviours such as mutual preening. While not specifically tested, @Aplin_2017 posit that male tolerance of female scroungers may have been due to mating pairs, and found that scroungers had high network centrality. 
+
 
 
 
@@ -20,17 +25,6 @@ Energy reserves influenced foraging strategy use. Individuals are predicted to s
     - @Bugnyar_2002 dominance, displacement, type of food sharing
 	- (also under Sex) Dominant females scrounged from subordinate neighbors with whom they had a strong social affiliation (King_2009)
 
-
-- Social affiliation
-    - Relatedness
-	    - Increased relatedness can lead producers to being more tolerant of scrounging relatives (Mathot_2010)
-    - empirical
-        - Mating pairs may have contributed to male tolerance of female scroungers (Aplin_2017)
-	    - Scroungers had high network centrality (Aplin_2017)
-        - @Bugnyar_2002 dominance, displacement, type of food sharing
-	    - Sharing observed when dyads of ravens were at different stages of pair bonding eg mutual preening (Bugnyar_2002)
-	    - (also under Sex) Dominant females scrounged from subordinate neighbors with whom they had a strong social affiliation (King_2009)
-        	- Related finches had higher frequencies of scrounging than unrelated finches (Mathot_2010)
 
 - Value of resources, strong/weak
     - @Broom_2014
