@@ -2,11 +2,7 @@
 title: "Box 3: Individual constraints"
 ---
 
-Many constraints on individuals were identified in the producer-scrounger literature (Figure S1; Table S1). These can be broadly categorized as metabolic, social demographic, spatial, and learning. 
-
-
-@Teichroeb_2015 found that vervet monkeys (*Chlorocebus pygerythrus*) balanced the risk of predation with foraging success by modifying their spatial position within the group. Individuals on the edge of the foraging group had higher foraging success while individuals in the center were safer.
-
+Many constraints on individuals were identified in the producer-scrounger literature (Figure S1; Table S1). They highlighted here to recognize the diversity and strength of relationships with variables other than resources, risks and conditions that influence producer-scrounger dynamics.  
 
 Dominance was widely supported as a highly influential variable in producer-scrounger dynamics. Depending on patch distribution, dominant individuals can easily exploit most patches found by conspecific subordinates [@Caraco_1989]. Dominant individuals had better foraging efficiency, and access to forage [@Caraco_1979; @Teichroeb_2015]. Dominant individuals also had a larger finder's share [@Teichroeb_2015]. In game theory models, dominant individuals preferred the scrounger strategy while subordinate individuals preferred the producer strategy [@Barta_1998; @Lee_2016]. In empirical tests, there was disagreement whether dominant individuals were more likely to produce or scrounge. @Aplin_2017 found that male dominant great tits were more likely to produce while in marmosets [@Werdenich_2002], baboons [@King_2009], and juncos [@Caraco_1989] dominant individuals were more likely to scrounge. Depending on resource monopolizabilty, scrounging can also become the exclusive strategy of dominant individuals [@Lee_2016]. 
 
@@ -18,35 +14,7 @@ Social affiliation may contribute to tolerance of scroungers or increases in sha
 
 Demographic differences including sex and age also had influences on producer-scrounger dynamics. Female great tits [@Aplin_2017] and pregnant baboons [@King_2009] were more likely to scrounge while male great tits [@Aplin_2017] were more likely to produce. @Aplin_2017 found that adults were more likely to produce and juveniles were more likely ot scrounge, but @Teichroeb_2015 found no effect of age. 
 
+@Teichroeb_2015 found that vervet monkeys (*Chlorocebus pygerythrus*) balanced the risk of predation with foraging success by modifying their spatial position within the group. Individuals on the edge of the foraging group had higher foraging success while individuals in the center were safer.
 
-
-<!--
--   Dominance
-    - Dominance not as relevant for eg finches than baboons?
-    - @Bugnyar_2002 dominance, displacement, type of food sharing
-	- (also under Sex) Dominant females scrounged from subordinate neighbors with whom they had a strong social affiliation (King_2009)
-
-
-- Value of resources, strong/weak
-    - @Broom_2014
-
-
-- learning
-- Learning
-	- Early success may lead to individuals not adapting strategy to changing environments (Beauchamp_2000a)
-	- Learning never evolves to fixation and at a stable equilibrium there is a mixture of fixed and learning players (Dubois_2010)
-	- Social learning is favored when competition is weak (Smolla_2015)
-	- If competition is strong, social learning is favored when resource quality is highly variable and there is low environmental turnover (Smolla_2015)
-    - empirical
-        - As individuals have more experience in variable environments, they increase proportion of scrounging (Afshar_2015)
-        - Individuals that learned the task faster were less likely to scrounger (Aplin_2017)
-	
-
-
-
-    
-
-Body size, foraging efficiency
-    Payoffs were higher for producers in all environmental conditions, likely due to body size and foraging efficiency (Hansen_2016)
-
--->
+Learning contributed to individuals foraging success and strategy use. @Beauchamp_2000a predicted that early success may lead to maladaptive individuals if environments change. @Smolla_2015 found that social learning is favored when competition is weak, or competition is strong learning is favored when resource quality is variable. 
+@Afshar_2015 found that zebra finches were more likely to scrounger in variable environments. @Aplin_2017 found that individuals that learned the foraging task quicker were less likely to scrounge. 
