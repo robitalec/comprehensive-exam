@@ -3,33 +3,15 @@ title: "Box 2: Habitat Selection"
 ---
 
 
-- Habitat selection, use /  available
-- Habitat as environmental variables (resources, risks, conditions)
-- Relationships between fitness and resources, risks and conditions (graphs)
-- Examples of resources, risks and conditions from Matthiopolous 2023
-- Examples of resources, risks and conditions from habitat selection literature
+Habitat selection analyses seek to identify preferential use of habitats by animals to determine species distributions, derive inference on selection, or predict distributions in new spatial or temporal habitats. A habitat is defined as a set of environmental covariates categorized as resources, risks and conditions [@Aarts_2008; @Beyer_2010; @Matthiopoulos_2023]. Resources are assumed to have a positive relationship with fitness, for example forage patches or resting sites. Risks are assumed to have a negative relationships with fitness, for example predation or disturbance. Conditions are assumed to have relationship following a Gaussian function where average conditions are neutral and extreme conditions are negative, such as snow cover or temperature. While @Matthiopoulos_2023 suggest a species agnostic perspective, @Northrup_2022 argue that while maximal flexibility of the resultant model is lost, the species-agnostic criteria breaks previous definitions of habitat. 
 
 
-dynamic mechanisms influencing the relationship between fitness and species distribution
+There are a number of confounds that cloud the relationship between habitat use and selection. Two-way and three-way interactions between resources, risks, and conditions are common and can add further complicate analyses and their implications for habitat selection. For example, regions of high resource abundance may also have high predation risk leading to neutral or negative selection [@Matthiopoulos_2023]. Habitats are dynamic where, for example, seasonal differences in resources, extreme weather events, or sudden anthropogenic disturbance may cause changes in selection [@Matthiopoulos_2023]. Extinction debts and colonization credits [@Watts_2020] refer to the temporal lag of suitability that delays the disappearance or arrival of species. Site fidelity can contribute to animals returning to specific habitats irrespective of relative suitability of other habitats [@Matthiopoulos_2005]. Landscapes of fear, an animal's perception of spatial variation in predation risk [@Brown_2004; @Gaynor_2019], can contribute to avoidance of habitats disproportionate with the risks. 
 
-- demographic sorting at the population level
-- habitat selection at the individuall level (behavioural selection)
-    - voluntary movement composed of 
-        - patch departure rules or giving up rates
-            - marginal value theorem
-            - intake rate
-            - learning
-            - information
-            - environmental predictability
-        - decision where to go
-            - sensory perception
-            - spatial memory
-            - conspecific information
 
    
-
-Mayor multiscale selection
-
+---
+Conclusion/discussion
 
 conditional nature of preference
 
@@ -70,54 +52,3 @@ steep_slope -> forest_stand
 steep_slope -> use
 wolf_index -> use
 }
-
-
-
-## (Species-habitat associations) How is the relationship between animals and their environments measured? What elements of this theory could be incorporated into social foraging?
-
-<!-- Point to Box Habitat Selection --> 
-
-Species-habitat associations are used to understand the relationship between
-species distribution and habitats (three general goals: estimation, inference, 
-and prediction)
-
-Habitats are as the combination of three kinds of environmental variables:
-resources, risks and conditions
-
-Resources are examples
-
-Risks are examples
-
-Conditions are examples
-<!-- how does an animal select for conditions? -->
-
-The diversity of individuals relationships with resources, risks and conditions 
-are complicated further by their two-way and three-way interactions  
-
-
->
-
-### Confounds (Why is habitat selection theory more complicated than observing where animals are present/absent?)
-
-There are a number of confounds that cloud the relationship between
-species density and fitness
-
-Imperfect information 
-
-Dynamic environments
-
-Colonization credit 
-
-Extinction debt
-
-Site fidelity
-
-Landscapes of fear
-
-
-
-
-The dynamic mechanism for habitat selection at the individual level is behavioural selection. It is comprised of patch departure rules or giving up rates and the decision where to go next. Habitats are defined in terms of resources, risks and conditions. Environmental variables corresponding to these three can have complex interactions.
-
-
-Risks are integrated differently in producer-scrounger dynamics and habitat selection. Predation risk, for example, is directly incorporated into the penalty for each strategy in a producer-scrounger game. For habitat selection, predation risk would make up one of the relevant environmental variables under the risk category that define a habitat, with an expected negative relationship with fitness.
