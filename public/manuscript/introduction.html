@@ -20,6 +20,25 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 
@@ -754,6 +773,11 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../manuscript/abstract.html" class="sidebar-item-text sidebar-link">Abstract</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../manuscript/introduction.html" class="sidebar-item-text sidebar-link active">Introduction</a>
   </div>
 </li>
@@ -770,11 +794,6 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../manuscript/conclusion.html" class="sidebar-item-text sidebar-link">Conclusion</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../manuscript/glossary.html" class="sidebar-item-text sidebar-link">Glossary</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -807,7 +826,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../manuscript/boxes/box_individual_constraints.html" class="sidebar-item-text sidebar-link">Individual constraints</a>
+  <a href="../manuscript/boxes/box_individual_constraints.html" class="sidebar-item-text sidebar-link">Box 3: Individual constraints</a>
   </div>
 </li>
       </ul>
@@ -852,16 +871,6 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../manuscript/scratch/outline.html" class="sidebar-item-text sidebar-link">Outline</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../manuscript/scratch/queries.html" class="sidebar-item-text sidebar-link">Queries</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../manuscript/scratch/scratch.html" class="sidebar-item-text sidebar-link">Scratch</a>
   </div>
 </li>
@@ -877,12 +886,22 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../manuscript/supplemental/glossary.html" class="sidebar-item-text sidebar-link">Glossary</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../manuscript/supplemental/figure-full-workflow.html" class="sidebar-item-text sidebar-link">Figure S1</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../manuscript/supplemental/script-1.html" class="sidebar-item-text sidebar-link">Script 1</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../manuscript/supplemental/methods.html" class="sidebar-item-text sidebar-link">Supplement: Methods</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -966,54 +985,94 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<p>Foraging for resources depends on the behaviour of conspecifics. Early individual foraging theory often focused on forage selection, net rate of intake, and effort or quitting time <span class="citation" data-cites="Stephens_1986 Stephens_2007">(<a href="#ref-Stephens_1986" role="doc-biblioref">Stephens and Krebs 1986</a>; <a href="#ref-Stephens_2007" role="doc-biblioref">Stephens, Brown, and Ydenberg 2007</a>)</span>. Social foraging theory considers the interdependence between a forager’s strategy and that of their conspecifics [<span class="citation" data-cites="Giraldeau_2000">Giraldeau and Caraco (<a href="#ref-Giraldeau_2000" role="doc-biblioref">2000</a>)</span>; Box 1]. The complexity of multiple individuals foraging from a common patch requires attention to both the density of individuals and the frequency of strategies among them <span class="citation" data-cites="Barnard_1981 Vickery_1991 Giraldeau_2000">(<a href="#ref-Barnard_1981" role="doc-biblioref">Barnard and Sibly 1981</a>; <a href="#ref-Vickery_1991" role="doc-biblioref">Vickery et al. 1991</a>; <a href="#ref-Giraldeau_2000" role="doc-biblioref">Giraldeau and Caraco 2000</a>)</span>. Social foraging theory considers a minimum criterion for sociality where animals are considered social if their benefits and costs are interdependent <span class="citation" data-cites="Giraldeau_2000">(<a href="#ref-Giraldeau_2000" role="doc-biblioref">Giraldeau and Caraco 2000</a>)</span>. Producer-scrounger dynamics are a type of social foraging model that considers two types of foraging behaviours <span class="citation" data-cites="Barnard_1981 Giraldeau_2000">Vickery et al. (<a href="#ref-Vickery_1991" role="doc-biblioref">1991</a>)</span>. Producers are animals that independently search for forage patches. Scroungers follow conspecific producers to share or steal from their discovered patches. The frequency of each strategy in a group or population changes its profitability. When producers are rare, scrounging is less favorable since less patches are being discovered. When scroungers are common, producers have to divide their patches among more conspecifics patches <span class="citation" data-cites="Vickery_1991 Giraldeau_2000 Dubois_2005">(<a href="#ref-Vickery_1991" role="doc-biblioref">Vickery et al. 1991</a>; <a href="#ref-Giraldeau_2000" role="doc-biblioref">Giraldeau and Caraco 2000</a>; <a href="#ref-Dubois_2005" role="doc-biblioref">Dubois and Giraldeau 2005</a>)</span>. Notably, the accessibility of resources is different depending on the foraging strategy where scroungers only have access to patches made available to them by producers.</p>
+<p>Determining the subset of available habitat that is accessible to animals has been a methodological focus of habitat selection analyses <span class="citation" data-cites="Beyer_2010 Northrup_2013 Matthiopoulos_2020">(<a href="#ref-Beyer_2010" role="doc-biblioref">Beyer et al. 2010</a>; <a href="#ref-Northrup_2013" role="doc-biblioref">Northrup et al. 2013</a>; <a href="#ref-Matthiopoulos_2020" role="doc-biblioref">Matthiopoulos et al. 2020</a>)</span>. Part of this focus is due to the inherent requirement for a definition of availability to calculation selection. Preferential selection of a habitat by an animal is defined as the disproportionate use given the availability. If the measurement of available habitat is inaccurate, the measure of selection will be inaccurate (CITE). <!-- cite-->Advances in theory and computational power have offered a refined measure of availability that is constrained to variables related to animal’s movement patterns <span class="citation" data-cites="Thurfjell_2014">(<a href="#ref-Thurfjell_2014" role="doc-biblioref">Thurfjell, Ciuti, and Boyce 2014</a>)</span>. Given these, habitat selection analyses help discern the relationship between animal’s movement and their selection or avoidance for particular habitats <span class="citation" data-cites="Matthiopoulos_2023">(<a href="#ref-Matthiopoulos_2023" role="doc-biblioref">Matthiopoulos, Fieberg, and Aarts 2023</a>, Box 2)</span>.</p>
+<p>A habitat is defined as a combination of environmental variables categorized as resources, risks and conditions [<span class="citation" data-cites="Aarts_2008">Aarts et al. (<a href="#ref-Aarts_2008" role="doc-biblioref">2008</a>)</span>; <span class="citation" data-cites="Matthiopoulos_2023">Matthiopoulos, Fieberg, and Aarts (<a href="#ref-Matthiopoulos_2023" role="doc-biblioref">2023</a>)</span>; Box 2]. Resources are variables that provide a benefit to an animal including forage, mating opportunities, resting sites, and nesting sites. Risks are variables that can have a negative influence on survival or contribute to perceived risk including predation, anthropogenic disturbance or harvest, and parasites. Conditions are variables that often have negative effects when they are extreme but neutral effects at average levels including temperature, humidity, salinity, and wind speed. Resources, risks and conditions influence species distributions and individual behavioural selection of habitats <span class="citation" data-cites="Matthiopoulos_2023">(<a href="#ref-Matthiopoulos_2023" role="doc-biblioref">Matthiopoulos, Fieberg, and Aarts 2023</a>)</span>. <!-- tie into behaviour influence --></p>
+<p>The goals of this manuscript are to address the following: 1) how is access to available resources related dependent on role in producer-scrounger dynamics?, 2) how are foraging strategies influenced by resources, risks and conditions, and 3) how can the concept of availability during habitat selection be extended by consider producer-scrounger dynamics? To address these, I will review the producer-scrounger dynamics literature (see details in Supplement: Methods) to identify variables influencing access and availability of resources, and tests of the influence of risks and conditions on foraging strategy use. Finally, I will bridge the social foraging theory into habitat selection analyses by proposing a novel integration of availability using foraging strategy (Figure 1).</p>
 <!-- 
 
+- Habitats are defined as a collection of environmental variables categorized as resources, risks and conditions. 
+- Accessibility and availability are impossible to calculate is alternatively defined in habitat selection
 
-get pyramid
+---
+
+- Habitat selection offers species distributions, model inference or predictions about habitat selection
+    - Behavioural selection for habitat is based in the decision when to leave a patch and where to go next @Matthiopoulos_2023
+    - Animal sociality is often described as a balance between advantages and disadvantages. Social foraging theory is not centred on competing causes of sociality. Rather the payoffs and penalties are directly integrated as currencies of fitness. 
+- 1. How is access to available resources determined by role?
+- Conspecifics influence but so does habitat
+    - Habitat = resources, risks, conditions
+        - habitats under this definition allow for multiple scales of selection
+    - Species-habitat associations are used to understand the relationship between
+species distribution and habitats (three general goals: estimation, inference, 
+and prediction)
+2. How are foraging strategies influenced by habitat?
+    - resources
+    - risks
+    - conditions
+- Approach of habitat selection analyses
+3. How is availability informed by behaviour, specifically p-s dynamics?
+- Methods
+    - Review  literature
+        - Search
+        - Game theory models, empirical, other
+        - Resources, risks, conditions
+        - Individual constraints
+        - Related variables
+
+Include figure 1 or point to discussion
 
 
+Statement of position/angle
 
-
-
-Access to available resources is a prereq for animal survival
-Habitat selection theory has defined availability as X, Y, Z
-
-Individual foraging theory 
-
+- treating producer scrounger dynamics as occurring within habitat selection, where scrounging individuals use conspecifics to identify forage habitat
+- conspecifics explicitly incorporated
+- whereas habitat selection is concerned about used/available by environmental variables
+- focus is on how individual behaviours and conspecifics (frequency dependence) influence availability of habitat
 
 -->
-<ul>
-<li><p>Behavioural selection for habitat is based in the decision when to leave a patch and where to go next <span class="citation" data-cites="Matthioplous_2023">@Matthioplous_2023</span></p></li>
-<li><p>Habitats defined as RRC</p></li>
-<li><p>Aspatial, environmental space</p></li>
-<li><p>Beyond selecting for habitats for forage or for resting spaces, habitats under this definition allow for multiple scales of selection</p></li>
-<li><p>Habitat selection: used available</p></li>
-<li><p>Individual foraging theory</p></li>
-<li><p>Access to available resources is a prerequisite for animal survival</p></li>
-<li><p>At the species level, there are eg. differences in specialization/generalization of resources, migratory behaviours, etc</p></li>
-<li><p>Within species, individuals use different strategies foraging strategies to meet energetic needs including prey/forage selection, effort/quitting time, balancing environmental variables, eg. temperature or insect harassment, with patch quality</p></li>
-<li><p>Individuals also differ in morphological traits, eg. body size, and behaviours, eg. dominance or aggression, that can influence access</p></li>
-<li><p>Both mobile and immobile prey can also have temporal cycles through seasons of plant productivity or potential timing of antipredator behaviours / increased risks for prey eg. reproductive timing</p></li>
-<li><p>Individual foraging theory emphasizes the selection of prey, net rate of intake and attack probabilities for individuals</p></li>
-<li><h2 id="social-foraging-theory" class="anchored">Social foraging theory</h2></li>
-<li><p>(See Box)</p></li>
-<li><p>Social foraging theory extends individual foraging theory by considering the complexity of multiple individuals in a common resource</p></li>
-<li><p>Social foraging theory is grounded in evolutionary game theory and it seeks to determine optimal strategies given density and behaviour of conspecifics</p></li>
-<li><p>Frequency dependence explained, eg. the payoffs and penalties of different strategies are density dependent</p></li>
-<li><p>Social foraging theory has consider numerous foraging behaviours including interference, kleptoparasitism and producer-scrounger dynamics.</p></li>
-<li><p>Here we will focus on producer-scrounger dynamics and consider where food items are divisible to distinguish it from kleptoparasitism</p></li>
-<li><p>Producer-scrounger dynamics consider two types of strategies. Producers search for and find food patches. Scroungers do not search for patches and attempt to steal or divide food patches with producers</p></li>
-<li><p>Assumptions around cost of contest, division of items in foraging patch</p></li>
-<li><p>And extensions to evaluate dominance, energy reserves, etc</p></li>
-<li><p>Approaches to social foraging / producer scrounger models</p></li>
-<li><h2 id="habitat-selection" class="anchored">Habitat selection</h2></li>
-</ul>
-<!-- from discussion -->
-<p>The objective was to answer the question: “How does one’s role in frequency-dependent producer-scrounger dynamics influence access to available resources considering risks and conditions during habitat selection?”. From this, I defined three goals: 1) to determine how foraging strategies differ in access to available resources, 2) to determine how risks and conditions influence foraging strategies and 3) to consider how the concept of availability during habitat selection can be extended to include foraging strategies. For 1) and 2), I identified empirical tests and model predictions in the literature that contribute to our understanding of access to available resources, and the influence of habitat risks and conditions on producer-scrounger dynamics. For 3), I propose extending the concept of availability from the habitat selection literature to incorporate role in producer-scrounger dynamics.</p>
 
 
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-Aarts_2008" class="csl-entry" role="doc-biblioentry">
+Aarts, Geert, Monique MacKenzie, Bernie McConnell, Mike Fedak, and Jason Matthiopoulos. 2008. <span>“Estimating Space-Use and Habitat Preference from Wildlife Telemetry Data.”</span> <em>Ecography</em> 31 (1): 140–60. <a href="https://doi.org/10.1111/j.2007.0906-7590.05236.x">https://doi.org/10.1111/j.2007.0906-7590.05236.x</a>.
+</div>
+<div id="ref-Barnard_1981" class="csl-entry" role="doc-biblioentry">
+Barnard, C. J., and R. M. Sibly. 1981. <span>“Producers and Scroungers: A General Model and Its Application to Captive Flocks of House Sparrows.”</span> <em>Animal Behaviour</em> 29 (2): 543–50. <a href="https://doi.org/10.1016/S0003-3472(81)80117-0">https://doi.org/10.1016/S0003-3472(81)80117-0</a>.
+</div>
+<div id="ref-Beyer_2010" class="csl-entry" role="doc-biblioentry">
+Beyer, Hawthorne L., Daniel T. Haydon, Juan M. Morales, Jacqueline L. Frair, Mark Hebblewhite, Michael Mitchell, and Jason Matthiopoulos. 2010. <span>“The Interpretation of Habitat Preference Metrics Under Useavailability Designs.”</span> <em>Philosophical Transactions of the Royal Society B: Biological Sciences</em> 365 (1550): 2245–54. <a href="https://doi.org/10.1098/rstb.2010.0083">https://doi.org/10.1098/rstb.2010.0083</a>.
+</div>
+<div id="ref-Dubois_2005" class="csl-entry" role="doc-biblioentry">
+Dubois, Frédérique, and Luc-Alain Giraldeau. 2005. <span>“Fighting for Resources: The Economics of Defense and Appropriation.”</span> <em>Ecology</em> 86 (1): 3–11. <a href="https://doi.org/10.1890/04-0566">https://doi.org/10.1890/04-0566</a>.
+</div>
+<div id="ref-Giraldeau_2000" class="csl-entry" role="doc-biblioentry">
+Giraldeau, Luc-Alain, and Thomas Caraco. 2000. <em>Social Foraging Theory</em>. <span>Princeton University Press</span>.
+</div>
+<div id="ref-Matthiopoulos_2023" class="csl-entry" role="doc-biblioentry">
+Matthiopoulos, Jason, John R. Fieberg, and Geert Aarts. 2023. <em>Species-Habitat Associations: Spatial Data, Predictive Models, and Ecological Insights, 2nd Edition</em>. <span>University of Minnesota Libraries Publishing</span>. <a href="https://doi.org/10.24926/2020.081320">https://doi.org/10.24926/2020.081320</a>.
+</div>
+<div id="ref-Matthiopoulos_2020" class="csl-entry" role="doc-biblioentry">
+Matthiopoulos, Jason, John Fieberg, Geert Aarts, Frédéric Barraquand, and Bruce E. Kendall. 2020. <span>“Within Reach? <span>Habitat</span> Availability as a Function of Individual Mobility and Spatial Structuring.”</span> <em>The American Naturalist</em> 195 (6): 1009–26. <a href="https://doi.org/10.1086/708519">https://doi.org/10.1086/708519</a>.
+</div>
+<div id="ref-Northrup_2013" class="csl-entry" role="doc-biblioentry">
+Northrup, Joseph M., Mevin B. Hooten, Charles R. Anderson, and George Wittemyer. 2013. <span>“Practical Guidance on Characterizing Availability in Resource Selection Functions Under a Useavailability Design.”</span> <em>Ecology</em> 94 (7): 1456–63. <a href="https://doi.org/10.1890/12-1688.1">https://doi.org/10.1890/12-1688.1</a>.
+</div>
+<div id="ref-Stephens_2007" class="csl-entry" role="doc-biblioentry">
+Stephens, David W., Joel S. Brown, and Ronald C. Ydenberg. 2007. <em>Foraging: Behavior and Ecology</em>. <span>University of Chicago Press</span>.
+</div>
+<div id="ref-Stephens_1986" class="csl-entry" role="doc-biblioentry">
+Stephens, David W., and John R. Krebs. 1986. <em>Foraging Theory</em>. Vol. 6. <span>Princeton university press</span>.
+</div>
+<div id="ref-Thurfjell_2014" class="csl-entry" role="doc-biblioentry">
+Thurfjell, Henrik, Simone Ciuti, and Mark S. Boyce. 2014. <span>“Applications of Step-Selection Functions in Ecology and Conservation.”</span> <em>Movement Ecology</em> 2 (1): 1–12. <a href="https://doi.org/10.1186/2051-3933-2-4">https://doi.org/10.1186/2051-3933-2-4</a>.
+</div>
+<div id="ref-Vickery_1991" class="csl-entry" role="doc-biblioentry">
+Vickery, William L., Luc-Alain Giraldeau, Jennifer J. Templeton, Donald L. Kramer, and Colin A. Chapman. 1991. <span>“Producers, Scroungers, and Group Foraging.”</span> <em>The American Naturalist</em> 137 (6): 847–63. <a href="https://doi.org/10.1086/285197">https://doi.org/10.1086/285197</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
