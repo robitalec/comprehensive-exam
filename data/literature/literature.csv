@@ -3,10 +3,10 @@ Type,Year,Author,Journal,Title,Species,Class
 Empirical,1986,"Giraldeau LA; Lefebvre, L",Animal Behaviour,Exchangeable Producer And Scrounger Roles In A Captive Flock Of Feral Pigeons - A Case For The Skill Pool Effect,pigeons (Columba livia),Aves
 Empirical,1987,"Giraldeau LA; Lefebvre, L",Animal Behaviour,Scrounging Prevents Cultural Transmission Of Food-Finding Behavior In Pigeons,pigeons (Columba livia),Aves
 Empirical,1990,Ens B J; Esselink P; Zwarts L,Animal Behaviour,Kleptoparasitism As A Problem Of Prey Choice A Study On Mudflat-Feeding Curlews Numenius-Arquata,curlews (Numenius arquata),Aves
-Empirical,1990,"Giraldeau, L.‐A., Hogan, J.A., Clinchy, M.J.",Ethology,The Payoffs To Producing And Scrounging: What Happens When Patches Are Divisible?,"spice finches (Lonchura punctulata), zebra finches (Taeniopygia guttata)",Aves
+Empirical,1990,"Giraldeau, L.A., Hogan, J.A., Clinchy, M.J.",Ethology,The Payoffs To Producing And Scrounging: What Happens When Patches Are Divisible?,"spice finches (Lonchura punctulata), zebra finches (Taeniopygia guttata)",Aves
 Producer scrounger model,1991,Caraco T; Giraldeau L-A,Journal Of Theoretical Biology,Social Foraging Producing And Scrounging In A Stochastic Environment,,
 Producer scrounger model,1991,"Vickery, WL; Giraldea, LA; Templeton, JJ; Kramer, DL; Chapman, CA",American Naturalist,"Producers, Scroungers, And Group Foraging",,
-Empirical,1994,"Giraldeau, L.-A., Soos, C., Beauchamp, G.",Behavioral Ecology And Sociobiology,"A Test Of The Producer-Scrounger Foraging Game In Captive Flocks Of Spice Finches, Loncbura Punctulata",spice finches (Lonchura punctulata),Aves
+Empirical,1994,"Giraldeau, L.A., Soos, C., Beauchamp, G.",Behavioral Ecology And Sociobiology,"A Test Of The Producer-Scrounger Foraging Game In Captive Flocks Of Spice Finches, Loncbura Punctulata",spice finches (Lonchura punctulata),Aves
 Not relevant,1995,"Heinsohn, R; Packer, C",Science,Complex Cooperative Strategies In Group-Territorial African Lions,,
 Other,1996,"Beauchamp, G; Giraldeau, LA",American Naturalist,Group Foraging Revisited: Information Sharing Or Producer-Scrounger Game?,,
 Empirical,1996,"Koops, MA; Giraldeau, LA",Animal Behaviour,Producer-Scrounger Foraging Games In Starlings: A Test Of Rate-Maximizing And Risk-Sensitive Models,starlings (Sturnus vulgaris),Aves
@@ -81,7 +81,7 @@ Not relevant,2008,"Mesoudi, A",Evolution And Human Behavior,"An Experimental Sim
 Empirical,2008,"Monus, F; Barta, Z",Ethology,The Effect Of Within-Flock Spatial Position On The Use Of Social Foraging Tactics In Free-Living Tree Sparrows,tree sparrows (Passer montanus),Aves
 Empirical,2009,"Dyer, John R. G.; Croft, Darren P.; Morrell, Lesley J.; Krause, Jens",Behavioral Ecology,Shoal Composition Determines Foraging Success In The Guppy,guppies (Poecilia reticulata),Actinopterygii
 Not relevant,2009,"Franz, M; Nunn, CL",Journal Of Evolutionary Biology,Rapid Evolution Of Social Learning,,
-Not relevant,2009,"Giraldeau, L.-A.",Encyclopedia Of Animal Behavior,Group Foraging,,
+Not relevant,2009,"Giraldeau, L.A.",Encyclopedia Of Animal Behavior,Group Foraging,,
 Other,2009,"Hamblin, S; Giraldeau, LA",Animal Behaviour,Finding The Evolutionarily Stable Learning Rule For Frequency-Dependent Foraging,,
 Other,2009,"He, S; Wu, QH; Saunders, JR",Ieee Transactions On Evolutionary Computation,Group Search Optimizer: An Optimization Algorithm Inspired By Animal Searching Behavior,,
 Not relevant,2009,"Janmaat, K.R.L., Olupot, W., Chancellor, R.L., Arlet, M.E., Waser, P.M.",International Journal Of Primatology,Long-Term Site Fidelity And Individual Home Range Shifts In Lophocebus Albigena,,
@@ -221,7 +221,7 @@ Other,2018,"Ogura, Y., Amita, H., Matsushima, T.",Frontiers In Applied Mathemati
 Not relevant,2018,"Webster, MM; Laland, KN",Animal Behaviour,Experience Shapes Social Information Use In Foraging Fish,,
 Not relevant,2019,"Deng, GL; Zhang, ZW; Jiang, TH; Zhang, SN",Applied Soft Computing,Total Flow Time Minimization In No-Wait Job Shop Using A Hybrid Discrete Group Search Optimizer,,
 Empirical,2019,"Fulop, A; Nemeth, Z; Kocsis, B; Deak-Molnar, B; Bozsoky, T; Barta, Z",Behavioral Ecology,Personality And Social Foraging Tactic Use In Free-Living Eurasian Tree Sparrows (Passer Montanus),Eurasian tree sparrows (Passer montanus),Aves
-Not relevant,2019,"Giraldeau, L.-A., Pyke, G.H.",Encyclopedia Of Animal Behavior,Group Foraging,,
+Not relevant,2019,"Giraldeau, L.A., Pyke, G.H.",Encyclopedia Of Animal Behavior,Group Foraging,,
 Empirical,2019,"Harten, L; Prat, Y; Ben Cohen, S; Dor, R; Yovel, Y",Current Biology,Food For Sex In Bats Revealed As Producer Males Reproduce With Scrounging Females,Egyptian fruit bats (Rousettus aegyptiacus),Mammalia
 Not relevant,2019,"Kim, H; Toyokawa, W; Kameda, T",Evolution And Human Behavior,How Do We Decide When (Not) To Free-Ride? Risk Tolerance Predicts Behavioral Plasticity In Cooperation,,
 Not relevant,2019,"Kobayashi, Y; Wakano, JY; Ohtsuki, H",Journal Of Theoretical Biology,Evolution Of Cumulative Culture For Niche Construction,,
