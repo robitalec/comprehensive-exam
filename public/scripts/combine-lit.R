@@ -2,7 +2,6 @@
 # Alec L. Robitaille
 
 
-
 # Packages ----------------------------------------------------------------
 library(data.table)
 
@@ -11,9 +10,6 @@ library(data.table)
 DT <-  dir('data/literature/', full.names = TRUE) |>
 	lapply(function(x) fread(x)) |>
 	rbindlist(fill = TRUE)
-
-
-
 
 
 # Prepare -----------------------------------------------------------------
@@ -25,8 +21,6 @@ DT[is.na(PY), PY := Year]
 DT[is.na(AU), AU := Authors]
 DT[is.na(TI), TI := Title]
 DT[is.na(SO), SO := `Source title`]
-
-
 
 
 # Filter duplicates -------------------------------------------------------
@@ -41,7 +35,6 @@ DT[, uniqueN(DOI)]
 
 # Check first row for each DOI
 DT[seq_by_doi == 1]
-
 
 # Output columns
 out_cols <- c('PY', 'AU', 'TI', 'SO', 'DOI')
