@@ -1,6 +1,8 @@
 ---
-title: "Supplement: Code"
+title: "Reproducible Research"
 ---
+
+Sources for this project can be found at https://github.com/robitalec/comprehensive-exam and an accompanying website is at: https://robitalec.gitlab.io/comprehensive-exam/
 
 First level package dependencies included:
 
@@ -20,5 +22,4 @@ First level package dependencies included:
 - googledrive
 - googlesheets4
 
-
-Sources for this project can be found at https://github.com/robitalec/comprehensive-exam and an accompanying website is at: https://robitalec.gitlab.io/comprehensive-exam/
+The graph visualizations were built using GraphViz [@Gansner_2000]. 

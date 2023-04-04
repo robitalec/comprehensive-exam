@@ -8,7 +8,7 @@
 
 \singlespacing
 
-Table 1: Resources, risks and conditions identified in the producer-scrounger literature reviewed (Table S1). Examples of variables for resources, risks and conditions comprising animal's habitats were derived from Matthiopolous et al. (2023). Corresponding articles that directly investigated the influence of each variable on  producer-scrounger dynamics were listed. Articles were grouped according to approach, either producer-scrounger models using evolutionary game theory or empirical tests. Articles are abbreviated to the first two letters of the first author's last name and the year of publication without century (eg. Barta 1998 = Ba98), optionally with a letter to differentiate multiple articles for a first author within a year. 
+Table 1: Resources, risks and conditions identified in the producer-scrounger literature reviewed (Table S1). Examples of variables for resources, risks and conditions comprising animal's habitats were derived from Matthiopolous et al. (2023). Corresponding articles that directly investigated the influence of each variable on  producer-scrounger dynamics were listed. Articles were grouped according to approach, either producer-scrounger models using evolutionary game theory or empirical tests. Articles are abbreviated to the first two letters of the first author's last name and the year of publication without century (eg. Barta 1998 = Ba98), optionally with a letter for multiple articles for a first author in a year. 
 
 
 ```{r}
