@@ -6,6 +6,9 @@ $presentation-slide-text-align: center;
 
 
 /*-- scss:rules --*/
-.center h3 {
+.center {
+  text-align: center;
+}
+.columns {
   text-align: center;
 }
