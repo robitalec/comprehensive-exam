@@ -12,14 +12,14 @@ date-format: iso
 ---
 
 
-##
+
+## {.center}
+
 ```{r}
 #| echo: false
 library(targets)
 library(DiagrammeR)
 ```
-
-## {.center}
 
 ### In the context of frequency-dependent producer-scrounger dynamics, how would one's role affect access to available resources considering risks and conditions during habitat selection?
 
@@ -27,11 +27,53 @@ library(DiagrammeR)
 
 ### <span style="color: #42727c">In the context of </span><span style="color: #AD8F89">frequency-dependent producer-scrounger dynamics</span><span style="color: #42727c">, how would one's </span><span style="color: #AD8F89">role</span><span style="color: #42727c"> affect </span><span style="color: #AD8F89">access</span><span style="color: #42727c"> to </span><span style="color: #AD8F89">available resources</span><span style="color: #42727c"> considering </span><span style="color: #AD8F89">risks and conditions</span><span style="color: #42727c"> during </span><span style="color: #AD8F89">habitat selection</span><span style="color: #42727c">?</span>
 
-##  
+## {.center}
 
-- frequency-dependent producer-scrounger dynamics
+```{dot}
+digraph habitat_and_producer {
+  bgcolor = transparent;
+  rankdir = TB
+	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#e1e1e1", style = filled, color = "#3f6f7a"]
+	edge [penwidth = 4, color = "#122124"] 
+	Habitat [label = "Habitat\nselection"]
+	Resources
+	Conditions
+	Risks
+
+	access_avail [label = "Availability\nand\naccess", shape = ellipse]
+	ps_dyn [label = "Producer-scrounger\ndynamics"]
+	freq [label = "Frequency\ndependence"]
+	patch_penalties [label = "Patch penalties"]
+	patch_payoffs [label = "Patch payoffs"]
+
+	ps_dyn -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> Roles -> access_avail
+	access_avail -> {Resources Conditions Risks} [dir = back]
+	{patch_penalties} ->  Risks [color = "#1f373d", dir = back]
+	patch_payoffs -> Resources [color = "#1f373d", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#1f373d", dir = back]
+	{Resources Risks Conditions} -> Habitat [dir = back]
+}
+```
+
+##
+
+- frequency-dependent <br> producer-scrounger <br> dynamics
 - role
+
+<hr>
+
 - access
 - available resources
+
+<hr>
+
 - risks and conditions
 - habitat selection
+
+## {.auto-stretch}
+
+
+![](../../figures/habitat-and-producer.png)
+
+  
