@@ -337,7 +337,11 @@ For example: forage patch quality, patch density, or resting spaces
 
 ## Conditions
 
-## Table 1: Resources {.small}
+
+<!-- Objective 2 -->
+
+
+## {.small}
  
 <!-- flowchart and -->
 
@@ -349,7 +353,7 @@ tar_read(rrc_results)[Type == 'Resources', .(Type, Variable, 'Producer-scrounger
 				table.font.size = pct(12))
 ```
 
-## Table 1: Risks
+## {.small}
 
 <!-- flowchart and -->
 
@@ -361,7 +365,7 @@ tar_read(rrc_results)[Type == 'Risks', .(Type, Variable, 'Producer-scrounger mod
 				table.font.size = pct(20))
 ```
 
-## Table 1: Conditions
+## {.small}
 
 <!-- flowchart and -->
 
