@@ -34,6 +34,92 @@ library(DiagrammeR)
 digraph habitat_and_producer {
   bgcolor = transparent;
   rankdir = TB
+	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#e1e1e1", style = filled, color = "#3f6f7a", fillcolor = "#3f6f7a", penwidth = 4]
+	edge [penwidth = 4, color = "#122124"] 
+	Habitat [label = "Habitat\nselection", color = "#959D71"]
+	Resources [color = "#959D71"]
+	Conditions [color = "#959D71"]
+	Risks [color = "#959D71"]
+
+    Roles [color = "#9d7195"]
+	access_avail [label = "Availability\nand\naccess", shape = ellipse, color = "#AD8F89"]
+	ps_dyn [label = "Producer-scrounger\ndynamics", color = "#9d7195"]
+	freq [label = "Frequency\ndependence", color = "#9d7195"]
+	patch_penalties [label = "Patch penalties", color = "#9d7195"]
+	patch_payoffs [label = "Patch payoffs", color = "#9d7195"]
+
+	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> access_avail
+	access_avail -> {Resources Conditions Risks} [dir = back]
+	{patch_penalties} ->  Risks [color = "#1f373d", dir = back]
+	patch_payoffs -> Resources [color = "#1f373d", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#1f373d", dir = back]
+	{Resources Risks Conditions} -> Habitat [dir = back]
+}
+```
+
+## <!-- Producer-scrounger roles --> {.center} 
+
+:::: {.columns}
+
+::: {.column width="60%"}
+<br>
+<br>
+
+\- Producers
+
+\- Scroungers
+
+\- (Opportunitists)
+:::
+
+::: {.column width="30%"}
+```{dot}
+//| fig-width: 2.5
+digraph habitat_and_producer {
+  bgcolor = transparent;
+  rankdir = TB
+	node [fontsize = 36, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 4]
+	edge [penwidth = 3, color = "#122124"] 
+	Habitat [label = "Habitat\nselection"]
+	Resources
+	Conditions
+	Risks
+
+    Roles [color = "#9d7195", fontcolor = "#e1e1e1", fillcolor = "#3f6f7a"]
+	ps_dyn [label = "Producer-scrounger\ndynamics", color = "#9d7195", fillcolor = "#3f6f7a", fontcolor = "#e1e1e1"]
+	freq [label = "Frequency\ndependence"]
+	patch_penalties [label = "Patch penalties"]
+	patch_payoffs [label = "Patch payoffs"]
+	access_avail [label = "Availability\nand\naccess", shape = ellipse]
+
+	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> access_avail
+	access_avail -> {Resources Conditions Risks} [dir = back]
+	{patch_penalties} ->  Risks [color = "#1f373d", dir = back]
+	patch_payoffs -> Resources [color = "#1f373d", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#1f373d", dir = back]
+	{Resources Risks Conditions} -> Habitat [dir = back]
+}
+```
+:::
+
+::::
+
+## <!-- Producer-scrounger video --> 
+
+
+{{< video https://www.youtube.com/embed/B1h1mDgSjOc width="100%" height="85%"  >}}
+
+
+##
+
+
+
+<!-- plain
+digraph habitat_and_producer {
+  bgcolor = transparent;
+  rankdir = TB
 	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#e1e1e1", style = filled, color = "#3f6f7a"]
 	edge [penwidth = 4, color = "#122124"] 
 	Habitat [label = "Habitat\nselection"]
