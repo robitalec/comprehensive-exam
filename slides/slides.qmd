@@ -133,34 +133,12 @@ digraph habitat_and_producer {
 	patch_penalties [label = "Patch penalties"]
 	patch_payoffs [label = "Patch payoffs"]
 
-	ps_dyn -> freq -> {patch_penalties patch_payoffs}
-	{patch_penalties patch_payoffs} -> Roles -> access_avail
+	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> access_avail
 	access_avail -> {Resources Conditions Risks} [dir = back]
 	{patch_penalties} ->  Risks [color = "#1f373d", dir = back]
 	patch_payoffs -> Resources [color = "#1f373d", dir = back]
 	{patch_payoffs patch_penalties} -> Conditions [color = "#1f373d", dir = back]
 	{Resources Risks Conditions} -> Habitat [dir = back]
 }
-```
-
-##
-
-- frequency-dependent <br> producer-scrounger <br> dynamics
-- role
-
-<hr>
-
-- access
-- available resources
-
-<hr>
-
-- risks and conditions
-- habitat selection
-
-## {.auto-stretch}
-
-
-![](../../figures/habitat-and-producer.png)
-
-  
+-->
