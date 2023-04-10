@@ -25,9 +25,10 @@ library(DiagrammeR)
 
 ## {.center}
 
-### In the context of <span style="color: #AD8F89">frequency-dependent producer-scrounger dynamics</span>, how would one's <span style="color: #AD8F89">role</span> affect <span style="color: #AD8F89">access</span> to <span style="color: #AD8F89">available resources</span> considering <span style="color: #AD8F89">risks and conditions</span> during <span style="color: #AD8F89">habitat selection</span>?
+### <span style="color: #42727c">In the context of </span><span style="color: #AD8F89">frequency-dependent producer-scrounger dynamics</span><span style="color: #42727c">, how would one's </span><span style="color: #AD8F89">role</span><span style="color: #42727c"> affect </span><span style="color: #AD8F89">access</span><span style="color: #42727c"> to </span><span style="color: #AD8F89">available resources</span><span style="color: #42727c"> considering </span><span style="color: #AD8F89">risks and conditions</span><span style="color: #42727c"> during </span><span style="color: #AD8F89">habitat selection</span><span style="color: #42727c">?</span>
 
-## 
+##  
+
 - frequency-dependent producer-scrounger dynamics
 - role
 - access
