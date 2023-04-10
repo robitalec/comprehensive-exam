@@ -62,13 +62,13 @@ digraph habitat_and_producer {
 
 :::: {.columns}
 
-::: {.column width="22%"}
+::: {.column width="50%"}
 ```{dot}
-//| fig-width: 2.2
+//| fig-width: 3.5
 digraph habitat_and_producer {
   bgcolor = transparent;
   rankdir = TB
-	node [fontsize = 36, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
 	edge [penwidth = 5, color = "#9d9d9d"] 
 	Habitat [label = "Habitat\nselection"]
 	Resources
@@ -94,15 +94,15 @@ digraph habitat_and_producer {
 :::
 
 
-::: {.column width="60%"}
+::: {.column width="50%"}
 <br>
 <br>
 
-\- Producers
+Producers
 
-\- Scroungers
+Scroungers
 
-\- (Opportunitists)
+(Opportunitists)
 :::
 
 ::::
@@ -117,13 +117,13 @@ digraph habitat_and_producer {
 
 :::: {.columns}
 
-::: {.column width="22%"}
+::: {.column width="50%"}
 ```{dot}
-//| fig-width: 2.2
+//| fig-width: 3.5
 digraph habitat_and_producer {
   bgcolor = transparent;
   rankdir = TB
-	node [fontsize = 36, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
 	edge [penwidth = 5, color = "#9d9d9d"] 
 	Habitat [label = "Habitat\nselection"]
 	Resources
@@ -149,7 +149,7 @@ digraph habitat_and_producer {
 :::
 
 
-::: {.column width="60%"}
+::: {.column width="50%"}
 <br>
 
 <br>
@@ -174,13 +174,13 @@ examples of frequency dependence, payoffs, penalties
 
 :::: {.columns}
 
-::: {.column width="22%"}
+::: {.column width="50%"}
 ```{dot}
-//| fig-width: 2.2
+//| fig-width: 3.5
 digraph habitat_and_producer {
   bgcolor = transparent;
   rankdir = TB
-	node [fontsize = 36, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
 	edge [penwidth = 5, color = "#9d9d9d"] 
 	Habitat [label = "Habitat\nselection"]
 	Resources
@@ -206,7 +206,7 @@ digraph habitat_and_producer {
 :::
 
 
-::: {.column width="60%"}
+::: {.column width="50%"}
 <br>
 
 <br>
@@ -224,14 +224,14 @@ Objective 1: how does role in producer-scrounger dynamics affect access to avail
 
 :::: {.columns}
 
-::: {.column width="22%"}
+::: {.column width="50%"}
 
 ```{dot}
-//| fig-width: 2.2
+//| fig-width: 3.5
 digraph habitat_and_producer {
   bgcolor = transparent;
   rankdir = TB
-	node [fontsize = 36, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
 	edge [penwidth = 5, color = "#9d9d9d"] 
 	Habitat [label = "Habitat\nselection", color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
 	Resources [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
@@ -257,7 +257,7 @@ digraph habitat_and_producer {
 :::
 
 
-::: {.column width="60%"}
+::: {.column width="50%"}
 
 <br> 
 
@@ -279,14 +279,14 @@ Conditions
 
 :::: {.columns}
 
-::: {.column width="22%"}
+::: {.column width="50%"}
 
 ```{dot}
-//| fig-width: 2.2
+//| fig-width: 3.5
 digraph habitat_and_producer {
   bgcolor = transparent;
   rankdir = TB
-	node [fontsize = 36, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
 	edge [penwidth = 5, color = "#9d9d9d"] 
 	Habitat [label = "Habitat\nselection", color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
 	Resources [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
@@ -312,7 +312,7 @@ digraph habitat_and_producer {
 :::
 
 
-::: {.column width="60%"}
+::: {.column width="50%"}
 
 Resources
 
