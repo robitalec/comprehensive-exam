@@ -320,9 +320,9 @@ Resources
 library(ggplot2)
 
 ggplot(data.frame(x = c(0, 3)), aes(x)) +
-  stat_function(fun = exp, geom = 'line', size = 3) + 
+  stat_function(fun = exp, geom = 'line', linewidth = 3) + 
   theme_minimal(base_size = 30) + 
-  labs(x = 'Resource', y = '')
+  labs(x = 'Resource', y = 'Expected fitness')
 ```
 
 For example: forage patch quality, density, resting spaces
