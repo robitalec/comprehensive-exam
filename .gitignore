@@ -13,4 +13,4 @@ literature/.obsidian/
 public/pdf
 public/renv
 pdf/*
-!/pdf/Robitaille_Alec_PhD_Comprehensive_Examination.pdf
+#!/pdf/Robitaille_Alec_PhD_Comprehensive_Examination.pdf
