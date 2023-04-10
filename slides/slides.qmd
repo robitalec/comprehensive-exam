@@ -1,9 +1,14 @@
 ---
 title: "Comprehensive exam"
 date: "2023-04-17"
-author: "Alec Robitaille"
-format: revealjs
-date-format: long
+author:
+  - name: Alec L. Robitaille
+    affiliations:
+      - name: "Memorial University of Newfoundland and Labrador"
+format:
+  revealjs: 
+    theme: [dark, custom.scss]
+date-format: iso
 ---
 
 ## 
