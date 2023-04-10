@@ -11,62 +11,26 @@ format:
 date-format: iso
 ---
 
-## 
 
-### In the context of frequency-dependent producer-scrounger dynamics, how would one's role affect access to available resources considering risks and conditions during habitat selection?
-
-
+##
 ```{r}
 #| echo: false
 library(targets)
 library(DiagrammeR)
 ```
 
+## {.center}
 
+### In the context of frequency-dependent producer-scrounger dynamics, how would one's role affect access to available resources considering risks and conditions during habitat selection?
 
+## {.center}
 
-<!-- 
-https://quarto.org/docs/presentations/revealjs/ 
-https://quarto.org/docs/presentations/revealjs/advanced.html
--->
-
-##  Resources, risks and conditions
-
-
-
-```{r}
-#| echo: false
-tar_read(resources_risks_conditions)
-```
+### In the context of <span style="color: #AD8F89">frequency-dependent producer-scrounger dynamics</span>, how would one's <span style="color: #AD8F89">role</span> affect <span style="color: #AD8F89">access</span> to <span style="color: #AD8F89">available resources</span> considering <span style="color: #AD8F89">risks and conditions</span> during <span style="color: #AD8F89">habitat selection</span>?
 
 ## 
-
-```{r}
-#| echo: false
-tar_read(habitat_and_producer)
-```
-
-## 
-
-
-```{r}
-#| echo: false
-tar_read(term_cloud)
-```
-
-## Fundamental, realized niche
-
-
-```{r}
-#| echo: false
-tar_read(fundamental_realized)
-```
-
-
-
-##
-
-```{r}
-#| echo: false
-tar_read(why_in_space)
-```
+- frequency-dependent producer-scrounger dynamics
+- role
+- access
+- available resources
+- risks and conditions
+- habitat selection
