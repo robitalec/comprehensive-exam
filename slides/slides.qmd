@@ -105,14 +105,26 @@ digraph habitat_and_producer {
 \- (Opportunitists)
 :::
 
-::: {.column width="30%"}
+::::
+
+## <!-- Producer-scrounger video --> 
+
+
+{{< video https://www.youtube.com/embed/B1h1mDgSjOc width="100%" height="85%"  >}}
+
+
+## <!-- Frequency, payoffs, penalties --> {.center} 
+
+:::: {.columns}
+
+::: {.column width="22%"}
 ```{dot}
-//| fig-width: 2.5
+//| fig-width: 2.2
 digraph habitat_and_producer {
   bgcolor = transparent;
   rankdir = TB
-	node [fontsize = 36, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 4]
-	edge [penwidth = 3, color = "#122124"] 
+	node [fontsize = 36, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	edge [penwidth = 5, color = "#9d9d9d"] 
 	Habitat [label = "Habitat\nselection"]
 	Resources
 	Conditions
