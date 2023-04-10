@@ -130,33 +130,38 @@ digraph habitat_and_producer {
 	Conditions
 	Risks
 
-    Roles [color = "#9d7195", fontcolor = "#e1e1e1", fillcolor = "#3f6f7a"]
-	ps_dyn [label = "Producer-scrounger\ndynamics", color = "#9d7195", fillcolor = "#3f6f7a", fontcolor = "#e1e1e1"]
-	freq [label = "Frequency\ndependence"]
-	patch_penalties [label = "Patch penalties"]
-	patch_payoffs [label = "Patch payoffs"]
+    Roles 
+	ps_dyn [label = "Producer-scrounger\ndynamics"]
+	freq [label = "Frequency\ndependence", color = "#9d7195", fillcolor = "#9d7195", fontcolor = "#e1e1e1"]
+	patch_penalties [label = "Patch penalties", color = "#9d7195", fillcolor = "#9d7195", fontcolor = "#e1e1e1"]
+	patch_payoffs [label = "Patch payoffs", color = "#9d7195", fillcolor = "#9d7195", fontcolor = "#e1e1e1"]
 	access_avail [label = "Availability\nand\naccess", shape = ellipse]
 
 	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
 	{patch_penalties patch_payoffs} -> access_avail
 	access_avail -> {Resources Conditions Risks} [dir = back]
-	{patch_penalties} ->  Risks [color = "#1f373d", dir = back]
-	patch_payoffs -> Resources [color = "#1f373d", dir = back]
-	{patch_payoffs patch_penalties} -> Conditions [color = "#1f373d", dir = back]
+	{patch_penalties} ->  Risks [color = "#707070", dir = back]
+	patch_payoffs -> Resources [color = "#707070", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
 	{Resources Risks Conditions} -> Habitat [dir = back]
 }
 ```
 :::
 
+
+::: {.column width="60%"}
+<br>
+
+<br>
+
+Payoffs
+
+Penalties
+
+Frequency dependence
+:::
+
 ::::
-
-## <!-- Producer-scrounger video --> 
-
-
-{{< video https://www.youtube.com/embed/B1h1mDgSjOc width="100%" height="85%"  >}}
-
-
-##
 
 
 
