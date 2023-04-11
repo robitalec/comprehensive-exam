@@ -232,56 +232,23 @@ depending on role
 
 ::::
 
-## <!-- Access - producer --> {.center} 
+## <!-- Access - role --> {.center} 
 
 :::: {.columns}
-::: {.column width="35%"}
-```{dot}
-//| fig-width: 3.5
-digraph habitat_and_producer {
-  bgcolor = transparent;
-  rankdir = TB
-	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
-	edge [penwidth = 5, color = "#9d9d9d"] 
-	Habitat [label = "Habitat\nselection"]
-	Resources
-	Conditions
-	Risks
+::: {.column width="40%"}
+Producers
 
-    Roles [color = "#9d7195", fillcolor = "#9d7195", fontcolor = "#e1e1e1"]
-	ps_dyn [label = "Producer-scrounger\ndynamics"]
-	freq [label = "Frequency\ndependence"]
-	patch_penalties [label = "Patch penalties"]
-	patch_payoffs [label = "Patch payoffs"]
-	access_avail [label = "Availability\nand\naccess", shape = ellipse, fillcolor = "#AD8F89", color = "#AD8F89", fontcolor = "#e1e1e1"]
-
-	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
-	{patch_penalties patch_payoffs} -> access_avail
-	access_avail -> {Resources Conditions Risks} [dir = back]
-	{patch_penalties} ->  Risks [color = "#707070", dir = back]
-	patch_payoffs -> Resources [color = "#707070", dir = back]
-	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
-	{Resources Risks Conditions} -> Habitat [dir = back]
-}
-```
-:::
-
-::: {.column width="10%"}
-
-:::
-
-::: {.column width="45%"}
 ```{r}
 #| echo: false
-#| fig-width: 4
-#| fig-height: 4
+#| fig-width: 5
+#| fig-height: 5
 tar_load(landscape_long)
 
 # Producer ----------------------------------------------------------------
 DT_id <- CJ(id = c('A'), pr_id = c('C', 'D', 'E'), obs = seq.int(1))
 DT_id[, c('x', 'y') := .(c(-1, 0.2, 1), c(1, -0.5, 0.4))]
 
-DT_ed <- CJ(id = 'A', obs = seq.int(1), rdm = seq.int(7))
+DT_ed <- CJ(id = 'A', obs = seq.int(1), rdm = seq.int(10))
 
 DT_pt <- CJ(id = 'A', obs = seq.int(1))
 DT_pt[, c('x', 'y') := .(0, 0)]
@@ -290,11 +257,23 @@ DT_pt_rdm <- DT_ed[DT_pt, on = .(id, obs)]
 DT_pt_rdm[, c('x_rdm', 'y_rdm') := .(x + rnorm(.N, sd = 0.5), y + rnorm(.N, sd = 0.5))]
 
 
+# Scrounger -------------------------------------------------------------
+DT_id <- CJ(id = c('A'), pr_id = c('C', 'D', 'E'), obs = seq.int(1))
+DT_id[, c('x', 'y') := .(c(-1, 0.2, 1), c(1, -0.5, 0.4))]
+
+
+DT_sc <- CJ(id = c('A'), obs = seq.int(1))
+DT_sc[, c('x', 'y') := .(0, 0)]
+
+mDTsc <- DT_sc[DT_id, on = 'id']
+
+
 ggplot(landscape_long,
 		aes(rescale(x, c(-1.2, 1.2)),
 			rescale(y, c(-1.2, 1.2)))) +
 	geom_tile(aes(fill = clumps), alpha = 0.6) +
 	geom_point(aes(x_rdm, y_rdm), size = 2, data = DT_pt_rdm) +
+	geom_point(aes(i.x, i.y), size = 5, shape = 15, data = mDTsc) +
 	geom_segment(aes(x = x, y = y, xend = x_rdm, yend = y_rdm),
 				 size = 1, 
 				 arrow = arrow(length = unit(0.1, 'inches')),
@@ -311,62 +290,16 @@ ggplot(landscape_long,
 ```
 :::
  
-:::: 
-
-
-## <!-- Access - scrounger --> {.center} 
-
-:::: {.columns}
-::: {.column width="35%"}
-```{dot}
-//| fig-width: 3.5
-digraph habitat_and_producer {
-  bgcolor = transparent;
-  rankdir = TB
-	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
-	edge [penwidth = 5, color = "#9d9d9d"] 
-	Habitat [label = "Habitat\nselection"]
-	Resources
-	Conditions
-	Risks
-
-    Roles [color = "#9d7195", fillcolor = "#9d7195", fontcolor = "#e1e1e1"]
-	ps_dyn [label = "Producer-scrounger\ndynamics"]
-	freq [label = "Frequency\ndependence"]
-	patch_penalties [label = "Patch penalties"]
-	patch_payoffs [label = "Patch payoffs"]
-	access_avail [label = "Availability\nand\naccess", shape = ellipse, fillcolor = "#AD8F89", color = "#AD8F89", fontcolor = "#e1e1e1"]
-
-	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
-	{patch_penalties patch_payoffs} -> access_avail
-	access_avail -> {Resources Conditions Risks} [dir = back]
-	{patch_penalties} ->  Risks [color = "#707070", dir = back]
-	patch_payoffs -> Resources [color = "#707070", dir = back]
-	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
-	{Resources Risks Conditions} -> Habitat [dir = back]
-}
-```
+::: {.column width="10%"}
 :::
  
-::: {.column width="10%"}
+::: {.column width="40%"}
+Scroungers
 
-:::
-
-::: {.column width="45%"}
 ```{r}
 #| echo: false
-#| fig-width: 4
-#| fig-height: 4
-# Scrounger -------------------------------------------------------------
-DT_id <- CJ(id = c('A'), pr_id = c('C', 'D', 'E'), obs = seq.int(1))
-DT_id[, c('x', 'y') := .(c(-1, 0.2, 1), c(1, -0.5, 0.4))]
-
-
-DT_sc <- CJ(id = c('A'), obs = seq.int(1))
-DT_sc[, c('x', 'y') := .(0, 0)]
-
-mDTsc <- DT_sc[DT_id, on = 'id']
-
+#| fig-width: 5
+#| fig-height: 5
 ggplot(landscape_long,
 			 aes(rescale(x, c(-1.2, 1.2)),
 			 		rescale(y, c(-1.2, 1.2)))) +
