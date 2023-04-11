@@ -6,10 +6,10 @@ library(ggplot2)
 DT_ed <- CJ(id = 'A', obs = seq.int(3), rdm = seq.int(5))
 
 DT_pt <- CJ(id = 'A', obs = seq.int(3))
-DT_pt[, c('x', 'y') := .(rnorm(.N), rnorm(.N))]
+DT_pt[, c('x', 'y') := .(c(-1, 0, 1), c(1, -1, 0))]
 
 DT_pt_rdm <- DT_ed[DT_pt, on = .(id, obs)]
-DT_pt_rdm[, c('x_rdm', 'y_rdm') := .(x + rnorm(.N, 0.01), y + rnorm(.N, 0.01))]
+DT_pt_rdm[, c('x_rdm', 'y_rdm') := .(x + rnorm(.N, sd = 0.5), y + rnorm(.N, sd = 0.5))]
 
 
 ggplot(DT_pt_rdm) +
