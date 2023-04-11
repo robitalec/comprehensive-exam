@@ -5,6 +5,7 @@ library(tarchetypes)
 
 library(data.table)
 library(ggplot2)
+library(scales)
 
 library(quarto)
 library(gt)
@@ -22,3 +23,6 @@ library(magick)
 
 library(googledrive)
 library(googlesheets4)
+
+library(raster)
+library(NLMR)
