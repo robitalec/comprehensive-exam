@@ -30,15 +30,12 @@ source('R/packages.R')
 
 ## <!-- Flowchart --> {.center} 
 
-:::: {.columns}
-
-::: {.column width="50%"}
 ```{dot}
 //| fig-width: 3.5
 digraph habitat_and_producer {
   bgcolor = transparent;
   rankdir = TB
-	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#e1e1e1", style = filled, color = "#3f6f7a", fillcolor = "#3f6f7a", penwidth = 4]
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#e1e1e1", style = filled, color = "#3f6f7a", fillcolor = "#3f6f7a", penwidth = 4]
 	edge [penwidth = 5, color = "#9d9d9d"] 
 	Habitat [label = "Habitat\nselection"]
 	Resources []
@@ -61,29 +58,20 @@ digraph habitat_and_producer {
 	{Resources Risks Conditions} -> Habitat [dir = back]
 }
 ```
-:::
 
-::: {.column width="50%"}
-Objectives:
-
-1. Access depending on role
-1. Risks and conditions influence on role
-1. Integrating role in habitat selection 
-:::
-::::
 
 
 ## <!-- Producer-scrounger roles --> {.center} 
 
 :::: {.columns}
 
-::: {.column width="50%"}
+::: {.column width="35%"}
 ```{dot}
 //| fig-width: 3.5
 digraph habitat_and_producer {
   bgcolor = transparent;
   rankdir = TB
-	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
 	edge [penwidth = 5, color = "#9d9d9d"] 
 	Habitat [label = "Habitat\nselection"]
 	Resources
@@ -108,8 +96,11 @@ digraph habitat_and_producer {
 ```
 :::
 
+::: {.column width="10%"}
 
-::: {.column width="50%"}
+:::
+
+::: {.column width="45%"}
 <br>
 <br>
 
@@ -134,14 +125,13 @@ Scroungers
 ## <!-- Frequency, payoffs, penalties --> {.center} 
 
 :::: {.columns}
-
-::: {.column width="50%"}
+::: {.column width="35%"}
 ```{dot}
 //| fig-width: 3.5
 digraph habitat_and_producer {
   bgcolor = transparent;
   rankdir = TB
-	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
 	edge [penwidth = 5, color = "#9d9d9d"] 
 	Habitat [label = "Habitat\nselection"]
 	Resources
@@ -166,17 +156,21 @@ digraph habitat_and_producer {
 ```
 :::
 
+::: {.column width="10%"}
 
-::: {.column width="50%"}
+:::
+
+::: {.column width="45%"}
 <br>
 
 <br>
+
+Frequency dependence
 
 Payoffs
 
 Penalties
 
-Frequency dependence
 :::
 
 ::::
@@ -188,17 +182,16 @@ examples of frequency dependence, payoffs, penalties
 
 --> 
 
-## <!-- Access depending on role --> {.center} 
+## <!-- Objective 1 --> {.center} 
 
 :::: {.columns}
-
-::: {.column width="50%"}
+::: {.column width="35%"}
 ```{dot}
 //| fig-width: 3.5
 digraph habitat_and_producer {
   bgcolor = transparent;
   rankdir = TB
-	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
 	edge [penwidth = 5, color = "#9d9d9d"] 
 	Habitat [label = "Habitat\nselection"]
 	Resources
@@ -223,13 +216,18 @@ digraph habitat_and_producer {
 ```
 :::
 
+::: {.column width="10%"}
 
-::: {.column width="50%"}
+:::
+
+::: {.column width="45%"}
 <br>
 
-<br>
+### Objective 1: 
 
-Objective 1: how does role in producer-scrounger dynamics affect access to available resources?
+Access to resources
+
+depending on role
 :::
 
 ::::
@@ -237,14 +235,13 @@ Objective 1: how does role in producer-scrounger dynamics affect access to avail
 ## <!-- Access - producer --> {.center} 
 
 :::: {.columns}
-
-::: {.column width="50%"}
+::: {.column width="35%"}
 ```{dot}
 //| fig-width: 3.5
 digraph habitat_and_producer {
   bgcolor = transparent;
   rankdir = TB
-	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
 	edge [penwidth = 5, color = "#9d9d9d"] 
 	Habitat [label = "Habitat\nselection"]
 	Resources
@@ -269,8 +266,11 @@ digraph habitat_and_producer {
 ```
 :::
 
+::: {.column width="10%"}
 
-::: {.column width="50%"}
+:::
+
+::: {.column width="45%"}
 ```{r}
 #| echo: false
 #| fig-width: 4
@@ -294,6 +294,7 @@ ggplot(landscape_long,
 		aes(rescale(x, c(-1.2, 1.2)),
 			rescale(y, c(-1.2, 1.2)))) +
 	geom_tile(aes(fill = clumps), alpha = 0.6) +
+	geom_point(aes(x_rdm, y_rdm), size = 2, data = DT_pt_rdm) +
 	geom_segment(aes(x = x, y = y, xend = x_rdm, yend = y_rdm),
 				 size = 1, 
 				 arrow = arrow(length = unit(0.1, 'inches')),
@@ -301,7 +302,6 @@ ggplot(landscape_long,
 				 color = 'grey30') +
 	geom_line(aes(x, y), linewidth = 2, data = DT_pt_rdm, color = 'grey20')  +
 	geom_point(aes(x, y), size = 5, data = DT_pt_rdm, shape = 15) +
-	geom_point(aes(x_rdm, y_rdm), size = 2, data = DT_pt_rdm) +
 	coord_equal() +
 	guides(fill = 'none') +
 	theme_void() + 
@@ -310,21 +310,20 @@ ggplot(landscape_long,
 	scale_fill_scico(palette = 'acton', begin = 0.5, end = 0.9)
 ```
 :::
-
-::::
+ 
+:::: 
 
 
 ## <!-- Access - scrounger --> {.center} 
 
 :::: {.columns}
-
-::: {.column width="50%"}
+::: {.column width="35%"}
 ```{dot}
 //| fig-width: 3.5
 digraph habitat_and_producer {
   bgcolor = transparent;
   rankdir = TB
-	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
 	edge [penwidth = 5, color = "#9d9d9d"] 
 	Habitat [label = "Habitat\nselection"]
 	Resources
@@ -348,13 +347,16 @@ digraph habitat_and_producer {
 }
 ```
 :::
+ 
+::: {.column width="10%"}
 
+:::
 
-::: {.column width="50%"}
+::: {.column width="45%"}
 ```{r}
 #| echo: false
-#| fig-width: 7
-#| fig-height: 6
+#| fig-width: 4
+#| fig-height: 4
 # Scrounger -------------------------------------------------------------
 DT_id <- CJ(id = c('A'), pr_id = c('C', 'D', 'E'), obs = seq.int(1))
 DT_id[, c('x', 'y') := .(c(-1, 0.2, 1), c(1, -0.5, 0.4))]
@@ -365,24 +367,28 @@ DT_sc[, c('x', 'y') := .(0, 0)]
 
 mDTsc <- DT_sc[DT_id, on = 'id']
 
-
 ggplot(landscape_long,
 			 aes(rescale(x, c(-1.2, 1.2)),
 			 		rescale(y, c(-1.2, 1.2)))) +
 	geom_tile(aes(fill = clumps), alpha = 0.6) +
 	coord_equal() +
-	geom_point(aes(i.x, i.y, color = pr_id), size = 5, data = mDTsc) +
-	geom_point(aes(x, y), size = 5, data = mDTsc) +
+	geom_point(aes(i.x, i.y), size = 5, shape = 15, data = mDTsc) +
+	geom_point(aes(x, y), size = 5, data = mDTsc, shape = 15) +
 	geom_segment(aes(x = x, y = y, xend = i.x, yend = i.y),
-							 size = 1, arrow = arrow(length = unit(0.2, 'inches')),
-							data = mDTsc) +
+				 size = 1, 
+				 arrow = arrow(length = unit(0.1, 'inches')),
+				 data = mDTsc,
+			     color = 'grey20') +
 	guides(color = 'none', fill = 'none') +
-	theme_void()
+	theme_void() + 
+	theme(plot.background = element_rect(fill = "#134f5c",colour = "#134f5c"),
+		  panel.background = element_rect(fill = "#134f5c",colour = "#134f5c")) +
+	scale_fill_scico(palette = 'acton', begin = 0.5, end = 0.9)
 ```
 :::
 
 ::::
-
+ 
 
 <!-- Lead into habitats are more complex than distributed patches of forage --> 
 <!-- Matt et al definition of habitat --> 
@@ -392,14 +398,13 @@ ggplot(landscape_long,
 
 
 :::: {.columns}
-
-::: {.column width="50%"}
+::: {.column width="35%"}
 ```{dot}
 //| fig-width: 3.5
 digraph habitat_and_producer {
   bgcolor = transparent;
   rankdir = TB
-	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
 	edge [penwidth = 5, color = "#9d9d9d"] 
 	Habitat [label = "Habitat\nselection"]
 	Resources [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
@@ -424,8 +429,11 @@ digraph habitat_and_producer {
 ```
 :::
 
+::: {.column width="10%"}
 
-::: {.column width="50%"}
+:::
+
+::: {.column width="45%"}
 
 <br> 
 
@@ -445,13 +453,13 @@ Conditions
 ## <!-- Resources --> {.center} 
 
 :::: {.columns}
-::: {.column width="50%"}
+::: {.column width="35%"}
 ```{dot}
 //| fig-width: 3.5
 digraph habitat_and_producer {
   bgcolor = transparent;
   rankdir = TB
-	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
 	edge [penwidth = 5, color = "#9d9d9d"] 
 	Habitat [label = "Habitat\nselection"]
 	Resources [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
@@ -476,13 +484,16 @@ digraph habitat_and_producer {
 ```
 :::
 
+::: {.column width="10%"}
 
-::: {.column width="50%"}
+:::
+
+::: {.column width="45%"}
+
 Resources
 
 ```{r}
-library(ggplot2)
-
+#| fig-height: 7
 ggplot(data.frame(x = c(0, 3)), aes(x)) +
   stat_function(fun = exp, geom = 'line', linewidth = 3) + 
   theme_minimal(base_size = 30) + 
@@ -497,17 +508,17 @@ E.g. forage patch quality, density, or resting spaces
 
 
 
-## <!--Risks--> {.center} 
+## <!-- Risks--> {.center} 
 
 
 :::: {.columns}
-::: {.column width="50%"}
+::: {.column width="35%"}
 ```{dot}
 //| fig-width: 3.5
 digraph habitat_and_producer {
   bgcolor = transparent;
   rankdir = TB
-	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
 	edge [penwidth = 5, color = "#9d9d9d"] 
 	Habitat [label = "Habitat\nselection"]
 	Resources []
@@ -532,13 +543,17 @@ digraph habitat_and_producer {
 ```
 :::
 
+::: {.column width="10%"}
 
-::: {.column width="50%"}
+:::
+
+
+::: {.column width="45%"}
+
 Risks
 
 ```{r}
-library(ggplot2)
-
+#| fig-height: 7
 ggplot(data.frame(x = c(0, 3)), aes(x)) +
   stat_function(fun = function(x) 1/exp(x), geom = 'line', linewidth = 3) + 
   theme_minimal(base_size = 30) + 
@@ -555,13 +570,13 @@ E.g. predation, anthropogenic disturbance or harvest
 ## <!--Conditions--> {.center} 
 
 :::: {.columns}
-::: {.column width="50%"}
+::: {.column width="35%"}
 ```{dot}
 //| fig-width: 3.5
 digraph habitat_and_producer {
   bgcolor = transparent;
   rankdir = TB
-	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
 	edge [penwidth = 5, color = "#9d9d9d"] 
 	Habitat [label = "Habitat\nselection"]
 	Resources []
@@ -586,13 +601,16 @@ digraph habitat_and_producer {
 ```
 :::
 
+::: {.column width="10%"}
 
-::: {.column width="50%"}
+:::
+
+::: {.column width="45%"}
+
 Conditions
 
 ```{r}
-library(ggplot2)
-
+#| fig-height: 7
 ggplot(data.frame(x = c(-3, 3)), aes(x)) +
   stat_function(fun = function(x) dnorm(scale(x)), geom = 'line', linewidth = 3) + 
   theme_minimal(base_size = 30) + 
@@ -610,14 +628,13 @@ E.g. temperature, humidity, salinity
 ## <!-- Objective 2 --> {.center} 
 
 :::: {.columns}
-
-::: {.column width="50%"}
+::: {.column width="35%"}
 ```{dot}
 //| fig-width: 3.5
 digraph habitat_and_producer {
   bgcolor = transparent;
   rankdir = TB
-	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
 	edge [penwidth = 5, color = "#9d9d9d"] 
 	Habitat [label = "Habitat\nselection"]
 	Resources [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
@@ -642,8 +659,12 @@ digraph habitat_and_producer {
 ```
 :::
 
+::: {.column width="10%"}
 
-::: {.column width="50%"}
+:::
+
+
+::: {.column width="45%"}
 <br>
 
 ### Objective 2: 
@@ -660,13 +681,13 @@ risks and conditions
 ## <!-- Table 1 - Resources -->{.center}
 
 :::: {.columns}
-::: {.column width="50%"}
+::: {.column width="35%"}
 ```{dot}
 //| fig-width: 3.5
 digraph habitat_and_producer {
   bgcolor = transparent;
   rankdir = TB
-	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
 	edge [penwidth = 5, color = "#9d9d9d"] 
 	Habitat [label = "Habitat\nselection"]
 	Resources [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
@@ -691,8 +712,11 @@ digraph habitat_and_producer {
 ```
 :::
 
+::: {.column width="10%"}
 
-::: {.column width="50%"}
+:::
+
+::: {.column width="45%"}
 
 |                | Count |
 |----------------|-------|
@@ -706,13 +730,13 @@ digraph habitat_and_producer {
 ## <!-- Table 1 - Risks -->{.center}
 
 :::: {.columns}
-::: {.column width="50%"}
+::: {.column width="35%"}
 ```{dot}
 //| fig-width: 3.5
 digraph habitat_and_producer {
   bgcolor = transparent;
   rankdir = TB
-	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
 	edge [penwidth = 5, color = "#9d9d9d"] 
 	Habitat [label = "Habitat\nselection"]
 	Resources []
@@ -737,8 +761,11 @@ digraph habitat_and_producer {
 ```
 :::
 
+::: {.column width="10%"}
 
-::: {.column width="50%"}
+:::
+
+::: {.column width="45%"}
 
 |                           | Count |
 |---------------------------|-------|
@@ -755,13 +782,13 @@ digraph habitat_and_producer {
 ## <!-- Table 1 - Conditions -->{.center}
 
 :::: {.columns}
-::: {.column width="50%"}
+::: {.column width="35%"}
 ```{dot}
 //| fig-width: 3.5
 digraph habitat_and_producer {
   bgcolor = transparent;
   rankdir = TB
-	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
 	edge [penwidth = 5, color = "#9d9d9d"] 
 	Habitat [label = "Habitat\nselection"]
 	Resources []
@@ -786,9 +813,11 @@ digraph habitat_and_producer {
 ```
 :::
 
+::: {.column width="10%"}
 
+:::
 
-::: {.column width="50%"}
+::: {.column width="45%"}
 
 |             | Count |
 |-------------|-------|
