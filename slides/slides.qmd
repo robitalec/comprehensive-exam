@@ -606,77 +606,204 @@ E.g. temperature, humidity, salinity
 ::::
 
 
-<!-- Objective 2 -->
 
+## <!-- Objective 2 --> {.center} 
 
-## <!-- Table 1 - Resources -->{.small}
+:::: {.columns}
 
-```{r}
-tar_read(rrc_results)[Type == 'Resources', .(Type, Variable, 'Producer-scrounger model' = str_trunc(`Producer scrounger model`, width = 40, ellipsis = '...)'), `Empirical test`)] |>
-	gt(rowname_col = 'Variable',
-     groupname_col = 'Type') |>
-	tab_options(row_group.as_column = TRUE) |>
-	tab_style(
-		style = list(
-		cell_fill(color = "#134f5c"),
-		cell_text(color = "#e1e1e1", weight = 'normal')
-		),
-		locations = cells_stub()
-	) |>
-	tab_style(
-		style = list(
-		cell_fill(color = "#134f5c"),
-		cell_text(color = "#e1e1e1")
-		),
-		locations = cells_row_groups()
-	)
+::: {.column width="50%"}
+```{dot}
+//| fig-width: 3.5
+digraph habitat_and_producer {
+  bgcolor = transparent;
+  rankdir = TB
+	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	edge [penwidth = 5, color = "#9d9d9d"] 
+	Habitat [label = "Habitat\nselection"]
+	Resources [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+	Conditions [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+	Risks [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+
+    Roles []
+	ps_dyn [label = "Producer-scrounger\ndynamics"]
+	freq [label = "Frequency\ndependence"]
+	patch_penalties [label = "Patch penalties"]
+	patch_payoffs [label = "Patch payoffs"]
+	access_avail [label = "Availability\nand\naccess", shape = ellipse, fillcolor = "#AD8F89", color = "#AD8F89", fontcolor = "#e1e1e1"]
+
+	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> access_avail
+	access_avail -> {Resources Conditions Risks} [dir = back]
+	{patch_penalties} ->  Risks [color = "#707070", dir = back]
+	patch_payoffs -> Resources [color = "#707070", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
+	{Resources Risks Conditions} -> Habitat [dir = back]
+}
 ```
+:::
 
-## <!-- Table 1 - Risks -->{.small}
 
-```{r}
-tar_read(rrc_results)[Type == 'Risks' & Variable != 'Drought', .(Type, Variable, 'Producer-scrounger model' = str_trunc(`Producer scrounger model`, width = 40, ellipsis = '...)'), `Empirical test`)] |>
-	gt(rowname_col = 'Variable',
-     groupname_col = 'Type') |>
-	tab_options(row_group.as_column = TRUE) |>
-	tab_style(
-		style = list(
-		cell_fill(color = "#134f5c"),
-		cell_text(color = "#e1e1e1", weight = 'normal')
-		),
-		locations = cells_stub()
-	) |>
-	tab_style(
-		style = list(
-		cell_fill(color = "#134f5c"),
-		cell_text(color = "#e1e1e1")
-		),
-		locations = cells_row_groups()
-	)
+::: {.column width="50%"}
+<br>
+
+### Objective 2: 
+
+Access to resources
+
+depending on
+
+risks and conditions
+:::
+
+::::
+
+## <!-- Table 1 - Resources -->{.center}
+
+:::: {.columns}
+::: {.column width="50%"}
+```{dot}
+//| fig-width: 3.5
+digraph habitat_and_producer {
+  bgcolor = transparent;
+  rankdir = TB
+	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	edge [penwidth = 5, color = "#9d9d9d"] 
+	Habitat [label = "Habitat\nselection"]
+	Resources [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+	Conditions []
+	Risks []
+
+    Roles []
+	access_avail [label = "Availability\nand\naccess", shape = ellipse, fillcolor = "#AD8F89", color = "#AD8F89", fontcolor = "#e1e1e1"]
+	ps_dyn [label = "Producer-scrounger\ndynamics"]
+	freq [label = "Frequency\ndependence"]
+	patch_penalties [label = "Patch penalties"]
+	patch_payoffs [label = "Patch payoffs"]
+
+	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> access_avail
+	access_avail -> {Resources Conditions Risks} [dir = back]
+	{patch_penalties} ->  Risks [color = "#707070", dir = back]
+	patch_payoffs -> Resources [color = "#707070", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
+	{Resources Risks Conditions} -> Habitat [dir = back]
+}
 ```
+:::
 
-## <!-- Table 1 - Conditions -->{.small}
 
-```{r}
-tar_read(rrc_results)[Type == 'Conditions', .(Type, Variable, 'Producer-scrounger model' = str_trunc(`Producer scrounger model`, width = 40, ellipsis = '...)'), `Empirical test`)] |>
-	gt(rowname_col = 'Variable',
-     groupname_col = 'Type') |>
-	tab_options(row_group.as_column = TRUE) |>
-	tab_style(
-		style = list(
-		cell_fill(color = "#134f5c"),
-		cell_text(color = "#e1e1e1", weight = 'normal')
-		),
-		locations = cells_stub()
-	) |>
-	tab_style(
-		style = list(
-		cell_fill(color = "#134f5c"),
-		cell_text(color = "#e1e1e1")
-		),
-		locations = cells_row_groups()
-	)
+::: {.column width="50%"}
+
+|                | Count |
+|----------------|-------|
+| Patches        | 21    |
+| Resting spaces | 0     |
+| Nesting spaces | 0     |
+
+:::
+::::
+
+## <!-- Table 1 - Risks -->{.center}
+
+:::: {.columns}
+::: {.column width="50%"}
+```{dot}
+//| fig-width: 3.5
+digraph habitat_and_producer {
+  bgcolor = transparent;
+  rankdir = TB
+	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	edge [penwidth = 5, color = "#9d9d9d"] 
+	Habitat [label = "Habitat\nselection"]
+	Resources []
+	Conditions []
+	Risks [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+
+    Roles []
+	access_avail [label = "Availability\nand\naccess", shape = ellipse, fillcolor = "#AD8F89", color = "#AD8F89", fontcolor = "#e1e1e1"]
+	ps_dyn [label = "Producer-scrounger\ndynamics"]
+	freq [label = "Frequency\ndependence"]
+	patch_penalties [label = "Patch penalties"]
+	patch_payoffs [label = "Patch payoffs"]
+
+	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> access_avail
+	access_avail -> {Resources Conditions Risks} [dir = back]
+	{patch_penalties} ->  Risks [color = "#707070", dir = back]
+	patch_payoffs -> Resources [color = "#707070", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
+	{Resources Risks Conditions} -> Habitat [dir = back]
+}
 ```
+:::
+
+
+::: {.column width="50%"}
+
+|                           | Count |
+|---------------------------|-------|
+| Predation                 | 4     |
+| Perception of risk        | 3     |
+| Competition/contest       | 1     |
+| Anthropogenic disturbance | 0     |
+| Insect harassment         | 0     |
+| Disease                   | 0     |
+
+:::
+::::
+
+## <!-- Table 1 - Conditions -->{.center}
+
+:::: {.columns}
+::: {.column width="50%"}
+```{dot}
+//| fig-width: 3.5
+digraph habitat_and_producer {
+  bgcolor = transparent;
+  rankdir = TB
+	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	edge [penwidth = 5, color = "#9d9d9d"] 
+	Habitat [label = "Habitat\nselection"]
+	Resources []
+	Conditions [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+	Risks []
+
+    Roles []
+	access_avail [label = "Availability\nand\naccess", shape = ellipse, fillcolor = "#AD8F89", color = "#AD8F89", fontcolor = "#e1e1e1"]
+	ps_dyn [label = "Producer-scrounger\ndynamics"]
+	freq [label = "Frequency\ndependence"]
+	patch_penalties [label = "Patch penalties"]
+	patch_payoffs [label = "Patch payoffs"]
+
+	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> access_avail
+	access_avail -> {Resources Conditions Risks} [dir = back]
+	{patch_penalties} ->  Risks [color = "#707070", dir = back]
+	patch_payoffs -> Resources [color = "#707070", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
+	{Resources Risks Conditions} -> Habitat [dir = back]
+}
+```
+:::
+
+
+
+::: {.column width="50%"}
+
+|             | Count |
+|-------------|-------|
+| Temperature |     1 |
+| Wind        |     0 |
+| Pressure    |     0 |
+| Snow depth  |     0 |
+| Salinity    |     0 |
+| Humidity    |     0 |
+
+:::
+::::
+
+
+
 
 
 
