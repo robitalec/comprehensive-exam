@@ -155,6 +155,23 @@ targets_graphviz <- c(
 )
 
 
+# Targets: slides ---------------------------------------------------------
+targets_slides <- c(
+	tar_target(
+		landscape_long,
+		{
+			landscape <- nlm_randomcluster(
+				ncol = 30,
+				nrow = 30,
+				p = 0.4,
+				ai = c(0.05, 0.45, 0.5),
+				rescale = FALSE
+			)
+			as.data.frame(landscape, xy = TRUE)
+		}
+	)
+)
+
 
 # Targets: render ---------------------------------------------------------
 targets_render <- c(
