@@ -422,9 +422,6 @@ digraph habitat_and_producer {
 :::
 
 ::: {.column width="45%"}
-
-Resources
-
 ```{r}
 #| fig-height: 7
 ggplot(data.frame(x = c(0, 3)), aes(x)) +
@@ -482,9 +479,6 @@ digraph habitat_and_producer {
 
 
 ::: {.column width="45%"}
-
-Risks
-
 ```{r}
 #| fig-height: 7
 ggplot(data.frame(x = c(0, 3)), aes(x)) +
@@ -493,7 +487,7 @@ ggplot(data.frame(x = c(0, 3)), aes(x)) +
   labs(x = 'Risks', y = 'Expected effect on fitness')
 ```
 
-E.g. predation, anthropogenic disturbance or harvest
+E.g. predation, anthropogenic
 
 :::
 
@@ -539,9 +533,6 @@ digraph habitat_and_producer {
 :::
 
 ::: {.column width="45%"}
-
-Conditions
-
 ```{r}
 #| fig-height: 7
 ggplot(data.frame(x = c(-3, 3)), aes(x)) +
@@ -651,11 +642,12 @@ digraph habitat_and_producer {
 
 ::: {.column width="45%"}
 
-|                | Count |
-|----------------|-------|
-| Patches        | 21    |
-| Resting spaces | 0     |
-| Nesting spaces | 0     |
+|                 |       |
+|-----------------|-------|
+| Patch quantity  | 13    |
+| Patch quality	  | 8     |
+| Resting spaces  | 0     |
+| Nesting spaces  | 0     |
 
 :::
 ::::
@@ -700,13 +692,13 @@ digraph habitat_and_producer {
 
 ::: {.column width="45%"}
 
-|                           | Count |
+|                           | 		|
 |---------------------------|-------|
 | Predation                 | 4     |
-| Perception of risk        | 3     |
-| Competition/contest       | 1     |
-| Anthropogenic disturbance | 0     |
-| Insect harassment         | 0     |
+| Risk perception   	    | 3     |
+| Competition		        | 1     |
+| Anthropogenic 			| 0     |
+| Insects			        | 0     |
 | Disease                   | 0     |
 
 :::
@@ -752,7 +744,7 @@ digraph habitat_and_producer {
 
 ::: {.column width="45%"}
 
-|             | Count |
+|             | 	  |
 |-------------|-------|
 | Temperature |     1 |
 | Wind        |     0 |
