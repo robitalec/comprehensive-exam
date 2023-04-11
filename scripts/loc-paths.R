@@ -13,10 +13,12 @@ DT_pt_rdm[, c('x_rdm', 'y_rdm') := .(x + rnorm(.N, sd = 0.5), y + rnorm(.N, sd =
 
 
 ggplot(DT_pt_rdm) +
-	geom_point(aes(x_rdm, y_rdm), shape = 4, size = 0.5) +
 	geom_point(aes(x, y), size = 2) +
-	geom_line(aes(x, y), size = 1)  +
-	geom_segment(aes(x = x, y = y, xend = x_rdm, yend = y_rdm), size = 0.5) +
-	theme_minimal()
+	geom_segment(aes(x = x, y = y, xend = x_rdm, yend = y_rdm),
+							 size = 0.2, arrow = arrow(length = unit(0.05, 'inches'))) +
+	geom_line(aes(x, y), linewidth = 1)  +
+	theme_void()
+
+
 
 
