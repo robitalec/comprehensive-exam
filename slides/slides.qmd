@@ -757,6 +757,16 @@ digraph habitat_and_producer {
 ::::
 
 
+<!-- TODO
+
+lead into future directions / recommendation to study PS with different risks, conditions 
+
+
+then 
+
+habitat selection methods integration
+
+-->
 
 
 
