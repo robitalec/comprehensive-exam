@@ -5,6 +5,7 @@ library(tarchetypes)
 
 library(data.table)
 library(ggplot2)
+library(scico)
 library(scales)
 
 library(quarto)
