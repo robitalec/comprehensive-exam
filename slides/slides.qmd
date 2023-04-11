@@ -483,3 +483,14 @@ tar_read(rrc_results)[Type == 'Conditions', .(Type, Variable, 'Producer-scrounge
 	tab_options(row_group.as_column = TRUE, 
 				table.font.size = pct(20))
 ```
+
+
+
+## Software
+
+- quarto
+- Revealjs
+- data.table
+- ggplot2
+- targets
+- NLMR
