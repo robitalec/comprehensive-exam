@@ -218,6 +218,9 @@ Objective 1: how does role in producer-scrounger dynamics affect access to avail
 
 
 
+<!-- Lead into habitats are more complex than distributed patches of forage --> 
+<!-- Matt et al definition of habitat --> 
+
 
 ## <!-- Habitat selection --> {.center} 
 
@@ -233,7 +236,7 @@ digraph habitat_and_producer {
   rankdir = TB
 	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
 	edge [penwidth = 5, color = "#9d9d9d"] 
-	Habitat [label = "Habitat\nselection", color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+	Habitat [label = "Habitat\nselection"]
 	Resources [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
 	Conditions [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
 	Risks [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
