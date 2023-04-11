@@ -57,6 +57,17 @@ digraph habitat_and_producer {
 	{Resources Risks Conditions} -> Habitat [dir = back]
 }
 ```
+:::
+
+::: {.column width="50%"}
+Objectives:
+
+1. Access depending on role
+1. Risks and conditions influence on role
+1. Integrating role in habitat selection 
+:::
+::::
+
 
 ## <!-- Producer-scrounger roles --> {.center} 
 
