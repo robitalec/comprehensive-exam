@@ -30,7 +30,11 @@ source('R/packages.R')
 
 ## <!-- Flowchart --> {.center} 
 
+:::: {.columns}
+
+::: {.column width="50%"}
 ```{dot}
+//| fig-width: 3.5
 digraph habitat_and_producer {
   bgcolor = transparent;
   rankdir = TB
@@ -113,10 +117,13 @@ Producers
 
 Scroungers
 
-(Opportunitists)
+(Opportunists)
+
 :::
 
 ::::
+
+
 
 ## <!-- Producer-scrounger video --> 
 
@@ -227,6 +234,132 @@ Objective 1: how does role in producer-scrounger dynamics affect access to avail
 
 ::::
 
+## <!-- Access - producer --> {.center} 
+
+:::: {.columns}
+
+::: {.column width="50%"}
+```{dot}
+//| fig-width: 3.5
+digraph habitat_and_producer {
+  bgcolor = transparent;
+  rankdir = TB
+	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	edge [penwidth = 5, color = "#9d9d9d"] 
+	Habitat [label = "Habitat\nselection"]
+	Resources
+	Conditions
+	Risks
+
+    Roles [color = "#9d7195", fillcolor = "#9d7195", fontcolor = "#e1e1e1"]
+	ps_dyn [label = "Producer-scrounger\ndynamics"]
+	freq [label = "Frequency\ndependence"]
+	patch_penalties [label = "Patch penalties"]
+	patch_payoffs [label = "Patch payoffs"]
+	access_avail [label = "Availability\nand\naccess", shape = ellipse, fillcolor = "#AD8F89", color = "#AD8F89", fontcolor = "#e1e1e1"]
+
+	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> access_avail
+	access_avail -> {Resources Conditions Risks} [dir = back]
+	{patch_penalties} ->  Risks [color = "#707070", dir = back]
+	patch_payoffs -> Resources [color = "#707070", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
+	{Resources Risks Conditions} -> Habitat [dir = back]
+}
+```
+:::
+
+
+::: {.column width="50%"}
+```{r}
+#| echo: false
+#| fig-width: 7
+#| fig-height: 6
+# Producer ----------------------------------------------------------------
+DT_ed <- CJ(id = 'A', obs = seq.int(3), rdm = seq.int(5))
+
+DT_pt <- CJ(id = 'A', obs = seq.int(3))
+DT_pt[, c('x', 'y') := .(c(-1, 0, 1), c(1, -1, 0))]
+
+DT_pt_rdm <- DT_ed[DT_pt, on = .(id, obs)]
+DT_pt_rdm[, c('x_rdm', 'y_rdm') := .(x + rnorm(.N, sd = 0.5), y + rnorm(.N, sd = 0.5))]
+
+
+ggplot(DT_pt_rdm) +
+	geom_point(aes(x, y), size = 4) +
+	geom_segment(aes(x = x, y = y, xend = x_rdm, yend = y_rdm),
+				 size = 1,
+				 arrow = arrow(length = unit(0.2, 'inches'))) +
+	geom_line(aes(x, y), linewidth = 2)  +
+	theme_void() + 
+	coord_fixed()
+```
+:::
+
+::::
+
+
+## <!-- Access - scrounger --> {.center} 
+
+:::: {.columns}
+
+::: {.column width="50%"}
+```{dot}
+//| fig-width: 3.5
+digraph habitat_and_producer {
+  bgcolor = transparent;
+  rankdir = TB
+	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	edge [penwidth = 5, color = "#9d9d9d"] 
+	Habitat [label = "Habitat\nselection"]
+	Resources
+	Conditions
+	Risks
+
+    Roles [color = "#9d7195", fillcolor = "#9d7195", fontcolor = "#e1e1e1"]
+	ps_dyn [label = "Producer-scrounger\ndynamics"]
+	freq [label = "Frequency\ndependence"]
+	patch_penalties [label = "Patch penalties"]
+	patch_payoffs [label = "Patch payoffs"]
+	access_avail [label = "Availability\nand\naccess", shape = ellipse, fillcolor = "#AD8F89", color = "#AD8F89", fontcolor = "#e1e1e1"]
+
+	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> access_avail
+	access_avail -> {Resources Conditions Risks} [dir = back]
+	{patch_penalties} ->  Risks [color = "#707070", dir = back]
+	patch_payoffs -> Resources [color = "#707070", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
+	{Resources Risks Conditions} -> Habitat [dir = back]
+}
+```
+:::
+
+
+::: {.column width="50%"}
+```{r}
+#| echo: false
+#| fig-width: 7
+#| fig-height: 6
+# Scrounger -------------------------------------------------------------
+DT_id <- CJ(id = c('A'), pr_id = c('C', 'D', 'E'), obs = seq.int(1))
+DT_id[, c('x', 'y') := .(c(-1, 0.2, 1), c(1, -0.5, 0.4))]
+
+
+DT_sc <- CJ(id = c('A'), obs = seq.int(1))
+DT_sc[, c('x', 'y') := .(0, 0)]
+
+ggplot(DT_sc[DT_id, on = 'id']) +
+	geom_point(aes(x, y), size = 7) +
+	geom_point(aes(i.x, i.y, color = pr_id), size = 5) +
+	geom_segment(aes(x = x, y = y, xend = i.x, yend = i.y),
+				 size = 0.9, 
+				 arrow = arrow(length = unit(0.2, 'inches'))) +
+	guides(color = 'none') + 
+	theme_void()
+```
+:::
+
+::::
 
 
 <!-- Lead into habitats are more complex than distributed patches of forage --> 
@@ -239,7 +372,6 @@ Objective 1: how does role in producer-scrounger dynamics affect access to avail
 :::: {.columns}
 
 ::: {.column width="50%"}
-
 ```{dot}
 //| fig-width: 3.5
 digraph habitat_and_producer {
@@ -281,20 +413,17 @@ Habitats =
 
 Resources + 
 
-Risks + 
+Risks +  
 
 Conditions
 :::
 
 ::::
 
-## <!-- Habitat selection --> {.center} 
-
+## <!-- Resources --> {.center} 
 
 :::: {.columns}
-
 ::: {.column width="50%"}
-
 ```{dot}
 //| fig-width: 3.5
 digraph habitat_and_producer {
@@ -302,10 +431,10 @@ digraph habitat_and_producer {
   rankdir = TB
 	node [fontsize = 40, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
 	edge [penwidth = 5, color = "#9d9d9d"] 
-	Habitat [label = "Habitat\nselection", color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+	Habitat [label = "Habitat\nselection"]
 	Resources [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
-	Conditions [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
-	Risks [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+	Conditions []
+	Risks []
 
     Roles []
 	access_avail [label = "Availability\nand\naccess", shape = ellipse]
@@ -327,7 +456,6 @@ digraph habitat_and_producer {
 
 
 ::: {.column width="50%"}
-
 Resources
 
 ```{r}
@@ -336,10 +464,10 @@ library(ggplot2)
 ggplot(data.frame(x = c(0, 3)), aes(x)) +
   stat_function(fun = exp, geom = 'line', linewidth = 3) + 
   theme_minimal(base_size = 30) + 
-  labs(x = 'Resource', y = 'Expected fitness')
+  labs(x = 'Resource', y = 'Expected effect on fitness')
 ```
 
-For example: forage patch quality, patch density, or resting spaces
+E.g. forage patch quality, density, or resting spaces
 
 :::
 
@@ -395,7 +523,7 @@ ggplot(data.frame(x = c(0, 3)), aes(x)) +
   labs(x = 'Risks', y = 'Expected effect on fitness')
 ```
 
-For example: predation, anthropogenic disturbance or harvest
+E.g. predation, anthropogenic disturbance or harvest
 
 :::
 
@@ -438,7 +566,7 @@ digraph habitat_and_producer {
 
 
 ::: {.column width="50%"}
-Resources
+Conditions
 
 ```{r}
 library(ggplot2)
@@ -449,7 +577,7 @@ ggplot(data.frame(x = c(-3, 3)), aes(x)) +
   labs(x = 'Conditions', y = 'Expected effect on fitness')
 ```
 
-For example: temperature, humidity, salinity
+E.g. temperature, humidity, salinity
 
 :::
 
@@ -459,9 +587,7 @@ For example: temperature, humidity, salinity
 <!-- Objective 2 -->
 
 
-## {.small}
- 
-<!-- flowchart and -->
+## <!-- Table 1 - Resources -->{.small}
 
 ```{r}
 tar_read(rrc_results)[Type == 'Resources', .(Type, Variable, 'Producer-scrounger model' = str_trunc(`Producer scrounger model`, width = 40, ellipsis = '...)'), `Empirical test`)] |>
@@ -471,7 +597,7 @@ tar_read(rrc_results)[Type == 'Resources', .(Type, Variable, 'Producer-scrounger
 	tab_style(
 		style = list(
 		cell_fill(color = "#134f5c"),
-		cell_text(color = "#e1e1e1")
+		cell_text(color = "#e1e1e1", weight = 'normal')
 		),
 		locations = cells_stub()
 	) |>
@@ -494,7 +620,7 @@ tar_read(rrc_results)[Type == 'Risks' & Variable != 'Drought', .(Type, Variable,
 	tab_style(
 		style = list(
 		cell_fill(color = "#134f5c"),
-		cell_text(color = "#e1e1e1")
+		cell_text(color = "#e1e1e1", weight = 'normal')
 		),
 		locations = cells_stub()
 	) |>
@@ -517,7 +643,7 @@ tar_read(rrc_results)[Type == 'Conditions', .(Type, Variable, 'Producer-scrounge
 	tab_style(
 		style = list(
 		cell_fill(color = "#134f5c"),
-		cell_text(color = "#e1e1e1")
+		cell_text(color = "#e1e1e1", weight = 'normal')
 		),
 		locations = cells_stub()
 	) |>
