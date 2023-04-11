@@ -456,32 +456,67 @@ For example: temperature, humidity, salinity
 tar_read(rrc_results)[Type == 'Resources', .(Type, Variable, 'Producer-scrounger model' = str_trunc(`Producer scrounger model`, width = 40, ellipsis = '...)'), `Empirical test`)] |>
 	gt(rowname_col = 'Variable',
      groupname_col = 'Type') |>
-	tab_options(row_group.as_column = TRUE, 
-				table.font.size = pct(12))
+	tab_options(row_group.as_column = TRUE) |>
+	tab_style(
+		style = list(
+		cell_fill(color = "#134f5c"),
+		cell_text(color = "#e1e1e1")
+		),
+		locations = cells_stub()
+	) |>
+	tab_style(
+		style = list(
+		cell_fill(color = "#134f5c"),
+		cell_text(color = "#e1e1e1")
+		),
+		locations = cells_row_groups()
+	)
 ```
 
-## {.small}
-
-<!-- flowchart and -->
+## <!-- Table 1 - Risks -->{.small}
 
 ```{r}
-tar_read(rrc_results)[Type == 'Risks', .(Type, Variable, 'Producer-scrounger model' = str_trunc(`Producer scrounger model`, width = 40, ellipsis = '...)'), `Empirical test`)] |>
+tar_read(rrc_results)[Type == 'Risks' & Variable != 'Drought', .(Type, Variable, 'Producer-scrounger model' = str_trunc(`Producer scrounger model`, width = 40, ellipsis = '...)'), `Empirical test`)] |>
 	gt(rowname_col = 'Variable',
      groupname_col = 'Type') |>
-	tab_options(row_group.as_column = TRUE, 
-				table.font.size = pct(20))
+	tab_options(row_group.as_column = TRUE) |>
+	tab_style(
+		style = list(
+		cell_fill(color = "#134f5c"),
+		cell_text(color = "#e1e1e1")
+		),
+		locations = cells_stub()
+	) |>
+	tab_style(
+		style = list(
+		cell_fill(color = "#134f5c"),
+		cell_text(color = "#e1e1e1")
+		),
+		locations = cells_row_groups()
+	)
 ```
 
-## {.small}
-
-<!-- flowchart and -->
+## <!-- Table 1 - Conditions -->{.small}
 
 ```{r}
 tar_read(rrc_results)[Type == 'Conditions', .(Type, Variable, 'Producer-scrounger model' = str_trunc(`Producer scrounger model`, width = 40, ellipsis = '...)'), `Empirical test`)] |>
 	gt(rowname_col = 'Variable',
      groupname_col = 'Type') |>
-	tab_options(row_group.as_column = TRUE, 
-				table.font.size = pct(20))
+	tab_options(row_group.as_column = TRUE) |>
+	tab_style(
+		style = list(
+		cell_fill(color = "#134f5c"),
+		cell_text(color = "#e1e1e1")
+		),
+		locations = cells_stub()
+	) |>
+	tab_style(
+		style = list(
+		cell_fill(color = "#134f5c"),
+		cell_text(color = "#e1e1e1")
+		),
+		locations = cells_row_groups()
+	)
 ```
 
 
