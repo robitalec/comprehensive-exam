@@ -641,6 +641,8 @@ digraph habitat_and_producer {
 
 ::: {.column width="45%"}
 
+<br>
+
 |                 |       |
 |-----------------|-------|
 | Patch quantity  | 13    |
@@ -690,6 +692,7 @@ digraph habitat_and_producer {
 :::
 
 ::: {.column width="45%"}
+<br>
 
 |                           | 		|
 |---------------------------|-------|
@@ -742,6 +745,7 @@ digraph habitat_and_producer {
 :::
 
 ::: {.column width="45%"}
+<br>
 
 |             | 	  |
 |-------------|-------|
