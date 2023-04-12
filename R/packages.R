@@ -7,7 +7,6 @@ library(data.table)
 library(ggplot2)
 library(scico)
 library(scales)
-library(ggforce)
 
 library(quarto)
 library(gt)
