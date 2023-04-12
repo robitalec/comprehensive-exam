@@ -595,7 +595,7 @@ digraph habitat_and_producer {
 
 Access to resources
 
-depending on
+modified by
 
 risks and conditions
 :::
