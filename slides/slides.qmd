@@ -768,7 +768,18 @@ habitat selection methods integration
 -->
 
 
+Objective 3: 
 
+Integrate
+
+foraging strategy
+
+into
+
+habitat selection
+:::
+
+::::
 
 ## Software
 
