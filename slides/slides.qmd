@@ -812,6 +812,12 @@ affect certain roles?
 
 :::
 ::::
+
+
+## <!-- Bonus -->{.center}
+
+![](../figures/into-prop-scrounger.png)
+
 <!-- TODO
 
 lead into future directions / recommendation to study PS with different risks, conditions 
