@@ -760,6 +760,58 @@ digraph habitat_and_producer {
 ::::
 
 
+
+## <!-- Disproportionate effect -->{.center}
+
+:::: {.columns}
+::: {.column width="35%"}
+```{dot}
+//| fig-width: 3.5
+digraph habitat_and_producer {
+  bgcolor = transparent;
+  rankdir = TB
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	edge [penwidth = 5, color = "#9d9d9d"] 
+	Habitat [label = "Habitat\nselection"]
+	Resources []
+	Conditions [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+	Risks [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+
+    Roles [color = "#9d7195", fontcolor = "#e1e1e1", fillcolor = "#9d7195"]
+	access_avail [label = "Availability\nand\naccess", shape = ellipse, fillcolor = "#AD8F89", color = "#AD8F89", fontcolor = "#e1e1e1"]
+	ps_dyn [label = "Producer-scrounger\ndynamics"]
+	freq [label = "Frequency\ndependence"]
+	patch_penalties [label = "Patch penalties"]
+	patch_payoffs [label = "Patch payoffs"]
+
+	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> access_avail
+	access_avail -> {Resources Conditions Risks} [dir = back]
+	{patch_penalties} ->  Risks [color = "#707070", dir = back]
+	patch_payoffs -> Resources [color = "#707070", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
+	{Resources Risks Conditions} -> Habitat [dir = back]
+}
+```
+:::
+
+::: {.column width="10%"}
+
+:::
+
+::: {.column width="45%"}
+<br>
+
+### Gaps
+
+Risks and conditions
+
+that disproportionately 
+
+affect certain roles?
+
+:::
+::::
 <!-- TODO
 
 lead into future directions / recommendation to study PS with different risks, conditions 
