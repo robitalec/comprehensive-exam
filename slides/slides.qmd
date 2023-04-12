@@ -278,8 +278,7 @@ ggplot(landscape_long,
 				 size = 1, 
 				 arrow = arrow(length = unit(0.1, 'inches')),
 				 data = DT_pt_rdm,
-				 color = 'grey30') +
-	geom_line(aes(x, y), linewidth = 2, data = DT_pt_rdm, color = 'grey20')  +
+				 color = 'grey40') +
 	geom_point(aes(x, y), size = 5, data = DT_pt_rdm, shape = 15) +
 	coord_equal() +
 	guides(fill = 'none') +
@@ -311,7 +310,7 @@ ggplot(landscape_long,
 				 size = 1, 
 				 arrow = arrow(length = unit(0.1, 'inches')),
 				 data = mDTsc,
-			     color = 'grey20') +
+			     color = 'grey40') +
 	guides(color = 'none', fill = 'none') +
 	theme_void() + 
 	theme(plot.background = element_rect(fill = "#134f5c",colour = "#134f5c"),
