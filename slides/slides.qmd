@@ -893,6 +893,35 @@ habitat selection
 ::::
 
 
+<!--
+1. observations of ps dynamics either through focal or getting leader follower 
+1. make sense of causal salad
+1. habitat selection availability integrated foraging role
+-->
+
+
+
+
+<!-- 
+
+3 reasons to do a habitat selection analysis
+
+distribution
+
+predictions
+
+inference
+
+
+for inference
+we cannot use the causal salad of all variables ranked by aic
+
+-->
+
+
+
+
+
 ## Software
 
 - quarto
