@@ -818,6 +818,28 @@ affect certain roles?
 
 ![](../figures/into-prop-scrounger.png)
 
+
+<!--- 
+
+wave your hands
+
+this is complex
+
+cant ignore it
+
+and its potential impact on habitat selection
+
+
+solution
+principled approach - use a DAG
+
+consider how behavioural strategies influence availability andd access
+-->
+
+
+
+
+
 <!-- TODO
 
 lead into future directions / recommendation to study PS with different risks, conditions 
