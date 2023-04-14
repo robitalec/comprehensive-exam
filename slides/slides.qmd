@@ -984,16 +984,18 @@ ggplot(data.table(
 
 
 
-## Gaps {.left}
-1. Risks and conditions that disproportionately affect foraging strategies
+## <!-- Gaps and future directions --> {.left}
+
+- Access depending on foraging strategy
+	- Scrounger access depends on producers
+- Risks and conditions influence on strategies
+	- Few tests of risks and conditions on producer-scrounger dynamics
+- Habitat selection availability integrating foraging strategy
+	- Consider foraging role in defining availability 
+- (bonus!) Causal inference in habitat selection
 
 
-2. Availability based on foraging strategy
-
-3. (bonus!) Habitat selection causal salad
-
-
-## <!-- Bonus -->{.center}
+## Causal inference in habitat selection <!-- Bonus -->{.center}
 
 ![](../figures/into-prop-scrounger.png)
 
