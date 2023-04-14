@@ -320,12 +320,12 @@ scrounger <- ggplot(landscape_long,
 	geom_tile(aes(fill = clumps), alpha = 0.6) +
 	coord_equal() +
 	geom_point(aes(i.x, i.y), size = 5, shape = 15, data = mDTsc) +
-	geom_point(aes(x, y), size = 5, data = mDTsc, shape = 15) +
 	geom_segment(aes(x = x, y = y, xend = i.x, yend = i.y),
 				 linewidth = 1, 
 				 arrow = arrow(length = unit(0.1, 'inches')),
 				 data = mDTsc,
 			     color = 'grey40') +
+	geom_point(aes(x, y), size = 5, data = mDTsc, shape = 17) +
 	guides(color = 'none', fill = 'none') +
 	theme_void() + 
 	theme(plot.background = element_rect(fill = "#134f5c",colour = "#134f5c"),
