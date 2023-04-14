@@ -617,6 +617,8 @@ risks and conditions
 
 ::::
 
+
+
 ## <!-- Table 1 - Resources -->{.center}
 
 :::: {.columns}
@@ -657,7 +659,7 @@ digraph habitat_and_producer {
 
 ::: {.column width="45%"}
 
-<br>
+Resources
 
 |                 |       |
 |-----------------|-------|
@@ -668,6 +670,10 @@ digraph habitat_and_producer {
 
 :::
 ::::
+
+
+
+
 
 ## <!-- Table 1 - Risks -->{.center}
 
@@ -708,12 +714,13 @@ digraph habitat_and_producer {
 :::
 
 ::: {.column width="45%"}
-<br>
+
+Risks
 
 |                           | 		|
 |---------------------------|-------|
-| Predation                 | 4     |
-| Risk perception   	    | 3     |
+| Predation                 | 4*    |
+| Perception of risk   	    | 3     |
 | Competition		        | 1     |
 | Anthropogenic 			| 0     |
 | Insects			        | 0     |
@@ -721,6 +728,14 @@ digraph habitat_and_producer {
 
 :::
 ::::
+
+
+::: footer
+\* Bugnyar, T., and K. Kotrschal. (2002). “Scrounging Tactics in Free-Ranging Ravens, Corvus Corax.” Ethology, 108 (11), 993–1009.
+:::
+
+<!-- distance to feeder, clip wing feathers -->
+
 
 ## <!-- Table 1 - Conditions -->{.center}
 
@@ -761,7 +776,7 @@ digraph habitat_and_producer {
 :::
 
 ::: {.column width="45%"}
-<br>
+Conditions
 
 |             | 	  |
 |-------------|-------|
@@ -774,104 +789,6 @@ digraph habitat_and_producer {
 
 :::
 ::::
-
-
-
-## <!-- Disproportionate effect -->{.center}
-
-:::: {.columns}
-::: {.column width="35%"}
-```{dot}
-//| fig-width: 3.5
-digraph habitat_and_producer {
-  bgcolor = transparent;
-  rankdir = TB
-	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
-	edge [penwidth = 5, color = "#9d9d9d"] 
-	Habitat [label = "Habitat\nselection"]
-	Resources []
-	Conditions [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
-	Risks [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
-
-    Roles [color = "#9d7195", fontcolor = "#e1e1e1", fillcolor = "#9d7195"]
-	access_avail [label = "Availability\nand\naccess", shape = ellipse, fillcolor = "#AD8F89", color = "#AD8F89", fontcolor = "#e1e1e1"]
-	ps_dyn [label = "Producer-scrounger\ndynamics"]
-	freq [label = "Frequency\ndependence"]
-	patch_penalties [label = "Patch penalties"]
-	patch_payoffs [label = "Patch payoffs"]
-
-	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
-	{patch_penalties patch_payoffs} -> access_avail
-	access_avail -> {Resources Conditions Risks} [dir = back]
-	{patch_penalties} ->  Risks [color = "#707070", dir = back]
-	patch_payoffs -> Resources [color = "#707070", dir = back]
-	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
-	{Resources Risks Conditions} -> Habitat [dir = back]
-}
-```
-:::
-
-::: {.column width="10%"}
-
-:::
-
-::: {.column width="45%"}
-<br>
-
-### Gaps
-
-Risks and conditions
-
-that disproportionately 
-
-affect certain roles?
-
-:::
-::::
-
-
-## <!-- Bonus -->{.center}
-
-![](../figures/into-prop-scrounger.png)
-
-
-<!--- 
-
-wave your hands
-
-this is complex
-
-cant ignore it
-
-and its potential impact on habitat selection
-
-
-solution
-principled approach - use a DAG
-
-consider how behavioural strategies influence availability andd access
--->
-
-
-
-
-
-<!-- TODO
-
-lead into future directions / recommendation to study PS with different risks, conditions 
-
-
-then 
-
-habitat selection methods integration
-
--->
-
-
-
-
-
-
 
 
 
@@ -1018,7 +935,7 @@ scr_sl
 #| fig-height: 5
 #| echo: false
 ggplot(data.table(
-	x = as.integer(rvonmises(1e5, circular(0), 1, control.circular=list(units="degrees"))))[, .N, x][, .(x, N, density = N / sum(N))]) +
+	x = as.integer(rvonmises(1e5, circular(0), 1, control.circular=list(units="degrees"))))[, .N, x][, .(x, N, density = N / sum(N))][x < 360]) +
 	geom_area(aes(x, density), size = 1, fill = 'black', alpha = 0.5) +
 	coord_polar() +
 	theme_minimal(base_size = 22) + 
@@ -1038,10 +955,11 @@ ggplot(data.table(
 #| echo: false
 ggplot(data.table(
 	x = as.integer(c(
-		rvonmises(3e5, circular(0), 1, control.circular=list(units="degrees")),
-		rnorm(0.5e5, rad(90), 0.2),
-		rnorm(0.5e5, rad(210), 0.2)
-	)))[, .N, x][, .(x, N, density = N / sum(N))]) +
+		rvonmises(5e5, circular(0), 1, control.circular=list(units="degrees")),
+		rnorm(0.5e5, rad(75), 0.2),
+		rnorm(0.5e5, rad(170), 0.3),
+		rnorm(0.5e5, rad(320), 0.2)
+	)))[, .N, x][, .(x, N, density = N / sum(N))][x < 360]) +
 	geom_area(aes(x, density), size = 1, fill = 'black', alpha = 0.5) +
 	coord_polar() +
 	labs(x = 'turn angle', y = 'density') + 
@@ -1051,6 +969,55 @@ ggplot(data.table(
 :::
 
 ::::
+
+
+
+
+## Gaps {.left}
+1. Risks and conditions that disproportionately affect foraging strategies
+
+
+2. Availability based on foraging strategy
+
+3. (bonus!) Habitat selection causal salad
+
+
+## <!-- Bonus -->{.center}
+
+![](../figures/into-prop-scrounger.png)
+
+
+<!--- 
+
+wave your hands
+
+this is complex
+
+cant ignore it
+
+and its potential impact on habitat selection
+
+
+solution
+principled approach - use a DAG
+
+consider how behavioural strategies influence availability andd access
+-->
+
+
+
+
+
+<!-- TODO
+
+lead into future directions / recommendation to study PS with different risks, conditions 
+
+
+then 
+
+habitat selection methods integration
+
+-->
 
 <!--
 1. observations of ps dynamics either through focal or getting leader follower 
