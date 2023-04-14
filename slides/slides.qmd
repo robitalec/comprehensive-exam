@@ -1,5 +1,6 @@
 ---
-title: "Comprehensive exam"
+title: "Influence of habitat on resource availability during social foraging"
+subtitle: "Ph.D. Oral Comprehensive Examination"
 date: "2023-04-17"
 author:
   - name: Alec L. Robitaille
