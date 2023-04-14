@@ -939,7 +939,7 @@ scr_sl
 :::: {.columns}
 ::: {.column width="40%"}
 
-### Producers
+Producers
 ```{r producer_ta}
 #| fig-width: 5
 #| fig-height: 5
@@ -958,7 +958,8 @@ ggplot(data.table(
 :::
  
 ::: {.column width="40%"}
-### Scroungers
+
+Scroungers
 ```{r scrounger_ta}
 #| fig-width: 5
 #| fig-height: 5
