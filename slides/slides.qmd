@@ -269,7 +269,7 @@ DT_sc[, c('x', 'y') := .(0, 0)]
 mDTsc <- DT_sc[DT_id, on = 'id']
 
 
-ggplot(landscape_long,
+producer <- ggplot(landscape_long,
 		aes(rescale(x, c(-1.2, 1.2)),
 			rescale(y, c(-1.2, 1.2)))) +
 	geom_tile(aes(fill = clumps), alpha = 0.6) +
@@ -287,6 +287,7 @@ ggplot(landscape_long,
 	theme(plot.background = element_rect(fill = "#134f5c",colour = "#134f5c"),
 		  panel.background = element_rect(fill = "#134f5c",colour = "#134f5c")) +
 	scale_fill_scico(palette = 'acton', begin = 0.5, end = 0.9)
+producer
 ```
 :::
  
@@ -300,7 +301,7 @@ Scroungers
 #| echo: false
 #| fig-width: 5
 #| fig-height: 5
-ggplot(landscape_long,
+scrounger <- ggplot(landscape_long,
 			 aes(rescale(x, c(-1.2, 1.2)),
 			 		rescale(y, c(-1.2, 1.2)))) +
 	geom_tile(aes(fill = clumps), alpha = 0.6) +
@@ -317,6 +318,7 @@ ggplot(landscape_long,
 	theme(plot.background = element_rect(fill = "#134f5c",colour = "#134f5c"),
 		  panel.background = element_rect(fill = "#134f5c",colour = "#134f5c")) +
 	scale_fill_scico(palette = 'acton', begin = 0.5, end = 0.9)
+scrounger
 ```
 :::
 
@@ -916,13 +918,45 @@ availability
 ::::
 
 
+## <!-- Recall: Access - role --> {.center} 
 
-## <!-- Objective 3: Distributions --> {.center} 
+:::: {.columns}
+::: {.column width="40%"}
+Producers
+
+```{r}
+#| echo: false
+#| fig-width: 5
+#| fig-height: 5
+producer
+```
+:::
+ 
+::: {.column width="10%"}
+:::
+ 
+::: {.column width="40%"}
+Scroungers
+
+```{r}
+#| echo: false
+#| fig-width: 5
+#| fig-height: 5
+scrounger
+```
+:::
+
+::::
+ 
+
+
+
+## <!-- Objective 3: Distributions step length--> {.center} 
 
 :::: {.columns}
 ::: {.column width="40%"}
 
-### Producers
+Producers
 ```{r}
 #| fig-width: 3
 #| fig-height: 3
