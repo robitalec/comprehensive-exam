@@ -1019,7 +1019,6 @@ rvonmises(1e3, circular(0), 3, control.circular=list(units="degrees")) |>
 #| fig-height: 5
 #| echo: false
 c(rvonmises(5e2, circular(0), 3, control.circular=list(units="degrees")),
-	#rnorm(3e1, rad(0), 0.2),
 	rnorm(3e2, rad(90), 0.2),
 	rnorm(3e2, rad(210), 0.2)) |>
 	plot(stack=TRUE, zero = rad(90), tol = 0.3)
@@ -1088,12 +1087,21 @@ Full reference list: https://robitalec.gitlab.io/comprehensive-exam/manuscript/r
 
 
 
+## Acknowledgements  {.small}
 
-## Software
+Katrien Kingdon, Jack Hendrix, Jill Kusch, Michael Peers, Yasmine Majchrzak
+
+Quinn Webber, Isabella Richmond, Ally Menzies
+
+Eric Vander Wal, Carolyn Walsh, Julie Teichroeb, Shawn Leroux
+
+
+
+## Software {.small}
 
 - quarto
 - Revealjs
-- `targets`
-- `ggplot2`
-- `NLMR`
-- `data.table`
+- targets
+- ggplot2
+- NLMR
+- data.table
