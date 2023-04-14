@@ -1091,17 +1091,17 @@ Full reference list: https://robitalec.gitlab.io/comprehensive-exam/manuscript/r
 :::
 
 
-
 ## Acknowledgements  {.small}
 Louise Twells, friends and family in NL, QC, NS
 
-Katrien Kingdon, Jack Hendrix, Jill Kusch, Michael Peers, Yasmine Majchrzak
+Katrien Kingdon, Jack Hendrix, Jill Kusch, Brendan Carswell, Emily Monk, Emilie Dedeban, Michael Peers, Yasmine Majchrzak
 
-Quinn Webber, Isabella Richmond, Ally Menzies
+Quinn Webber, Isabella Richmond, Ally Menzies, Juliana Baluffi-Fry
 
 Eric Vander Wal, Carolyn Walsh, Julie Teichroeb, Shawn Leroux
 
 ![](20230304_180305.jpg){fig-align="center"}
+
 
 
 ## Software {.small}
