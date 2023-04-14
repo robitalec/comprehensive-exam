@@ -1097,3 +1097,43 @@ Eric Vander Wal, Carolyn Walsh, Julie Teichroeb, Shawn Leroux
 - ggplot2
 - NLMR
 - data.table
+
+
+
+
+## <!-- Full relationships --> {.center}
+
+![](../figures/full-relationships.png)
+
+## <!-- Group level --> {.center}
+
+![](../figures/group-level.png)
+
+## <!-- RRC examples --> {.center}
+
+![](../figures/resources-risks-conditions.png)
+
+
+## <!-- Table S2 - Approaches --> {.small}
+
+```{r}
+#| echo: false
+targets::tar_read(n_by_type) |>
+	gt()
+```
+
+## <!-- Table S2 - Class --> {.small}
+
+```{r}
+#| echo: false
+targets::tar_read(n_by_class) |>
+	gt()
+```
+
+## <!-- Table S2 - Species --> {.small}
+
+```{r}
+#| echo: false
+targets::tar_read(n_by_species) |>
+	gt()
+```
