@@ -920,14 +920,33 @@ availability
 ## <!-- Objective 3: Distributions --> {.center} 
 
 :::: {.columns}
-::: {.column width="45%"}
+::: {.column width="40%"}
+
+### Producers
 ```{r}
+#| fig-width: 3
+#| fig-height: 3
 #| echo: false
 prod_sl <- data.frame(x = rgamma(1e3, 3, 2)) |>
 	ggplot(aes(x)) + geom_density(fill = '#cec4c4') + 
-	labs(x = 'step length', y = 'density', title = 'Producer') + 
-	theme_minimal(base_size = 30)
+	labs(x = 'step length', y = 'density') + 
+	theme_minimal(base_size = 22)
+prod_sl
 
+rvonmises(1e3, circular(0), 3, control.circular=list(units="degrees")) |>
+	plot(stack=TRUE, bins=1e3)
+```
+:::
+ 
+::: {.column width="10%"}
+:::
+ 
+::: {.column width="40%"}
+### Scroungers
+```{r}
+#| fig-width: 3
+#| fig-height: 3
+#| echo: false
 scr_sl <- data.frame(x = c(
 	rgamma(1e3, 3, 2),
 	rnorm(1e2, 2.5, 0.1),
@@ -935,17 +954,19 @@ scr_sl <- data.frame(x = c(
 	rnorm(1e2, 4, 0.1))) |>
 	ggplot(aes(x)) + geom_density(fill = '#cec4c4') + 
 	geom_label(data = data.frame(x = c(2.5, 3.2, 4), y = rep(0.4, 3), id = LETTERS[seq.int(3)]), aes(x, y, label = id)) + 
- 	labs(x = 'step length', y = 'density', title = 'Scrounger') + 
-	theme_minimal(base_size = 30)
+ 	labs(x = 'step length', y = 'density') + 
+	theme_minimal(base_size = 22)
+scr_sl
 
-prod_sl / scr_sl
+c(rvonmises(5e2, circular(0), 3, control.circular=list(units="degrees")),
+	rnorm(3e2, rad(0), 0.2),
+	rnorm(3e2, rad(90), 0.2),
+	rnorm(3e2, rad(210), 0.2)) |>
+	plot(stack=TRUE, bins=1e3)
+```
 :::
 
-
-
-
-
-
+::::
 
 <!--
 1. observations of ps dynamics either through focal or getting leader follower 
