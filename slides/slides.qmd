@@ -8,6 +8,7 @@ author:
 format:
   revealjs: 
     theme: [dark, custom.scss]
+    hash-type: number
 date-format: iso
 ---
 
