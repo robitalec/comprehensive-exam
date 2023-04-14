@@ -986,6 +986,27 @@ we cannot use the causal salad of all variables ranked by aic
 -->
 
 
+## Selected references
+
+### Social foraging
+
+Giraldeau, L. A., & Caraco, T. (2000). Social foraging theory. Princeton University Press.
+
+### Habitat selection
+
+Matthiopoulos, J., Fieberg, J. R., & Aarts, G. (2023). Species-Habitat Associations: Spatial data, predictive models, and ecological insights.
+
+Northrup, J. M., Vander Wal, E., Bonar, M., Fieberg, J., Laforge, M. P., Leclerc, M., ... & Gerber, B. D. (2022). Conceptual and methodological advances in habitat‐selection modeling: guidelines for ecology and evolution. Ecological Applications, 32(1), e02470.
+
+### Causal inference
+
+Pearl, J., & Mackenzie, D. (2018). The book of why: the new science of cause and effect.
+
+McElreath, R. (2020). Statistical rethinking: A Bayesian course with examples in R and Stan.
+
+Arif, S., & MacNeil, M. A. (2022). Predictive models aren't for causal inference. Ecology Letters, 25(8), 1741-1745.
+
+Full reference list: https://robitalec.gitlab.io/comprehensive-exam/manuscript/references.html
 
 
 
@@ -993,7 +1014,7 @@ we cannot use the causal salad of all variables ranked by aic
 
 - quarto
 - Revealjs
-- data.table
-- ggplot2
-- targets
-- NLMR
+- `targets`
+- `ggplot2`
+- `NLMR`
+- `data.table`
