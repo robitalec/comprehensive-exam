@@ -319,6 +319,9 @@
       margin-right: 0; 
     }
   </style>
+  
+  <link href="../site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet">
+  <script src="../site_libs/pagedtable-1.1/js/pagedtable.js"></script>
 </head>
 <body class="quarto-dark">
   <div class="reveal">
@@ -1586,9 +1589,12 @@ access_avail-&gt;Risks
 <p><br></p>
 <h3>Objective 2:</h3>
 <p>Access to resources</p>
-<p>modified by</p>
+<p>modified* by</p>
 <p>risks and conditions</p>
 </div>
+</div>
+<div class="footer">
+<p>* Dubois, F., &amp; Giraldeau, L. A. (2005). Fighting for resources: the economics of defense and appropriation. Ecology, 86(1), 3-11.</p>
 </div>
 </section>
 <section class="slide level2 center">
@@ -2196,8 +2202,11 @@ access_avail-&gt;Risks
 <p>Integrate</p>
 <p>foraging strategy</p>
 <p>into</p>
-<p>availability</p>
+<p>availability*</p>
 </div>
+</div>
+<div class="footer">
+<p>* Beyer, H. L., Haydon, D. T., Morales, J. M., Frair, J. L., Hebblewhite, M., Mitchell, M., &amp; Matthiopoulos, J. (2010). The interpretation of habitat preference metrics under use–availability designs. Philosophical Transactions of the Royal Society B: Biological Sciences, 365(1550), 2245-2254.</p>
 </div>
 </section>
 <section class="slide level2 center">
@@ -2248,7 +2257,7 @@ access_avail-&gt;Risks
 <h2><!-- Objective 3: Distributions turn angle --></h2>
 <div class="columns">
 <div class="column" style="width:40%;">
-<h3>Producers</h3>
+<p>Producers</p>
 <div class="cell">
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/producer_ta-1.png" width="480"></p>
@@ -2257,7 +2266,7 @@ access_avail-&gt;Risks
 </div><div class="column" style="width:10%;">
 
 </div><div class="column" style="width:40%;">
-<h3>Scroungers</h3>
+<p>Scroungers</p>
 <div class="cell">
 <div class="cell-output-display">
 <p><img data-src="slides_files/figure-revealjs/scrounger_ta-1.png" width="480"></p>
@@ -2267,15 +2276,25 @@ access_avail-&gt;Risks
 </div>
 </section>
 <section class="slide level2 left">
-<h2>Gaps</h2>
-<ol type="1">
-<li><p>Risks and conditions that disproportionately affect foraging strategies</p></li>
-<li><p>Availability based on foraging strategy</p></li>
-<li><p>(bonus!) Habitat selection causal salad</p></li>
-</ol>
+<h2><!-- Gaps and future directions --></h2>
+<ul>
+<li>Access depending on foraging strategy
+<ul>
+<li>Scrounger access depends on producers</li>
+</ul></li>
+<li>Risks and conditions influence on strategies
+<ul>
+<li>Few tests of risks and conditions on producer-scrounger dynamics</li>
+</ul></li>
+<li>Habitat selection availability integrating foraging strategy
+<ul>
+<li>Consider foraging role in defining availability</li>
+</ul></li>
+<li>(bonus!) Causal inference in habitat selection</li>
+</ul>
 </section>
 <section class="slide level2 center">
-<h2><!-- Bonus --></h2>
+<h2>Causal inference in habitat selection <!-- Bonus --></h2>
 
 <!--- 
 
@@ -2291,7 +2310,7 @@ and its potential impact on habitat selection
 solution
 principled approach - use a DAG
 
-consider how behavioural strategies influence availability andd access
+consider how behavioural strategies influence availability and access
 -->
 <!-- TODO
 
@@ -2345,12 +2364,6 @@ we cannot use the causal salad of all variables ranked by aic
 </div>
 </section>
 <section class="slide level2 small">
-<h2>Acknowledgements</h2>
-<p>Katrien Kingdon, Jack Hendrix, Jill Kusch, Michael Peers, Yasmine Majchrzak</p>
-<p>Quinn Webber, Isabella Richmond, Ally Menzies</p>
-<p>Eric Vander Wal, Carolyn Walsh, Julie Teichroeb, Shawn Leroux</p>
-</section>
-<section class="slide level2 small">
 <h2>Software</h2>
 <ul>
 <li>quarto</li>
@@ -2378,12 +2391,12 @@ we cannot use the causal salad of all variables ranked by aic
 <div class="cell">
 <div class="cell-output-display">
 
-<div id="cuzcwctshs" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="syetuzmgsb" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-:where(#cuzcwctshs) .gt_table {
+:where(#syetuzmgsb) .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -2408,7 +2421,7 @@ we cannot use the causal salad of all variables ranked by aic
   border-left-color: #D3D3D3;
 }
 
-:where(#cuzcwctshs) .gt_heading {
+:where(#syetuzmgsb) .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -2420,12 +2433,12 @@ we cannot use the causal salad of all variables ranked by aic
   border-right-color: #D3D3D3;
 }
 
-:where(#cuzcwctshs) .gt_caption {
+:where(#syetuzmgsb) .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-:where(#cuzcwctshs) .gt_title {
+:where(#syetuzmgsb) .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -2437,7 +2450,7 @@ we cannot use the causal salad of all variables ranked by aic
   border-bottom-width: 0;
 }
 
-:where(#cuzcwctshs) .gt_subtitle {
+:where(#syetuzmgsb) .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -2449,13 +2462,13 @@ we cannot use the causal salad of all variables ranked by aic
   border-top-width: 0;
 }
 
-:where(#cuzcwctshs) .gt_bottom_border {
+:where(#syetuzmgsb) .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-:where(#cuzcwctshs) .gt_col_headings {
+:where(#syetuzmgsb) .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2470,7 +2483,7 @@ we cannot use the causal salad of all variables ranked by aic
   border-right-color: #D3D3D3;
 }
 
-:where(#cuzcwctshs) .gt_col_heading {
+:where(#syetuzmgsb) .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2490,7 +2503,7 @@ we cannot use the causal salad of all variables ranked by aic
   overflow-x: hidden;
 }
 
-:where(#cuzcwctshs) .gt_column_spanner_outer {
+:where(#syetuzmgsb) .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2502,15 +2515,15 @@ we cannot use the causal salad of all variables ranked by aic
   padding-right: 4px;
 }
 
-:where(#cuzcwctshs) .gt_column_spanner_outer:first-child {
+:where(#syetuzmgsb) .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-:where(#cuzcwctshs) .gt_column_spanner_outer:last-child {
+:where(#syetuzmgsb) .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-:where(#cuzcwctshs) .gt_column_spanner {
+:where(#syetuzmgsb) .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -2522,7 +2535,7 @@ we cannot use the causal salad of all variables ranked by aic
   width: 100%;
 }
 
-:where(#cuzcwctshs) .gt_group_heading {
+:where(#syetuzmgsb) .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2548,7 +2561,7 @@ we cannot use the causal salad of all variables ranked by aic
   text-align: left;
 }
 
-:where(#cuzcwctshs) .gt_empty_group_heading {
+:where(#syetuzmgsb) .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2563,15 +2576,15 @@ we cannot use the causal salad of all variables ranked by aic
   vertical-align: middle;
 }
 
-:where(#cuzcwctshs) .gt_from_md > :first-child {
+:where(#syetuzmgsb) .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-:where(#cuzcwctshs) .gt_from_md > :last-child {
+:where(#syetuzmgsb) .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-:where(#cuzcwctshs) .gt_row {
+:where(#syetuzmgsb) .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2590,7 +2603,7 @@ we cannot use the causal salad of all variables ranked by aic
   overflow-x: hidden;
 }
 
-:where(#cuzcwctshs) .gt_stub {
+:where(#syetuzmgsb) .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2603,7 +2616,7 @@ we cannot use the causal salad of all variables ranked by aic
   padding-right: 5px;
 }
 
-:where(#cuzcwctshs) .gt_stub_row_group {
+:where(#syetuzmgsb) .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2617,11 +2630,11 @@ we cannot use the causal salad of all variables ranked by aic
   vertical-align: top;
 }
 
-:where(#cuzcwctshs) .gt_row_group_first td {
+:where(#syetuzmgsb) .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-:where(#cuzcwctshs) .gt_summary_row {
+:where(#syetuzmgsb) .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2631,16 +2644,16 @@ we cannot use the causal salad of all variables ranked by aic
   padding-right: 5px;
 }
 
-:where(#cuzcwctshs) .gt_first_summary_row {
+:where(#syetuzmgsb) .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-:where(#cuzcwctshs) .gt_first_summary_row.thick {
+:where(#syetuzmgsb) .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-:where(#cuzcwctshs) .gt_last_summary_row {
+:where(#syetuzmgsb) .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2650,7 +2663,7 @@ we cannot use the causal salad of all variables ranked by aic
   border-bottom-color: #D3D3D3;
 }
 
-:where(#cuzcwctshs) .gt_grand_summary_row {
+:where(#syetuzmgsb) .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2660,7 +2673,7 @@ we cannot use the causal salad of all variables ranked by aic
   padding-right: 5px;
 }
 
-:where(#cuzcwctshs) .gt_first_grand_summary_row {
+:where(#syetuzmgsb) .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2670,11 +2683,11 @@ we cannot use the causal salad of all variables ranked by aic
   border-top-color: #D3D3D3;
 }
 
-:where(#cuzcwctshs) .gt_striped {
+:where(#syetuzmgsb) .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-:where(#cuzcwctshs) .gt_table_body {
+:where(#syetuzmgsb) .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2683,7 +2696,7 @@ we cannot use the causal salad of all variables ranked by aic
   border-bottom-color: #D3D3D3;
 }
 
-:where(#cuzcwctshs) .gt_footnotes {
+:where(#syetuzmgsb) .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2697,7 +2710,7 @@ we cannot use the causal salad of all variables ranked by aic
   border-right-color: #D3D3D3;
 }
 
-:where(#cuzcwctshs) .gt_footnote {
+:where(#syetuzmgsb) .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -2706,7 +2719,7 @@ we cannot use the causal salad of all variables ranked by aic
   padding-right: 5px;
 }
 
-:where(#cuzcwctshs) .gt_sourcenotes {
+:where(#syetuzmgsb) .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2720,7 +2733,7 @@ we cannot use the causal salad of all variables ranked by aic
   border-right-color: #D3D3D3;
 }
 
-:where(#cuzcwctshs) .gt_sourcenote {
+:where(#syetuzmgsb) .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -2728,64 +2741,64 @@ we cannot use the causal salad of all variables ranked by aic
   padding-right: 5px;
 }
 
-:where(#cuzcwctshs) .gt_left {
+:where(#syetuzmgsb) .gt_left {
   text-align: left;
 }
 
-:where(#cuzcwctshs) .gt_center {
+:where(#syetuzmgsb) .gt_center {
   text-align: center;
 }
 
-:where(#cuzcwctshs) .gt_right {
+:where(#syetuzmgsb) .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-:where(#cuzcwctshs) .gt_font_normal {
+:where(#syetuzmgsb) .gt_font_normal {
   font-weight: normal;
 }
 
-:where(#cuzcwctshs) .gt_font_bold {
+:where(#syetuzmgsb) .gt_font_bold {
   font-weight: bold;
 }
 
-:where(#cuzcwctshs) .gt_font_italic {
+:where(#syetuzmgsb) .gt_font_italic {
   font-style: italic;
 }
 
-:where(#cuzcwctshs) .gt_super {
+:where(#syetuzmgsb) .gt_super {
   font-size: 65%;
 }
 
-:where(#cuzcwctshs) .gt_footnote_marks {
+:where(#syetuzmgsb) .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-:where(#cuzcwctshs) .gt_asterisk {
+:where(#syetuzmgsb) .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-:where(#cuzcwctshs) .gt_indent_1 {
+:where(#syetuzmgsb) .gt_indent_1 {
   text-indent: 5px;
 }
 
-:where(#cuzcwctshs) .gt_indent_2 {
+:where(#syetuzmgsb) .gt_indent_2 {
   text-indent: 10px;
 }
 
-:where(#cuzcwctshs) .gt_indent_3 {
+:where(#syetuzmgsb) .gt_indent_3 {
   text-indent: 15px;
 }
 
-:where(#cuzcwctshs) .gt_indent_4 {
+:where(#syetuzmgsb) .gt_indent_4 {
   text-indent: 20px;
 }
 
-:where(#cuzcwctshs) .gt_indent_5 {
+:where(#syetuzmgsb) .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -2819,12 +2832,12 @@ we cannot use the causal salad of all variables ranked by aic
 <div class="cell">
 <div class="cell-output-display">
 
-<div id="ftjqzpzjfj" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="wzyytpubqd" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-:where(#ftjqzpzjfj) .gt_table {
+:where(#wzyytpubqd) .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -2849,7 +2862,7 @@ we cannot use the causal salad of all variables ranked by aic
   border-left-color: #D3D3D3;
 }
 
-:where(#ftjqzpzjfj) .gt_heading {
+:where(#wzyytpubqd) .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -2861,12 +2874,12 @@ we cannot use the causal salad of all variables ranked by aic
   border-right-color: #D3D3D3;
 }
 
-:where(#ftjqzpzjfj) .gt_caption {
+:where(#wzyytpubqd) .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-:where(#ftjqzpzjfj) .gt_title {
+:where(#wzyytpubqd) .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -2878,7 +2891,7 @@ we cannot use the causal salad of all variables ranked by aic
   border-bottom-width: 0;
 }
 
-:where(#ftjqzpzjfj) .gt_subtitle {
+:where(#wzyytpubqd) .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -2890,13 +2903,13 @@ we cannot use the causal salad of all variables ranked by aic
   border-top-width: 0;
 }
 
-:where(#ftjqzpzjfj) .gt_bottom_border {
+:where(#wzyytpubqd) .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-:where(#ftjqzpzjfj) .gt_col_headings {
+:where(#wzyytpubqd) .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2911,7 +2924,7 @@ we cannot use the causal salad of all variables ranked by aic
   border-right-color: #D3D3D3;
 }
 
-:where(#ftjqzpzjfj) .gt_col_heading {
+:where(#wzyytpubqd) .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2931,7 +2944,7 @@ we cannot use the causal salad of all variables ranked by aic
   overflow-x: hidden;
 }
 
-:where(#ftjqzpzjfj) .gt_column_spanner_outer {
+:where(#wzyytpubqd) .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2943,15 +2956,15 @@ we cannot use the causal salad of all variables ranked by aic
   padding-right: 4px;
 }
 
-:where(#ftjqzpzjfj) .gt_column_spanner_outer:first-child {
+:where(#wzyytpubqd) .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-:where(#ftjqzpzjfj) .gt_column_spanner_outer:last-child {
+:where(#wzyytpubqd) .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-:where(#ftjqzpzjfj) .gt_column_spanner {
+:where(#wzyytpubqd) .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -2963,7 +2976,7 @@ we cannot use the causal salad of all variables ranked by aic
   width: 100%;
 }
 
-:where(#ftjqzpzjfj) .gt_group_heading {
+:where(#wzyytpubqd) .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2989,7 +3002,7 @@ we cannot use the causal salad of all variables ranked by aic
   text-align: left;
 }
 
-:where(#ftjqzpzjfj) .gt_empty_group_heading {
+:where(#wzyytpubqd) .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -3004,15 +3017,15 @@ we cannot use the causal salad of all variables ranked by aic
   vertical-align: middle;
 }
 
-:where(#ftjqzpzjfj) .gt_from_md > :first-child {
+:where(#wzyytpubqd) .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-:where(#ftjqzpzjfj) .gt_from_md > :last-child {
+:where(#wzyytpubqd) .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-:where(#ftjqzpzjfj) .gt_row {
+:where(#wzyytpubqd) .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3031,7 +3044,7 @@ we cannot use the causal salad of all variables ranked by aic
   overflow-x: hidden;
 }
 
-:where(#ftjqzpzjfj) .gt_stub {
+:where(#wzyytpubqd) .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3044,7 +3057,7 @@ we cannot use the causal salad of all variables ranked by aic
   padding-right: 5px;
 }
 
-:where(#ftjqzpzjfj) .gt_stub_row_group {
+:where(#wzyytpubqd) .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3058,11 +3071,11 @@ we cannot use the causal salad of all variables ranked by aic
   vertical-align: top;
 }
 
-:where(#ftjqzpzjfj) .gt_row_group_first td {
+:where(#wzyytpubqd) .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-:where(#ftjqzpzjfj) .gt_summary_row {
+:where(#wzyytpubqd) .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -3072,16 +3085,16 @@ we cannot use the causal salad of all variables ranked by aic
   padding-right: 5px;
 }
 
-:where(#ftjqzpzjfj) .gt_first_summary_row {
+:where(#wzyytpubqd) .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-:where(#ftjqzpzjfj) .gt_first_summary_row.thick {
+:where(#wzyytpubqd) .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-:where(#ftjqzpzjfj) .gt_last_summary_row {
+:where(#wzyytpubqd) .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3091,7 +3104,7 @@ we cannot use the causal salad of all variables ranked by aic
   border-bottom-color: #D3D3D3;
 }
 
-:where(#ftjqzpzjfj) .gt_grand_summary_row {
+:where(#wzyytpubqd) .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -3101,7 +3114,7 @@ we cannot use the causal salad of all variables ranked by aic
   padding-right: 5px;
 }
 
-:where(#ftjqzpzjfj) .gt_first_grand_summary_row {
+:where(#wzyytpubqd) .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3111,11 +3124,11 @@ we cannot use the causal salad of all variables ranked by aic
   border-top-color: #D3D3D3;
 }
 
-:where(#ftjqzpzjfj) .gt_striped {
+:where(#wzyytpubqd) .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-:where(#ftjqzpzjfj) .gt_table_body {
+:where(#wzyytpubqd) .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -3124,7 +3137,7 @@ we cannot use the causal salad of all variables ranked by aic
   border-bottom-color: #D3D3D3;
 }
 
-:where(#ftjqzpzjfj) .gt_footnotes {
+:where(#wzyytpubqd) .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -3138,7 +3151,7 @@ we cannot use the causal salad of all variables ranked by aic
   border-right-color: #D3D3D3;
 }
 
-:where(#ftjqzpzjfj) .gt_footnote {
+:where(#wzyytpubqd) .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -3147,7 +3160,7 @@ we cannot use the causal salad of all variables ranked by aic
   padding-right: 5px;
 }
 
-:where(#ftjqzpzjfj) .gt_sourcenotes {
+:where(#wzyytpubqd) .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -3161,7 +3174,7 @@ we cannot use the causal salad of all variables ranked by aic
   border-right-color: #D3D3D3;
 }
 
-:where(#ftjqzpzjfj) .gt_sourcenote {
+:where(#wzyytpubqd) .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -3169,64 +3182,64 @@ we cannot use the causal salad of all variables ranked by aic
   padding-right: 5px;
 }
 
-:where(#ftjqzpzjfj) .gt_left {
+:where(#wzyytpubqd) .gt_left {
   text-align: left;
 }
 
-:where(#ftjqzpzjfj) .gt_center {
+:where(#wzyytpubqd) .gt_center {
   text-align: center;
 }
 
-:where(#ftjqzpzjfj) .gt_right {
+:where(#wzyytpubqd) .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-:where(#ftjqzpzjfj) .gt_font_normal {
+:where(#wzyytpubqd) .gt_font_normal {
   font-weight: normal;
 }
 
-:where(#ftjqzpzjfj) .gt_font_bold {
+:where(#wzyytpubqd) .gt_font_bold {
   font-weight: bold;
 }
 
-:where(#ftjqzpzjfj) .gt_font_italic {
+:where(#wzyytpubqd) .gt_font_italic {
   font-style: italic;
 }
 
-:where(#ftjqzpzjfj) .gt_super {
+:where(#wzyytpubqd) .gt_super {
   font-size: 65%;
 }
 
-:where(#ftjqzpzjfj) .gt_footnote_marks {
+:where(#wzyytpubqd) .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-:where(#ftjqzpzjfj) .gt_asterisk {
+:where(#wzyytpubqd) .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-:where(#ftjqzpzjfj) .gt_indent_1 {
+:where(#wzyytpubqd) .gt_indent_1 {
   text-indent: 5px;
 }
 
-:where(#ftjqzpzjfj) .gt_indent_2 {
+:where(#wzyytpubqd) .gt_indent_2 {
   text-indent: 10px;
 }
 
-:where(#ftjqzpzjfj) .gt_indent_3 {
+:where(#wzyytpubqd) .gt_indent_3 {
   text-indent: 15px;
 }
 
-:where(#ftjqzpzjfj) .gt_indent_4 {
+:where(#wzyytpubqd) .gt_indent_4 {
   text-indent: 20px;
 }
 
-:where(#ftjqzpzjfj) .gt_indent_5 {
+:where(#wzyytpubqd) .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -3262,524 +3275,10 @@ we cannot use the causal salad of all variables ranked by aic
 <div class="cell">
 <div class="cell-output-display">
 
-<div id="hoeunwtwzq" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>html {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
-}
-
-:where(#hoeunwtwzq) .gt_table {
-  display: table;
-  border-collapse: collapse;
-  margin-left: auto;
-  margin-right: auto;
-  color: #333333;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  background-color: #FFFFFF;
-  width: auto;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #A8A8A8;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #A8A8A8;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-}
-
-:where(#hoeunwtwzq) .gt_heading {
-  background-color: #FFFFFF;
-  text-align: center;
-  border-bottom-color: #FFFFFF;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-
-:where(#hoeunwtwzq) .gt_caption {
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-:where(#hoeunwtwzq) .gt_title {
-  color: #333333;
-  font-size: 125%;
-  font-weight: initial;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-color: #FFFFFF;
-  border-bottom-width: 0;
-}
-
-:where(#hoeunwtwzq) .gt_subtitle {
-  color: #333333;
-  font-size: 85%;
-  font-weight: initial;
-  padding-top: 0;
-  padding-bottom: 6px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top-color: #FFFFFF;
-  border-top-width: 0;
-}
-
-:where(#hoeunwtwzq) .gt_bottom_border {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-
-:where(#hoeunwtwzq) .gt_col_headings {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-
-:where(#hoeunwtwzq) .gt_col_heading {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: normal;
-  text-transform: inherit;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 6px;
-  padding-left: 5px;
-  padding-right: 5px;
-  overflow-x: hidden;
-}
-
-:where(#hoeunwtwzq) .gt_column_spanner_outer {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: normal;
-  text-transform: inherit;
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 4px;
-  padding-right: 4px;
-}
-
-:where(#hoeunwtwzq) .gt_column_spanner_outer:first-child {
-  padding-left: 0;
-}
-
-:where(#hoeunwtwzq) .gt_column_spanner_outer:last-child {
-  padding-right: 0;
-}
-
-:where(#hoeunwtwzq) .gt_column_spanner {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  overflow-x: hidden;
-  display: inline-block;
-  width: 100%;
-}
-
-:where(#hoeunwtwzq) .gt_group_heading {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: middle;
-  text-align: left;
-}
-
-:where(#hoeunwtwzq) .gt_empty_group_heading {
-  padding: 0.5px;
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  vertical-align: middle;
-}
-
-:where(#hoeunwtwzq) .gt_from_md > :first-child {
-  margin-top: 0;
-}
-
-:where(#hoeunwtwzq) .gt_from_md > :last-child {
-  margin-bottom: 0;
-}
-
-:where(#hoeunwtwzq) .gt_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin: 10px;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-top-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: middle;
-  overflow-x: hidden;
-}
-
-:where(#hoeunwtwzq) .gt_stub {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-right-style: solid;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-:where(#hoeunwtwzq) .gt_stub_row_group {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-right-style: solid;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  padding-left: 5px;
-  padding-right: 5px;
-  vertical-align: top;
-}
-
-:where(#hoeunwtwzq) .gt_row_group_first td {
-  border-top-width: 2px;
-}
-
-:where(#hoeunwtwzq) .gt_summary_row {
-  color: #333333;
-  background-color: #FFFFFF;
-  text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-:where(#hoeunwtwzq) .gt_first_summary_row {
-  border-top-style: solid;
-  border-top-color: #D3D3D3;
-}
-
-:where(#hoeunwtwzq) .gt_first_summary_row.thick {
-  border-top-width: 2px;
-}
-
-:where(#hoeunwtwzq) .gt_last_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-
-:where(#hoeunwtwzq) .gt_grand_summary_row {
-  color: #333333;
-  background-color: #FFFFFF;
-  text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-:where(#hoeunwtwzq) .gt_first_grand_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top-style: double;
-  border-top-width: 6px;
-  border-top-color: #D3D3D3;
-}
-
-:where(#hoeunwtwzq) .gt_striped {
-  background-color: rgba(128, 128, 128, 0.05);
-}
-
-:where(#hoeunwtwzq) .gt_table_body {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-
-:where(#hoeunwtwzq) .gt_footnotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-
-:where(#hoeunwtwzq) .gt_footnote {
-  margin: 0px;
-  font-size: 90%;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-:where(#hoeunwtwzq) .gt_sourcenotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-
-:where(#hoeunwtwzq) .gt_sourcenote {
-  font-size: 90%;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-:where(#hoeunwtwzq) .gt_left {
-  text-align: left;
-}
-
-:where(#hoeunwtwzq) .gt_center {
-  text-align: center;
-}
-
-:where(#hoeunwtwzq) .gt_right {
-  text-align: right;
-  font-variant-numeric: tabular-nums;
-}
-
-:where(#hoeunwtwzq) .gt_font_normal {
-  font-weight: normal;
-}
-
-:where(#hoeunwtwzq) .gt_font_bold {
-  font-weight: bold;
-}
-
-:where(#hoeunwtwzq) .gt_font_italic {
-  font-style: italic;
-}
-
-:where(#hoeunwtwzq) .gt_super {
-  font-size: 65%;
-}
-
-:where(#hoeunwtwzq) .gt_footnote_marks {
-  font-style: italic;
-  font-weight: normal;
-  font-size: 75%;
-  vertical-align: 0.4em;
-}
-
-:where(#hoeunwtwzq) .gt_asterisk {
-  font-size: 100%;
-  vertical-align: 0;
-}
-
-:where(#hoeunwtwzq) .gt_indent_1 {
-  text-indent: 5px;
-}
-
-:where(#hoeunwtwzq) .gt_indent_2 {
-  text-indent: 10px;
-}
-
-:where(#hoeunwtwzq) .gt_indent_3 {
-  text-indent: 15px;
-}
-
-:where(#hoeunwtwzq) .gt_indent_4 {
-  text-indent: 20px;
-}
-
-:where(#hoeunwtwzq) .gt_indent_5 {
-  text-indent: 25px;
-}
-</style>
-<table class="gt_table">
-  
-  <thead class="gt_col_headings">
-    <tr>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="Species">Species</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Count">Count</th>
-    </tr>
-  </thead>
-  <tbody class="gt_table_body">
-    <tr><td headers="Species" class="gt_row gt_left">spice finches (Lonchura punctulata)</td>
-<td headers="Count" class="gt_row gt_right">13</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">zebra finches (Taeniopygia guttata)</td>
-<td headers="Count" class="gt_row gt_right">13</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">house sparrows (Passer domesticus)</td>
-<td headers="Count" class="gt_row gt_right">8</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">chacma baboons (Papio ursinus)</td>
-<td headers="Count" class="gt_row gt_right">3</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">pigeons (Columba livia)</td>
-<td headers="Count" class="gt_row gt_right">3</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">three-spined sticklebacks (Gasterosteus aculeatus)</td>
-<td headers="Count" class="gt_row gt_right">3</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">tree sparrows (Passer montanus)</td>
-<td headers="Count" class="gt_row gt_right">3</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">barnacle geese (Branta leucopsis)</td>
-<td headers="Count" class="gt_row gt_right">2</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">crab spiders (Australomisidia ergandros)</td>
-<td headers="Count" class="gt_row gt_right">2</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">Egyptian fruit bats (Rousettus aegyptiacus)</td>
-<td headers="Count" class="gt_row gt_right">2</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">great tits (Parus major)</td>
-<td headers="Count" class="gt_row gt_right">2</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">northwestern crows (Corvus caurinus)</td>
-<td headers="Count" class="gt_row gt_right">2</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">vervet monkeys (Chlorocebus pygerythrus)</td>
-<td headers="Count" class="gt_row gt_right">2</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">Wistar rats (Rattus norvegicus)</td>
-<td headers="Count" class="gt_row gt_right">2</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">Arabian babblers (Argya squamiceps)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">Bengalese finches (Lonchura striata)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">black-tufted marmosets (Callithrix penicillata)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">blue tits (Cyanistes caeruleus)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">boars (Sus scrofa)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">capuchin monkeys (Cebus apella)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">Carib grackles (Quiscalus lugubris)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">coho salmon (Oncorhynchus kisutch)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">common terns (Sterna hirundo)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">curlews (Numenius arquata)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">domestic pigs (Sus scrofa)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">emperor tamarins (Saguinus imperator)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">Eurasian tree sparrows (Passer montanus)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">greylag goose (Anser anser)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">guppies (Poecilia reticulata)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">honeybees (Apis mellifera)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">jaegers (Stercorarius parasiticus)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">marmosets (Callithrix jacchus)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">Mexican jays (Aphelocoma wollweberi)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">raptors (Aquila spp)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">ravens (Corvus corax)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">red knots (Calidris canutus)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">ring-tailes coatis (Nasua nasua)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">rooks (Corvus frugilegus)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">saddleback tamarins (Saguinus fuscicollis)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">sea bass (Dicentrarchus labrax)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">shark mackerel (Grammatorcynus bicarinatus)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">starlings (Sturnus vulgaris)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">veld goats (Capra hircus)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">vultures (Gyps spp)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">western buffalo breams (Kyphosus cornelii)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">wolves (Canis lupus)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-    <tr><td headers="Species" class="gt_row gt_left">yellow-bellied marmots (Marmota flaviventris)</td>
-<td headers="Count" class="gt_row gt_right">1</td></tr>
-  </tbody>
-  
-  
-</table>
+<div data-pagedtable="false">
+  <script data-pagedtable-source="" type="application/json">
+{"columns":[{"label":["Species"],"name":[1],"type":["chr"],"align":["left"]},{"label":["Count"],"name":[2],"type":["int"],"align":["right"]}],"data":[{"1":"spice finches (Lonchura punctulata)","2":"13"},{"1":"zebra finches (Taeniopygia guttata)","2":"13"},{"1":"house sparrows (Passer domesticus)","2":"8"},{"1":"chacma baboons (Papio ursinus)","2":"3"},{"1":"pigeons (Columba livia)","2":"3"},{"1":"three-spined sticklebacks (Gasterosteus aculeatus)","2":"3"},{"1":"tree sparrows (Passer montanus)","2":"3"},{"1":"barnacle geese (Branta leucopsis)","2":"2"},{"1":"crab spiders (Australomisidia ergandros)","2":"2"},{"1":"Egyptian fruit bats (Rousettus aegyptiacus)","2":"2"},{"1":"great tits (Parus major)","2":"2"},{"1":"northwestern crows (Corvus caurinus)","2":"2"},{"1":"vervet monkeys (Chlorocebus pygerythrus)","2":"2"},{"1":"Wistar rats (Rattus norvegicus)","2":"2"},{"1":"Arabian babblers (Argya squamiceps)","2":"1"},{"1":"Bengalese finches (Lonchura striata)","2":"1"},{"1":"black-tufted marmosets (Callithrix penicillata)","2":"1"},{"1":"blue tits (Cyanistes caeruleus)","2":"1"},{"1":"boars (Sus scrofa)","2":"1"},{"1":"capuchin monkeys (Cebus apella)","2":"1"},{"1":"Carib grackles (Quiscalus lugubris)","2":"1"},{"1":"coho salmon (Oncorhynchus kisutch)","2":"1"},{"1":"common terns (Sterna hirundo)","2":"1"},{"1":"curlews (Numenius arquata)","2":"1"},{"1":"domestic pigs (Sus scrofa)","2":"1"},{"1":"emperor tamarins (Saguinus imperator)","2":"1"},{"1":"Eurasian tree sparrows (Passer montanus)","2":"1"},{"1":"greylag goose (Anser anser)","2":"1"},{"1":"guppies (Poecilia reticulata)","2":"1"},{"1":"honeybees (Apis mellifera)","2":"1"},{"1":"jaegers (Stercorarius parasiticus)","2":"1"},{"1":"marmosets (Callithrix jacchus)","2":"1"},{"1":"Mexican jays (Aphelocoma wollweberi)","2":"1"},{"1":"raptors (Aquila spp)","2":"1"},{"1":"ravens (Corvus corax)","2":"1"},{"1":"red knots (Calidris canutus)","2":"1"},{"1":"ring-tailes coatis (Nasua nasua)","2":"1"},{"1":"rooks (Corvus frugilegus)","2":"1"},{"1":"saddleback tamarins (Saguinus fuscicollis)","2":"1"},{"1":"sea bass (Dicentrarchus labrax)","2":"1"},{"1":"shark mackerel (Grammatorcynus bicarinatus)","2":"1"},{"1":"starlings (Sturnus vulgaris)","2":"1"},{"1":"veld goats (Capra hircus)","2":"1"},{"1":"vultures (Gyps spp)","2":"1"},{"1":"western buffalo breams (Kyphosus cornelii)","2":"1"},{"1":"wolves (Canis lupus)","2":"1"},{"1":"yellow-bellied marmots (Marmota flaviventris)","2":"1"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
 </div>
 </div>
 </div>
