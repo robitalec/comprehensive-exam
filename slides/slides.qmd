@@ -917,7 +917,7 @@ availability
 
 
 
-# <!-- Objective 3: Distributions --> {.center} 
+## <!-- Objective 3: Distributions --> {.center} 
 
 :::: {.columns}
 ::: {.column width="35%"}
