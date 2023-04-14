@@ -276,7 +276,7 @@ ggplot(landscape_long,
 	geom_point(aes(x_rdm, y_rdm), size = 2, data = DT_pt_rdm) +
 	geom_point(aes(i.x, i.y), size = 5, shape = 15, data = mDTsc) +
 	geom_segment(aes(x = x, y = y, xend = x_rdm, yend = y_rdm),
-				 size = 1, 
+				 linewidth = 1, 
 				 arrow = arrow(length = unit(0.1, 'inches')),
 				 data = DT_pt_rdm,
 				 color = 'grey40') +
@@ -308,7 +308,7 @@ ggplot(landscape_long,
 	geom_point(aes(i.x, i.y), size = 5, shape = 15, data = mDTsc) +
 	geom_point(aes(x, y), size = 5, data = mDTsc, shape = 15) +
 	geom_segment(aes(x = x, y = y, xend = i.x, yend = i.y),
-				 size = 1, 
+				 linewidth = 1, 
 				 arrow = arrow(length = unit(0.1, 'inches')),
 				 data = mDTsc,
 			     color = 'grey40') +
