@@ -32,21 +32,23 @@ c(rvonmises(5e2, circular(0), 3, control.circular=list(units="degrees")),
 
 
 ggplot(data.table(
-	x = as.integer(rvonmises(1e5, circular(0), 1, control.circular=list(units="degrees"))))[, .N, x][, .(x, density = N / .N)]) +
+	x = as.integer(rvonmises(1e5, circular(0), 1, control.circular=list(units="degrees"))))[, .N, x][, .(x, N, density = N / sum(N))]) +
 	geom_area(aes(x, density), size = 1, fill = 'black', alpha = 0.5) +
 	coord_polar() +
-	theme_minimal()
+	theme_minimal() +
+	theme(axis.text.y = element_blank())
 
 
 ggplot(data.table(
 	x = as.integer(c(
-		rvonmises(5e5, circular(0), 1, control.circular=list(units="degrees")),
+		rvonmises(3e5, circular(0), 1, control.circular=list(units="degrees")),
 		rnorm(0.5e5, rad(90), 0.2),
 		rnorm(0.5e5, rad(210), 0.2)
-	)))[, .N, x][, .(x, density = N / .N)]) +
+	)))[, .N, x][, .(x, N, density = N / sum(N))]) +
 	geom_area(aes(x, density), size = 1, fill = 'black', alpha = 0.5) +
 	coord_polar() +
-	theme_minimal()
+	theme_minimal() +
+	theme(axis.text.y = element_blank())
 
 
 

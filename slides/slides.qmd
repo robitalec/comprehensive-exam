@@ -962,7 +962,7 @@ Producers
 #| fig-height: 5
 #| echo: false
 prod_sl <- data.frame(x = rgamma(1e3, 3, 2)) |>
-	ggplot(aes(x)) + geom_density(fill = '#cec4c4') + 
+	ggplot(aes(x)) + geom_density(fill = 'darkgrey') + 
 	labs(x = 'step length', y = 'density') + 
 	theme_minimal(base_size = 22)
 prod_sl
@@ -983,7 +983,7 @@ scr_sl <- data.frame(x = c(
 	rnorm(1e2, 2.5, 0.1),
 	rnorm(1e2, 3.2, 0.1),
 	rnorm(1e2, 4, 0.1))) |>
-	ggplot(aes(x)) + geom_density(fill = '#cec4c4') + 
+	ggplot(aes(x)) + geom_density(fill = 'darkgrey') + 
 	geom_label(data = data.frame(x = c(2.5, 3.2, 4), y = rep(0.4, 3), id = LETTERS[seq.int(3)]), aes(x, y, label = id)) + 
  	labs(x = 'step length', y = 'density') + 
 	theme_minimal(base_size = 22)
@@ -1005,10 +1005,12 @@ scr_sl
 #| fig-height: 5
 #| echo: false
 ggplot(data.table(
-	x = as.integer(rvonmises(1e5, circular(0), 1, control.circular=list(units="degrees"))))[, .N, x][, .(x, density = N / .N)]) +
+	x = as.integer(rvonmises(1e5, circular(0), 1, control.circular=list(units="degrees"))))[, .N, x][, .(x, N, density = N / sum(N))]) +
 	geom_area(aes(x, density), size = 1, fill = 'black', alpha = 0.5) +
 	coord_polar() +
-	theme_minimal()
+	theme_minimal(base_size = 22) + 
+	labs(x = 'turn angle', y = 'density') + 
+	theme(axis.text.y = element_blank())
 ```
 :::
   
@@ -1023,13 +1025,15 @@ ggplot(data.table(
 #| echo: false
 ggplot(data.table(
 	x = as.integer(c(
-		rvonmises(5e5, circular(0), 1, control.circular=list(units="degrees")),
+		rvonmises(3e5, circular(0), 1, control.circular=list(units="degrees")),
 		rnorm(0.5e5, rad(90), 0.2),
 		rnorm(0.5e5, rad(210), 0.2)
-	)))[, .N, x][, .(x, density = N / .N)]) +
+	)))[, .N, x][, .(x, N, density = N / sum(N))]) +
 	geom_area(aes(x, density), size = 1, fill = 'black', alpha = 0.5) +
 	coord_polar() +
-	theme_minimal()
+	labs(x = 'turn angle', y = 'density') + 
+	theme_minimal(base_size = 22) +
+	theme(axis.text.y = element_blank())
 ```
 :::
 
