@@ -11,15 +11,6 @@ $presentation-slide-text-align: center;
 }
 
 .small {
-  font-size: smaller;
-}
-
-.gt_row {
-  color: $body-color;
-  background-color: $body-bg
-}
-
-.gt_sub {
-  color: $body-color;
-  background-color: $body-bg
+  text-align: left;
+  font-size: large;
 }
