@@ -1004,8 +1004,11 @@ scr_sl
 #| fig-width: 5
 #| fig-height: 5
 #| echo: false
-rvonmises(1e3, circular(0), 3, control.circular=list(units="degrees")) |>
-	plot(stack=TRUE, zero = rad(90), tol = 0.3)
+ggplot(data.table(
+	x = as.integer(rvonmises(1e5, circular(0), 1, control.circular=list(units="degrees"))))[, .N, x][, .(x, density = N / .N)]) +
+	geom_area(aes(x, density), size = 1, fill = 'black', alpha = 0.5) +
+	coord_polar() +
+	theme_minimal()
 ```
 :::
   
@@ -1018,10 +1021,15 @@ rvonmises(1e3, circular(0), 3, control.circular=list(units="degrees")) |>
 #| fig-width: 5
 #| fig-height: 5
 #| echo: false
-c(rvonmises(5e2, circular(0), 3, control.circular=list(units="degrees")),
-	rnorm(3e2, rad(90), 0.2),
-	rnorm(3e2, rad(210), 0.2)) |>
-	plot(stack=TRUE, zero = rad(90), tol = 0.3)
+ggplot(data.table(
+	x = as.integer(c(
+		rvonmises(5e5, circular(0), 1, control.circular=list(units="degrees")),
+		rnorm(0.5e5, rad(90), 0.2),
+		rnorm(0.5e5, rad(210), 0.2)
+	)))[, .N, x][, .(x, density = N / .N)]) +
+	geom_area(aes(x, density), size = 1, fill = 'black', alpha = 0.5) +
+	coord_polar() +
+	theme_minimal()
 ```
 :::
 
