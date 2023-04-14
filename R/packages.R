@@ -7,6 +7,7 @@ library(data.table)
 library(ggplot2)
 library(scico)
 library(scales)
+library(patchwork)
 
 library(quarto)
 library(gt)
@@ -27,3 +28,5 @@ library(googlesheets4)
 
 library(raster)
 library(NLMR)
+
+library(circular)
