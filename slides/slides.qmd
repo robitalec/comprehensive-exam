@@ -847,11 +847,16 @@ foraging strategy
 
 into
 
-availability
+availability* 
 :::
 
 ::::
 
+
+::: footer
+\* Beyer, H. L., Haydon, D. T., Morales, J. M., Frair, J. L., Hebblewhite, M., Mitchell, M., & Matthiopoulos, J. (2010). The interpretation of habitat preference metrics under use–availability designs. Philosophical Transactions of the Royal Society B: Biological Sciences, 365(1550), 2245-2254.
+
+:::
 
 ## <!-- Recall: Access - role --> {.center} 
 
