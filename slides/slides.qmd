@@ -1068,6 +1068,8 @@ Matthiopoulos, J., Fieberg, J. R., & Aarts, G. (2023). Species-Habitat Associati
 
 Northrup, J. M., Vander Wal, E., Bonar, M., Fieberg, J., Laforge, M. P., Leclerc, M., ... & Gerber, B. D. (2022). Conceptual and methodological advances in habitat‐selection modeling: guidelines for ecology and evolution. Ecological Applications, 32(1), e02470.
 
+Beyer, H. L., Haydon, D. T., Morales, J. M., Frair, J. L., Hebblewhite, M., Mitchell, M., & Matthiopoulos, J. (2010). The interpretation of habitat preference metrics under use–availability designs. Philosophical Transactions of the Royal Society B: Biological Sciences, 365(1550), 2245-2254.
+
 <br>
 
 ### Causal inference {.small}
