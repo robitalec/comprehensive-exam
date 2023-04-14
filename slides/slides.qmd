@@ -958,17 +958,14 @@ scrounger
 
 Producers
 ```{r}
-#| fig-width: 3
-#| fig-height: 3
+#| fig-width: 5
+#| fig-height: 5
 #| echo: false
 prod_sl <- data.frame(x = rgamma(1e3, 3, 2)) |>
 	ggplot(aes(x)) + geom_density(fill = '#cec4c4') + 
 	labs(x = 'step length', y = 'density') + 
 	theme_minimal(base_size = 22)
 prod_sl
-
-rvonmises(1e3, circular(0), 3, control.circular=list(units="degrees")) |>
-	plot(stack=TRUE, bins=1e3)
 ```
 :::
  
@@ -976,10 +973,10 @@ rvonmises(1e3, circular(0), 3, control.circular=list(units="degrees")) |>
 :::
  
 ::: {.column width="40%"}
-### Scroungers
+Scroungers
 ```{r}
-#| fig-width: 3
-#| fig-height: 3
+#| fig-width: 5
+#| fig-height: 5
 #| echo: false
 scr_sl <- data.frame(x = c(
 	rgamma(1e3, 3, 2),
@@ -991,12 +988,41 @@ scr_sl <- data.frame(x = c(
  	labs(x = 'step length', y = 'density') + 
 	theme_minimal(base_size = 22)
 scr_sl
+```
+:::
 
+::::
+
+
+## <!-- Objective 3: Distributions turn angle --> {.center} 
+
+:::: {.columns}
+::: {.column width="40%"}
+
+### Producers
+```{r}
+#| fig-width: 5
+#| fig-height: 5
+#| echo: false
+rvonmises(1e3, circular(0), 3, control.circular=list(units="degrees")) |>
+	plot(stack=TRUE, bins=1.4e3, xlim=c(-1,1), ylim=c(-1,1.3), zero = rad(90))
+```
+:::
+  
+::: {.column width="10%"}
+:::
+ 
+::: {.column width="40%"}
+### Scroungers
+```{r}
+#| fig-width: 5
+#| fig-height: 5
+#| echo: false
 c(rvonmises(5e2, circular(0), 3, control.circular=list(units="degrees")),
-	rnorm(3e2, rad(0), 0.2),
+	#rnorm(3e1, rad(0), 0.2),
 	rnorm(3e2, rad(90), 0.2),
 	rnorm(3e2, rad(210), 0.2)) |>
-	plot(stack=TRUE, bins=1e3)
+	plot(stack=TRUE, bins=1.4e3, xlim=c(-1,1), ylim=c(-1,1.3), zero = rad(90))
 ```
 :::
 
@@ -1021,6 +1047,7 @@ for inference
 we cannot use the causal salad of all variables ranked by aic
 
 -->
+
 
 
 ## Selected references {.small}
