@@ -123,6 +123,18 @@ Scroungers
 {{< video https://www.youtube.com/embed/B1h1mDgSjOc width="100%" height="85%"  >}}
 
 
+::: footer
+Keynan, O., Ridley, A. R., & Lotem, A. (2015). Social foraging strategies and acquisition of novel foraging skills in cooperatively breeding Arabian babblers. Behavioral Ecology, 26(1), 207-214.
+
+<br> 
+
+Arabian babblers (*Turdoides squamiceps*)
+:::
+
+
+
+
+
 ## <!-- Frequency, payoffs, penalties --> {.center} 
 
 :::: {.columns}
