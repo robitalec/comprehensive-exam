@@ -910,22 +910,66 @@ foraging strategy
 
 into
 
-habitat selection
+availability
 :::
 
 ::::
+
+
+
+# <!-- Objective 3: Distributions --> {.center} 
+
+:::: {.columns}
+::: {.column width="35%"}
+```{dot}
+//| fig-width: 3.5
+digraph habitat_and_producer {
+  bgcolor = transparent;
+  rankdir = TB
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	edge [penwidth = 5, color = "#9d9d9d"] 
+	Habitat [label = "Habitat\nselection", color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+	Resources []
+	Conditions []
+	Risks []
+
+    Roles []
+	ps_dyn [label = "Producer-scrounger\ndynamics", color = "#9d7195", fillcolor = "#9d7195", fontcolor = "#e1e1e1"]
+	freq [label = "Frequency\ndependence"]
+	patch_penalties [label = "Patch penalties"]
+	patch_payoffs [label = "Patch payoffs"]
+	access_avail [label = "Availability\nand\naccess", shape = ellipse, fillcolor = "#AD8F89", color = "#AD8F89", fontcolor = "#e1e1e1"]
+
+	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> access_avail
+	access_avail -> {Resources Conditions Risks} [dir = back]
+	{patch_penalties} ->  Risks [color = "#707070", dir = back]
+	patch_payoffs -> Resources [color = "#707070", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
+	{Resources Risks Conditions} -> Habitat [dir = back]
+}
+```
+:::
+
+::: {.column width="10%"}
+
+:::
+
+
+::: {.column width="45%"}
+
+:::
+
+::::
+
+
 
 
 <!--
 1. observations of ps dynamics either through focal or getting leader follower 
 1. make sense of causal salad
 1. habitat selection availability integrated foraging role
--->
 
-
-
-
-<!-- 
 
 3 reasons to do a habitat selection analysis
 
