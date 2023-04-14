@@ -1,6 +1,10 @@
 ---
 title: References
 order: 6
+nocite: |
+  @*
+bibliography: '../references/comprehensive-exam.bib'
+csl: '../references/harvard-cite-them-right.csl'
 ---
 
 ::: {#refs}
