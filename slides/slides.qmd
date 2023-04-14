@@ -1,67 +1,1099 @@
 ---
-title: "Comprehensive exam"
+title: "Influence of habitat on resource availability during social foraging"
+subtitle: "Ph.D. Oral Comprehensive Examination"
 date: "2023-04-17"
-author: "Alec Robitaille"
-format: revealjs
-date-format: long
+author:
+  - name: Alec L. Robitaille
+    affiliations:
+      - name: "Memorial University of Newfoundland and Labrador"
+format:
+  revealjs: 
+    theme: [dark, custom.scss]
+    hash-type: number
+date-format: iso
 ---
 
-## 
 
-### In the context of frequency-dependent producer-scrounger dynamics, how would one's role affect access to available resources considering risks and conditions during habitat selection?
+
+## <!-- Question --> {.center} 
 
 
 ```{r}
 #| echo: false
-library(targets)
-library(DiagrammeR)
+#| include: false
+source('R/packages.R')
 ```
 
+### In the context of frequency-dependent producer-scrounger dynamics, how would one's role affect access to available resources considering risks and conditions during habitat selection?
+
+## <!-- Question, color --> {.center} 
+
+### <span style="color: #42727c">In the context of </span><span style="color: #9d7195">frequency-dependent producer-scrounger dynamics</span><span style="color: #42727c">, how would one's </span><span style="color: #9d7195">role</span><span style="color: #42727c"> affect </span><span style="color: #AD8F89">access</span><span style="color: #42727c"> to </span><span style="color: #AD8F89">available resources</span><span style="color: #42727c"> considering </span><span style="color: #959D71">risks and conditions</span><span style="color: #42727c"> during </span><span style="color: #959D71">habitat selection</span><span style="color: #42727c">?</span>
+
+## <!-- Flowchart --> {.center} 
+
+```{dot}
+//| fig-width: 3.5
+digraph habitat_and_producer {
+  bgcolor = transparent;
+  rankdir = TB
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#e1e1e1", style = filled, color = "#3f6f7a", fillcolor = "#3f6f7a", penwidth = 4]
+	edge [penwidth = 5, color = "#9d9d9d"] 
+	Habitat [label = "Habitat\nselection"]
+	Resources []
+	Conditions []
+	Risks []
+
+    Roles []
+	access_avail [label = "Availability\nand\naccess", shape = ellipse]
+	ps_dyn [label = "Producer-scrounger\ndynamics"]
+	freq [label = "Frequency\ndependence"]
+	patch_penalties [label = "Patch penalties"]
+	patch_payoffs [label = "Patch payoffs"]
+
+	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> access_avail
+	access_avail -> {Resources Conditions Risks} [dir = back]
+	{patch_penalties} ->  Risks [color = "#707070", dir = back]
+	patch_payoffs -> Resources [color = "#707070", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
+	{Resources Risks Conditions} -> Habitat [dir = back]
+}
+```
+
+
+
+## <!-- Producer-scrounger roles --> {.center} 
+
+:::: {.columns}
+
+::: {.column width="35%"}
+```{dot}
+//| fig-width: 3.5
+digraph habitat_and_producer {
+  bgcolor = transparent;
+  rankdir = TB
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	edge [penwidth = 5, color = "#9d9d9d"] 
+	Habitat [label = "Habitat\nselection"]
+	Resources
+	Conditions
+	Risks
+
+    Roles [color = "#9d7195", fontcolor = "#e1e1e1", fillcolor = "#9d7195"]
+	ps_dyn [label = "Producer-scrounger\ndynamics", color = "#9d7195", fillcolor = "#9d7195", fontcolor = "#e1e1e1"]
+	freq [label = "Frequency\ndependence"]
+	patch_penalties [label = "Patch penalties"]
+	patch_payoffs [label = "Patch payoffs"]
+	access_avail [label = "Availability\nand\naccess", shape = ellipse]
+
+	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> access_avail
+	access_avail -> {Resources Conditions Risks} [dir = back]
+	{patch_penalties} ->  Risks [color = "#707070", dir = back]
+	patch_payoffs -> Resources [color = "#707070", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
+	{Resources Risks Conditions} -> Habitat [dir = back]
+}
+```
+:::
+
+::: {.column width="10%"}
+
+:::
+
+::: {.column width="45%"}
+<br>
+<br>
+
+Producers
+
+Scroungers
+
+(Opportunists)
+
+:::
+
+::::
+
+
+
+## <!-- Producer-scrounger video --> 
+
+
+{{< video https://www.youtube.com/embed/B1h1mDgSjOc width="100%" height="85%"  >}}
+
+
+::: footer
+Keynan, O., Ridley, A. R., & Lotem, A. (2015). Social foraging strategies and acquisition of novel foraging skills in cooperatively breeding Arabian babblers. Behavioral Ecology, 26(1), 207-214.
+
+<br> 
+
+Arabian babblers (*Turdoides squamiceps*)
+:::
+
+
+
+
+
+## <!-- Frequency, payoffs, penalties --> {.center} 
+
+:::: {.columns}
+::: {.column width="35%"}
+```{dot}
+//| fig-width: 3.5
+digraph habitat_and_producer {
+  bgcolor = transparent;
+  rankdir = TB
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	edge [penwidth = 5, color = "#9d9d9d"] 
+	Habitat [label = "Habitat\nselection"]
+	Resources
+	Conditions
+	Risks
+
+    Roles 
+	ps_dyn [label = "Producer-scrounger\ndynamics"]
+	freq [label = "Frequency\ndependence", color = "#9d7195", fillcolor = "#9d7195", fontcolor = "#e1e1e1"]
+	patch_penalties [label = "Patch penalties", color = "#9d7195", fillcolor = "#9d7195", fontcolor = "#e1e1e1"]
+	patch_payoffs [label = "Patch payoffs", color = "#9d7195", fillcolor = "#9d7195", fontcolor = "#e1e1e1"]
+	access_avail [label = "Availability\nand\naccess", shape = ellipse]
+
+	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> access_avail
+	access_avail -> {Resources Conditions Risks} [dir = back]
+	{patch_penalties} ->  Risks [color = "#707070", dir = back]
+	patch_payoffs -> Resources [color = "#707070", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
+	{Resources Risks Conditions} -> Habitat [dir = back]
+}
+```
+:::
+
+::: {.column width="10%"}
+
+:::
+
+::: {.column width="45%"}
+<br>
+
+<br>
+
+Frequency dependence
+
+Payoffs
+
+Penalties
+
+:::
+
+::::
 
 
 
 <!-- 
-https://quarto.org/docs/presentations/revealjs/ 
-https://quarto.org/docs/presentations/revealjs/advanced.html
+examples of frequency dependence, payoffs, penalties
+
+--> 
+
+## <!-- Objective 1 --> {.center} 
+
+:::: {.columns}
+::: {.column width="35%"}
+```{dot}
+//| fig-width: 3.5
+digraph habitat_and_producer {
+  bgcolor = transparent;
+  rankdir = TB
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	edge [penwidth = 5, color = "#9d9d9d"] 
+	Habitat [label = "Habitat\nselection"]
+	Resources
+	Conditions
+	Risks
+
+    Roles [color = "#9d7195", fillcolor = "#9d7195", fontcolor = "#e1e1e1"]
+	ps_dyn [label = "Producer-scrounger\ndynamics"]
+	freq [label = "Frequency\ndependence"]
+	patch_penalties [label = "Patch penalties"]
+	patch_payoffs [label = "Patch payoffs"]
+	access_avail [label = "Availability\nand\naccess", shape = ellipse, fillcolor = "#AD8F89", color = "#AD8F89", fontcolor = "#e1e1e1"]
+
+	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> access_avail
+	access_avail -> {Resources Conditions Risks} [dir = back]
+	{patch_penalties} ->  Risks [color = "#707070", dir = back]
+	patch_payoffs -> Resources [color = "#707070", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
+	{Resources Risks Conditions} -> Habitat [dir = back]
+}
+```
+:::
+
+::: {.column width="10%"}
+
+:::
+
+::: {.column width="45%"}
+<br>
+
+### Objective 1: 
+
+Access to resources
+
+depending on role
+:::
+
+::::
+
+## <!-- Access - role --> {.center} 
+
+:::: {.columns}
+::: {.column width="40%"}
+Producers
+
+```{r producer_access}
+#| echo: false
+#| fig-width: 5
+#| fig-height: 5
+tar_load(landscape_long)
+
+# Producer ----------------------------------------------------------------
+DT_id <- CJ(id = c('A'), pr_id = c('C', 'D', 'E'), obs = seq.int(1))
+DT_id[, c('x', 'y') := .(c(-1, 0.2, 1), c(1, -0.5, 0.4))]
+
+DT_ed <- CJ(id = 'A', obs = seq.int(1), rdm = seq.int(10))
+
+DT_pt <- CJ(id = 'A', obs = seq.int(1))
+DT_pt[, c('x', 'y') := .(0, 0)]
+
+DT_pt_rdm <- DT_ed[DT_pt, on = .(id, obs)]
+DT_pt_rdm[, c('x_rdm', 'y_rdm') := .(x + rnorm(.N, sd = 0.5), y + rnorm(.N, sd = 0.5))]
+
+
+# Scrounger -------------------------------------------------------------
+DT_id <- CJ(id = c('A'), pr_id = c('C', 'D', 'E'), obs = seq.int(1))
+DT_id[, c('x', 'y') := .(c(-1, 0.2, 1), c(1, -0.5, 0.4))]
+
+
+DT_sc <- CJ(id = c('A'), obs = seq.int(1))
+DT_sc[, c('x', 'y') := .(0, 0)]
+
+mDTsc <- DT_sc[DT_id, on = 'id']
+
+
+producer <- ggplot(landscape_long,
+		aes(rescale(x, c(-1.2, 1.2)),
+			rescale(y, c(-1.2, 1.2)))) +
+	geom_tile(aes(fill = clumps), alpha = 0.6) +
+	geom_point(aes(x_rdm, y_rdm), size = 2, data = DT_pt_rdm) +
+	geom_point(aes(i.x, i.y), size = 5, shape = 15, data = mDTsc) +
+	geom_segment(aes(x = x, y = y, xend = x_rdm, yend = y_rdm),
+				 linewidth = 1, 
+				 arrow = arrow(length = unit(0.1, 'inches')),
+				 data = DT_pt_rdm,
+				 color = 'grey40') +
+	geom_point(aes(x, y), size = 5, data = DT_pt_rdm, shape = 15) +
+	coord_equal() +
+	guides(fill = 'none') +
+	theme_void() + 
+	theme(plot.background = element_rect(fill = "#134f5c",colour = "#134f5c"),
+		  panel.background = element_rect(fill = "#134f5c",colour = "#134f5c")) +
+	scale_fill_scico(palette = 'acton', begin = 0.5, end = 0.9)
+producer
+```
+:::
+ 
+::: {.column width="10%"}
+:::
+ 
+::: {.column width="40%"}
+Scroungers
+
+```{r scrounger_access}
+#| echo: false
+#| fig-width: 5
+#| fig-height: 5
+scrounger <- ggplot(landscape_long,
+			 aes(rescale(x, c(-1.2, 1.2)),
+			 		rescale(y, c(-1.2, 1.2)))) +
+	geom_tile(aes(fill = clumps), alpha = 0.6) +
+	coord_equal() +
+	geom_point(aes(i.x, i.y), size = 5, shape = 15, data = mDTsc) +
+	geom_point(aes(x, y), size = 5, data = mDTsc, shape = 15) +
+	geom_segment(aes(x = x, y = y, xend = i.x, yend = i.y),
+				 linewidth = 1, 
+				 arrow = arrow(length = unit(0.1, 'inches')),
+				 data = mDTsc,
+			     color = 'grey40') +
+	guides(color = 'none', fill = 'none') +
+	theme_void() + 
+	theme(plot.background = element_rect(fill = "#134f5c",colour = "#134f5c"),
+		  panel.background = element_rect(fill = "#134f5c",colour = "#134f5c")) +
+	scale_fill_scico(palette = 'acton', begin = 0.5, end = 0.9)
+scrounger
+```
+:::
+
+::::
+ 
+
+<!-- Lead into habitats are more complex than distributed patches of forage --> 
+<!-- Matt et al definition of habitat --> 
+
+
+## <!-- Habitat selection --> {.center} 
+
+
+:::: {.columns}
+::: {.column width="35%"}
+```{dot}
+//| fig-width: 3.5
+digraph habitat_and_producer {
+  bgcolor = transparent;
+  rankdir = TB
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	edge [penwidth = 5, color = "#9d9d9d"] 
+	Habitat [label = "Habitat\nselection"]
+	Resources [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+	Conditions [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+	Risks [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+
+    Roles []
+	access_avail [label = "Availability\nand\naccess", shape = ellipse]
+	ps_dyn [label = "Producer-scrounger\ndynamics"]
+	freq [label = "Frequency\ndependence"]
+	patch_penalties [label = "Patch penalties"]
+	patch_payoffs [label = "Patch payoffs"]
+
+	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> access_avail
+	access_avail -> {Resources Conditions Risks} [dir = back]
+	{patch_penalties} ->  Risks [color = "#707070", dir = back]
+	patch_payoffs -> Resources [color = "#707070", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
+	{Resources Risks Conditions} -> Habitat [dir = back]
+}
+```
+:::
+
+::: {.column width="10%"}
+
+:::
+
+::: {.column width="45%"}
+
+<br> 
+
+<br> 
+
+Habitats = 
+
+Resources + 
+
+Risks +  
+
+Conditions
+:::
+
+::::
+
+## <!-- Resources --> {.center} 
+
+:::: {.columns}
+::: {.column width="35%"}
+```{dot}
+//| fig-width: 3.5
+digraph habitat_and_producer {
+  bgcolor = transparent;
+  rankdir = TB
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	edge [penwidth = 5, color = "#9d9d9d"] 
+	Habitat [label = "Habitat\nselection"]
+	Resources [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+	Conditions []
+	Risks []
+
+    Roles []
+	access_avail [label = "Availability\nand\naccess", shape = ellipse]
+	ps_dyn [label = "Producer-scrounger\ndynamics"]
+	freq [label = "Frequency\ndependence"]
+	patch_penalties [label = "Patch penalties"]
+	patch_payoffs [label = "Patch payoffs"]
+
+	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> access_avail
+	access_avail -> {Resources Conditions Risks} [dir = back]
+	{patch_penalties} ->  Risks [color = "#707070", dir = back]
+	patch_payoffs -> Resources [color = "#707070", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
+	{Resources Risks Conditions} -> Habitat [dir = back]
+}
+```
+:::
+
+::: {.column width="10%"}
+
+:::
+
+::: {.column width="45%"}
+```{r resources}
+#| fig-height: 7
+ggplot(data.frame(x = c(0, 3)), aes(x)) +
+  stat_function(fun = exp, geom = 'line', linewidth = 3) + 
+  theme_minimal(base_size = 30) + 
+  labs(x = 'Resource', y = 'Expected effect on fitness')
+```
+
+E.g. forage patch quality, density, or resting spaces
+
+:::
+
+::::
+
+
+
+## <!-- Risks--> {.center} 
+
+
+:::: {.columns}
+::: {.column width="35%"}
+```{dot}
+//| fig-width: 3.5
+digraph habitat_and_producer {
+  bgcolor = transparent;
+  rankdir = TB
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	edge [penwidth = 5, color = "#9d9d9d"] 
+	Habitat [label = "Habitat\nselection"]
+	Resources []
+	Conditions []
+	Risks [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+
+    Roles []
+	access_avail [label = "Availability\nand\naccess", shape = ellipse]
+	ps_dyn [label = "Producer-scrounger\ndynamics"]
+	freq [label = "Frequency\ndependence"]
+	patch_penalties [label = "Patch penalties"]
+	patch_payoffs [label = "Patch payoffs"]
+
+	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> access_avail
+	access_avail -> {Resources Conditions Risks} [dir = back]
+	{patch_penalties} ->  Risks [color = "#707070", dir = back]
+	patch_payoffs -> Resources [color = "#707070", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
+	{Resources Risks Conditions} -> Habitat [dir = back]
+}
+```
+:::
+
+::: {.column width="10%"}
+
+:::
+
+
+::: {.column width="45%"}
+```{r risks}
+#| fig-height: 7
+ggplot(data.frame(x = c(0, 3)), aes(x)) +
+  stat_function(fun = function(x) 1/exp(x), geom = 'line', linewidth = 3) + 
+  theme_minimal(base_size = 30) + 
+  labs(x = 'Risks', y = 'Expected effect on fitness')
+```
+
+E.g. predation, anthropogenic
+
+:::
+
+::::
+
+
+## <!--Conditions--> {.center} 
+
+:::: {.columns}
+::: {.column width="35%"}
+```{dot}
+//| fig-width: 3.5
+digraph habitat_and_producer {
+  bgcolor = transparent;
+  rankdir = TB
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	edge [penwidth = 5, color = "#9d9d9d"] 
+	Habitat [label = "Habitat\nselection"]
+	Resources []
+	Conditions [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+	Risks []
+
+    Roles []
+	access_avail [label = "Availability\nand\naccess", shape = ellipse]
+	ps_dyn [label = "Producer-scrounger\ndynamics"]
+	freq [label = "Frequency\ndependence"]
+	patch_penalties [label = "Patch penalties"]
+	patch_payoffs [label = "Patch payoffs"]
+
+	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> access_avail
+	access_avail -> {Resources Conditions Risks} [dir = back]
+	{patch_penalties} ->  Risks [color = "#707070", dir = back]
+	patch_payoffs -> Resources [color = "#707070", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
+	{Resources Risks Conditions} -> Habitat [dir = back]
+}
+```
+:::
+
+::: {.column width="10%"}
+
+:::
+
+::: {.column width="45%"}
+```{r conditions}
+#| fig-height: 7
+ggplot(data.frame(x = c(-3, 3)), aes(x)) +
+  stat_function(fun = function(x) dnorm(scale(x)), geom = 'line', linewidth = 3) + 
+  theme_minimal(base_size = 30) + 
+  labs(x = 'Conditions', y = 'Expected effect on fitness')
+```
+
+E.g. temperature, humidity, salinity
+
+:::
+
+::::
+
+
+
+## <!-- Objective 2 --> {.center} 
+
+:::: {.columns}
+::: {.column width="35%"}
+```{dot}
+//| fig-width: 3.5
+digraph habitat_and_producer {
+  bgcolor = transparent;
+  rankdir = TB
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	edge [penwidth = 5, color = "#9d9d9d"] 
+	Habitat [label = "Habitat\nselection"]
+	Resources [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+	Conditions [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+	Risks [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+
+    Roles []
+	ps_dyn [label = "Producer-scrounger\ndynamics"]
+	freq [label = "Frequency\ndependence"]
+	patch_penalties [label = "Patch penalties"]
+	patch_payoffs [label = "Patch payoffs"]
+	access_avail [label = "Availability\nand\naccess", shape = ellipse, fillcolor = "#AD8F89", color = "#AD8F89", fontcolor = "#e1e1e1"]
+
+	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> access_avail
+	access_avail -> {Resources Conditions Risks} [dir = back]
+	{patch_penalties} ->  Risks [color = "#707070", dir = back]
+	patch_payoffs -> Resources [color = "#707070", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
+	{Resources Risks Conditions} -> Habitat [dir = back]
+}
+```
+:::
+
+::: {.column width="10%"}
+
+:::
+
+
+::: {.column width="45%"}
+<br>
+
+### Objective 2: 
+
+Access to resources
+
+modified by
+
+risks and conditions
+:::
+
+::::
+
+
+
+## <!-- Table 1 - Resources -->{.center}
+
+:::: {.columns}
+::: {.column width="35%"}
+```{dot}
+//| fig-width: 3.5
+digraph habitat_and_producer {
+  bgcolor = transparent;
+  rankdir = TB
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	edge [penwidth = 5, color = "#9d9d9d"] 
+	Habitat [label = "Habitat\nselection"]
+	Resources [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+	Conditions []
+	Risks []
+
+    Roles []
+	access_avail [label = "Availability\nand\naccess", shape = ellipse, fillcolor = "#AD8F89", color = "#AD8F89", fontcolor = "#e1e1e1"]
+	ps_dyn [label = "Producer-scrounger\ndynamics"]
+	freq [label = "Frequency\ndependence"]
+	patch_penalties [label = "Patch penalties"]
+	patch_payoffs [label = "Patch payoffs"]
+
+	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> access_avail
+	access_avail -> {Resources Conditions Risks} [dir = back]
+	{patch_penalties} ->  Risks [color = "#707070", dir = back]
+	patch_payoffs -> Resources [color = "#707070", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
+	{Resources Risks Conditions} -> Habitat [dir = back]
+}
+```
+:::
+
+::: {.column width="10%"}
+
+:::
+
+::: {.column width="45%"}
+
+Resources
+
+|                 |       |
+|-----------------|-------|
+| Patch quantity  | 13    |
+| Patch quality	  | 8     |
+| Resting spaces  | 0     |
+| Nesting spaces  | 0     |
+
+:::
+::::
+
+
+
+
+
+## <!-- Table 1 - Risks -->{.center}
+
+:::: {.columns}
+::: {.column width="35%"}
+```{dot}
+//| fig-width: 3.5
+digraph habitat_and_producer {
+  bgcolor = transparent;
+  rankdir = TB
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	edge [penwidth = 5, color = "#9d9d9d"] 
+	Habitat [label = "Habitat\nselection"]
+	Resources []
+	Conditions []
+	Risks [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+
+    Roles []
+	access_avail [label = "Availability\nand\naccess", shape = ellipse, fillcolor = "#AD8F89", color = "#AD8F89", fontcolor = "#e1e1e1"]
+	ps_dyn [label = "Producer-scrounger\ndynamics"]
+	freq [label = "Frequency\ndependence"]
+	patch_penalties [label = "Patch penalties"]
+	patch_payoffs [label = "Patch payoffs"]
+
+	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> access_avail
+	access_avail -> {Resources Conditions Risks} [dir = back]
+	{patch_penalties} ->  Risks [color = "#707070", dir = back]
+	patch_payoffs -> Resources [color = "#707070", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
+	{Resources Risks Conditions} -> Habitat [dir = back]
+}
+```
+:::
+
+::: {.column width="10%"}
+
+:::
+
+::: {.column width="45%"}
+
+Risks
+
+|                           | 		|
+|---------------------------|-------|
+| Predation                 | 4*    |
+| Perception of risk   	    | 3     |
+| Competition		        | 1     |
+| Anthropogenic 			| 0     |
+| Insects			        | 0     |
+| Disease                   | 0     |
+
+:::
+::::
+
+
+::: footer
+\* Bugnyar, T., and K. Kotrschal. (2002). “Scrounging Tactics in Free-Ranging Ravens, Corvus Corax.” Ethology, 108 (11), 993–1009.
+:::
+
+<!-- distance to feeder, clip wing feathers -->
+
+
+## <!-- Table 1 - Conditions -->{.center}
+
+:::: {.columns}
+::: {.column width="35%"}
+```{dot}
+//| fig-width: 3.5
+digraph habitat_and_producer {
+  bgcolor = transparent;
+  rankdir = TB
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	edge [penwidth = 5, color = "#9d9d9d"] 
+	Habitat [label = "Habitat\nselection"]
+	Resources []
+	Conditions [color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+	Risks []
+
+    Roles []
+	access_avail [label = "Availability\nand\naccess", shape = ellipse, fillcolor = "#AD8F89", color = "#AD8F89", fontcolor = "#e1e1e1"]
+	ps_dyn [label = "Producer-scrounger\ndynamics"]
+	freq [label = "Frequency\ndependence"]
+	patch_penalties [label = "Patch penalties"]
+	patch_payoffs [label = "Patch payoffs"]
+
+	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> access_avail
+	access_avail -> {Resources Conditions Risks} [dir = back]
+	{patch_penalties} ->  Risks [color = "#707070", dir = back]
+	patch_payoffs -> Resources [color = "#707070", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
+	{Resources Risks Conditions} -> Habitat [dir = back]
+}
+```
+:::
+
+::: {.column width="10%"}
+
+:::
+
+::: {.column width="45%"}
+Conditions
+
+|             | 	  |
+|-------------|-------|
+| Temperature |     1 |
+| Wind        |     0 |
+| Pressure    |     0 |
+| Snow depth  |     0 |
+| Salinity    |     0 |
+| Humidity    |     0 |
+
+:::
+::::
+
+
+
+## <!-- Objective 3 --> {.center} 
+
+:::: {.columns}
+::: {.column width="35%"}
+```{dot}
+//| fig-width: 3.5
+digraph habitat_and_producer {
+  bgcolor = transparent;
+  rankdir = TB
+	node [fontsize = 42, shape = box, fontname = Helvetica, fontcolor = "#9d9d9d", style = filled, color = "#325861", fillcolor = "#325861", penwidth = 6]
+	edge [penwidth = 5, color = "#9d9d9d"] 
+	Habitat [label = "Habitat\nselection", color = "#959D71", fillcolor = "#959D71", fontcolor = "#e1e1e1"]
+	Resources []
+	Conditions []
+	Risks []
+
+    Roles []
+	ps_dyn [label = "Producer-scrounger\ndynamics", color = "#9d7195", fillcolor = "#9d7195", fontcolor = "#e1e1e1"]
+	freq [label = "Frequency\ndependence"]
+	patch_penalties [label = "Patch penalties"]
+	patch_payoffs [label = "Patch payoffs"]
+	access_avail [label = "Availability\nand\naccess", shape = ellipse, fillcolor = "#AD8F89", color = "#AD8F89", fontcolor = "#e1e1e1"]
+
+	ps_dyn -> Roles -> freq -> {patch_penalties patch_payoffs}
+	{patch_penalties patch_payoffs} -> access_avail
+	access_avail -> {Resources Conditions Risks} [dir = back]
+	{patch_penalties} ->  Risks [color = "#707070", dir = back]
+	patch_payoffs -> Resources [color = "#707070", dir = back]
+	{patch_payoffs patch_penalties} -> Conditions [color = "#707070", dir = back]
+	{Resources Risks Conditions} -> Habitat [dir = back]
+}
+```
+:::
+
+::: {.column width="10%"}
+
+:::
+
+
+::: {.column width="45%"}
+<br>
+
+### Objective 3: 
+
+Integrate
+
+foraging strategy
+
+into
+
+availability
+:::
+
+::::
+
+
+## <!-- Recall: Access - role --> {.center} 
+
+:::: {.columns}
+::: {.column width="40%"}
+Producers
+
+```{r recall_producer_access}
+#| echo: false
+#| fig-width: 5
+#| fig-height: 5
+producer
+```
+:::
+ 
+::: {.column width="10%"}
+:::
+ 
+::: {.column width="40%"}
+Scroungers
+
+```{r recall_scrounger_access}
+#| echo: false
+#| fig-width: 5
+#| fig-height: 5
+scrounger
+```
+:::
+
+::::
+ 
+
+
+
+## <!-- Objective 3: Distributions step length--> {.center} 
+
+:::: {.columns}
+::: {.column width="40%"}
+
+Producers
+```{r producer_sl}
+#| fig-width: 5
+#| fig-height: 5
+#| echo: false
+prod_sl <- data.frame(x = rgamma(1e3, 3, 2)) |>
+	ggplot(aes(x)) + geom_density(fill = 'darkgrey') + 
+	labs(x = 'step length', y = 'density') + 
+	theme_minimal(base_size = 22)
+prod_sl
+```
+:::
+ 
+::: {.column width="10%"}
+:::
+ 
+::: {.column width="40%"}
+Scroungers
+```{r scounger_sl}
+#| fig-width: 5
+#| fig-height: 5
+#| echo: false
+scr_sl <- data.frame(x = c(
+	rgamma(1e3, 3, 2),
+	rnorm(1e2, 2.5, 0.1),
+	rnorm(1e2, 3.2, 0.1),
+	rnorm(1e2, 4, 0.1))) |>
+	ggplot(aes(x)) + geom_density(fill = 'darkgrey') + 
+	geom_label(data = data.frame(x = c(2.5, 3.2, 4), y = rep(0.4, 3), id = LETTERS[seq.int(3)]), aes(x, y, label = id)) + 
+ 	labs(x = 'step length', y = 'density') + 
+	theme_minimal(base_size = 22)
+scr_sl
+```
+:::
+
+::::
+
+
+## <!-- Objective 3: Distributions turn angle --> {.center} 
+
+:::: {.columns}
+::: {.column width="40%"}
+
+### Producers
+```{r producer_ta}
+#| fig-width: 5
+#| fig-height: 5
+#| echo: false
+ggplot(data.table(
+	x = as.integer(rvonmises(1e5, circular(0), 1, control.circular=list(units="degrees"))))[, .N, x][, .(x, N, density = N / sum(N))][x < 360]) +
+	geom_area(aes(x, density), size = 1, fill = 'black', alpha = 0.5) +
+	coord_polar() +
+	theme_minimal(base_size = 22) + 
+	labs(x = 'turn angle', y = 'density') + 
+	theme(axis.text.y = element_blank())
+```
+:::
+  
+::: {.column width="10%"}
+:::
+ 
+::: {.column width="40%"}
+### Scroungers
+```{r scrounger_ta}
+#| fig-width: 5
+#| fig-height: 5
+#| echo: false
+ggplot(data.table(
+	x = as.integer(c(
+		rvonmises(5e5, circular(0), 1, control.circular=list(units="degrees")),
+		rnorm(0.5e5, rad(75), 0.2),
+		rnorm(0.5e5, rad(170), 0.3),
+		rnorm(0.5e5, rad(320), 0.2)
+	)))[, .N, x][, .(x, N, density = N / sum(N))][x < 360]) +
+	geom_area(aes(x, density), size = 1, fill = 'black', alpha = 0.5) +
+	coord_polar() +
+	labs(x = 'turn angle', y = 'density') + 
+	theme_minimal(base_size = 22) +
+	theme(axis.text.y = element_blank())
+```
+:::
+
+::::
+
+
+
+
+## Gaps {.left}
+1. Risks and conditions that disproportionately affect foraging strategies
+
+
+2. Availability based on foraging strategy
+
+3. (bonus!) Habitat selection causal salad
+
+
+## <!-- Bonus -->{.center}
+
+![](../figures/into-prop-scrounger.png)
+
+
+<!--- 
+
+wave your hands
+
+this is complex
+
+cant ignore it
+
+and its potential impact on habitat selection
+
+
+solution
+principled approach - use a DAG
+
+consider how behavioural strategies influence availability andd access
 -->
 
-##  Resources, risks and conditions
 
 
 
-```{r}
-#| echo: false
-tar_read(resources_risks_conditions)
-```
 
-## 
+<!-- TODO
 
-```{r}
-#| echo: false
-tar_read(habitat_and_producer)
-```
-
-## 
+lead into future directions / recommendation to study PS with different risks, conditions 
 
 
-```{r}
-#| echo: false
-tar_read(term_cloud)
-```
+then 
 
-## Fundamental, realized niche
+habitat selection methods integration
 
+-->
 
-```{r}
-#| echo: false
-tar_read(fundamental_realized)
-```
+<!--
+1. observations of ps dynamics either through focal or getting leader follower 
+1. make sense of causal salad
+1. habitat selection availability integrated foraging role
 
 
+3 reasons to do a habitat selection analysis
 
-##
+distribution
 
-```{r}
-#| echo: false
-tar_read(why_in_space)
-```
+predictions
+
+inference
+
+
+for inference
+we cannot use the causal salad of all variables ranked by aic
+
+-->
+
+
+
+## Selected references {.small}
+ 
+### Social foraging {.small}
+
+Giraldeau, L. A., & Caraco, T. (2000). Social foraging theory. Princeton University Press.
+
+Vickery, W.L., L.A. Giraldeau, J.J. Templeton, D.L. Kramer, and C.A. Chapman. (1991). “Producers, Scroungers, and Group Foraging.” The American Naturalist 137 (6), 847–63.
+
+Bugnyar, T., and K. Kotrschal. (2002). “Scrounging Tactics in Free-Ranging Ravens, Corvus Corax.” Ethology, 108 (11), 993–1009.
+
+<br>
+
+### Habitat selection {.small}
+
+Matthiopoulos, J., Fieberg, J. R., & Aarts, G. (2023). Species-Habitat Associations: Spatial data, predictive models, and ecological insights.
+
+Northrup, J. M., Vander Wal, E., Bonar, M., Fieberg, J., Laforge, M. P., Leclerc, M., ... & Gerber, B. D. (2022). Conceptual and methodological advances in habitat‐selection modeling: guidelines for ecology and evolution. Ecological Applications, 32(1), e02470.
+
+Beyer, H. L., Haydon, D. T., Morales, J. M., Frair, J. L., Hebblewhite, M., Mitchell, M., & Matthiopoulos, J. (2010). The interpretation of habitat preference metrics under use–availability designs. Philosophical Transactions of the Royal Society B: Biological Sciences, 365(1550), 2245-2254.
+
+<br>
+
+### Causal inference {.small}
+
+Pearl, J., & Mackenzie, D. (2018). The book of why: the new science of cause and effect.
+
+McElreath, R. (2020). Statistical rethinking: A Bayesian course with examples in R and Stan.
+
+Arif, S., & MacNeil, M. A. (2022). Predictive models aren't for causal inference. Ecology Letters, 25(8), 1741-1745.
+
+<br>
+
+::: footer
+Full reference list: https://robitalec.gitlab.io/comprehensive-exam/manuscript/references.html
+:::
+
+
+
+## Acknowledgements  {.small}
+
+Katrien Kingdon, Jack Hendrix, Jill Kusch, Michael Peers, Yasmine Majchrzak
+
+Quinn Webber, Isabella Richmond, Ally Menzies
+
+Eric Vander Wal, Carolyn Walsh, Julie Teichroeb, Shawn Leroux
+
+
+
+## Software {.small}
+
+- quarto
+- Revealjs
+- targets
+- ggplot2
+- NLMR
+- data.table

@@ -1,6 +1,0 @@
----
-title: Manuscript
-bibliography: '../references/comprehensive-exam.bib'
-order: 7
----
-

@@ -7,9 +7,9 @@ digraph habitat_and_producer {
 
 	Habitat [label = "Habitat\nselection", style = filled, color = grey]
 
-	Resources [color = grey85]
-	Conditions [color = grey85]
-	Risks [color = grey85]
+	Resources
+	Conditions
+	Risks
 
 	access_avail [label = "Availability\nand\naccess", shape = ellipse]
 
