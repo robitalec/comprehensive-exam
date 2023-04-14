@@ -610,10 +610,15 @@ digraph habitat_and_producer {
 
 Access to resources
 
-modified by
+modified* by
 
 risks and conditions
 :::
+
+::::
+
+:::: footer
+\* Dubois, F., & Giraldeau, L. A. (2005). Fighting for resources: the economics of defense and appropriation. Ecology, 86(1), 3-11.
 
 ::::
 
