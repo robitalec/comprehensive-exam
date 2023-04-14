@@ -1006,7 +1006,7 @@ and its potential impact on habitat selection
 solution
 principled approach - use a DAG
 
-consider how behavioural strategies influence availability andd access
+consider how behavioural strategies influence availability and access
 -->
 
 
@@ -1085,6 +1085,7 @@ Full reference list: https://robitalec.gitlab.io/comprehensive-exam/manuscript/r
 
 
 ## Acknowledgements  {.small}
+Louise Twells, friends and family in NL, QC, NS
 
 Katrien Kingdon, Jack Hendrix, Jill Kusch, Michael Peers, Yasmine Majchrzak
 
@@ -1092,6 +1093,7 @@ Quinn Webber, Isabella Richmond, Ally Menzies
 
 Eric Vander Wal, Carolyn Walsh, Julie Teichroeb, Shawn Leroux
 
+![](20230304_180305.jpg){fig-align="center"}
 
 
 ## Software {.small}
