@@ -252,7 +252,7 @@ depending on role
 ::: {.column width="40%"}
 Producers
 
-```{r}
+```{r producer_access}
 #| echo: false
 #| fig-width: 5
 #| fig-height: 5
@@ -310,7 +310,7 @@ producer
 ::: {.column width="40%"}
 Scroungers
 
-```{r}
+```{r scrounger_access}
 #| echo: false
 #| fig-width: 5
 #| fig-height: 5
@@ -437,7 +437,7 @@ digraph habitat_and_producer {
 :::
 
 ::: {.column width="45%"}
-```{r}
+```{r resources}
 #| fig-height: 7
 ggplot(data.frame(x = c(0, 3)), aes(x)) +
   stat_function(fun = exp, geom = 'line', linewidth = 3) + 
@@ -494,7 +494,7 @@ digraph habitat_and_producer {
 
 
 ::: {.column width="45%"}
-```{r}
+```{r risks}
 #| fig-height: 7
 ggplot(data.frame(x = c(0, 3)), aes(x)) +
   stat_function(fun = function(x) 1/exp(x), geom = 'line', linewidth = 3) + 
@@ -548,7 +548,7 @@ digraph habitat_and_producer {
 :::
 
 ::: {.column width="45%"}
-```{r}
+```{r conditions}
 #| fig-height: 7
 ggplot(data.frame(x = c(-3, 3)), aes(x)) +
   stat_function(fun = function(x) dnorm(scale(x)), geom = 'line', linewidth = 3) + 
@@ -854,7 +854,7 @@ availability
 ::: {.column width="40%"}
 Producers
 
-```{r}
+```{r recall_producer_access}
 #| echo: false
 #| fig-width: 5
 #| fig-height: 5
@@ -868,7 +868,7 @@ producer
 ::: {.column width="40%"}
 Scroungers
 
-```{r}
+```{r recall_scrounger_access}
 #| echo: false
 #| fig-width: 5
 #| fig-height: 5
@@ -887,7 +887,7 @@ scrounger
 ::: {.column width="40%"}
 
 Producers
-```{r}
+```{r producer_sl}
 #| fig-width: 5
 #| fig-height: 5
 #| echo: false
@@ -904,7 +904,7 @@ prod_sl
  
 ::: {.column width="40%"}
 Scroungers
-```{r}
+```{r scounger_sl}
 #| fig-width: 5
 #| fig-height: 5
 #| echo: false
@@ -930,7 +930,7 @@ scr_sl
 ::: {.column width="40%"}
 
 ### Producers
-```{r}
+```{r producer_ta}
 #| fig-width: 5
 #| fig-height: 5
 #| echo: false
@@ -949,7 +949,7 @@ ggplot(data.table(
  
 ::: {.column width="40%"}
 ### Scroungers
-```{r}
+```{r scrounger_ta}
 #| fig-width: 5
 #| fig-height: 5
 #| echo: false
