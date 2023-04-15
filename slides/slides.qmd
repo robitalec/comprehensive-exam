@@ -504,6 +504,21 @@ Conditions
 
 ::::
 
+
+
+::: {.notes}
+However, we know that habitats are more complex than distributed patches of forage
+
+Matthiopolous, Fieberg, Aarts define habitat as the sum of environmental variables categorized as resources, risks and conditions
+
+We'll look at examples of each of these...
+:::
+
+::: footer
+Matthiopoulos, J., Fieberg, J. R., & Aarts, G. (2023). Species-Habitat Associations: Spatial data, predictive models, and ecological insights.
+:::
+
+
 ## <!-- Resources --> {.center} 
 
 :::: {.columns}
