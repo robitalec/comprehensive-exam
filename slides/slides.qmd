@@ -35,6 +35,22 @@ Next slide, grouped terms
 
 ### <span style="color: #42727c">In the context of </span><span style="color: #9d7195">frequency-dependent producer-scrounger dynamics</span><span style="color: #42727c">, how would one's </span><span style="color: #9d7195">role</span><span style="color: #42727c"> affect </span><span style="color: #AD8F89">access</span><span style="color: #42727c"> to </span><span style="color: #AD8F89">available resources</span><span style="color: #42727c"> considering </span><span style="color: #959D71">risks and conditions</span><span style="color: #42727c"> during </span><span style="color: #959D71">habitat selection</span><span style="color: #42727c">?</span>
 
+::: {.notes}
+I've colored
+Starting with producer-scrounger
+Ending with habitat selection 
+Meet in the middle, access and availability
+
+The question focuses on what modifies an individual's access
+Good time to clarify how I'm defining access and availability
+
+Availability is the amount of habitat available to an animal
+And accessibility is the subset of available habitat that can actually be reached by that animal
+Many factors contribute to the difference between availability and accessibility
+Assume access is to resources that are available
+
+:::
+
 ## <!-- Flowchart --> {.center} 
 
 ```{dot}
