@@ -689,10 +689,10 @@ risks and conditions
 
 ::::
 
-:::: footer
+::: footer
 \* Dubois, F., & Giraldeau, L. A. (2005). Fighting for resources: the economics of defense and appropriation. Ecology, 86(1), 3-11.
 
-::::
+:::
 
 
 
