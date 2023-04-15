@@ -335,9 +335,12 @@ depending on role
 ::::
 
 ::: {.notes}
-Focus on access for now, availability later
-Access defined
-Availability defined
+First goal is to consider how access to resources depends on foraging role
+
+Recall that accessible resources are a subset of available resources
+
+We'll come back to availability later
+
 :::
 
 ## <!-- Access - role --> {.center} 
