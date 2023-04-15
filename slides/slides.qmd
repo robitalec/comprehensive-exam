@@ -190,15 +190,11 @@ The experimental setup is a few pieces of styrofoam with small holes that are fi
 
 Some things to look out for are if an individual decides to search for forage independently (produce) or alternatively decides to join another bird to share their forage (scrounge)
 
-Also note individuals might change roles
+Also note individuals don't seem to be fixed using one strategy or the other
 
-Strategies seem to change as the number of birds increases. 
-Producing common when few birds, scrounging more common with more birds
+Individuals' strategies seem to change as the number of birds increases. 
 
 This leads us into frequency dependence
-
-
-
 :::
 
 
@@ -256,6 +252,32 @@ Penalties
 ::::
 
 
+::: {.notes}
+Models of social foraging integrate the economic interdependence of individuals foraging together
+
+For producer-scrounger dynamics, the benefits and costs of a foraging strategy depend on
+the frequency of strategies being played in the group
+
+
+Payoffs are amount of particular resource as well as predator dilution, thermal insulation
+
+Penalties, for example, competition, contests with conspecifics
+
+
+A typical iterative model where individuals play a strategy at each time step like the Barnard and Sibly 1981 model:
+
+Producer's find patches given some patch discovery rate and have sole access to a portion of the patch, a finder's share
+
+Scroungers divide all discovered patches minus the finder's share equally 
+
+
+Frequency dependence of these payoffs: a scrounger's payoff increases with number of producers since more patches are discovered. A producer's payoff decreases with number of scroungers as more of their discovered patches is shared or lost to scroungers. 
+
+:::
+
+::: footer
+Barnard, C. J., & Sibly, R. M. (1981). Producers and scroungers: a general model and its application to captive flocks of house sparrows. Animal behaviour, 29(2), 543-550.
+:::
 
 <!-- 
 examples of frequency dependence, payoffs, penalties
