@@ -183,7 +183,23 @@ Arabian babblers (*Turdoides squamiceps*)
 :::
 
 
+::: {.notes}
+To develop some intuition, we'll watch a video of producer-scrounger dynamics in birds, specifically Arabian babblers
 
+The experimental setup is a few pieces of styrofoam with small holes that are filled with seeds. Individuals land and decide to produce and scrounge. 
+
+Some things to look out for are if an individual decides to search for forage independently (produce) or alternatively decides to join another bird to share their forage (scrounge)
+
+Also note individuals might change roles
+
+Strategies seem to change as the number of birds increases. 
+Producing common when few birds, scrounging more common with more birds
+
+This leads us into frequency dependence
+
+
+
+:::
 
 
 ## <!-- Frequency, payoffs, penalties --> {.center} 
@@ -295,6 +311,12 @@ depending on role
 :::
 
 ::::
+
+::: {.notes}
+Focus on access for now, availability later
+Access defined
+Availability defined
+:::
 
 ## <!-- Access - role --> {.center} 
 
