@@ -435,8 +435,17 @@ scrounger
 ::::
  
 
-<!-- Lead into habitats are more complex than distributed patches of forage --> 
-<!-- Matt et al definition of habitat --> 
+::: {.notes}
+Both panels have four individuals, three conspecifics and a focal individual in the middle
+
+Left has producer focal individual
+access to resources is based only on limits of an individual's movement
+
+On the right, the focal individual is a scrounger
+Access to resources depends on the presence and location of producers
+Scrounger can only access forage discovered by a producer
+:::
+
 
 
 ## <!-- Habitat selection --> {.center} 
