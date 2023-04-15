@@ -83,6 +83,19 @@ digraph habitat_and_producer {
 ```
 
 
+::: {.notes}
+I took these terms and built a graph showing relationships
+
+We'll walk through this graph through the rest of the slides,
+don't worry about taking it all in yet
+
+As we'll see PS and HS don't have the same objectives or approaches
+but they both tell us something about availability and accessibility of resources
+
+There's potentially some interesting ways of bringing their ideas together
+:::
+
+
 
 ## <!-- Producer-scrounger roles --> {.center} 
 
