@@ -1130,6 +1130,8 @@ we cannot use the causal salad of all variables ranked by aic
  
 ### Social foraging {.small}
 
+Barnard, C. J., & Sibly, R. M. (1981). Producers and scroungers: a general model and its application to captive flocks of house sparrows. Animal behaviour, 29(2), 543-550.
+
 Giraldeau, L. A., & Caraco, T. (2000). Social foraging theory. Princeton University Press.
 
 Vickery, W.L., L.A. Giraldeau, J.J. Templeton, D.L. Kramer, and C.A. Chapman. (1991). “Producers, Scroungers, and Group Foraging.” The American Naturalist 137 (6), 847–63.
