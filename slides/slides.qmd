@@ -26,6 +26,11 @@ source('R/packages.R')
 
 ### In the context of frequency-dependent producer-scrounger dynamics, how would one's role affect access to available resources considering risks and conditions during habitat selection?
 
+::: {.notes}
+Read q
+Next slide, grouped terms
+:::
+
 ## <!-- Question, color --> {.center} 
 
 ### <span style="color: #42727c">In the context of </span><span style="color: #9d7195">frequency-dependent producer-scrounger dynamics</span><span style="color: #42727c">, how would one's </span><span style="color: #9d7195">role</span><span style="color: #42727c"> affect </span><span style="color: #AD8F89">access</span><span style="color: #42727c"> to </span><span style="color: #AD8F89">available resources</span><span style="color: #42727c"> considering </span><span style="color: #959D71">risks and conditions</span><span style="color: #42727c"> during </span><span style="color: #959D71">habitat selection</span><span style="color: #42727c">?</span>
