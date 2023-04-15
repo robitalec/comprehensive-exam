@@ -151,6 +151,22 @@ Scroungers
 ::::
 
 
+::: {.notes}
+Producer-scrounger dynamics are a social foraging model
+
+Based in evolutionary game theory, considers how animals use different foraging strategies to maximize foraging intake
+
+Two main strategies
+Producers independently search for forage patches and
+Scroungers monitor conspecifics to share or steal their discovered patches
+
+Opportunitists are a third strategy sometimes considered
+Can play both strategies but less efficienctly than either pure strategy
+Ignored here
+
+Role is the foraging strategy played by an individiual 
+:::
+
 
 ## <!-- Producer-scrounger video --> 
 
