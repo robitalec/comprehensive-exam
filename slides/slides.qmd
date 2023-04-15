@@ -509,7 +509,7 @@ Conditions
 ::: {.notes}
 However, we know that habitats are more complex than distributed patches of forage
 
-Matthiopolous, Fieberg, Aarts define habitat as the sum of environmental variables categorized as resources, risks and conditions
+Matthiopolous, Fieberg, Aarts (2023) define habitat as the sum of environmental variables categorized as resources, risks and conditions
 
 We'll look at examples of each of these...
 :::
@@ -566,12 +566,20 @@ ggplot(data.frame(x = c(0, 3)), aes(x)) +
   labs(x = 'Resource', y = 'Expected effect on fitness')
 ```
 
-E.g. forage patch quality, density, or resting spaces
+E.g. forage patch quality, or resting spaces
 
 :::
 
 ::::
 
+
+::: {.notes}
+Resources are environmental variables that a positive expected effect on fitness
+
+Patch variables like quality, richness, density
+
+or resting and denning spaces
+:::
 
 
 ## <!-- Risks--> {.center} 
@@ -629,6 +637,13 @@ E.g. predation, anthropogenic
 
 ::::
 
+::: {.notes}
+Risks are environmental variables that a negative expected effect on fitness
+
+Predation risk, disease, 
+
+or anthropogenic disturbance or harvest
+:::
 
 ## <!--Conditions--> {.center} 
 
@@ -683,6 +698,17 @@ E.g. temperature, humidity, salinity
 
 ::::
 
+::: {.notes}
+Conditions are interesting in their expected effect on fitness is bell shaped where when conditions are "regular" or "average" they have a neutral or positive expected effect
+and when "extreme" they have negative expected effect on fitness
+
+Examples
+
+Matthiopolous, Fieberg and Aarts recommend a species-agnostic definition of habitat 
+
+The center point and shape of this relationship is species specific
+
+:::
 
 
 ## <!-- Objective 2 --> {.center} 
