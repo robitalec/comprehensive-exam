@@ -27,7 +27,7 @@ source('R/packages.R')
 ### In the context of frequency-dependent producer-scrounger dynamics, how would one's role affect access to available resources considering risks and conditions during habitat selection?
 
 ::: {.notes}
-Read q
+Read q  
 Next slide, grouped terms
 :::
 
@@ -36,17 +36,17 @@ Next slide, grouped terms
 ### <span style="color: #42727c">In the context of </span><span style="color: #9d7195">frequency-dependent producer-scrounger dynamics</span><span style="color: #42727c">, how would one's </span><span style="color: #9d7195">role</span><span style="color: #42727c"> affect </span><span style="color: #AD8F89">access</span><span style="color: #42727c"> to </span><span style="color: #AD8F89">available resources</span><span style="color: #42727c"> considering </span><span style="color: #959D71">risks and conditions</span><span style="color: #42727c"> during </span><span style="color: #959D71">habitat selection</span><span style="color: #42727c">?</span>
 
 ::: {.notes}
-I've colored
-Starting with producer-scrounger
-Ending with habitat selection 
+I've colored  
+Starting with producer-scrounger  
+Ending with habitat selection   
 Meet in the middle, access and availability
 
-The question focuses on what modifies an individual's access
+The question focuses on what modifies an individual's access    
 Good time to clarify how I'm defining access and availability
 
-Availability is the amount of habitat available to an animal
-And accessibility is the subset of available habitat that can actually be reached by that animal
-Many factors contribute to the difference between availability and accessibility
+Availability is the amount of habitat available to an animal  
+And accessibility is the subset of available habitat that can actually be reached by that animal  
+Many factors contribute to the difference between availability and accessibility  
 Assume access is to resources that are available
 
 :::
@@ -92,7 +92,7 @@ don't worry about taking it all in yet
 As we'll see PS and HS don't have the same objectives or approaches
 but they both tell us something about availability and accessibility of resources
 
-There's potentially some interesting ways of bringing their ideas together
+There are some interesting ways of bringing them together
 :::
 
 
@@ -156,12 +156,12 @@ Producer-scrounger dynamics are a social foraging model
 
 Based in evolutionary game theory, considers how animals use different foraging strategies to maximize foraging intake
 
-Two main strategies
-Producers independently search for forage patches and
+Two main strategies  
+Producers independently search for forage patches and  
 Scroungers monitor conspecifics to share or steal their discovered patches
 
-Opportunitists are a third strategy sometimes considered
-Can play both strategies but less efficienctly than either pure strategy
+Opportunitists are a third strategy sometimes considered  
+Can play both strategies but less efficienctly than either pure strategy  
 Ignored here
 
 Role is the foraging strategy played by an individiual 
@@ -190,9 +190,9 @@ The experimental setup is a few pieces of styrofoam with small holes that are fi
 
 Some things to look out for are if an individual decides to search for forage independently (produce) or alternatively decides to join another bird to share their forage (scrounge)
 
-Also note individuals don't seem to be fixed using one strategy or the other
+Note individuals don't seem to be fixed using one strategy or the other
 
-Individuals' strategies seem to change as the number of birds increases. 
+and individuals' strategies seem to change as the number of birds increases. 
 
 This leads us into frequency dependence
 :::
@@ -258,18 +258,11 @@ Models of social foraging integrate the economic interdependence of individuals 
 For producer-scrounger dynamics, the benefits and costs of a foraging strategy depend on
 the frequency of strategies being played in the group
 
-
-Payoffs are amount of particular resource as well as predator dilution, thermal insulation
-
-Penalties, for example, competition, contests with conspecifics
-
+Payoffs are amount of particular resource as well as predator dilution, thermal insulation Penalties, for example, competition, contests with conspecifics
 
 A typical iterative model where individuals play a strategy at each time step like the Barnard and Sibly 1981 model:
 
-Producer's find patches given some patch discovery rate and have sole access to a portion of the patch, a finder's share
-
-Scroungers divide all discovered patches minus the finder's share equally 
-
+Producer's find patches given some patch discovery rate and have sole access to a portion of the patch, a finder's share. Scroungers divide all discovered patches minus the finder's share equally 
 
 Frequency dependence of these payoffs: a scrounger's payoff increases with number of producers since more patches are discovered. A producer's payoff decreases with number of scroungers as more of their discovered patches is shared or lost to scroungers. 
 
@@ -438,11 +431,11 @@ scrounger
 ::: {.notes}
 Both panels have four individuals, three conspecifics and a focal individual in the middle
 
-Left has producer focal individual
-access to resources is based only on limits of an individual's movement
+Left has producer focal individual  
+access to resources is based only on limits of an individual's movement  
 
-On the right, the focal individual is a scrounger
-Access to resources depends on the presence and location of producers
+On the right, the focal individual is a scrounger, indicated by the triangle    
+Access to resources depends on the presence and location of producers  
 Scrounger can only access forage discovered by a producer
 :::
 
@@ -563,7 +556,8 @@ digraph habitat_and_producer {
 ggplot(data.frame(x = c(0, 3)), aes(x)) +
   stat_function(fun = exp, geom = 'line', linewidth = 3) + 
   theme_minimal(base_size = 30) + 
-  labs(x = 'Resource', y = 'Expected effect on fitness')
+  labs(x = 'Resource', y = 'Expected effect on fitness') + 
+  theme(axis.text.y = element_blank())
 ```
 
 E.g. forage patch quality, or resting spaces
@@ -574,7 +568,7 @@ E.g. forage patch quality, or resting spaces
 
 
 ::: {.notes}
-Resources are environmental variables that a positive expected effect on fitness
+Resources are environmental variables that have a positive expected effect on fitness
 
 Patch variables like quality, richness, density
 
@@ -628,7 +622,8 @@ digraph habitat_and_producer {
 ggplot(data.frame(x = c(0, 3)), aes(x)) +
   stat_function(fun = function(x) 1/exp(x), geom = 'line', linewidth = 3) + 
   theme_minimal(base_size = 30) + 
-  labs(x = 'Risks', y = 'Expected effect on fitness')
+  labs(x = 'Risks', y = 'Expected effect on fitness') + 
+  theme(axis.text.y = element_blank())
 ```
 
 E.g. predation, anthropogenic
@@ -638,7 +633,7 @@ E.g. predation, anthropogenic
 ::::
 
 ::: {.notes}
-Risks are environmental variables that a negative expected effect on fitness
+Risks are environmental variables that have a negative expected effect on fitness
 
 Predation risk, disease, 
 
@@ -689,7 +684,8 @@ digraph habitat_and_producer {
 ggplot(data.frame(x = c(-3, 3)), aes(x)) +
   stat_function(fun = function(x) dnorm(scale(x)), geom = 'line', linewidth = 3) + 
   theme_minimal(base_size = 30) + 
-  labs(x = 'Conditions', y = 'Expected effect on fitness')
+  labs(x = 'Conditions', y = 'Expected effect on fitness') + 
+  theme(axis.text.y = element_blank())
 ```
 
 E.g. temperature, humidity, salinity
@@ -699,15 +695,14 @@ E.g. temperature, humidity, salinity
 ::::
 
 ::: {.notes}
-Conditions are interesting in their expected effect on fitness is bell shaped where when conditions are "regular" or "average" they have a neutral or positive expected effect
+Conditions are interesting in that their expected effect on fitness is bell shaped where when conditions are "regular" or "average" they have a neutral or positive expected effect
 and when "extreme" they have negative expected effect on fitness
 
-Examples
+Examples include temperature, humidity, salinity
 
 Matthiopolous, Fieberg and Aarts recommend a species-agnostic definition of habitat 
 
 The center point and shape of this relationship is species specific
-
 :::
 
 
@@ -769,7 +764,15 @@ risks and conditions
 
 :::
 
+::: {.notes}
+The second gaol was to determine how access to resources is modified by risks and conditions
 
+Dubois and Giraldeau emphasized that what matters is an influence disproportionately affecting one foraging strategy, say an environmental risk that impacts producers more than scroungers
+
+I reviewed ~250 papers in the producer-scrounger literature looking for environmental variables I could categorize as resources, risks and conditions. 
+
+We'll look at the results in the following slides, and I've included some examples of other resources, risks and conditions that might be important to consider but weren't address in the literature indicated with a count of 0
+:::
 
 ## <!-- Table 1 - Resources -->{.center}
 
@@ -823,7 +826,19 @@ Resources
 :::
 ::::
 
+::: {.notes}
+Only patch variables were considered in the producer-scrounger literature 
 
+The variables are aggregated here, patch quantity included patch size, patch distribution
+
+and patch quality included patch rishness and patch depletability
+
+Some influences of resources on foraging strategy 
+
+Scrounging is disadvantaged when forage patches are smaller, more easily monopolized
+
+Scrounging is favored if patches are large or rich in quality, because there is still an abundance of resources remaining after the producer's share
+:::
 
 
 
@@ -886,7 +901,15 @@ Risks
 \* Bugnyar, T., and K. Kotrschal. (2002). “Scrounging Tactics in Free-Ranging Ravens, Corvus Corax.” Ethology, 108 (11), 993–1009.
 :::
 
-<!-- distance to feeder, clip wing feathers -->
+::: {.notes}
+Main risks considered in the producer-scrounger literature were predation risk and perception of predation risk
+
+Perception of predation risk was used as a proxy in empirical tests for predation risk, where the distance between a feeder and cover was manipulated to create a range of risk, or where bird's primary flight feathers were clipped
+
+Only one empirical test of predation risk, where Bugnyar and Kotrschal observed ravens foraging either with wolves or wild boars. Ravens were more likely to scrounge when the predation risk was high.  
+
+They defined producing as stealing from allospecifics and scrounging as stealing from conspecifics. These definitions don't directly relate to classic definitions of producing and scrounging. 
+:::
 
 
 ## <!-- Table 1 - Conditions -->{.center}
@@ -942,7 +965,9 @@ Conditions
 :::
 ::::
 
-
+::: {.notes}
+Only one empirical test that measured a condition, finding no influence of ambient air temperature on producer-scrounger dynamics. 
+:::
 
 ## <!-- Objective 3 --> {.center} 
 
@@ -1001,9 +1026,23 @@ availability*
 
 
 ::: footer
-\* Beyer, H. L., Haydon, D. T., Morales, J. M., Frair, J. L., Hebblewhite, M., Mitchell, M., & Matthiopoulos, J. (2010). The interpretation of habitat preference metrics under use–availability designs. Philosophical Transactions of the Royal Society B: Biological Sciences, 365(1550), 2245-2254.
+\* Beyer, H. L., Haydon, D. T., Morales, J. M., Frair, J. L., Hebblewhite, M., Mitchell, M., & Matthiopoulos, J. (2010). The interpretation of habitat preference metrics under use–availability designs.  
+Philosophical Transactions of the Royal Society B: Biological Sciences, 365(1550), 2245-2254.
 
 :::
+
+::: {.notes}
+The third goal was to consider how foraging strategy might be integrated in the habitat selection concept of availability
+
+My overall approach for the written portion of the comprehensive exam was to focus on the producer-scrounger literature, so I won't do a deep dive all the methods of characterizing availability in the habitat selection literature
+
+Preferential use of a habitat is defined as the disproportionate use given availability
+
+Beyer et al have shown that the definition of availability has huge implications on outcomes
+
+We're going to use a small toy example, to consider how producers and scroungers might have different availability
+:::
+
 
 ## <!-- Recall: Access - role --> {.center} 
 
