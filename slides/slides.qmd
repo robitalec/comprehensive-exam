@@ -1169,20 +1169,10 @@ Scroungers
 #| echo: false
 ggplot(data.table(
 	x = as.integer(c(
-	rvonmises(5e1, circular(0), 1, control.circular=list(units="degrees")),
+		rvonmises(5e1, circular(0), 1, control.circular=list(units="degrees")),
 		rnorm(0.4e5, rad(75), 0.2),
 		rnorm(0.6e5, rad(170), 0.3),
 		rnorm(0.3e5, rad(320), 0.2)
-	)))[, .N, x][, .(x, N, density = N / sum(N))][x < 360]) +
-	geom_area(aes(x, density), size = 1, fill = 'black', alpha = 0.5) +
-	coord_polar() +
-	labs(x = 'turn angle', y = 'density') + 
-	theme_minimal(base_size = 22) +
-	theme(axis.text.y = element_blank())
-```		rvonmises(5e5, circular(0), 1, control.circular=list(units="degrees")),
-		rnorm(0.5e5, rad(75), 0.2),
-		rnorm(0.5e5, rad(170), 0.3),
-		rnorm(0.5e5, rad(320), 0.2)
 	)))[, .N, x][, .(x, N, density = N / sum(N))][x < 360]) +
 	geom_area(aes(x, density), size = 1, fill = 'black', alpha = 0.5) +
 	coord_polar() +
@@ -1193,6 +1183,22 @@ ggplot(data.table(
 :::
 
 ::::
+
+::: {.notes}
+For turn angle, I'm assuming that animals were previously headed in a Northerly direction and we're looking at the bearing or absolute turn angle of their next step. 
+
+Producers again show our expectation that an animal will continue in the direction they were previously moving in, or make moderate turns left and right, and that there is a low likelihood that they will make a U-turn or 180 degree movement.
+
+Scroungers again only have what producers make available to them and therefore the density is fixed on directions towards producer conspecifics
+
+Now, we are maybe getting a little tangled in availability and accessibility, so I wanted to bring it back to those definitions and propose a more realistic option
+
+Availability is the amount of habitat available to an animal and accessibility is the subset of that availability, that represents if an animal can actually reach a point in their habitat
+
+So these examples have been based on one strategy being played at a single point in time but animals are known change strategies in different contexts and this is the same for producer-scrounger dynamics. 
+
+:::
+
 
 
 
