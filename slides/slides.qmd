@@ -1256,7 +1256,7 @@ ggplot(data.table(
 ::::
 
 ::: footer
-Morand-Ferron, J., Giraldeau, L. A., & Lefebvre, L. (2007). Wild Carib grackles play a producer–scrounger game. Behavioral Ecology, 18(5), 916-921.
+\* Morand-Ferron, J., Giraldeau, L. A., & Lefebvre, L. (2007). Wild Carib grackles play a producer–scrounger game. Behavioral Ecology, 18(5), 916-921.
 :::
 
 ::: {.notes}
@@ -1380,7 +1380,7 @@ Full reference list: https://robitalec.gitlab.io/comprehensive-exam/manuscript/r
 ## Acknowledgements  {.small}
 Louise Twells, friends and family in NL, QC, NS
 
-Katrien Kingdon, Jack Hendrix, Jill Kusch, Brendan Carswell, Emily Monk, Emilie Dedeban, Michael Peers, Yasmine Majchrzak
+Katrien Kingdon, Jack Hendrix, Jill Kusch, Brendan Carswell, Emily Monk, Emilie Dedeban, Michael Peers, Yasmine Majchrzak, Kyla Funk, Daniel Dupont
 
 Quinn Webber, Isabella Richmond, Ally Menzies, Juliana Baluffi-Fry
 
