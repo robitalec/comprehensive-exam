@@ -1081,7 +1081,7 @@ We'll look at how availability can be characterized using distributions of two c
 
 Step length is the distance an animal moves from A-B
 
-Turn angle is the direction an animal moves from A-B. Turn angle can be absolute, where the direction corresponds to N-S-E-W bearing, or relative, where the angle is calculated relative to previous step, as a difference. For example if an individual moved due North in the previous step, and due North again in the current step, the relative angle would be 0. 
+Turn angle is the direction an animal moves from A-B. It can be absolute, where the direction corresponds to N-S-E-W bearing, or relative, where the angle is calculated relative to previous step, as a difference. For example if an individual moved due North in the previous step, and due North again in the current step, the relative angle would be 0. 
 :::
 
 
@@ -1114,14 +1114,15 @@ Scroungers
 #| fig-height: 5
 #| echo: false
 scr_sl <- data.frame(x = c(
-	rgamma(1e3, 3, 2),
-	rnorm(1e2, 2.5, 0.1),
-	rnorm(1e2, 3.2, 0.1),
-	rnorm(1e2, 4, 0.1))) |>
+	rnorm(1.3e2, 2.5, 0.1),
+	rnorm(1.1e2, 3.2, 0.1),
+	rnorm(0.8e2, 4, 0.1))) |>
 	ggplot(aes(x)) + geom_density(fill = 'darkgrey') + 
-	geom_label(data = data.frame(x = c(2.5, 3.2, 4), y = rep(0.4, 3), id = LETTERS[seq.int(3)]), aes(x, y, label = id)) + 
+	geom_label(data = data.frame(x = c(2.5, 3.2, 4), y = rep(0.87, 3), id = LETTERS[seq.int(3)]), aes(x, y, label = id), size  = 5) + 
  	labs(x = 'step length', y = 'density') + 
-	theme_minimal(base_size = 22)
+	lims(x = c(0, 5)) + 
+	theme_minimal(base_size = 22) +
+	theme(axis.text.y = element_blank())
 scr_sl
 ```
 :::
@@ -1145,6 +1146,7 @@ ggplot(data.table(
 	coord_polar() +
 	theme_minimal(base_size = 22) + 
 	labs(x = 'turn angle', y = 'density') + 
+	theme(axis.text.y = element_blank()) +
 	theme(axis.text.y = element_blank())
 ```
 :::
@@ -1161,7 +1163,17 @@ Scroungers
 #| echo: false
 ggplot(data.table(
 	x = as.integer(c(
-		rvonmises(5e5, circular(0), 1, control.circular=list(units="degrees")),
+	rvonmises(5e1, circular(0), 1, control.circular=list(units="degrees")),
+		rnorm(0.4e5, rad(75), 0.2),
+		rnorm(0.6e5, rad(170), 0.3),
+		rnorm(0.3e5, rad(320), 0.2)
+	)))[, .N, x][, .(x, N, density = N / sum(N))][x < 360]) +
+	geom_area(aes(x, density), size = 1, fill = 'black', alpha = 0.5) +
+	coord_polar() +
+	labs(x = 'turn angle', y = 'density') + 
+	theme_minimal(base_size = 22) +
+	theme(axis.text.y = element_blank())
+```		rvonmises(5e5, circular(0), 1, control.circular=list(units="degrees")),
 		rnorm(0.5e5, rad(75), 0.2),
 		rnorm(0.5e5, rad(170), 0.3),
 		rnorm(0.5e5, rad(320), 0.2)
