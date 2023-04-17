@@ -969,8 +969,82 @@ Conditions
 ::: {.notes}
 Only one empirical test that measured a condition, finding no influence of ambient air temperature on producer-scrounger dynamics. 
 
-Lead into bonus with while we found little risks, conditions, there are many other variables to consider
+So in total, the producer-scrounger literature hasn't really incorporated habitat variables that I would consider risks and conditions. This is likely to due how these data are collected. Lots of the empirical tests are controlled experiments that are looking for answers to different questions than how habitat influences producer-scrounger dynamics. 
+
+I did, however, find a ton of other variables that are important in these systems. 
 :::
+
+
+## <!-- Bonus -->{.center}
+
+![](../figures/into-prop-scrounger.png)
+
+
+
+::: {.notes}
+Mostly so I could make a joke where I wave my hands at it and say don't look too close
+
+But really we want to look closely at this
+
+There are a ton variables that I gleaned from the producer-scrounger literature that could have a impact on habitat selection
+
+Ony really strong one is dominance. Dominance makes a huge difference in producer-scrounger dynamics because a dominant individual is more likely to scrounge because it can just bully others of their patches
+
+Another is relatedness, where producers are more likely to share with related scroungers 
+
+And this leads into a bonus objective
+:::
+
+
+## {.center}
+Bonus: causal inference in habitat selection
+
+
+:::: {.columns}
+::: {.column width="45%"}
+![](Arif_2022_Fig_1.png)
+:::
+
+::: {.column width="10%"}
+
+:::
+
+::: {.column width="35%"}
+1. Represent system using a DAG
+1. Determine if effects are identificable, or confounded
+:::
+::::
+
+::: {.notes}
+This is a bonus objective, but could have also been an interesting comprehensive exam question in and of itself:
+
+How has ignoring causal inference done a disservice to habitat selection analyses?
+
+Habitat selection analyses have three different objectives: measuring species distribution, inferring why animals use certain habitats and predicting how use would change in new habitats or across time
+
+One large issue in the habitat selection literature is the use of predictive models for causal inference 
+
+There are published articles recommending ranking habitat selection models based on predictive score (AIC) then discussions that follow treating these top models as models for inference.
+
+The trouble is predictive score is often improved by confounded models and typically by models with more covariates. 
+
+A principled solution to avoiding confounded models is to first draw a DAG (directed acyclic graph) with your knowledge of the system and not the relationships you try to glean from the data
+
+Then determine if your total and direct effects are identifiable given the system
+
+On the left we have an example for a hypothetical ecological system from a paper by Arif and MacNeil. You can read these graphs as, for example, fire is some function of climate. Interestingly, we can see that climate, for example, has multiple pathways to the variable Species Y indirectly through Forestry and directly. 
+
+I'd love dig into this more, but obviously it's a bonus and sort of tangential to the question
+
+:::
+
+
+::: footer
+Arif, S., & MacNeil, M. A. (2022). Predictive models aren't for causal inference. Ecology Letters, 25(8), 1741-1745.
+:::
+
+
+
 
 ## <!-- Objective 3 --> {.center} 
 
@@ -1268,73 +1342,16 @@ To calculate these for each movement step would require measuring the distances 
 :::
 
 
-## <!-- Gaps and future directions --> {.left}
+## <!-- Gaps and future directions -->  {.center}
+Objectives
 
-- Access depending on foraging strategy
-	- Scrounger access depends on producers
-- Risks and conditions influence on strategies
-	- Few tests of risks and conditions on producer-scrounger dynamics
-- Habitat selection availability integrating foraging strategy
-	- Consider foraging role in defining availability 
-- (bonus!) Causal inference in habitat selection
+1. Access depending on foraging strategy
 
+2. Risks and conditions influence on strategies
 
-## Causal inference in habitat selection <!-- Bonus -->{.center}
+3. Availability integrating foraging strategy
 
-![](../figures/into-prop-scrounger.png)
-
-
-<!--- 
-
-wave your hands
-
-this is complex
-
-cant ignore it
-
-and its potential impact on habitat selection
-
-
-solution
-principled approach - use a DAG
-
-consider how behavioural strategies influence availability and access
--->
-
-
-
-
-
-<!-- TODO
-
-lead into future directions / recommendation to study PS with different risks, conditions 
-
-
-then 
-
-habitat selection methods integration
-
--->
-
-<!--
-1. observations of ps dynamics either through focal or getting leader follower 
-1. make sense of causal salad
-1. habitat selection availability integrated foraging role
-
-
-3 reasons to do a habitat selection analysis
-
-distribution
-
-predictions
-
-inference
-
-
-for inference
-we cannot use the causal salad of all variables ranked by aic
-
--->
+(bonus!) Causal inference in habitat selection
 
 
 
