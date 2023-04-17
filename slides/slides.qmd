@@ -26,9 +26,29 @@ source('R/packages.R')
 
 ### In the context of frequency-dependent producer-scrounger dynamics, how would one's role affect access to available resources considering risks and conditions during habitat selection?
 
+::: {.notes}
+Read q  
+Next slide, grouped terms
+:::
+
 ## <!-- Question, color --> {.center} 
 
 ### <span style="color: #42727c">In the context of </span><span style="color: #9d7195">frequency-dependent producer-scrounger dynamics</span><span style="color: #42727c">, how would one's </span><span style="color: #9d7195">role</span><span style="color: #42727c"> affect </span><span style="color: #AD8F89">access</span><span style="color: #42727c"> to </span><span style="color: #AD8F89">available resources</span><span style="color: #42727c"> considering </span><span style="color: #959D71">risks and conditions</span><span style="color: #42727c"> during </span><span style="color: #959D71">habitat selection</span><span style="color: #42727c">?</span>
+
+::: {.notes}
+I've colored  
+Starting with producer-scrounger  
+Ending with habitat selection   
+Meet in the middle, access and availability
+
+The question focuses on what modifies an individual's access    
+Good time to clarify how I'm defining access and availability
+
+Availability is the amount of habitat available to an animal  
+And accessibility is the subset of available habitat that can actually be reached by that animal  
+Many factors contribute to the difference between availability and accessibility
+
+:::
 
 ## <!-- Flowchart --> {.center} 
 
@@ -60,6 +80,19 @@ digraph habitat_and_producer {
 	{Resources Risks Conditions} -> Habitat [dir = back]
 }
 ```
+
+
+::: {.notes}
+I took these terms and built a graph showing relationships
+
+We'll walk through this graph through the rest of the slides,
+don't worry about taking it all in yet
+
+As we'll see PS and HS don't have the same objectives or approaches
+but they both tell us something about availability and accessibility of resources
+
+There are some interesting ways of bringing them together
+:::
 
 
 
@@ -117,6 +150,22 @@ Scroungers
 ::::
 
 
+::: {.notes}
+Producer-scrounger dynamics are a social foraging model
+
+Based in evolutionary game theory, considers how animals use different foraging strategies to maximize foraging intake
+
+Two main strategies  
+Producers independently search for forage patches and  
+Scroungers monitor conspecifics to share or steal their discovered patches
+
+Opportunitists are a third strategy sometimes considered  
+Can play both strategies but less efficienctly than either pure strategy  
+Ignored here
+
+Role is the foraging strategy played by an individiual 
+:::
+
 
 ## <!-- Producer-scrounger video --> 
 
@@ -133,7 +182,21 @@ Arabian babblers (*Turdoides squamiceps*)
 :::
 
 
+::: {.notes}
+To develop some intuition, we'll watch a video of producer-scrounger dynamics in birds, specifically Arabian babblers
 
+The experimental setup is a few pieces of styrofoam with small holes that are filled with seeds. Individuals land and decide to produce and scrounge. 
+
+Some things to look out for are if an individual decides to search for forage independently (produce) or alternatively decides to join another bird to share their forage (scrounge)
+
+(Video start)
+
+Note individuals don't seem to be fixed using one strategy or the other
+
+and individuals' strategies seem to change as the number of birds increases. 
+
+This leads us into frequency dependence
+:::
 
 
 ## <!-- Frequency, payoffs, penalties --> {.center} 
@@ -190,6 +253,25 @@ Penalties
 ::::
 
 
+::: {.notes}
+Models of social foraging integrate the economic interdependence of individuals foraging together
+
+For producer-scrounger dynamics, the benefits and costs of a foraging strategy depend on
+the frequency of strategies being played in the group
+
+Examples of payoffs are an amount of a particular resource as well as predator dilution, thermal insulation. Examples of penalties are competition and contests with conspecifics
+
+A typical iterative model where individuals play a strategy at each time step like the Barnard and Sibly 1981 model have the following structure:
+
+Producer's find patches given some patch discovery rate and have sole access to a portion of the patch, a finder's share, before scroungers arrive. Scroungers divide all discovered patches in a time step, minus the finder's share, equally.
+
+Frequency dependence of these payoffs: a scrounger's payoff increases with number of producers since more patches are discovered. A producer's payoff decreases with number of scroungers as more of their discovered patches is shared or lost to scroungers. 
+
+:::
+
+::: footer
+Barnard, C. J., & Sibly, R. M. (1981). Producers and scroungers: a general model and its application to captive flocks of house sparrows. Animal behaviour, 29(2), 543-550.
+:::
 
 <!-- 
 examples of frequency dependence, payoffs, penalties
@@ -245,6 +327,15 @@ depending on role
 :::
 
 ::::
+
+::: {.notes}
+First goal is to consider how access to resources depends on foraging role
+
+Recall that accessible resources are a subset of available resources
+
+We'll come back to availability later
+
+:::
 
 ## <!-- Access - role --> {.center} 
 
@@ -338,8 +429,17 @@ scrounger
 ::::
  
 
-<!-- Lead into habitats are more complex than distributed patches of forage --> 
-<!-- Matt et al definition of habitat --> 
+::: {.notes}
+Both panels have four individuals, three conspecifics and a focal individual in the middle
+
+Left has producer focal individual  
+access to resources is based only on limits of an individual's movement  
+
+On the right, the focal individual is a scrounger, indicated by the triangle    
+Access to resources depends on the presence and location of producers  
+Scrounger can only access forage discovered by a producer
+:::
+
 
 
 ## <!-- Habitat selection --> {.center} 
@@ -398,6 +498,21 @@ Conditions
 
 ::::
 
+
+
+::: {.notes}
+However, we know that habitats are more complex than distributed patches of forage
+
+Matthiopolous, Fieberg, Aarts (2023) define habitat as the sum of environmental variables categorized as resources, risks and conditions
+
+We'll look at examples of each of these...
+:::
+
+::: footer
+Matthiopoulos, J., Fieberg, J. R., & Aarts, G. (2023). Species-Habitat Associations: Spatial data, predictive models, and ecological insights.
+:::
+
+
 ## <!-- Resources --> {.center} 
 
 :::: {.columns}
@@ -442,15 +557,24 @@ digraph habitat_and_producer {
 ggplot(data.frame(x = c(0, 3)), aes(x)) +
   stat_function(fun = exp, geom = 'line', linewidth = 3) + 
   theme_minimal(base_size = 30) + 
-  labs(x = 'Resource', y = 'Expected effect on fitness')
+  labs(x = 'Resource', y = 'Expected effect on fitness') + 
+  theme(axis.text.y = element_blank())
 ```
 
-E.g. forage patch quality, density, or resting spaces
+E.g. forage patch quality, or resting spaces
 
 :::
 
 ::::
 
+
+::: {.notes}
+Resources are environmental variables that have a positive expected effect on fitness
+
+Patch variables like quality, richness, density
+
+or resting and denning spaces
+:::
 
 
 ## <!-- Risks--> {.center} 
@@ -499,7 +623,8 @@ digraph habitat_and_producer {
 ggplot(data.frame(x = c(0, 3)), aes(x)) +
   stat_function(fun = function(x) 1/exp(x), geom = 'line', linewidth = 3) + 
   theme_minimal(base_size = 30) + 
-  labs(x = 'Risks', y = 'Expected effect on fitness')
+  labs(x = 'Risks', y = 'Expected effect on fitness') + 
+  theme(axis.text.y = element_blank())
 ```
 
 E.g. predation, anthropogenic
@@ -508,6 +633,13 @@ E.g. predation, anthropogenic
 
 ::::
 
+::: {.notes}
+Risks are environmental variables that have a negative expected effect on fitness
+
+Predation risk, disease, 
+
+or anthropogenic disturbance or harvest
+:::
 
 ## <!--Conditions--> {.center} 
 
@@ -553,7 +685,8 @@ digraph habitat_and_producer {
 ggplot(data.frame(x = c(-3, 3)), aes(x)) +
   stat_function(fun = function(x) dnorm(scale(x)), geom = 'line', linewidth = 3) + 
   theme_minimal(base_size = 30) + 
-  labs(x = 'Conditions', y = 'Expected effect on fitness')
+  labs(x = 'Conditions', y = 'Expected effect on fitness') + 
+  theme(axis.text.y = element_blank())
 ```
 
 E.g. temperature, humidity, salinity
@@ -562,6 +695,16 @@ E.g. temperature, humidity, salinity
 
 ::::
 
+::: {.notes}
+Conditions are interesting in that their expected effect on fitness is bell shaped where when conditions are "regular" or "average" they have a neutral or positive expected effect
+and when "extreme" they have negative expected effect on fitness
+
+Examples include temperature, humidity, salinity
+
+Matthiopolous, Fieberg and Aarts recommend a species-agnostic definition of habitat 
+
+The center point and shape of this relationship is species specific
+:::
 
 
 ## <!-- Objective 2 --> {.center} 
@@ -617,12 +760,20 @@ risks and conditions
 
 ::::
 
-:::: footer
+::: footer
 \* Dubois, F., & Giraldeau, L. A. (2005). Fighting for resources: the economics of defense and appropriation. Ecology, 86(1), 3-11.
 
-::::
+:::
 
+::: {.notes}
+The second goal was to determine how access to resources is modified by risks and conditions
 
+Dubois and Giraldeau emphasized that what matters is an influence disproportionately affecting one foraging strategy, say an environmental risk that impacts producers more than scroungers
+
+I reviewed ~250 papers in the producer-scrounger literature looking for environmental variables I could categorize as resources, risks and conditions. 
+
+We'll look at the results in the following slides, and I've included some examples of other resources, risks and conditions that might be important to consider but weren't addressed in the literature, indicated with a count of 0
+:::
 
 ## <!-- Table 1 - Resources -->{.center}
 
@@ -676,7 +827,19 @@ Resources
 :::
 ::::
 
+::: {.notes}
+Only patch variables were considered in the producer-scrounger literature 
 
+The variables are aggregated here, patch quantity included patch size, patch distribution
+
+and patch quality included patch richness and patch depletability
+
+Some influences of resources on foraging strategy include that
+
+Scrounging is disadvantaged when forage patches are smaller, more easily monopolized
+
+Scrounging is favored if patches are large or rich in quality, because there is still an abundance of resources remaining after the producer's share
+:::
 
 
 
@@ -739,7 +902,15 @@ Risks
 \* Bugnyar, T., and K. Kotrschal. (2002). “Scrounging Tactics in Free-Ranging Ravens, Corvus Corax.” Ethology, 108 (11), 993–1009.
 :::
 
-<!-- distance to feeder, clip wing feathers -->
+::: {.notes}
+Main risks considered in the producer-scrounger literature were predation risk and perception of predation risk
+
+Perception of predation risk was used as a proxy in empirical tests for predation risk, where the distance between a feeder and cover was manipulated to create a range of risk, or where bird's primary flight feathers were clipped
+
+There was only one empirical test of predation risk. Bugnyar and Kotrschal observed ravens foraging either with wolves, where they assumed the predation risk was high, or wild boars, where they assumed the predation risk was low. They found that ravens were more likely to scrounge when the predation risk was high.  
+
+However, their definitions don't directly relate to classic definitions of producing and scrounging. They defined producing as stealing from allospecifics and scrounging as stealing from conspecifics. Still a very interesting experiement incorporating interspecific relationships. 
+:::
 
 
 ## <!-- Table 1 - Conditions -->{.center}
@@ -795,7 +966,11 @@ Conditions
 :::
 ::::
 
+::: {.notes}
+Only one empirical test that measured a condition, finding no influence of ambient air temperature on producer-scrounger dynamics. 
 
+Lead into bonus with while we found little risks, conditions, there are many other variables to consider
+:::
 
 ## <!-- Objective 3 --> {.center} 
 
@@ -854,9 +1029,23 @@ availability*
 
 
 ::: footer
-\* Beyer, H. L., Haydon, D. T., Morales, J. M., Frair, J. L., Hebblewhite, M., Mitchell, M., & Matthiopoulos, J. (2010). The interpretation of habitat preference metrics under use–availability designs. Philosophical Transactions of the Royal Society B: Biological Sciences, 365(1550), 2245-2254.
+\* Beyer, H. L., Haydon, D. T., Morales, J. M., Frair, J. L., Hebblewhite, M., Mitchell, M., & Matthiopoulos, J. (2010). The interpretation of habitat preference metrics under use–availability designs.  
+Philosophical Transactions of the Royal Society B: Biological Sciences, 365(1550), 2245-2254.
 
 :::
+
+::: {.notes}
+The third goal was to consider how foraging strategy might be integrated in the habitat selection concept of availability
+
+My overall approach for the written portion of the comprehensive exam was to focus on the producer-scrounger literature, so I won't do a deep dive all the methods of characterizing availability in the habitat selection literature
+
+Preferential use of a habitat is defined as the disproportionate use given availability
+
+Beyer et al have shown that the definition of availability has huge implications on outcomes
+
+We're going to use a small toy example, to consider how producers and scroungers might have different availability
+:::
+
 
 ## <!-- Recall: Access - role --> {.center} 
 
@@ -887,7 +1076,16 @@ scrounger
 :::
 
 ::::
- 
+
+::: {.notes}
+We'll reuse the example from above, where producers have access to available resources limited only by the distance and direction they move and scroungers have access to resources only made available to them by producers
+
+We'll look at how availability can be characterized using distributions of two components of movement: step length and turn angle
+
+Step length is the distance an animal moves from A-B
+
+Turn angle is the direction an animal moves from A-B. It can be absolute, where the direction corresponds to N-S-E-W bearing, or relative, where the angle is calculated relative to previous step, as a difference. For example if an individual moved due North in the previous step, and due North again in the current step, the relative angle would be 0. 
+:::
 
 
 
@@ -919,19 +1117,27 @@ Scroungers
 #| fig-height: 5
 #| echo: false
 scr_sl <- data.frame(x = c(
-	rgamma(1e3, 3, 2),
-	rnorm(1e2, 2.5, 0.1),
-	rnorm(1e2, 3.2, 0.1),
-	rnorm(1e2, 4, 0.1))) |>
+	rnorm(1.3e2, 2.5, 0.1),
+	rnorm(1.1e2, 3.2, 0.1),
+	rnorm(0.8e2, 4, 0.1))) |>
 	ggplot(aes(x)) + geom_density(fill = 'darkgrey') + 
-	geom_label(data = data.frame(x = c(2.5, 3.2, 4), y = rep(0.4, 3), id = LETTERS[seq.int(3)]), aes(x, y, label = id)) + 
+	geom_label(data = data.frame(x = c(2.5, 3.2, 4), y = rep(0.87, 3), id = LETTERS[seq.int(3)]), aes(x, y, label = id), size  = 5) + 
  	labs(x = 'step length', y = 'density') + 
-	theme_minimal(base_size = 22)
+	lims(x = c(0, 5)) + 
+	theme_minimal(base_size = 22) +
+	theme(axis.text.y = element_blank())
 scr_sl
 ```
 :::
 
 ::::
+
+::: {.notes}
+The distribution of step lengths for a producer is what we might be expecting: high values of steps and values around 0 are less common, and we see a tapering off from the highest density around moderate values. We aren't concerned about the units here because what's interesting is how this availability differs for scroungers
+
+Scroungers, if they are purely playing the scrounger behaviour, only have what producers make available for them. Therefore, the density is fixed around the distance to their producer conspecifics (A, B, C). 
+
+:::
 
 
 ## <!-- Objective 3: Distributions turn angle --> {.center} 
@@ -950,6 +1156,7 @@ ggplot(data.table(
 	coord_polar() +
 	theme_minimal(base_size = 22) + 
 	labs(x = 'turn angle', y = 'density') + 
+	theme(axis.text.y = element_blank()) +
 	theme(axis.text.y = element_blank())
 ```
 :::
@@ -966,10 +1173,10 @@ Scroungers
 #| echo: false
 ggplot(data.table(
 	x = as.integer(c(
-		rvonmises(5e5, circular(0), 1, control.circular=list(units="degrees")),
-		rnorm(0.5e5, rad(75), 0.2),
-		rnorm(0.5e5, rad(170), 0.3),
-		rnorm(0.5e5, rad(320), 0.2)
+		rvonmises(5e1, circular(0), 1, control.circular=list(units="degrees")),
+		rnorm(0.4e5, rad(75), 0.2),
+		rnorm(0.6e5, rad(170), 0.3),
+		rnorm(0.3e5, rad(320), 0.2)
 	)))[, .N, x][, .(x, N, density = N / sum(N))][x < 360]) +
 	geom_area(aes(x, density), size = 1, fill = 'black', alpha = 0.5) +
 	coord_polar() +
@@ -981,7 +1188,84 @@ ggplot(data.table(
 
 ::::
 
+::: {.notes}
+For turn angle, I'm assuming that animals were previously headed in a Northerly direction and we're looking at the bearing or absolute turn angle of their next step. 
 
+Producers again show our expectation that an animal will continue in the direction they were previously moving in, or make moderate turns left and right, and that there is a low likelihood that they will make a U-turn or 180 degree movement.
+
+Scroungers again only have what producers make available to them and therefore the density is fixed on directions towards producer conspecifics
+
+Now, we are maybe getting a little tangled in availability and accessibility, so I wanted to bring it back to those definitions and propose a more realistic option
+
+Availability is the amount of habitat available to an animal and accessibility is the subset of that availability, that represents if an animal can actually reach a point in their habitat
+
+So these examples have been based on one strategy being played at a single point in time but animals are known change strategies in different contexts and this is the same for producer-scrounger dynamics. 
+
+:::
+
+
+##  <!-- Objective 3: Strategy switching --> {.center} 
+
+Strategy switching*
+
+:::: {.columns}
+::: {.column width="40%"}
+
+```{r switch_sl}
+#| fig-width: 5
+#| fig-height: 5
+#| echo: false
+data.frame(x = c(
+	rgamma(1e3, 3, 2),
+	rnorm(1e2, 2.5, 0.1),
+	rnorm(1e2, 3.2, 0.1),
+	rnorm(1e2, 4, 0.1))) |>
+	ggplot(aes(x)) + geom_density(fill = 'darkgrey') + 
+	geom_label(data = data.frame(x = c(2.5, 3.2, 4), y = rep(0.4, 3), id = LETTERS[seq.int(3)]), aes(x, y, label = id), size  = 5) + 
+ 	labs(x = 'step length', y = 'density') + 
+	lims(x = c(0, 5)) + 
+	theme_minimal(base_size = 22) +
+	theme(axis.text.y = element_blank())
+```
+:::
+  
+::: {.column width="10%"}
+:::
+ 
+::: {.column width="40%"}
+
+```{r switch_ta}
+#| fig-width: 5
+#| fig-height: 5
+#| echo: false
+ggplot(data.table(
+	x = as.integer(c(
+		rvonmises(5e5, circular(0), 1, control.circular=list(units="degrees")),
+		rnorm(0.5e5, rad(75), 0.2),
+		rnorm(0.5e5, rad(170), 0.3),
+		rnorm(0.3e5, rad(320), 0.2)
+	)))[, .N, x][, .(x, N, density = N / sum(N))][x < 360]) +
+	geom_area(aes(x, density), size = 1, fill = 'black', alpha = 0.5) +
+	coord_polar() +
+	labs(x = 'turn angle', y = 'density') + 
+	theme_minimal(base_size = 22) +
+	theme(axis.text.y = element_blank())
+```
+:::
+
+::::
+
+::: footer
+Morand-Ferron, J., Giraldeau, L. A., & Lefebvre, L. (2007). Wild Carib grackles play a producer–scrounger game. Behavioral Ecology, 18(5), 916-921.
+:::
+
+::: {.notes}
+Individuals have been observed to switch strategies in producer-scrounger dynamics depending on the context.
+
+I took the producer step length and turn angle distributions and biased them by the location of conspecifics. This now represents how an individual could consider switching strategies to either follow a conspecific as a scrounger, or to independently forage as a producer. 
+
+To calculate these for each movement step would require measuring the distances between the focal individual and its conspecifics to bias the availability distributions. I also assigned less weight to further neighbours because I assumed that individuals were more likely to scrounge from nearby neighbours.
+:::
 
 
 ## <!-- Gaps and future directions --> {.left}
@@ -1057,6 +1341,8 @@ we cannot use the causal salad of all variables ranked by aic
 ## Selected references {.small}
  
 ### Social foraging {.small}
+
+Barnard, C. J., & Sibly, R. M. (1981). Producers and scroungers: a general model and its application to captive flocks of house sparrows. Animal behaviour, 29(2), 543-550.
 
 Giraldeau, L. A., & Caraco, T. (2000). Social foraging theory. Princeton University Press.
 
