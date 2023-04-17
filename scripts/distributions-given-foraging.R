@@ -82,3 +82,19 @@ ggplot(data.table(
 	scale_x_continuous(n.breaks = 20) +
 	theme_minimal() +
 	theme(axis.text.y = element_blank())
+
+
+
+ggplot(data.table(
+	x = as.integer(c(
+		rvonmises(5e1, circular(0), 1, control.circular=list(units="degrees")),
+		rnorm(0.5e5, rad(75), 0.2),
+		rnorm(0.5e5, rad(170), 0.3),
+		rnorm(0.5e5, rad(320), 0.2)
+	)))[, .N, x][, .(x, N, density = N / sum(N))][x < 360]) +
+	geom_area(aes(x, density), size = 1, fill = 'black', alpha = 0.5) +
+	coord_polar() +
+	labs(x = 'turn angle', y = 'density') +
+	theme_minimal(base_size = 22) +
+	theme(axis.text.y = element_blank())
+
