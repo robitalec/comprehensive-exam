@@ -46,8 +46,7 @@ Good time to clarify how I'm defining access and availability
 
 Availability is the amount of habitat available to an animal  
 And accessibility is the subset of available habitat that can actually be reached by that animal  
-Many factors contribute to the difference between availability and accessibility  
-Assume access is to resources that are available
+Many factors contribute to the difference between availability and accessibility
 
 :::
 
@@ -190,6 +189,8 @@ The experimental setup is a few pieces of styrofoam with small holes that are fi
 
 Some things to look out for are if an individual decides to search for forage independently (produce) or alternatively decides to join another bird to share their forage (scrounge)
 
+(Video start)
+
 Note individuals don't seem to be fixed using one strategy or the other
 
 and individuals' strategies seem to change as the number of birds increases. 
@@ -258,11 +259,11 @@ Models of social foraging integrate the economic interdependence of individuals 
 For producer-scrounger dynamics, the benefits and costs of a foraging strategy depend on
 the frequency of strategies being played in the group
 
-Payoffs are amount of particular resource as well as predator dilution, thermal insulation Penalties, for example, competition, contests with conspecifics
+Examples of payoffs are an amount of a particular resource as well as predator dilution, thermal insulation. Examples of penalties are competition and contests with conspecifics
 
-A typical iterative model where individuals play a strategy at each time step like the Barnard and Sibly 1981 model:
+A typical iterative model where individuals play a strategy at each time step like the Barnard and Sibly 1981 model have the following structure:
 
-Producer's find patches given some patch discovery rate and have sole access to a portion of the patch, a finder's share. Scroungers divide all discovered patches minus the finder's share equally 
+Producer's find patches given some patch discovery rate and have sole access to a portion of the patch, a finder's share, before scroungers arrive. Scroungers divide all discovered patches in a time step, minus the finder's share, equally.
 
 Frequency dependence of these payoffs: a scrounger's payoff increases with number of producers since more patches are discovered. A producer's payoff decreases with number of scroungers as more of their discovered patches is shared or lost to scroungers. 
 
@@ -765,13 +766,13 @@ risks and conditions
 :::
 
 ::: {.notes}
-The second gaol was to determine how access to resources is modified by risks and conditions
+The second goal was to determine how access to resources is modified by risks and conditions
 
 Dubois and Giraldeau emphasized that what matters is an influence disproportionately affecting one foraging strategy, say an environmental risk that impacts producers more than scroungers
 
 I reviewed ~250 papers in the producer-scrounger literature looking for environmental variables I could categorize as resources, risks and conditions. 
 
-We'll look at the results in the following slides, and I've included some examples of other resources, risks and conditions that might be important to consider but weren't address in the literature indicated with a count of 0
+We'll look at the results in the following slides, and I've included some examples of other resources, risks and conditions that might be important to consider but weren't addressed in the literature, indicated with a count of 0
 :::
 
 ## <!-- Table 1 - Resources -->{.center}
@@ -831,9 +832,9 @@ Only patch variables were considered in the producer-scrounger literature
 
 The variables are aggregated here, patch quantity included patch size, patch distribution
 
-and patch quality included patch rishness and patch depletability
+and patch quality included patch richness and patch depletability
 
-Some influences of resources on foraging strategy 
+Some influences of resources on foraging strategy include that
 
 Scrounging is disadvantaged when forage patches are smaller, more easily monopolized
 
@@ -906,9 +907,9 @@ Main risks considered in the producer-scrounger literature were predation risk a
 
 Perception of predation risk was used as a proxy in empirical tests for predation risk, where the distance between a feeder and cover was manipulated to create a range of risk, or where bird's primary flight feathers were clipped
 
-Only one empirical test of predation risk, where Bugnyar and Kotrschal observed ravens foraging either with wolves or wild boars. Ravens were more likely to scrounge when the predation risk was high.  
+There was only one empirical test of predation risk. Bugnyar and Kotrschal observed ravens foraging either with wolves, where they assumed the predation risk was high, or wild boars, where they assumed the predation risk was low. They found that ravens were more likely to scrounge when the predation risk was high.  
 
-They defined producing as stealing from allospecifics and scrounging as stealing from conspecifics. These definitions don't directly relate to classic definitions of producing and scrounging. 
+However, their definitions don't directly relate to classic definitions of producing and scrounging. They defined producing as stealing from allospecifics and scrounging as stealing from conspecifics. Still a very interesting experiement incorporating interspecific relationships. 
 :::
 
 
@@ -967,6 +968,8 @@ Conditions
 
 ::: {.notes}
 Only one empirical test that measured a condition, finding no influence of ambient air temperature on producer-scrounger dynamics. 
+
+Lead into bonus with while we found little risks, conditions, there are many other variables to consider
 :::
 
 ## <!-- Objective 3 --> {.center} 
@@ -1132,7 +1135,8 @@ scr_sl
 ::: {.notes}
 The distribution of step lengths for a producer is what we might be expecting: high values of steps and values around 0 are less common, and we see a tapering off from the highest density around moderate values. We aren't concerned about the units here because what's interesting is how this availability differs for scroungers
 
-Scroungers, if they are purely playing the scrounger behaviour, only have what producers make available for them. Therefore, the density is fixed around the distance to their producer conspecifics. 
+Scroungers, if they are purely playing the scrounger behaviour, only have what producers make available for them. Therefore, the density is fixed around the distance to their producer conspecifics (A, B, C). 
+
 :::
 
 
@@ -1258,9 +1262,9 @@ Morand-Ferron, J., Giraldeau, L. A., & Lefebvre, L. (2007). Wild Carib grackles 
 ::: {.notes}
 Individuals have been observed to switch strategies in producer-scrounger dynamics depending on the context.
 
-I took the step length and turn angle distributions and biased them by the location of conspecifics. This now represents how an individual could consider switching strategies to follow a conspecific as a scrounger, or to independently forage as a producer. 
+I took the producer step length and turn angle distributions and biased them by the location of conspecifics. This now represents how an individual could consider switching strategies to either follow a conspecific as a scrounger, or to independently forage as a producer. 
 
-To calculate these for each movement step would require measuring the distance between the individual and its conspecifics, then biasing the availability distributions. I also assigned less weight to further neighbours because I assumed that individuals were more likely to scrounge from nearby neighbours.
+To calculate these for each movement step would require measuring the distances between the focal individual and its conspecifics to bias the availability distributions. I also assigned less weight to further neighbours because I assumed that individuals were more likely to scrounge from nearby neighbours.
 :::
 
 
