@@ -1032,6 +1032,8 @@ A principled solution to avoiding confounded models is to first draw a DAG (dire
 
 Then determine if your total and direct effects are identifiable given the system
 
+On the left we have an example for a hypothetical ecological system from a paper by Arif and MacNeil. You can read these graphs as, for example, fire is some function of climate. Interestingly, we can see that climate, for example, has multiple pathways to the variable Species Y indirectly through Forestry and directly. 
+
 I'd love dig into this more, but obviously it's a bonus and sort of tangential to the question
 
 :::
