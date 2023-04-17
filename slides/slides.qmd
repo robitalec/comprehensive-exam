@@ -1129,6 +1129,12 @@ scr_sl
 
 ::::
 
+::: {.notes}
+The distribution of step lengths for a producer is what we might be expecting: high values of steps and values around 0 are less common, and we see a tapering off from the highest density around moderate values. We aren't concerned about the units here because what's interesting is how this availability differs for scroungers
+
+Scroungers, if they are purely playing the scrounger behaviour, only have what producers make available for them. Therefore, the density is fixed around the distance to their producer conspecifics. 
+:::
+
 
 ## <!-- Objective 3: Distributions turn angle --> {.center} 
 
