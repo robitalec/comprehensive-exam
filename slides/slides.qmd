@@ -1073,7 +1073,16 @@ scrounger
 :::
 
 ::::
- 
+
+::: {.notes}
+We'll reuse the example from above, where producers have access to available resources limited only by the distance and direction they move and scroungers have access to resources only made available to them by producers
+
+We'll look at how availability can be characterized using distributions of two components of movement: step length and turn angle
+
+Step length is the distance an animal moves from A-B
+
+Turn angle is the direction an animal moves from A-B. Turn angle can be absolute, where the direction corresponds to N-S-E-W bearing, or relative, where the angle is calculated relative to previous step, as a difference. For example if an individual moved due North in the previous step, and due North again in the current step, the relative angle would be 0. 
+:::
 
 
 
